@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Picture of Anne Schuth](/assets/anne-campus.png]
+![Picture of Anne Schuth](/assets/anne-campus.png)
 
 I recently joined Spotify as Engineering Manager for the Search team.
 
