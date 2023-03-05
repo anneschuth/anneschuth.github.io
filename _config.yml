@@ -29,12 +29,12 @@ twitter_username: anneschuth
 github_username:  anneschuth
 
 # Build settings
-theme: cayman
+theme: minima
 plugins:
   - jekyll-feed
 
 
-cayman:
+minima:
   date_format: "%b %-d, %Y"
   social_links:
     twitter: anneschuth
