@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Picture of Anne Schuth](/assets/anne-campus.png
+![Picture of Anne Schuth](/assets/anne-campus.png]
 
 I recently joined Spotify as Engineering Manager for the Search team.
 
@@ -14,7 +14,7 @@ Before that, I was a research scientist at Google AI in London and a data scient
 
 ## CV
 
-[![](/assets/Screen-Shot-2017-08-15-at-16.28.49.png)](/cv)
+[![](/assets/cv-thumbnail.png)](/assets/cv-anne-schuth.pdf)
 
 ## Contact
 
