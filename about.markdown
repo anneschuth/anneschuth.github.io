@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Picture of Anne Schuth](/assets/anne-campus.png)
 
-I recently joined Spotify as Engineering Manager for the Search team.
+I am Machine Learning Engineering Manager for the Search team at Spotify.
 
 Before joining Spotify, I spent almost 4 years at DPG Media in various roles, all contributing towards a push for personalisation of news products.
 
