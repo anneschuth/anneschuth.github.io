@@ -4,18 +4,7 @@ title: 'ECIR2016 short paper on “Probabilistic Multileave Gradient Descent” 
 date: '2015-12-07T16:40:03+01:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=559'
 permalink: /ecir2016-short-paper-on-probabilistic-multileave-gradient-descent-accepted/
-jetpack-post-views:
-    - '107'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '2'
 categories:
     - Publication
 ---

@@ -4,18 +4,7 @@ title: 'PhD Thesis Available for Download'
 date: '2016-04-03T14:55:01+02:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=635'
 permalink: /phd-thesis-available/
-jetpack-post-views:
-    - '1022'
-jetpack-post-views-Day:
-    - '4'
-jetpack-post-views-Week:
-    - '2'
-jetpack-post-views-Month:
-    - '7'
-jetpack-post-views-Year:
-    - '157'
 categories:
     - Publication
 tags:

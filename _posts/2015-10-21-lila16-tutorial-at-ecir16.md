@@ -4,18 +4,7 @@ title: 'LiLa’16 Tutorial at ECIR’16'
 date: '2015-10-21T18:44:52+02:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=521'
 permalink: /lila16-tutorial-at-ecir16/
-jetpack-post-views:
-    - '29'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '1'
 categories:
     - Workshop
 ---

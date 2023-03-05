@@ -4,18 +4,7 @@ title: 'Faster self-learning search engine through UvA algorithm'
 date: '2015-01-18T20:50:06+01:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=365'
 permalink: /faster-self-learning-search-engine-uva-algorithm/
-jetpack-post-views:
-    - '89'
-jetpack-post-views-Month:
-    - '2'
-jetpack-post-views-Year:
-    - '4'
-jetpack-post-views-Day:
-    - '2'
-jetpack-post-views-Week:
-    - '2'
 categories:
     - Press
 ---

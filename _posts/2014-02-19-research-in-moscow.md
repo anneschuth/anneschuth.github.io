@@ -4,18 +4,7 @@ title: 'Research in Moscow'
 date: '2014-02-19T20:54:27+01:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=282'
 permalink: /research-in-moscow/
-jetpack-post-views:
-    - '161'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '1'
-jetpack-post-views-Day:
-    - '1'
 categories:
     - Blog
 tags:

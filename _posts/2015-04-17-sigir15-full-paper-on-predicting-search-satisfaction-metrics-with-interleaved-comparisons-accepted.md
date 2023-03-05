@@ -1,21 +1,10 @@
 ---
 id: 391
-title: 'SIGIR&#8217;15 Full Paper on &#8220;Predicting Search Satisfaction Metrics with Interleaved Comparisons&#8221; Accepted'
+title: "SIGIR'15 Full Paper on 'Predicting Search Satisfaction Metrics with Interleaved Comparisons' Accepted"
 date: '2015-04-17T12:03:02+02:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=391'
 permalink: /sigir15-full-paper-on-predicting-search-satisfaction-metrics-with-interleaved-comparisons-accepted/
-jetpack-post-views:
-    - '183'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '4'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
 categories:
     - Paper
     - Publication

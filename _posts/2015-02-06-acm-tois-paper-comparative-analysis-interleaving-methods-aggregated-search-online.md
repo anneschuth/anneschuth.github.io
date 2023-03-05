@@ -1,21 +1,10 @@
 ---
 id: 379
-title: 'ACM TOIS paper &#8220;A comparative analysis of interleaving methods for aggregated search&#8221; online'
+title: "ACM TOIS paper 'A comparative analysis of interleaving methods for aggregated search' online"
 date: '2015-02-06T12:12:59+01:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=379'
 permalink: /acm-tois-paper-comparative-analysis-interleaving-methods-aggregated-search-online/
-jetpack-post-views:
-    - '63'
-jetpack-post-views-Year:
-    - '2'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
 categories:
     - Uncategorized
 ---

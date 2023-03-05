@@ -1,21 +1,10 @@
 ---
 id: 230
-title: 'ECIR&#8217;14 short paper accepted'
+title: "ECIR'14 short paper accepted"
 date: '2013-12-03T11:16:48+01:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=230'
 permalink: /ecir14-short-paper-accepted/
-jetpack-post-views:
-    - '77'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '1'
-jetpack-post-views-Day:
-    - '1'
 categories:
     - Paper
     - Publication

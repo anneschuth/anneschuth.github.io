@@ -6,16 +6,6 @@ author: Anne
 layout: post
 guid: 'http://www.anneschuth.nl/?p=449'
 permalink: /good-news-from-esf-elias/
-jetpack-post-views:
-    - '7'
-jetpack-post-views-Day:
-    - '2'
-jetpack-post-views-Week:
-    - '2'
-jetpack-post-views-Month:
-    - '2'
-jetpack-post-views-Year:
-    - '1'
 categories:
     - Uncategorized
 ---

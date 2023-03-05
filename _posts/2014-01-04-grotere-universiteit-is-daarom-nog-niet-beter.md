@@ -4,18 +4,7 @@ title: 'Grotere universiteit is daarom nog niet beter'
 date: '2014-01-04T10:26:28+01:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=262'
 permalink: /grotere-universiteit-is-daarom-nog-niet-beter/
-jetpack-post-views:
-    - '22'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '1'
-jetpack-post-views-Day:
-    - '1'
 categories:
     - Education
     - Organization

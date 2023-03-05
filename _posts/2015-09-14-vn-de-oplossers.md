@@ -6,16 +6,6 @@ author: Anne
 layout: post
 guid: 'http://www.anneschuth.nl/?p=494'
 permalink: /vn-de-oplossers/
-jetpack-post-views:
-    - '26'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '4'
 categories:
     - Press
 ---

@@ -6,16 +6,6 @@ author: Anne
 layout: post
 guid: 'http://www.anneschuth.nl/?p=508'
 permalink: /trec-opensearch-proposal-accepted/
-jetpack-post-views:
-    - '51'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '3'
-jetpack-post-views-Year:
-    - '1'
 categories:
     - Uncategorized
 ---

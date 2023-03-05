@@ -1,21 +1,10 @@
 ---
 id: 314
-title: 'SIGIR&#8217;14 Short Paper Accepted'
+title: "SIGIR'14 Short Paper Accepted"
 date: '2014-05-11T15:20:28+02:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=314'
 permalink: /sigir-short-paper-accepted/
-jetpack-post-views:
-    - '61'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '1'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
 categories:
     - Paper
     - Publication

@@ -1,21 +1,10 @@
 ---
 id: 167
-title: 'CIKM&#8217;13 paper accepted'
+title: "CIKM'13 paper accepted"
 date: '2013-07-14T18:46:25+02:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=167'
 permalink: /cikm13-paper-accepted/
-jetpack-post-views:
-    - '139'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '1'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
 categories:
     - Paper
     - Publication

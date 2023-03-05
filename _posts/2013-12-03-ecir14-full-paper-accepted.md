@@ -1,19 +1,10 @@
 ---
 id: 229
-title: 'ECIR&#8217;14 full paper accepted'
+title: "ECIR'14 full paper accepted"
 date: '2013-12-03T11:20:37+01:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=229'
 permalink: /ecir14-full-paper-accepted/
-jetpack-post-views:
-    - '85'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '1'
 categories:
     - Paper
     - Publication

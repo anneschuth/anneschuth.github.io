@@ -1,21 +1,10 @@
 ---
 id: 511
-title: 'WSDM2016 paper on &#8220;Multileave Gradient Descent for Fast Online Learning to Rank&#8221; accepted'
+title: "WSDM2016 paper on 'Multileave Gradient Descent for Fast Online Learning to Rank' accepted"
 date: '2015-10-12T21:43:50+02:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=511'
 permalink: /wsdm2016-multileave-gradient-descent/
-jetpack-post-views:
-    - '173'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '2'
 categories:
     - Uncategorized
 ---

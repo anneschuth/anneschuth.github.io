@@ -1,21 +1,10 @@
 ---
 id: 93
-title: 'WSDM&#8217;13 paper accepted'
+title: "WSDM'13 paper accepted"
 date: '2012-11-08T17:55:56+01:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=93'
 permalink: /wsdm13-paper-accepted/
-jetpack-post-views:
-    - '129'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '2'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
 categories:
     - Paper
     - Publication

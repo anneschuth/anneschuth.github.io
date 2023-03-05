@@ -4,18 +4,7 @@ title: 'SIGIR’15 Short Paper on Probabilistic Multileave Accepted'
 date: '2015-04-16T09:09:59+02:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=389'
 permalink: /sigir15-short-paper-on-probabilistic-multileave-accepted/
-jetpack-post-views:
-    - '300'
-jetpack-post-views-Month:
-    - '1'
-jetpack-post-views-Year:
-    - '1'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
 categories:
     - Paper
     - Publication

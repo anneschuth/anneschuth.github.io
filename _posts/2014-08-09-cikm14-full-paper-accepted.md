@@ -1,21 +1,10 @@
 ---
 id: 329
-title: 'CIKM&#8217;14 full paper accepted'
+title: "CIKM'14 full paper accepted"
 date: '2014-08-09T10:04:57+02:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=329'
 permalink: /cikm14-full-paper-accepted/
-jetpack-post-views:
-    - '103'
-jetpack-post-views-Year:
-    - '22'
-jetpack-post-views-Day:
-    - '1'
-jetpack-post-views-Week:
-    - '1'
-jetpack-post-views-Month:
-    - '1'
 categories:
     - Uncategorized
 ---
