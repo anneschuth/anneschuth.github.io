@@ -1,0 +1,15 @@
+---
+layout: default
+title: Publications
+---
+
+<h1 class="post-title">Publications</h1>
+{% assign publications = site.publications | sort: "year" | reverse %}
+{% for pub in publications %}
+<div class="pubitem">
+  <div class="pubauthors">{{ pub.author }}</div>
+  <div class="pubtitle"><a href="{{ pub.url }}">{{ pub.title }}</a></div>
+  <div class="pubinfo">{{ pub.booktitle }}, {{ pub.year}}</div>
+  <div class="pubinfo"><a href="{{ pub.pdf }}"><i class="far fa-file-pdf"></i> PDF</a></div>
+</div>
+{% endfor %}

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="publication-authors">{{ page.author }}</div>
+  <div class="publication-info">{{ page.booktitle }}, {{ page.year}}</div>
+
+  <h2>Abstract</h2>
+  {{ content }}
+  <h2 id="downloads">Downloads</h2>
+  <p>
+    <a href="{{ page.pdf }}"
+      ><i class="far fa-file-pdf"></i> PDF</a
+    >&nbsp;&nbsp;
+    <a href="/assets/{{ page.slug }}.bib"
+      ><i class="far fa-file-alt"></i> BibTex</a
+    >&nbsp;&nbsp; {% if page.doi %}
+    <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a
+    >&nbsp;&nbsp; {% endif %}
+  </p>
+</div>
