@@ -14,7 +14,7 @@ Before that, I was a research scientist at Google AI in London and a data scient
 
 ## CV
 
-[![](/assets/cv-thumbnail.png)](/assets/cv-anne-schuth.pdf)
+[![CV Anne Schuth](/assets/cv-thumbnail.png)](/assets/cv-anne-schuth.pdf)
 
 ## Contact
 

@@ -1,5 +1,4 @@
 ---
-id: 56
 title: Talks
 author: Anne
 layout: page
@@ -9,29 +8,29 @@ layout: page
 This is a exhaustive (I think) list of talks I gave and posters I presented since obtaining my masters degree. Please let me know if something (a slide deck or poster, for instance) is missing.  
 If you would like me to speak, just send me an email. Please feel free to use my slides (with a reference), I’m happy to share a keynote version if that helps.
 
-### 2020
+# 2020
 
 - **Personalizing News.** Cross Media Cafe. Hilversum, February 11, 2020 ([event](https://crossmediacafe-data-ai-voor-media.eventbrite.nl/)).
 
-### 2019
+# 2019
 
 - **Personalized Push Notifications**, invited lecture Hogeschool Rotterdam / Applied ML, February 12, 2019.
 
-### 2018
+# 2018
 
 - **Personalized Regional Push Notifications**, Data- and AI-Driven Product Development at Media Companies, December 6, 2018 ([event](https://amsterdam.bigdatamedia.org/)).
 - **Personalized Regional Push Notifications**, Tweakers B2B Event, October 30, 2018.
 - **Filter bubbles**, Jonge Democraten. Amsterdam, October 23, 2018.
 - **Personalized Regional Push Notifications**, SEA XL – Algorithms and the News. Amsterdam, October 19, 2018 ([slides](/assets/SEA-XL-Personalized-Push.pdf), [event](https://www.meetup.com/SEA-Search-Engines-Amsterdam/events/qvfxgpyxnbjc/)).
 
-### 2017
+# 2017
 
 - **Impact of personalized recommendations on diversity**, *45th EPRA Meeting*. Edinburgh, Scotland. May 19, 2017 ([slides](/assets/epra-anneschuth.pdf)).
 - **Digital Consciousness,** *Sign of Time #14. Pakhuis de Zwijger, Amsterdam, The Netherlands. March 27, 2017 ([slides](https://researchblendle.files.wordpress.com/2017/03/sign-of-time-digital-consciousness-anneschuth.pdf), [event](https://dezwijger.nl/programma/digital-conciousness)).*
 - ****Streaming Recommendations****, *Sanoma Tech Talks.* Hoofddorp, The Netherlands. April 10, 2017 ([slides](https://researchblendle.files.wordpress.com/2016/11/sanoma-tech-talks.pdf), [video](https://www.youtube.com/watch?v=5F2mfhRU3yw)).
 - **Streaming Recommendations,** *Poki.* Amsterdam, The Netherlands. February 7, 2017 ([slides](/assets/northeast-anneschuth-streamingblendle.pdf)).
 
-### 2016
+# 2016
 
 - **Personalising the Blendle Newsletter,** *Xite.* Amsterdam, The Netherlands. November 10, 2016. (slides, [Blendle](https://blendle.com/)).
 - **Search and Recommendations at Blendle**, *Invited Lecture Radboud University.* Nijmegen, The Netherlands. November 7, 2016 (slides, [Blendle](https://blendle.com/)).
@@ -45,7 +44,7 @@ If you would like me to speak, just send me an email. Please feel free to use my
 - **Living Labs for Online Evaluation: From Theory to Practice**, *Tutorial at ECIR 2016.* Padova, Italy. March 20-23, 2016 ([website](http://living-labs.net/tutorial/), [abstract](/assets/ecir2016-ll-tutorial.pdf)).
 - **Multileave Gradient Descent for Fast Online Learning to Rank**, *WSDM’16*, San Francisco, USA. February 24, 2016 ([slides](/assets/20160224-multileleavegradientdescent.pdf), [paper](/assets/wsdm2016-multileave-gradient-descent1.pdf), [poster](/assets/20151124-WSDM-MGD.pdf)).
 
-### 2015
+# 2015
 
 - **OpenSearch**, *Lightning Talk, DIR’15,* Amsterdam, The Netherlands. November 27, 2015 ([slides](/assets/20151103-dir-lightning.pdf), [abstract](/assets/dir2015-opensearch-proceedings.pdf), [website](http://trec-open-search.org/)).
 - **Multileave Gradient Descent for Fast Online Learning to Rank (Abstract)**, *Poster, DIR’15,* Amsterdam, The Netherlands. November 27, 2015 ([poster](/assets/20151124-WSDM-MGD.pdf), [abstract](/assets/dir2015-multileave-gradient-descent.pdf), [paper](/assets/wsdm2016-multileave-gradient-descent1.pdf)).
@@ -64,7 +63,7 @@ If you would like me to speak, just send me an email. Please feel free to use my
 - **Living Labs for Search**, *Keynote at “Workshop: Towards networked Research Infrastructures for behavioral studies”*. Brussels, Belgium. May 7, 2015 ([slides](/assets/20150507-ScienceEurope-AnneSchuth.pdf)).
 - **Multileaved Comparisons for Fast Online Evaluation**, *IAS Colloquium*. Amsterdam, The Netherlands. March 17, 2015 ([slides](/assets/multileave.pdf), [paper](/assets/ir1190-schuth-cikm2014-multileave.pdf)).
 
-### 2014
+# 2014
 
 - **Using users for online evaluation and learning**, *RecSys:NL Meetup*, Amsterdam, The Netherlands. December 8, 2014 ([slides](/assets/20141208-recommender-anneschuth.pdf)).
 - **Multileaved Comparisons for Fast Online Evaluation**, *VU WAI meeting*. Amsterdam, The Netherlands. November 24, 2014 ([paper](/assets/ir1190-schuth-cikm2014-multileave.pdf)).
@@ -77,7 +76,7 @@ If you would like me to speak, just send me an email. Please feel free to use my
 - **Optimizing Base Rankers Using Clicks: A Case Study using BM25,** *ECIR’14*, Amsterdam, The Netherlands. April 14, 2014 ([slides](/assets/ecir-2014-bm25.pdf), [paper](/assets/ecir2014-schuth-bm25.pdf)).
 - **Effects of Position Bias on Click-Based Recommender Evaluation,** *ECIR’14*, Amsterdam, The Netherlands. April 14, 2014 ([paper](/assets/ecir2014-sp-interleaving.pdf)).
 
-### 2013
+# 2013
 
 - **Query Reformulation as a Predictor of Search Satisfaction,** paper by *Ahmed Hassan, Xiaolin Shi, Nick Craswell, Bill Ramsey*  *ILPS Reading Group*. Amsterdam, The Netherlands. November 22, 2013.
 - **Lerot: an Online Learning to Rank Framework,** *Living Labs workshop at CIKM’13.* San Francisco, USA. November 1, 2013 ([slides](/assets/ll2013-lerot.pdf), [paper](/assets/cikm-livinglab-2013-lerot.pdf)).
@@ -88,12 +87,12 @@ If you would like me to speak, just send me an email. Please feel free to use my
 - **Reusing Historical Interaction Data for Faster Online Learning to Rank for IR,** *Invited talk at the IR group of the University of Glasgow.* Glasgow, Scotland, UK. March 10, 2013 ([slides](/assets/20130312-reusinghistoricaldata.pdf), [paper](/assets/wsdm-2013-learning.pdf)).
 - **Learning from Simulations, Users and Annotators: a research agenda,** *ILPS Soos.* Amsterdam, The Netherlands. March 1, 2013.
 
-### 2012
+# 2012
 
 - **Sustainable Questions,** *Time Aware Information Access Workshop at SIGIR 2012.* Portland, Oregon, USA. August 17, 2012 ([slides](/assets/taia2012-sustainable-slides.pdf), [paper](/assets/taia2012-sustainable-slides.pdf)).
 - **From Sentiment to Reputation,** *ILPS Soos.* Amsterdam, The Netherlands. June 12, 2012 ([slides](/assets/sentiment-presentation.pdf)).
 
-### 2011
+# 2011
 
 - **Tuning Methods in Statistical Machine Translation,** *KION Thesis Award Presentation at *BNAIC’11.** Gent, Belgium. November 4, 2011 ([slides](/assets/KION-presentation.pdf), [thesis](/assets/anne-schuth-msc-thesis.pdf)).
 - **Fast Faceted Search in** **XML,** *XMLAmsterdam Conference.* Amsterdam, The Netherlands. October 26, 2011 ([slides](/assets/presentation-export.pdf)).

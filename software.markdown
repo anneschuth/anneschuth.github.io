@@ -1,14 +1,8 @@
 ---
-id: 208
 title: Software
-date: '2013-10-11T23:48:26+02:00'
 author: Anne
 layout: page
-guid: 'http://www.anneschuth.nl/?page_id=208'
-sharing_disabled:
-    - '1'
-switch_like_status:
-    - '1'
+
 ---
 
 # Living Labs
