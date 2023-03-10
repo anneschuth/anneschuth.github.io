@@ -14,7 +14,7 @@ tags:
     - paper
 ---
 
-Our paper “[E?ects of Position Bias on Click-Based Recommender Evaluation](https://www.anneschuth.nl/wp-content/uploads/2014/01/ecir2014-sp-interleaving.pdf)” with [Katja Hofmann](http://katja-hofmann.de), Anne Schuth, [Alejandro Bellogin](http://ir.ii.uam.es/~alejandro/), and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted as a short paper at ECIR 2014.
+Our paper “[E?ects of Position Bias on Click-Based Recommender Evaluation](/assets/2014/01/ecir2014-sp-interleaving.pdf)” with [Katja Hofmann](http://katja-hofmann.de), Anne Schuth, [Alejandro Bellogin](http://ir.ii.uam.es/~alejandro/), and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted as a short paper at ECIR 2014.
 
 ### Abstract
 

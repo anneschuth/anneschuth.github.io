@@ -9,4 +9,4 @@ categories:
     - Workshop
 ---
 
-[ECIR 2016](http://ecir2016.dei.unipd.it/)[![lila](https://i0.wp.com/www.anneschuth.nl/wp-content/uploads/lila.png?resize=150%2C150&ssl=1)](http://living-labs.net/tutorial/) in Padova will feature **[LiLa 2016](http://living-labs.net/tutorial/)**, the first edition of our tutorial on Living Labs for Online Evaluation.
+[ECIR 2016](http://ecir2016.dei.unipd.it/)[![lila](/assets/lila.png?resize=150%2C150&ssl=1)](http://living-labs.net/tutorial/) in Padova will feature **[LiLa 2016](http://living-labs.net/tutorial/)**, the first edition of our tutorial on Living Labs for Online Evaluation.

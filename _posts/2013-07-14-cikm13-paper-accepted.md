@@ -14,7 +14,7 @@ tags:
     - conference
 ---
 
-Our paper “[Evaluating Aggregated Search Using Interleaving](https://www.anneschuth.nl/wp-content/uploads/2013/09/ir0656-chuklin1.pdf)” with [Aleksandr Chuklin](http://ch.linkedin.com/in/chuklin), [Katja Hofmann](http://khofm.wordpress.com/), [Pavel Serdyukov](http://ru.linkedin.com/in/pavelserdyukov) and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted for publication as full paper in [CIKM’13](http://www.cikm2013.org/). I will present the paper on Tuesday afternoon.
+Our paper “[Evaluating Aggregated Search Using Interleaving](/assets/2013/09/ir0656-chuklin1.pdf)” with [Aleksandr Chuklin](http://ch.linkedin.com/in/chuklin), [Katja Hofmann](http://khofm.wordpress.com/), [Pavel Serdyukov](http://ru.linkedin.com/in/pavelserdyukov) and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted for publication as full paper in [CIKM’13](http://www.cikm2013.org/). I will present the paper on Tuesday afternoon.
 
 ### Abstract
 
