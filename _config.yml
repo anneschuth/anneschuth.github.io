@@ -27,6 +27,7 @@ baseurl: /
 url: https://anneschuth.github.io
 twitter_username: anneschuth
 github_username:  anneschuth
+google_analytics: G-B7V2RZGY6P
 
 # Build settings
 theme: minima
