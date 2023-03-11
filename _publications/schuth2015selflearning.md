@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: inproceedings
+key: schuth2015selflearning
 author: "Anne Schuth"
 booktitle: "Amsterdam Science"
 chapter: "Anne"

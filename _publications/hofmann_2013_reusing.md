@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: "K. Hofmann, A. Schuth, S. A. Whiteson, M. de Rijke"
+type: inproceedings
+key: hofmann_2013_reusing
+author: "Katja Hofmann and Anne Schuth and Shimon Whiteson and Maarten de Rijke"
 booktitle: "Proceeding of the sixth ACM international conference on Web Search and Data Mining"
 date: "2013-02-04"
 keywords: "learning to rank, Lerot, online learning, WSDM"

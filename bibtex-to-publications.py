@@ -12,6 +12,8 @@ def process(entry_key, entry_type, entry):
     with open(f"_publications/{entry_key}.md", "w") as f:
         f.write("---\n")
         f.write("layout: publication\n")
+        f.write(f"type: {entry_type}\n")
+        f.write(f"key: {entry_key}\n")
         for k, v in sorted(list(entry.items())):
             if k == 'abstract':
                 abstract = v

@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: inbook
+key: hopfgartner2019
 author: "Frank Hopfgartner and Krisztian Balog and Andreas Lommatzsch and Liadh Kelly and Benjamin Kille and Anne Schuth and Martha Larson"
 date: "2019-01-01"
 keywords: "living labs"

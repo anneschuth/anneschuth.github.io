@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: inproceedings
+key: schuth_2015_predicting
 author: "Anne Schuth and Katja Hofmann and Filip Radlinski"
 booktitle: "Proceedings of SIGIR"
 date: "2015-08-09"

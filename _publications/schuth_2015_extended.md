@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: inproceedings
+key: schuth_2015_extended
 author: "Anne Schuth and Krisztian Balog and Liadh Kelly"
 booktitle: "CLEF 2015"
 date: "2015-09-08"

@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: "Harrie Oosterhuis and Anne Schuth and Maarten de Rijke "
+type: inproceedings
+key: oosterhuis2016
+author: "Harrie Oosterhuis and Anne Schuth and Maarten de Rijke"
 booktitle: "Proceedings of ECIR"
 date: "2016-03-20"
 keywords: "ECIR, learning to rank, Lerot, online learning"

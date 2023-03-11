@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: inproceedings
+key: balog2014
 author: "Krisztian Balog and Liadh Kelly and Anne Schuth"
 booktitle: "CIKM'14"
 date: "2014-11-03"

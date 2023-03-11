@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: inproceedings
+key: schuth2015opensearch
 author: "Anne Schuth"
 booktitle: "DIR 2015"
 date: "2015-11-27"

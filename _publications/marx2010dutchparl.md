@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: "Marx, M. and Schuth, A."
+type: article
+key: marx2010dutchparl
+author: "Maarten Marx and Anne Schuth"
 date: "2010-01-01"
 keywords: ""
 publisher: "Citeseer"

@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: " K. Hofmann and  A. Schuth and  A. Bellogin and  M. de Rijke"
+type: inproceedings
+key: hofmann2014
+author: "Katja Hofmann and Anne Schuth and Alejandro Bellogin and Maarten de Rijke"
 booktitle: "36th European Conference on Information Retrieval (ECIR’14)"
 date: "2014-01-01"
 keywords: "ECIR, evaluation, Lerot, recommender systems"

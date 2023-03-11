@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: "Schuth, A."
+type: article
+key: schuth2010tuning
+author: "Anne Schuth"
 date: "2010-09-01"
 keywords: ""
 pdf: "/assets/master-thesis.pdf"

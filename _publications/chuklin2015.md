@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: article
+key: chuklin2015
 author: "Aleksander Chuklin and Anne Schuth and Ke Zhou and Maarten de Rijke"
 date: "2015-01-01"
 journal: "ACM Transactions on Information Systems"

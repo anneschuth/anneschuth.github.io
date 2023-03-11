@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: article
+key: kuiken2017
 author: "Jeffrey Kuiken and Anne Schuth and Martijn Spitters and Maarten Marx"
 date: "2017-02-02"
 doi: "10.1080/21670811.2017.1279978"

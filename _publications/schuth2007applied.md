@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: "Schuth, A."
+type: misc
+key: schuth2007applied
+author: "Anne Schuth"
 date: "2007-01-01"
 keywords: "Bachelorthesis"
 pdf: "http://dare.uva.nl/en/scriptie/288430"

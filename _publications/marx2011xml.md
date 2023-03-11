@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: "Marx, M. and Schuth, A."
+type: article
+key: marx2011xml
+author: "Maarten Marx and Anne Schuth"
 date: "2011-01-01"
 keywords: ""
 title: "XML Data Integration in Action"

@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: " A. Schuth and  F. Sietsma and  S. Whiteson and  M. de Rijke"
+type: inproceedings
+key: schuth2014
+author: "Anne Schuth and Floor Sietsma and Shimon Whiteson and Maarten de Rijke"
 booktitle: "36th European Conference on Information Retrieval (ECIR’14)"
 date: "2014-01-01"
 keywords: "ECIR, learning to rank, Lerot, online learning"

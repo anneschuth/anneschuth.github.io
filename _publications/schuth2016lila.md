@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: inproceedings
+key: schuth2016lila
 author: "Anne Schuth and Krisztian Balog"
 booktitle: "Tutorial at ECIR"
 date: "2016-03-20"

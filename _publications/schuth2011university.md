@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: "Schuth, A. and Marx, M."
+type: inproceedings
+key: schuth2011university
+author: "Anne Schuth and Maarten Marx"
 booktitle: "INEX 2011"
 date: "2011-01-01"
 keywords: ""

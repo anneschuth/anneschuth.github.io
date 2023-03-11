@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: "Schuth, A. and Marx, M."
+type: article
+key: schuth2011fast
+author: "Anne Schuth and Maarten Marx"
 date: "2011-01-01"
 keywords: ""
 title: "Fast Faceted Search in XML"

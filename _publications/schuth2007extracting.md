@@ -1,6 +1,8 @@
 ---
 layout: publication
-author: "Schuth, A. and Marx, M. and de Rijke, M."
+type: inproceedings
+key: schuth2007extracting
+author: "Anne Schuth and Maarten Marx and Maarten de Rijke"
 booktitle: "Proceedings of the 9th annual ACM international workshop on Web information and data management"
 date: "2007-01-01"
 keywords: ""

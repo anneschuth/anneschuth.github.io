@@ -1,5 +1,7 @@
 ---
 layout: publication
+type: inproceedings
+key: terhoeve2017
 author: "Maartje ter Hoeve and Mathieu Heruer and Daan Odijk and Anne Schuth and Martijn Spitters and Ron Mulder and Nick van der Wildt and Maarten de Rijke"
 booktitle: "FATREC 2017, Como, Italy"
 date: "2017-08-31"

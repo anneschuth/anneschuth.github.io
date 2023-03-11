@@ -3,21 +3,24 @@ layout: default
 ---
 
 <div class="page">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <div class="publication-authors">{{ page.author }}</div>
-  <div class="publication-info">{{ page.booktitle }}, {{ page.year}}</div>
 
+  <h1 class="post-title">{{ page.title }}</h1>
+  <i>{{ page.author }}.</i>
+  {% if page.booktitle %}In {{ page.booktitle }}, {% endif %}{{ page.year}}.
   <h2>Abstract</h2>
   {{ content }}
   <h2 id="downloads">Downloads</h2>
   <p>
+    {% if page.pdf %}
     <a href="{{ page.pdf }}"
-      ><i class="far fa-file-pdf"></i> PDF</a
-    >&nbsp;&nbsp;
-    <a href="/assets/{{ page.slug }}.bib"
-      ><i class="far fa-file-alt"></i> BibTex</a
-    >&nbsp;&nbsp; {% if page.doi %}
-    <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a
-    >&nbsp;&nbsp; {% endif %}
+      ><i class="far fa-file-pdf"></i> PDF</a>
+    {% endif %}
   </p>
+  <pre>
+@{{page.type}}{ {{page.key}},
+  title = {{page.title}},
+  author = {{page.author}},
+  year = {{page.year}}{% if page.booktitle %},
+  booktitle = {{page.booktitle}}{% endif %}
+}</pre>
 </div>
