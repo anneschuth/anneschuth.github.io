@@ -17,10 +17,11 @@ layout: default
     {% endif %}
   </p>
   <pre>
-@{{page.type}}{ {{page.key}},
+@{{page.type}}{ {{- page.key}},
   title = {{page.title}},
   author = {{page.author}},
   year = {{page.year}}{% if page.booktitle %},
-  booktitle = {{page.booktitle}}{% endif %}
+  booktitle = {{page.booktitle}}{% endif %}{% if page.journal %},
+  journal = {{page.journal}}{% endif %}
 }</pre>
 </div>
