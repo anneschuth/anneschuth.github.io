@@ -2,7 +2,7 @@
 layout: publication
 type: inproceedings
 key: chuklin2014
-author: "Alexandr Chuklin and Ke Zhou, Anne Schuth and Floor Sietsma and Maarten de Rijke"
+author: "Alexandr Chuklin and Ke Zhou and Anne Schuth and Floor Sietsma and Maarten de Rijke"
 booktitle: "Proceedings of SIGIR"
 date: "2014-07-07"
 keywords: "aggregated search, click models, evaluation, Lerot, SIGIR"
