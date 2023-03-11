@@ -3,7 +3,7 @@ layout: publication
 type: inproceedings
 key: schuth2015selflearning
 author: "Anne Schuth"
-booktitle: "Amsterdam Science"
+booktitle: "Proceedings of Amsterdam Science"
 chapter: "Anne"
 crossref: "Anne"
 date: "2015-12-01"

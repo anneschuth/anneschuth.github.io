@@ -3,7 +3,7 @@ layout: publication
 type: inproceedings
 key: schuth2011university
 author: "Anne Schuth and Maarten Marx"
-booktitle: "INEX 2011"
+booktitle: "Proceedings of INEX'11"
 date: "2011-01-01"
 keywords: ""
 pages: "124"

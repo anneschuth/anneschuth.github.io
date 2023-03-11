@@ -3,7 +3,7 @@ layout: publication
 type: inproceedings
 key: replab2012-sentiment
 author: "Maria-Hendrike Peetz and Maarten de Rijke and Anne Schuth"
-booktitle: "RepLab, CLEF 2012 Workshop"
+booktitle: "Proceedings of RepLab, CLEF 2012 Workshop"
 date: "2012-09-18"
 keywords: "replab, reputation, workshop"
 pdf: "/assets/replab-clef-presentation.pdf"

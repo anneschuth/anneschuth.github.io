@@ -3,7 +3,7 @@ layout: publication
 type: inproceedings
 key: schuth2007extracting
 author: "Anne Schuth and Maarten Marx and Maarten de Rijke"
-booktitle: "Proceedings of the 9th annual ACM international workshop on Web information and data management"
+booktitle: "Proceedings of WIDM'07"
 date: "2007-01-01"
 keywords: ""
 organization: "ACM"

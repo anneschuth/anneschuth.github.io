@@ -18,6 +18,9 @@ def process(entry_key, entry_type, entry):
             if k == 'abstract':
                 abstract = v
                 continue
+            if k == 'booktitle' and entry_type == 'inproceedings':
+                if not 'arxiv' in v.lower() and not v.lower().startswith("proceedin"):
+                    v = f"Proceedings of {v.strip()}"
             f.write(f"{k}: \"{v}\"\n")
         f.write("---\n")
         if abstract:

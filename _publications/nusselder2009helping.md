@@ -3,7 +3,7 @@ layout: publication
 type: inproceedings
 key: nusselder2009helping
 author: "Arjen Nusselder and Maria-Hendrike Peetz and Anne Schuth and Maarten Marx"
-booktitle: "Proceeding of the 18th ACM conference on Information and knowledge management"
+booktitle: "Proceedings of CIKM'09"
 date: "2009-01-01"
 keywords: ""
 organization: "ACM"
