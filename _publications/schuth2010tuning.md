@@ -1,6 +1,6 @@
 ---
 layout: publication
-type: article
+type: mastersthesis
 key: schuth2010tuning
 author: "Anne Schuth"
 date: "2010-09-01"

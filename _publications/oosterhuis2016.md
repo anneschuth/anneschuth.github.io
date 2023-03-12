@@ -3,7 +3,7 @@ layout: publication
 type: inproceedings
 key: oosterhuis2016
 author: "Harrie Oosterhuis and Anne Schuth and Maarten de Rijke"
-booktitle: "Proceedings of ECIR"
+booktitle: "Proceedings of ECIR'16"
 date: "2016-03-20"
 keywords: "ECIR, learning to rank, Lerot, online learning"
 pdf: "/assets/ecir2016-prob-multileave-gradient-descent.pdf"

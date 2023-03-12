@@ -6,7 +6,7 @@ layout: default
 
   <h1 class="post-title">{{ page.title }}</h1>
   <i>{{ page.author }}.</i>
-  {% if page.booktitle %}In {{ page.booktitle }}, {% endif %}{{ page.year}}.
+  {% if page.booktitle %}In {{ page.booktitle }}, {% endif %}{% if page.journal %}In {{ page.journal }}, {% endif %}{{ page.year}}.
   {% if content != blank %}<h2>Abstract</h2>
   {{ content }}
   {% endif %}
@@ -20,10 +20,10 @@ layout: default
   <h2>Bib</h2>
   <pre>
 @{{page.type}}{ {{- page.key}},
-  title = {{page.title}},
-  author = {{page.author}},
-  year = {{page.year}}{% if page.booktitle %},
-  booktitle = {{page.booktitle}}{% endif %}{% if page.journal %},
-  journal = {{page.journal}}{% endif %}
+  title = { {{-page.title-}} },
+  author = { {{-page.author-}} },
+  year = { {{-page.year-}} }{% if page.booktitle %},
+  booktitle = { {{-page.booktitle-}} }{% endif %}{% if page.journal %},
+  journal = { {{-page.journal-}} }{% endif %}
 }</pre>
 </div>

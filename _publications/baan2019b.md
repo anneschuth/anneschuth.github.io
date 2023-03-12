@@ -1,6 +1,6 @@
 ---
 layout: publication
-type: inproceedings
+type: article
 key: baan2019b
 author: "Joris Baan and Maartje ter Hoeve and Marlies van der Wees and Anne Schuth and Maarten de Rijke"
 booktitle: "arXiv"

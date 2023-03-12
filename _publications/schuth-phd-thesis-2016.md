@@ -9,6 +9,5 @@ keywords: "evaluation, online learning, thesis"
 pdf: "/assets/thesis_anne-schuth_search-engines-that-learn-from-their-users.pdf"
 school: "Informatics Institute, University of Amsterdam"
 title: "Search Engines that Learn from Their Users"
-tppubtype: "phdthesis"
 year: "2016"
 ---

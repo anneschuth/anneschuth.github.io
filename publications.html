@@ -19,6 +19,6 @@ See also my publication profiles at
 <p>
   <i>{{ pub.author }}.</i>
   <a href="{{ pub.url }}">{{ pub.title }}</a>
-  {% if pub.booktitle %}In {{ pub.booktitle }}, {% endif %}{{ pub.year}}.
+  {% if pub.booktitle %}In {{ pub.booktitle }}, {% endif %}{% if pub.journal %}In {{ pub.journal }}, {% endif %}{{ pub.year}}.
 </p>
 {% endfor %}

@@ -3,7 +3,7 @@ layout: publication
 type: inproceedings
 key: schuth_2015_overview
 author: "Anne Schuth and Krisztian Balog and Liadh Kelly"
-booktitle: "Proceedings of CLEF 2015"
+booktitle: "Proceedings of CLEF'15"
 date: "2015-09-08"
 keywords: "CLEF, evaluation, living labs, workshop"
 pdf: "/assets/clef2015-ll4ir.pdf"
