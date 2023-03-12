@@ -16,24 +16,31 @@ def proces(file):
             if line.strip():
                 content.append(line)
 
+
+
+    print(f"Pdf {lines.get('pdf')}")
+    print(f"Title {lines['title']}")
+    print(f"Author {lines['author']}")
+    print(f"Year {lines['year']}")
+    print(f"Booktitle {lines.get('booktitle')}")
+    print(f"Journal {lines.get('journal')}")
+
     asset = None
-    pdffile = lines["pdf"].strip('"')[1:]
+    pdffile = lines.get("pdf", '').strip('"')[1:]
     if os.path.exists(pdffile):
         asset = pdffile
 
     if not asset:
-        print(f"Pdf {lines.get('pdf')}")
-        print(f"Title {lines['title']}")
-        print(f"Author {lines['author']}")
-        print(f"Year {lines['year']}")
-        print(f"Booktitle {lines.get('booktitle')}")
-        print(f"Journal {lines.get('journal')}")
-        asset = 'assets/' + input("Asset: ")
+        in_file = input("Asset: ")
+        if not in_file.endswith('.pdf'):
+            in_file = in_file + '.pdf'
+        asset = 'assets/' + in_file
 
     if os.path.exists(asset):
-        print(f"Opening {asset}")
-        os.system(f"open {asset}")
+
         if not content:
+            print(f"Opening {asset}")
+            os.system(f"open {asset}")
             content.append(input("Abstract: "))
 
         lines["pdf"] = '/' + asset

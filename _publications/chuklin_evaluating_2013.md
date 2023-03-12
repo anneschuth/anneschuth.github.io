@@ -1,12 +1,15 @@
 ---
-layout: publication
-type: inproceedings
-key: chuklin_evaluating_2013
 author: "Alexandr Chuklin and Anne Schuth and Katja Hofmann and Pavel Serdyukov and Maarten de Rijke"
 booktitle: "Proceedings of CIKM'13"
 date: "2013-10-01"
+key: chuklin_evaluating_2013
 keywords: "aggregated search, CIKM, evaluation, Lerot"
-pdf: "/assets/ir0656-chuklin1.pdf"
+layout: publication
+pdf: /assets/chuklin-evaluating-2013.pdf
 title: "Evaluating Aggregated Search Using Interleaving"
+type: inproceedings
 year: "2013"
 ---
+
+A result page of a modern web search engine is often much more complicated than a simple list of “ten blue links.” In particular, a search engine may combine results from differ- ent sources (e.g., Web, News, and Images), and display these as grouped results to provide a better user experience. Such a system is called an aggregated or federated search system.
+
