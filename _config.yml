@@ -33,6 +33,7 @@ google_analytics: G-B7V2RZGY6P
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 show_excerpts: true
 
