@@ -2,6 +2,7 @@
 title: Press
 author: Anne
 layout: page
+permalink: /press/
 ---
 
 # Cross Media Cafe interview on personalised push at DPG Media

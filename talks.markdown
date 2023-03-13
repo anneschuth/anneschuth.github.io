@@ -2,7 +2,7 @@
 title: Talks
 author: Anne
 layout: page
-
+permalink: /talks/
 ---
 
 This is a exhaustive (I think) list of talks I gave and posters I presented since obtaining my masters degree. Please let me know if something (a slide deck or poster, for instance) is missing.  

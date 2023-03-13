@@ -2,7 +2,7 @@
 title: Software
 author: Anne
 layout: page
-
+permalink: /software/
 ---
 
 # Living Labs

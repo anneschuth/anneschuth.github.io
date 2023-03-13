@@ -2,6 +2,9 @@
 title: Thesis
 author: Anne
 layout: page
+permalink: /thesis/
+redirect-from:
+  - /phd-thesis-available/
 ---
 
 On May 27, 2016, I publicly defended my dissertation [Search Engines that Learn from Their Users](/publications/schuth-phd-thesis-2016) at the University of Amsterdam.

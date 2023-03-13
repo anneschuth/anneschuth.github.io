@@ -3,6 +3,7 @@ id: 7
 title: Teaching
 author: Anne
 layout: page
+permalink: /teaching/
 ---
 
 # Students

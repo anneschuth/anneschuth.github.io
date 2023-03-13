@@ -2,7 +2,7 @@
 title: Activities
 author: Anne
 layout: page
-
+permalink: /activities/
 ---
 
 # 2023
