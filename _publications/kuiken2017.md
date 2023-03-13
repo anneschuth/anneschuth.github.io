@@ -32,3 +32,4 @@ not all, of the clickbait features lead to a statistically significant increase 
 Third, predicting the effectiveness of a headline only on the basis of its clickbait features is not
 
 possible. The data on which this article is based is publicly available online.
+

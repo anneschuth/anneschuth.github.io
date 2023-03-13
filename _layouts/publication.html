@@ -5,16 +5,17 @@ layout: default
 <div class="page">
 
   <h1 class="post-title">{{ page.title }}</h1>
-  <i>{{ page.author }}.</i>
-  {% if page.booktitle %}In {{ page.booktitle }}, {% endif %}{% if page.journal %}In {{ page.journal }}, {% endif %}{{ page.year}}.
+  <p>
+    <i>{{ page.author }}.</i>
+    {% if page.booktitle %}In {{ page.booktitle }}, {% endif %}{% if page.journal %}In {{ page.journal }}, {% endif %}{{ page.year}}.
+  </p>
   {% if content != blank %}<h2>Abstract</h2>
-  {{ content }}
+  <p>{{ content }}</p>
   {% endif %}
   {% if page.pdf %}
   <h2>Downloads</h2>
   <p>
-    <a href="{{ page.pdf }}"
-      ><i class="far fa-file-pdf"></i> PDF</a>
+    <a href="{{ page.pdf }}"><i class="far fa-file-pdf"></i> PDF</a>
   </p>
   {% endif %}
   <h2>Bib</h2>
