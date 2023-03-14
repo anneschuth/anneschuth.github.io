@@ -11,4 +11,4 @@ type: inproceedings
 year: "2015"
 ---
 
-We summarize the findings of Schuth et al. [6].
+We summarize the findings of [Schuth et al](/publications/schuth2016multileave).
