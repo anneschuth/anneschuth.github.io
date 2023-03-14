@@ -18,6 +18,10 @@ def proces(file):
 
 
 
+    print("\n")
+    print("-"*10)
+    print("\n")
+
     print(f"Pdf {lines.get('pdf')}")
     print(f"Title {lines['title']}")
     print(f"Author {lines['author']}")

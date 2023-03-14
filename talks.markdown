@@ -5,8 +5,8 @@ layout: page
 permalink: /talks/
 ---
 
-This is a exhaustive (I think) list of talks I gave and posters I presented since obtaining my masters degree. Please let me know if something (a slide deck or poster, for instance) is missing.  
-If you would like me to speak, just send me an email. Please feel free to use my slides (with a reference), I’m happy to share a keynote version if that helps.
+This is an exhaustive (I think) list of talks I gave and posters I presented since obtaining my master’s degree. Please let me know if something (a slide deck or poster, for instance) is missing.  
+If you would like me to speak, just [send me an email](/about/). Please feel free to use my slides (with a reference).
 
 # 2020
 
