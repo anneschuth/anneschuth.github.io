@@ -13,22 +13,12 @@ The LL4IR API can be used by researchers to perform several actions such as obta
 
 The source code is [available from bitbucket](https://bitbucket.org/living-labs/ll-api). It has mainly been developed by Anne Schuth and [Krisztian Balog](http://krisztianbalog.com/).
 
-Several of my publications relate to Living Labs:
+Several of my publications relate to Living Labs.
 
-<div class="teachpress_pub_list"><form method="get" name="tppublistform"><a id="tppubs" name="tppubs"></a>[Show all](https://www.anneschuth.nl/software/?#tppubs "Show all")
-
-</form><div class="teachpress_message_error">Sorry, no publications matched your criteria.
-
-</div></div># Lerot: an Online Learning to Rank Framework
+# Lerot: an Online Learning to Rank Framework
 
 Lerot is a framework, designed to run experiments on online learning to rank methods for information retrieval. It has mainly been developed by [Katja Hofmann](http://khofm.wordpress.com/) and Anne Schuth.  
 The source code of Lerot is [available from bitbucket](https://bitbucket.org/ilps/lerot).  
 A paper describing Lerot is published in the [Living Labs Workshop](http://living-labs.net/ll13/) at CIKM’13:
 
-<div class="tp_single_publication"><span class="tp_single_author">A. Schuth, K. Hofmann, S. Whiteson, M. de Rijke: </span> <span class="tp_single_title">[Lerot: an Online Learning to Rank Framework](http://www.anneschuth.nl/wp-content/uploads/2013/09/cikm-livinglab-2013-lerot.pdf)</span>. <span class="tp_single_additional"><span class="tp_pub_additional_in">In: </span><span class="tp_pub_additional_booktitle"> Living Labs for Information Retrieval Evaluation workshop at CIKM’13., </span><span class="tp_pub_additional_year">2013</span>.</span></div>Lerot has been used to produce results in numerous publications, including these:
-
-<div class="teachpress_pub_list"><form method="get" name="tppublistform"><a id="tppubs" name="tppubs"></a>[Show all](https://www.anneschuth.nl/software/?#tppubs "Show all")
-
-</form><div class="teachpress_message_error">Sorry, no publications matched your criteria.
-
-</div></div>
+- A. Schuth, K. Hofmann, S. Whiteson, M. de Rijke. [Lerot: an Online Learning to Rank Framework](http://www.anneschuth.nl/wp-content/uploads/2013/09/cikm-livinglab-2013-lerot.pdf) In Living Labs for Information Retrieval Evaluation workshop at CIKM'13, 2013 
