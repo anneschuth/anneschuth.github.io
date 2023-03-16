@@ -5,7 +5,7 @@ layout: page
 permalink: /software/
 ---
 
-# Living Labs
+## Living Labs
 
 The Living Labs for IR Evaluation (LL4IR) is a new evaluation paradigm. I implemented an API for participants (researchers) and sites (search engines) that take part in this [Living Lab](http://living-labs.net/) (which is also run as a CLEF lab). The API allows participants (researchers) to evaluate their ranking systems on real users of real sites (search engines). On the flip site, it allows sites (search engines) to benefit from the knowledge of the research community.
 
@@ -15,7 +15,7 @@ The source code is [available from bitbucket](https://bitbucket.org/living-labs/
 
 Several of my publications relate to Living Labs.
 
-# Lerot: an Online Learning to Rank Framework
+## Lerot: an Online Learning to Rank Framework
 
 Lerot is a framework, designed to run experiments on online learning to rank methods for information retrieval. It has mainly been developed by [Katja Hofmann](http://khofm.wordpress.com/) and Anne Schuth.  
 The source code of Lerot is [available from bitbucket](https://bitbucket.org/ilps/lerot).  

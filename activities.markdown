@@ -5,27 +5,27 @@ layout: page
 permalink: /activities/
 ---
 
-# 2023
+## 2023
 - PC member SIGIR2023 Tutorials
 
 
-# 2022
+## 2022
 
 - PC member SIGIR2022 Full Papers
 - PC member SIGIR2022 Tutorials
 
-# 2020
+## 2020
 
 - PC member RuSSIR2020
 
-# 2019
+## 2019
 
 - Organizer [DIR2019](http://www.dir2019.nl/)
 - Reviewer TOIS
 - PC member [TheWebConf 2019](https://www2019.thewebconf.org/) User Modeling, Personalization and Experience track
 - Reviewer [IUI2019](https://iui.acm.org)
 
-# 2018
+## 2018
 
 - PC member DIR2018
 - PC member [RuSSIR2018](http://romip.ru/russir2018/)
@@ -36,13 +36,13 @@ permalink: /activities/
 - PC member [WSDM2018](http://www.wsdm-conference.org/2018/)
 - Reviewer [CIKM2018](http://www.cikm2018.units.it/)
 
-# 2017
+## 2017
 
 - PC member [RuSSIR2017](http://romip.ru/russir2017/)
 - PC member [WSDM2017](http://www.wsdm-conference.org/2017/)
 - Co-organizer [TREC OpenSearch 2017](http://trec-open-search.org/)
 
-# 2016
+## 2016
 
 - Co-organizer [CLEF LL4IR2016](http://living-labs.net/clef-lab/)
 - Co-organizer [TREC OpenSearch 2016](http://trec-open-search.org/)
@@ -55,7 +55,7 @@ permalink: /activities/
 - PC member WSDM2016 [Workshop on Query Understanding and Reformulation](https://sites.google.com/site/queryunderstanding/)
 - Proceedings Chair [WSDM2016](http://www.wsdm-conference.org/2016/)
 
-# 2015
+## 2015
 
 - Co-organizer [CLEF LL4IR2015](http://living-labs.net/clef-lab/)
 - Co-organizer [SEA Meetup](http://www.meetup.com/SEA-Search-Engines-Amsterdam/)
@@ -69,7 +69,7 @@ permalink: /activities/
 - Reviewer [ICTIR2015](http://ictir2015.org/)
 - Reviewer [WWW2015](http://www.www2015.it/)
 
-# 2014
+## 2014
 
 - Chair [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html)
 - Co-organizer [CLEF Living Lab](http://living-labs.net/clef-lab/)
@@ -79,7 +79,7 @@ permalink: /activities/
 - PC member [ECIR2014](http://www.ecir2014.org) Demo Track
 - Treasurer [ECIR2014](http://www.ecir2014.org)
 
-# 2013
+## 2013
 
 - Chair [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html)
 - Journal reviewer [IPM](http://www.journals.elsevier.com/information-processing-and-management/)
@@ -91,7 +91,7 @@ permalink: /activities/
 - Treasurer [ECIR2014](http://www.ecir2014.org)
 - Volunteer [CIKM2013](http://www.cikm2013.org/)
 
-# 2012
+## 2012
 
 - Co-organizer [INEX2012](https://inex.mmci.uni-saarland.de/) Linked Data Track
 - Member [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html)

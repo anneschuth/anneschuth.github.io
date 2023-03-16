@@ -6,7 +6,7 @@ layout: page
 permalink: /teaching/
 ---
 
-# Students
+## Students
 
 
 ### Thilina Rajapakse (2023)
@@ -101,7 +101,7 @@ permalink: /teaching/
 - Publications:
   - de Goede, B., Schuth, A., de Rijke, M. [Sustainable Questions](/assets/taia2012-sustainable.pdf) In Proceedings of SIGIR'12 Workshop on Time-aware Information Access, 2012.
 
-# Courses and Tutorials
+## Courses and Tutorials
 
 ### LiLa 2016: ECIR 2016 Tutorial
 - Year: 2016
