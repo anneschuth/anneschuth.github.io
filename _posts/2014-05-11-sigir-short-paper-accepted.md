@@ -1,5 +1,4 @@
 ---
-id: 314
 title: "SIGIR'14 Short Paper Accepted"
 date: '2014-05-11T15:20:28+02:00'
 author: Anne

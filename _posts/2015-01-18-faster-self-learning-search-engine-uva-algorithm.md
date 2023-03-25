@@ -1,5 +1,4 @@
 ---
-id: 365
 title: 'Faster self-learning search engine through UvA algorithm'
 date: '2015-01-18T20:50:06+01:00'
 author: Anne

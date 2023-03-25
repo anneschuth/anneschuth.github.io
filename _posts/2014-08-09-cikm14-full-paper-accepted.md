@@ -1,12 +1,10 @@
 ---
-id: 329
 title: "CIKM'14 full paper accepted"
 date: '2014-08-09T10:04:57+02:00'
 author: Anne
 layout: post
 permalink: /cikm14-full-paper-accepted/
-categories:
-    - Uncategorized
+
 ---
 
 Our paper “[Multileaved Comparisons for Fast Online Evaluation](/assets/2014/08/ir1190-schuth-cikm2014-multileave.pdf)<span style="color: #000000;">” by Anne Schuth,</span> [Floor Sietsma](http://nl.linkedin.com/pub/floor-sietsma/11/3b0/80b), [Shimon Whiteson](https://staff.fnwi.uva.nl/s.a.whiteson/Shimon_Whiteson/Home.html), Damien Lefortier and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted as a full paper at [CIKM’14](http://cikm2014.fudan.edu.cn/).

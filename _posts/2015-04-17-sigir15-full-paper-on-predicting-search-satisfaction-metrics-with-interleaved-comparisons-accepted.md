@@ -1,5 +1,4 @@
 ---
-id: 391
 title: "SIGIR'15 Full Paper on 'Predicting Search Satisfaction Metrics with Interleaved Comparisons' Accepted"
 date: '2015-04-17T12:03:02+02:00'
 author: Anne

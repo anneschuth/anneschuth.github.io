@@ -1,14 +1,10 @@
 ---
-id: 974
 title: 'Joining Spotify'
 date: '2021-12-01T11:36:00+01:00'
 author: Anne
 layout: post
 permalink: /joining-spotify/
-jetpack-post-views:
-    - '0'
-categories:
-    - Uncategorized
+
 ---
 
 Last week was my last at DPG Media, after a ride of almost 4 years. I’m thankful for the company and the people there (in particular [Philippe Remarque](https://www.linkedin.com/in/ACoAAAIpZLABuK7d0Nb0LXSoGGpIxpF0WqgThJs), [Marten Blankesteijn](https://www.linkedin.com/in/ACoAAACcZUIBdz3bGYD0kAABxtRwcF7v-py9EtI), [Paul Vereijken](https://www.linkedin.com/in/ACoAAABbO_cBX1GsF3TSVoHniOOxg0dFxoe7wgk)) that allowed me to do what I did: growing a team focussing on personalization.

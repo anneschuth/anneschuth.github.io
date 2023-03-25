@@ -1,13 +1,10 @@
 ---
-id: 449
 title: 'Good news from ESF ELIAS'
 date: '2015-07-17T11:05:59+02:00'
 author: Anne
 layout: post
-guid: 'http://www.anneschuth.nl/?p=449'
 permalink: /good-news-from-esf-elias/
-categories:
-    - Uncategorized
+
 ---
 
 Our [Living Labs](http://living-labs.net/) (LL4IR) initiative received good news from [ESF ELIAS](http://elias-network.eu/), we have been awarded two grants.

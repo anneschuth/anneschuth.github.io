@@ -1,5 +1,4 @@
 ---
-id: 55'
 title: "ECIR2016 short paper on 'Probabilistic Multileave Gradient Descent' accepted"
 date: '2015-12-07T16:40:03+01:00'
 author: Anne

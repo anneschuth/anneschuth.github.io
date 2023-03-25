@@ -5,9 +5,15 @@ layout: page
 permalink: /activities/
 ---
 
-## 2023
-- PC member SIGIR2023 Tutorials
+These are my professional activities over the past years, including serving as a program committee member and reviewer for
+top-tier conferences such as SIGIR, WWW, and WSDM. I have also organized and co-organized several workshops and events,
+including TREC OpenSearch, CLEF Living Lab, and SEA Meetup. In addition, I have been involved in various journal reviews
+and served in leadership positions such as chair of the FNWI PhD Council.
 
+## 2023
+
+- PC member SIGIR2023 Tutorials
+- Reviewer SIGIR2023 Short Papers
 
 ## 2022
 
@@ -52,7 +58,8 @@ permalink: /activities/
 - PC member [SIGIR2016](http://sigir.org/sigir2016/) Full Papers
 - PC member [SIGIR2016](http://sigir.org/sigir2016/) Short Papers
 - PC member [WSDM2016](http://www.wsdm-conference.org/2016/) (outstanding reviewer award)
-- PC member WSDM2016 [Workshop on Query Understanding and Reformulation](https://sites.google.com/site/queryunderstanding/)
+- PC member
+  WSDM2016 [Workshop on Query Understanding and Reformulation](https://sites.google.com/site/queryunderstanding/)
 - Proceedings Chair [WSDM2016](http://www.wsdm-conference.org/2016/)
 
 ## 2015
@@ -83,7 +90,10 @@ permalink: /activities/
 
 - Chair [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html)
 - Journal reviewer [IPM](http://www.journals.elsevier.com/information-processing-and-management/)
-- Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html)
+-
+
+Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html)
+
 - Reviewer [CIKM2013](http://www.cikm2013.org/)
 - Reviewer DIR2013
 - Reviewer [SIGIR2013](http://sigir2013.ie/)
@@ -95,5 +105,8 @@ permalink: /activities/
 
 - Co-organizer [INEX2012](https://inex.mmci.uni-saarland.de/) Linked Data Track
 - Member [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html)
-- Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html)
+-
+
+Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html)
+
 - PC member [INEX2012](https://inex.mmci.uni-saarland.de/) Linked Data Track

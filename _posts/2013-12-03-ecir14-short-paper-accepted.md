@@ -1,5 +1,4 @@
 ---
-id: 230
 title: "ECIR'14 short paper accepted"
 date: '2013-12-03T11:16:48+01:00'
 author: Anne

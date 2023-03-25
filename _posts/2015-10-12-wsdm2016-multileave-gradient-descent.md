@@ -1,12 +1,10 @@
 ---
-id: 511
 title: "WSDM2016 paper on 'Multileave Gradient Descent for Fast Online Learning to Rank' accepted"
 date: '2015-10-12T21:43:50+02:00'
 author: Anne
 layout: post
 permalink: /wsdm2016-multileave-gradient-descent/
-categories:
-    - Uncategorized
+
 ---
 
 Our paper “[Multileave Gradient Descent for Fast Online Learning to Rank](/assets/wsdm2016-multileave-gradient-descent.pdf)” with Anne Schuth, Harrie Oosterhuis, [Shimon Whiteson](https://www.cs.ox.ac.uk/people/shimon.whiteson/), and [Maarten de Rijke](https://staff.fnwi.uva.nl/m.derijke/) was accepted at [WSDM2016](http://www.wsdm-conference.org/2016/).
