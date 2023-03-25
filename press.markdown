@@ -47,7 +47,7 @@ Interview with Daan Odijk, David Graus, and me by Amanda Verdonk.
 explore how these technologies can aid journalists in their work, while also acknowledging the potential risks and
 challenges they may pose to the industry.
 
-## Users get what they’re looking for
+## Users get what they're looking for
 
 *September 10th,
 2018*, [Hoe steeds meer media hun aanbod personaliseren: de gebruiker krijgt wat hij zoekt.](https://www.svdj.nl/nieuws/media-personaliseren/)  
@@ -71,7 +71,7 @@ content to individual users, while also addressing concerns about privacy and th
 
 *December 13th
 2016*, [Datawetenschap in de journalistiek: Zo berekent Blendle wat jij wil lezen](http://nieuwejournalistiek.nl/startup-blendle/2016/12/13/zo-berekent-blendle-wat-jij-wil-lezen/)  
-Catrien Spijkerman of [Nieuwe Journalistiek](http://nieuwejournalistiek.nl/) interviewed me and Blendle’s chief editor
+Catrien Spijkerman of [Nieuwe Journalistiek](http://nieuwejournalistiek.nl/) interviewed me and Blendle's chief editor
 Ties Joosten and wrote an excellent article about how Blendle combines algorithms for personalized recommendations with
 high-quality manual curation.
 

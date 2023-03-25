@@ -10,5 +10,7 @@ type: article
 year: "2011"
 ---
 
-We present and compare three implementations of faceted search in
-eXist-db, an XML database. The bit-vector based implementation outperforms the other two implementations in that performance is near constant when the size of the database grows. We investigate this method in detail to pinpoint the source of this speedup. We do so using a micro-benchmark based on XMark designed for evaluating faceted search.
+We present and compare three implementations of faceted search in eXist-db, an XML database. The bit-vector based
+implementation outperforms the other two implementations in that performance is near constant when the size of the
+database grows. We investigate this method in detail to pinpoint the source of this speedup. We do so using a
+micro-benchmark based on XMark designed for evaluating faceted search.

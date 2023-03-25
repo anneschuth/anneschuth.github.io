@@ -66,7 +66,7 @@ and served in leadership positions such as chair of the FNWI PhD Council.
 
 - Co-organizer [CLEF LL4IR2015](http://living-labs.net/clef-lab/)
 - Co-organizer [SEA Meetup](http://www.meetup.com/SEA-Search-Engines-Amsterdam/)
-- Moderator [PhD’s on Science 2.0](https://www.knaw.nl/en/news/calendar/ph-d-students-on-science-2.0)
+- Moderator [PhD's on Science 2.0](https://www.knaw.nl/en/news/calendar/ph-d-students-on-science-2.0)
 - PC member [CIKM2015](http://www.cikm-2015.org/)
 - PC member [CLEF2015 Conference](http://clef2015.clef-initiative.eu/CLEF2015/)
 - PC member [CLEF2015 Labs](http://clef2015.clef-initiative.eu/CLEF2015/)

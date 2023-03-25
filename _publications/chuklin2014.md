@@ -11,5 +11,7 @@ type: inproceedings
 year: "2014"
 ---
 
-Modeling user behavior on a search engine result page is important for understanding the users and supporting simulation experiments. As result pages become more complex, click models evolve as well in order to capture additional aspects of user behavior in response to new forms of result presentation.
+Modeling user behavior on a search engine result page is important for understanding the users and supporting simulation
+experiments. As result pages become more complex, click models evolve as well in order to capture additional aspects of
+user behavior in response to new forms of result presentation.
 

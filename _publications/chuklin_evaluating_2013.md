@@ -11,5 +11,8 @@ type: inproceedings
 year: "2013"
 ---
 
-A result page of a modern web search engine is often much more complicated than a simple list of “ten blue links.” In particular, a search engine may combine results from different sources (e.g., Web, News, and Images), and display these as grouped results to provide a better user experience. Such a system is called an aggregated or federated search system.
+A result page of a modern web search engine is often much more complicated than a simple list of “ten blue links.” In
+particular, a search engine may combine results from different sources (e.g., Web, News, and Images), and display these
+as grouped results to provide a better user experience. Such a system is called an aggregated or federated search
+system.
 

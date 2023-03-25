@@ -12,5 +12,10 @@ type: inproceedings
 year: "2015"
 ---
 
-In this paper we report on the first Living Labs for Information Retrieval Evaluation (LL4IR) CLEF Lab. Our main goal with the lab is to provide a benchmarking platform for researchers to evaluate their ranking systems in a live setting with real users in their natural task environments. For this first edition of the challenge we focused on two specific use-cases: product search and web search. Ranking systems submitted by participants were experimentally compared using interleaved comparisons to the production system from the corresponding use-case. In this paper we describe how these experiments were performed, what the resulting outcomes are, and conclude with some lessons learned.
+In this paper we report on the first Living Labs for Information Retrieval Evaluation (LL4IR) CLEF Lab. Our main goal
+with the lab is to provide a benchmarking platform for researchers to evaluate their ranking systems in a live setting
+with real users in their natural task environments. For this first edition of the challenge we focused on two specific
+use-cases: product search and web search. Ranking systems submitted by participants were experimentally compared using
+interleaved comparisons to the production system from the corresponding use-case. In this paper we describe how these
+experiments were performed, what the resulting outcomes are, and conclude with some lessons learned.
 

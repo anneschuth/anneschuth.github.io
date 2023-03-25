@@ -4,7 +4,7 @@ author: Anne
 layout: page
 permalink: /thesis/
 redirect-from:
-    - /phd-thesis-available/
+- /phd-thesis-available/
 
 ---
 
