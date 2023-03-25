@@ -1,5 +1,5 @@
 ---
-title: 'Research in Moscow'
+title: "Research in Moscow"
 date: '2014-02-19T20:54:27+01:00'
 author: Anne
 layout: post
