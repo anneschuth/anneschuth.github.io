@@ -105,8 +105,6 @@ Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-p
 
 - Co-organizer [INEX2012](https://inex.mmci.uni-saarland.de/) Linked Data Track
 - Member [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html)
--
-
-Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html)
+- Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html)
 
 - PC member [INEX2012](https://inex.mmci.uni-saarland.de/) Linked Data Track
