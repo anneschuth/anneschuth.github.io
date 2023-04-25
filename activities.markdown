@@ -90,10 +90,7 @@ and served in leadership positions such as chair of the FNWI PhD Council.
 
 - Chair [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html)
 - Journal reviewer [IPM](http://www.journals.elsevier.com/information-processing-and-management/)
--
-
-Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html)
-
+- Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html)
 - Reviewer [CIKM2013](http://www.cikm2013.org/)
 - Reviewer DIR2013
 - Reviewer [SIGIR2013](http://sigir2013.ie/)
@@ -106,5 +103,4 @@ Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-p
 - Co-organizer [INEX2012](https://inex.mmci.uni-saarland.de/) Linked Data Track
 - Member [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html)
 - Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html)
-
 - PC member [INEX2012](https://inex.mmci.uni-saarland.de/) Linked Data Track
