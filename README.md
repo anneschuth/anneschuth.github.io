@@ -1,2 +1,3 @@
-# anneschuth.github.io
-Anne Schuth
+# Website of Anne Schuth
+
+Deployed at https://anneschuth.nl/
