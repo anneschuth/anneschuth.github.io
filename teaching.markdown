@@ -21,6 +21,10 @@ permalink: /teaching/
 - Company: Spotify
 - Topic: Tip of the tong queries
 - Co-supervisor: Claudia Hauff
+- Publications:
+    - Samarth Bhargav and Anne Schuth and Claudia
+      Hauff. [When the Music Stops: Tip-of-the-Tongue Retrieval for Music](/publications/bhargav2023). In Proceedings of
+      SIGIR’23, 2023.
 
 ### Astrid Weijs (2021)
 
@@ -69,10 +73,10 @@ permalink: /teaching/
 - Company: Blendle
 - Topic: Explaining Rankings
 - Publications:
-    - Maartje ter Hoeve, Mathieu Heruer, Daan Odijk, Anne Schuth, Martijn Spitters, Ron Mulder, Nick van der Wildt,
-      Maarten de
-      Rijke: [Do News Consumers Want Explanations for Personalized News Rankings?](/assets/fatrec2017-recommendation-reasons-blendle.pdf)
-      In Proceedings of FATREC'17, 2017.
+    - Maartje ter Hoeve and Mathieu Heruer and Daan Odijk and Anne Schuth and Martijn Spitters and Ron Mulder and Nick
+      van der Wildt and Maarten de
+      Rijke. [Do News Consumers Want Explanations for Personalized News Rankings?](/publications/terhoeve2017). In
+      Proceedings of FATREC’17, 2017.
 
 ### Jeffrey Kuiken (2015 – 2016)
 
@@ -80,9 +84,9 @@ permalink: /teaching/
 - Company: Blendle
 - Topic: Effective Headlines of Newspaper Articles in a Digital Environment
 - Publications:
-    - Jeffrey Kuiken, Anne Schuth, Martijn Spitters, Maarten
-      Marx: [Effective Headlines of Newspaper Articles in a Digital Environment](/assets/Effective-Headlines-of-Newspaper-Articles-in-a-Digital-Environment.pdf)
-      In Digital Journalism, 2017.
+    - Jeffrey Kuiken and Anne Schuth and Martijn Spitters and Maarten
+      Marx. [Effective Headlines of Newspaper Articles in a Digital Environment](/publications/kuiken2017). In Digital
+      Journalism, 2017.
 
 ### Claudia Minardi (2015 – 2016)
 
@@ -94,12 +98,11 @@ permalink: /teaching/
 - Degree: MSc AI UvA
 - Topic: Online learning to rank (Honours program)
 - Publications:
-    - Harrie Oosterhuis, Anne Schuth, Maarten de
-      Rijke [Probabilistic Multileave Gradient Descent](/assets/ecir2016-prob-multileave-gradient-descent.pdf) In
-      Proceedings of ECIR'16, 2016.
-    - Anne Schuth, Harrie Oosterhuis, Shimon Whiteson, Maarten de
-      Rijke [Multileave Gradient Descent for Fast Online Learning to Rank](/assets/wsdm2016-multileave-gradient-descent.pdf)
-      In Proceedings of WSDM'16, 2016.
+    - Harrie Oosterhuis and Anne Schuth and Maarten de
+      Rijke. [Probabilistic Multileave Gradient Descent](/publications/oosterhuis2016). In Proceedings of ECIR’16, 2016.
+    - Anne Schuth and Harrie Oosterhuis and Shimon Whiteson and Maarten de
+      Rijke. [Multileave Gradient Descent for Fast Online Learning to Rank](/publications/schuth2016multileave). In
+      Proceedings of WSDM’16, 2016.
 
 ### Spyros Michaelides (2014 – 2015)
 
@@ -121,8 +124,8 @@ permalink: /teaching/
 - Degree: MSc IK
 - Topic: Sustainable Questions
 - Publications:
-    - de Goede, B., Schuth, A., de Rijke, M. [Sustainable Questions](/assets/taia2012-sustainable.pdf) In Proceedings of
-      SIGIR'12 Workshop on Time-aware Information Access, 2012.
+    - Bart de Goede and Anne Schuth and Maarten de Rijke. [Sustainable Questions](/publications/de2012sustainable). In
+      Proceedings of SIGIR 2012 Workshop on Time-aware Information Access, 2012.
 
 ## Courses and Tutorials
 
@@ -136,10 +139,11 @@ permalink: /teaching/
 - Years: 2014-2015
 - Project on “Online Learning to Rank”
 - Publication:
-    - Anne Schuth, Robert-Jan Bruintjes, Fritjof Büttner, Joost van Doorn, Carla Groenland, Harrie Oosterhuis,
-      Cong-Nguyen Tran, Bas Veeling, Jos van der Velde, Roger Wechsler, David Woudenberg, Maarten de
-      Rijke: [Probabilistic Multileave for Online Retrieval Evaluation](/assets/schuth-probabilistic-2015.pdf) In
-      Proceedings of SIGIR'15, 2015.
+    - Anne Schuth and Robert-Jan Bruintjes and Fritjof Büttner and Joost van Doorn and Carla Groenland and Harrie
+      Oosterhuis and Cong-Nguyen Tran and Bas Veeling and Jos van der Velde and Roger Wechsler and David Woudenberg and
+      Maarten de
+      Rijke. [Probabilistic Multileave for Online Retrieval Evaluation](/publications/schuth-2015-probabilistic). In
+      Proceedings of SIGIR’15, 2015.
 
 ### Information Retrieval 1 (Curriculum Master Artificial Intelligence)
 
