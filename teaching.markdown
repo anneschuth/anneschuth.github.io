@@ -59,6 +59,12 @@ permalink: /teaching/
 - Company: DPG Media
 - Topic: Explaining Summarization
 - Co-supervisors: Marlies van der Wees, Maartje ter Hoeve, Maarten de Rijke
+- Publications:
+    - Joris Baan and Maartje ter Hoeve and Marlies van der Wees and Anne Schuth and Maarten de
+      Rijke. [Do Transformer Attention Heads Provide Transparency in Abstractive Summarization?](/publications/baan2019)
+      In Proceedings of FACTS-IR’19, 2019.
+    - Joris Baan and Maartje ter Hoeve and Marlies van der Wees and Anne Schuth and Maarten de
+      Rijke. [Understanding Multi-Head Attention in Abstractive Summarization](/publications/baan2019b). 2019.
 
 ### Chia-Lun Yeh (2018 – 2019)
 
@@ -66,6 +72,12 @@ permalink: /teaching/
 - Company: DPG Media
 - Topic: Bias Detection
 - Co-supervisors: Babak Loni, Nava Tintarev
+- Publications:
+    - Chia-Lun Yeh and Babak Loni and Mariëlle Hendriks and Henrike Reinhardt and Anne
+      Schuth. [DpgMedia2019: A Dutch News Dataset for Partisanship Detection](/publications/yeh2019b). 2019.
+    - Chia-Lun Yeh and Babak Loni and Anne
+      Schuth. [Hyperpartisan News Detection with GloVe vectors and SVM](/publications/yeh2019). In Proceedings of
+      SEMEVAL’19, 2019.
 
 ### Maartje ter Hoeve (2017 – 2018)
 
@@ -77,6 +89,8 @@ permalink: /teaching/
       van der Wildt and Maarten de
       Rijke. [Do News Consumers Want Explanations for Personalized News Rankings?](/publications/terhoeve2017). In
       Proceedings of FATREC’17, 2017.
+    - Maartje ter Hoeve and Anne Schuth and Daan Odijk and Maarten de
+      Rijke. [Faithfully Explaining Rankings in a News Recommender System](/publications/terhoeve2018). 2018.
 
 ### Jeffrey Kuiken (2015 – 2016)
 
