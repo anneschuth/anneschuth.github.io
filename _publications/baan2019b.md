@@ -9,7 +9,7 @@ title: "Understanding Multi-Head Attention in Abstractive Summarization"
 type: article
 year: "2019"
 shield: report-arXiv-yellow
-arxiv: 1911.03898
+arxiv: "1911.03898"
 ---
 
 Attention mechanisms in deep learning architectures have often been used as a means of transparency and, as such, to
