@@ -13,6 +13,7 @@ title: "Effective Headlines of Newspaper Articles in a Digital Environment"
 type: article
 volume: "0"
 year: "2017"
+shield: journal-DigitalJournalism-blue
 ---
 
 We study the effect on click-through rates of applying textual and stylistic features often related

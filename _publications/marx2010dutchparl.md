@@ -8,6 +8,7 @@ pdf: /assets/dutchparl.pdf
 title: "DutchParl The Parliamentary Documents in Dutch"
 type: article
 year: "2010"
+shield: conference-LREC-blue
 ---
 
 A corpus called DutchParl is created which aims to contain all digitally available parliamentary documents written in

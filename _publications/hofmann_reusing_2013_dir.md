@@ -9,6 +9,7 @@ pdf: /assets/reusing-historical-2013-abstract.pdf
 title: "Reusing Historical Interaction Data for Faster Online Learning to Rank for IR (Abstract)"
 type: inproceedings
 year: "2013"
+shield: abstract-DIR-9cf
 ---
 
 We summarize the findings from [Hofmann et al.](/publications/hofmann_2013_reusing).

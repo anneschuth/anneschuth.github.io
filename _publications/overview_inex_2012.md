@@ -9,6 +9,7 @@ pdf: /assets/uva-inex-2012.pdf
 title: "Overview of the INEX 2012 Linked Data Track"
 type: inproceedings
 year: "2012"
+shield: conference-INEX-blue
 ---
 
 This paper provides an overview of the Linked Data Track that was newly introduced to the set of INEX tracks in 2012.

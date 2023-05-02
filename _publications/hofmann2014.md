@@ -9,6 +9,7 @@ pdf: /assets/hofmann-effects-2014.pdf
 title: "Eﬀects of Position Bias on Click-Based Recommender Evaluation"
 type: inproceedings
 year: "2014"
+shield: conference-ECIR-blue
 ---
 
 Measuring the quality of recommendations produced by a recommender system (RS) is challenging. Labels used for

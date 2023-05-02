@@ -11,4 +11,5 @@ pages: "21--25"
 title: "Dataontsluiting met XML, XQuery en XSLT"
 volume: "17"
 year: "2011"
+shield: report-ELEMENT-yellow
 ---

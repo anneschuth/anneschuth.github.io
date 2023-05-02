@@ -1,6 +1,5 @@
 ---
 author: "Joris Baan and Maartje ter Hoeve and Marlies van der Wees and Anne Schuth and Maarten de Rijke"
-booktitle: "arXiv"
 date: "2019-11-10"
 key: baan2019b
 keywords: "deep learning, explainability"
@@ -9,6 +8,8 @@ pdf: /assets/1911.03898.pdf
 title: "Understanding Multi-Head Attention in Abstractive Summarization"
 type: article
 year: "2019"
+shield: report-arXiv-yellow
+arxiv: 1911.03898
 ---
 
 Attention mechanisms in deep learning architectures have often been used as a means of transparency and, as such, to

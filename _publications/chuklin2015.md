@@ -9,6 +9,7 @@ pdf: /assets/chuklin-comparative-2015.pdf
 title: "A comparative analysis of interleaving methods for aggregated search"
 type: article
 year: "2015"
+shield: journal-TOIS-blue
 ---
 
 A result page of a modern search engine often goes beyond a simple list of “10 blue links.” Many specific user needs (

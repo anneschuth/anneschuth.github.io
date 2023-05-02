@@ -9,6 +9,7 @@ pdf: /assets/degoede-sustainable-2012.pdf
 title: "Sustainable Questions"
 type: inproceedings
 year: "2012"
+shield: workshop-TAIA-green
 ---
 
 Community question answering platforms have large repositories of previously answered questions. Reusing the answers for

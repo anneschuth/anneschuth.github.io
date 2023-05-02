@@ -9,6 +9,7 @@ pdf: /assets/reusing-historical-2013.pdf
 title: "Reusing Historical Interaction Data for Faster Online Learning to Rank for IR"
 type: inproceedings
 year: "2013"
+shield: conference-WSDM-blue
 ---
 
 Online learning to rank for information retrieval (IR) holds promise for allowing the development of “self-learning”

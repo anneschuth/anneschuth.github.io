@@ -10,6 +10,7 @@ publisher: "Springer"
 title: "Probabilistic Multileave Gradient Descent"
 type: inproceedings
 year: "2016"
+shield: conference-ECIR-blue
 ---
 
 Online learning to rank methods aim to optimize ranking models based on user interactions. The dueling bandit gradient

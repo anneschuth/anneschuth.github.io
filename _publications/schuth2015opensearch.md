@@ -9,6 +9,7 @@ pages: "38"
 pdf: /assets/dir2015-opensearch-proceedings.pdf
 title: "OpenSearch"
 type: inproceedings
+shield: conference-DIR-blue
 year: "2015"
 ---
 

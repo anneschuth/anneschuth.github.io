@@ -8,6 +8,7 @@ layout: publication
 pdf: /assets/selflearningsearch.pdf
 title: "Self-learning search engines"
 type: misc
+shield: misc-Popular-lightgrey
 year: "2015"
 ---
 

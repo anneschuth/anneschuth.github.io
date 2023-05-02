@@ -14,6 +14,7 @@ publisher: "ACM"
 title: "Learning to Rank for Information Retrieval from User Interactions"
 type: article
 year: "2014"
+shield: report-SIGWEB-yellow
 ---
 
 In this article we give an overview of our recent work on online learning to rank for information retrieval (IR). This

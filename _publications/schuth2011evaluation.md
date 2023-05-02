@@ -11,6 +11,7 @@ publisher: "Springer"
 title: "Evaluation methods for rankings of facetvalues for faceted search"
 type: article
 year: "2011"
+shield: conference-CLEF-blue
 ---
 
 We introduce two metrics aimed at evaluating systems that select facetvalues for a faceted search interface. Facetvalues

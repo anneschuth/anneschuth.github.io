@@ -9,6 +9,7 @@ pdf: /assets/168329_clef2015_ll4ir.pdf
 publisher: "Springer"
 title: "Overview of the Living Labs for Information Retrieval Evaluation (LL4IR) CLEF Lab 2015"
 type: inproceedings
+shield: conference-CLEF-blue
 year: "2015"
 ---
 

@@ -8,6 +8,7 @@ layout: publication
 pdf: /assets/dir2015-multileave-gradient-descent.pdf
 title: "Multileave Gradient Descent for Fast Online Learning to Rank (Abstract)"
 type: inproceedings
+shield: abstract-DIR-9cf
 year: "2015"
 ---
 

@@ -9,6 +9,7 @@ pdf: /assets/chuklin-evaluating-2013.pdf
 title: "Evaluating Aggregated Search Using Interleaving"
 type: inproceedings
 year: "2013"
+shield: conference-CIKM-blue
 ---
 
 A result page of a modern web search engine is often much more complicated than a simple list of “ten blue links.” In

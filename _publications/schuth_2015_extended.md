@@ -1,6 +1,7 @@
 ---
 layout: publication
 type: inproceedings
+shield: conference-CLEF-blue
 key: schuth_2015_extended
 author: "Anne Schuth and Krisztian Balog and Liadh Kelly"
 booktitle: "Proceedings of CLEF'15"

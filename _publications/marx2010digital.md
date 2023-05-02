@@ -11,6 +11,7 @@ pdf: /assets/Digital_sustainable_publication_of_legacy_parliament.pdf
 title: "Digital sustainable publication of legacy parliamentary proceedings"
 type: inproceedings
 year: "2010"
+shield: conference-AIDGR-blue
 ---
 
 We address the problem of publishing parliamentary proceedings in a digital sustainable manner. We give an extensive

@@ -9,6 +9,7 @@ pdf: /assets/wsdm2016-multileave-gradient-descent.pdf
 publisher: "ACM"
 title: "Multileave Gradient Descent for Fast Online Learning to Rank"
 type: inproceedings
+shield: conference-WSDM-blue
 year: "2016"
 ---
 

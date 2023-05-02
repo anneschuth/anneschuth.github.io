@@ -9,6 +9,7 @@ layout: publication
 pdf: /assets/fatrec2017-recommendation-reasons-blendle.pdf
 title: "Do News Consumers Want Explanations for Personalized News Rankings?"
 type: inproceedings
+shield: conference-FATREC-blue
 year: "2017"
 ---
 

@@ -9,6 +9,7 @@ pdf: /assets/cikm2014-lleval.pdf
 title: "Head First: Living Labs for Ad-hoc Search Evaluation"
 type: inproceedings
 year: "2014"
+shield: conference-CIKM-blue
 ---
 
 The information retrieval (IR) community strives to make evaluation more centered on real users and their needs. The

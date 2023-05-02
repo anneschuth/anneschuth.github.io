@@ -9,6 +9,7 @@ school: "University of Amsterdam"
 title: "Tuning Methods in Statistical Machine Translation"
 type: mastersthesis
 year: "2010"
+shield: thesis-Master-red
 ---
 
 In a Statistical Machine Translation system many models, called features, complement each other in producing natural

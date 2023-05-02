@@ -8,6 +8,7 @@ layout: publication
 pdf: /assets/schuth-probabilistic-2015.pdf
 title: "Probabilistic Multileave for Online Retrieval Evaluation"
 type: inproceedings
+shield: conference-SIGIR-blue
 year: "2015"
 ---
 

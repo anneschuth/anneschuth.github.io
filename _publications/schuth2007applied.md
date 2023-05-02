@@ -8,6 +8,8 @@ pdf: /assets/bachelor-thesis-anne-schuth.pdf
 title: "Applied Text Analytics for Comments on News-Articles"
 type: misc
 year: "2007"
+shield: thesis-Bachelor-red
+
 ---
 
 Several on-line daily newspapers offer readers the opportunity to directly comment on articles. In the Netherlands this

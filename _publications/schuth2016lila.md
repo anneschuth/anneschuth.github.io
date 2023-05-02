@@ -9,6 +9,7 @@ pdf: /assets/ecir2016-ll-tutorial.pdf
 publisher: "Springer"
 title: "Living Labs for Online Evaluation: From Theory to Practice"
 type: inproceedings
+shield: tutorial-ECIR-orange
 year: "2016"
 ---
 

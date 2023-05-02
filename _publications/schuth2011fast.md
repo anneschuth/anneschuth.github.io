@@ -8,6 +8,8 @@ pdf: /assets/fast-faceted-2011.pdf
 title: "Fast Faceted Search in XML"
 type: article
 year: "2011"
+booktitle: "Proceedings of XML Prague'11"
+shield: conference-XMLPrague-blue
 ---
 
 We present and compare three implementations of faceted search in eXist-db, an XML database. The bit-vector based

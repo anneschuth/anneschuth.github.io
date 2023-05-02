@@ -9,6 +9,7 @@ pdf: /assets/fp041-schuthA.pdf
 publisher: "ACM"
 title: "Predicting Search Satisfaction Metrics with Interleaved Comparisons"
 type: inproceedings
+shield: conference-SIGIR-blue
 year: "2015"
 ---
 

@@ -8,6 +8,7 @@ layout: publication
 pdf: /assets/schuthcikm14.pdf
 title: "Multileaved Comparisons for Fast Online Evaluation"
 type: inproceedings
+shield: conference-CIKM-blue
 year: "2014"
 ---
 

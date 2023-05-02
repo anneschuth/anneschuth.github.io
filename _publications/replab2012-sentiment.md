@@ -9,6 +9,7 @@ pdf: /assets/163193_CLEF2012wn_RepLab_PeetzEt2012.pdf
 title: "From Sentiment to Reputation"
 type: inproceedings
 year: "2012"
+shield: workshop-RepLab-green
 ---
 
 We report on our participation in the profiling task of the first edition of the CLEF RepLab evaluation initiative. We

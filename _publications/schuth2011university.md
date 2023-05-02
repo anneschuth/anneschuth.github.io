@@ -1,6 +1,7 @@
 ---
 layout: publication
 type: inproceedings
+shield: conference-INEX-blue
 key: schuth2011university
 author: "Anne Schuth and Maarten Marx"
 booktitle: "Proceedings of INEX'11"

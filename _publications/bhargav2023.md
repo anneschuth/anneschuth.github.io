@@ -8,6 +8,8 @@ layout: publication
 title: "When the Music Stops: Tip-of-the-Tongue Retrieval for Music"
 type: inproceedings
 year: "2023"
+shield: conference-SIGIR-blue
+repo: https://github.com/spotify-research/tot
 ---
 
 We present the first study of Tip-of-the-tongue (ToT) retrieval for

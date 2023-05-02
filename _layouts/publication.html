@@ -4,22 +4,33 @@ layout: default
 
 <div class="page">
 
-  <h1 class="post-title">{{ page.title }}</h1>
-  <p>
-    <i>{{ page.author }}.</i>
-    {% if page.booktitle %}In {{ page.booktitle }}, {% endif %}{% if page.journal %}In {{ page.journal }}, {% endif %}{{ page.year}}.
-  </p>
-  {% if content != blank %}<h2>Abstract</h2>
-  <p>{{ content }}</p>
-  {% endif %}
-  {% if page.pdf %}
-  <h2>Downloads</h2>
-  <p>
-    <a href="{{ page.pdf }}"><i class="far fa-file-pdf"></i> PDF</a>
-  </p>
-  {% endif %}
-  <h2>Bib</h2>
-  <pre>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p>
+        <i>{{ page.author }}.</i>
+        {% if page.booktitle %}In {{ page.booktitle }}, {% endif %}{% if page.journal %}In {{ page.journal }}, {% endif
+        %}{{ page.year}}.
+    </p>
+    {% if content != blank %}<h2>Abstract</h2>
+    <p>{{ content }}</p>
+    {% endif %}
+    <h2>Links</h2>
+    <ul>
+
+        {% if page.pdf %}
+        <li><a href="{{page.pdf}}"><i class="fa fa-file-pdf-o"></i> pdf</a></li>
+        {% endif %}
+        {% if page.repo %}
+        <li><a href="{{page.repo}}"><i class="fa fa-github"></i> {{page.repo}}</a></li>
+        {% endif %}
+        {% if page.bitbucket %}
+        <li><a href="{{page.bitbucket}}"><i class="fa bitbucket"></i> {{page.bitbucket}}</a></li>
+        {% endif %}
+        {% if page.arxiv %}
+        <li><a href="https://arxiv.org/abs/{{page.arxiv}}"><i class="fa fa-archive"></i> {{page.arxiv}}</a></li>
+        {% endif %}
+    </ul>
+    <h2>Bib</h2>
+    <pre>
 @{{page.type}}{ {{- page.key}},
   title = { {{-page.title-}} },
   author = { {{-page.author-}} },

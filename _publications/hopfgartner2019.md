@@ -8,6 +8,8 @@ pdf: /assets/continues-evaluation-2019.pdf
 title: "Continuous evaluation of large-scale information access systems: a case for living labs"
 type: inbook
 year: "2019"
+shield: chapter-CLEF-blue
+
 ---
 
 A/B testing is currently being increasingly adopted for the evaluation of commercial information access systems with a

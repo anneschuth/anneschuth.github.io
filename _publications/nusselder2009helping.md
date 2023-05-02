@@ -11,6 +11,7 @@ pdf: /assets/helping-people-choose-2009.pdf
 title: "Helping people to choose for whom to vote. a web information system for the 2009 European elections"
 type: inproceedings
 year: "2009"
+shield: conference-CIKM-blue
 ---
 
 We demonstrate a web information system created for the European elections in June 2009. Based on their speeches in the

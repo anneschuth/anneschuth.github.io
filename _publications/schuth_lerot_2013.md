@@ -8,7 +8,9 @@ layout: publication
 pdf: /assets/schuth-lerot-2013.pdf
 title: "Lerot: an Online Learning to Rank Framework"
 type: inproceedings
+shield: workshop-CIKM-green
 year: "2013"
+bitbucket: https://bitbucket.org/ilps/lerot/src/master/
 ---
 
 Online learning to rank methods for IR allow retrieval systems to optimize their own performance directly from
