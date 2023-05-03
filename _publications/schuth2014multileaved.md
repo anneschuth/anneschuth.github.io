@@ -3,6 +3,7 @@ author: "Anne Schuth and Floor Sietsma and Shimon Whiteson and Damien Lefortier 
 booktitle: "Proceedings of CIKM'14"
 date: "2014-11-03"
 key: schuth2014multileaved
+doi: "10.1145/2661829.2661952"
 keywords: "CIKM, evaluation, interleaving, Lerot, multileaving"
 layout: publication
 pdf: /assets/schuthcikm14.pdf

@@ -3,6 +3,7 @@ author: "Arjen Nusselder and Maria-Hendrike Peetz and Anne Schuth and Maarten Ma
 booktitle: "Proceedings of CIKM'09"
 date: "2009-01-01"
 key: nusselder2009helping
+doi: "10.1145/1645953.1646320"
 keywords: ""
 layout: publication
 organization: "ACM"

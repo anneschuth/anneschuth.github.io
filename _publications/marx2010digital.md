@@ -3,6 +3,7 @@ author: "Maarten Marx and Nelleke Aders and Anne Schuth"
 booktitle: "Proceedings of the 11th Annual International Digital Government Research Conference on Public Administration Online: Challenges and Opportunities"
 date: "2010-01-01"
 key: marx2010digital
+doi: "10.5555/1809874.1809895"
 keywords: ""
 layout: publication
 organization: "Digital Government Society of North America"

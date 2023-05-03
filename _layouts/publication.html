@@ -6,7 +6,7 @@ layout: default
 
     <h1 class="post-title">{{ page.title }}</h1>
     <p>
-        <i>{{ page.author }}.</i>
+        <i>{{ page.author | replace: "Anne Schuth", "**Anne Schuth**" }}.</i>
         {% if page.booktitle %}In {{ page.booktitle }}, {% endif %}{% if page.journal %}In {{ page.journal }}, {% endif
         %}{{ page.year}}.
     </p>
