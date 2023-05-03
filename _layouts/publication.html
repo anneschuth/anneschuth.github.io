@@ -14,21 +14,24 @@ layout: default
     <p>{{ content }}</p>
     {% endif %}
     <h2>Links</h2>
-    <ul>
-
-        {% if page.pdf %}
-        <li><a href="{{page.pdf}}"><i class="fa fa-file-pdf-o"></i> pdf</a></li>
-        {% endif %}
-        {% if page.repo %}
-        <li><a href="{{page.repo}}"><i class="fa fa-github"></i> {{page.repo}}</a></li>
-        {% endif %}
-        {% if page.bitbucket %}
-        <li><a href="{{page.bitbucket}}"><i class="fa fa-bitbucket"></i> {{page.bitbucket}}</a></li>
-        {% endif %}
-        {% if page.arxiv %}
-        <li><a href="https://arxiv.org/abs/{{page.arxiv}}"><i class="fa fa-archive"></i> {{page.arxiv}}</a></li>
-        {% endif %}
-    </ul>
+    <p>
+    {% if page.pdf %}
+    <a href="{{page.pdf}}"><i class="fa fa-file-pdf-o"></i> {{ page.title }}</a> <br />
+    {% endif %}
+    {% if page.repo %}
+    <a href="{{page.repo}}"><i class="fa fa-github"></i> {{page.repo}}</a> <br />
+    {% endif %}
+    {% if page.bitbucket %}
+    <a href="{{page.bitbucket}}"><i class="fa fa-bitbucket"></i> {{page.bitbucket}}</a> <br />
+    {% endif %}
+    {% if page.arxiv %}
+    <a href="https://arxiv.org/abs/{{page.arxiv}}"><i class="fa fa-archive"></i> https://arxiv.org/abs/{{page.arxiv}}</a> <br />
+    {% endif %}
+    {% if page.doi %}
+    <a href="https://doi.org/{{page.doi}}"><i class="fa fa-link"></i> https://doi.org/{{page.doi}}</a> <br />
+    {% endif %}
+    </p>
+    
     <h2>Bib</h2>
     <pre>
 @{{page.type}}{ {{- page.key}},
@@ -36,6 +39,7 @@ layout: default
   author = { {{-page.author-}} },
   year = { {{-page.year-}} }{% if page.booktitle %},
   booktitle = { {{-page.booktitle-}} }{% endif %}{% if page.journal %},
-  journal = { {{-page.journal-}} }{% endif %}
+  journal = { {{-page.journal-}} }{% endif %}{% if page.doi %},
+  doi = { {{-page.doi-}} }{% endif %}
 }</pre>
 </div>

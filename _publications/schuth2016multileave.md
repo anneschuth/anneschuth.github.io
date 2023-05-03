@@ -3,6 +3,7 @@ author: "Anne Schuth and Harrie Oosterhuis and Shimon Whiteson and Maarten de Ri
 booktitle: "Proceedings of WSDM'16"
 date: "2016-02-22"
 key: schuth2016multileave
+doi: "10.1145/2835776.2835804"
 keywords: "learning to rank, Lerot, multileaving, online learning, WSDM"
 layout: publication
 pdf: /assets/wsdm2016-multileave-gradient-descent.pdf

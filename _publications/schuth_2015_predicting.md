@@ -3,6 +3,7 @@ author: "Anne Schuth and Katja Hofmann and Filip Radlinski"
 booktitle: "Proceedings of SIGIR'15"
 date: "2015-08-09"
 key: schuth_2015_predicting
+doi: "10.1145/2766462.2767695"
 keywords: "A/B testing, evaluation, interleaving, SIGIR"
 layout: publication
 pdf: /assets/fp041-schuthA.pdf

@@ -3,6 +3,7 @@ author: "Anne Schuth and Robert-Jan Bruintjes and Fritjof Büttner and Joost van
 booktitle: "Proceedings of SIGIR'15"
 date: "2015-08-09"
 key: schuth_2015_probabilistic
+doi: "10.1145/2766462.2767838"
 keywords: "evaluation, interleaving, Lerot, multileaving, poster, SIGIR"
 layout: publication
 pdf: /assets/schuth-probabilistic-2015.pdf

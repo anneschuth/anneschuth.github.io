@@ -3,6 +3,7 @@ author: "Aleksander Chuklin and Anne Schuth and Ke Zhou and Maarten de Rijke"
 date: "2015-01-01"
 journal: "ACM Transactions on Information Systems"
 key: chuklin2015
+doi: "10.1145/2668120"
 keywords: "aggregated search, evaluation, interleaving, journal, Lerot, TOIS"
 layout: publication
 pdf: /assets/chuklin-comparative-2015.pdf

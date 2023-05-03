@@ -3,6 +3,7 @@ author: "Samarth Bhargav and Anne Schuth and Claudia Hauff"
 booktitle: "Proceedings of SIGIR'23"
 date: "2023-04-25"
 key: bhargav2023
+doi: "10.1145/3539618.3592086"
 keywords: ""
 layout: publication
 title: "When the Music Stops: Tip-of-the-Tongue Retrieval for Music"
