@@ -1,6 +1,7 @@
 ---
 author: "Anne Schuth and Maarten Marx"
 date: "2011-01-01"
+doi: "10.1007/978-3-642-35734-3_13"
 key: schuth2011fast
 keywords: ""
 layout: publication

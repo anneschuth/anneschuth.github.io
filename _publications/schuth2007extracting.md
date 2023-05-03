@@ -3,6 +3,7 @@ author: "Anne Schuth and Maarten Marx and Maarten de Rijke"
 booktitle: "Proceedings of WIDM'07"
 date: "2007-01-01"
 key: schuth2007extracting
+doi: "10.1145/1316902.1316919"
 keywords: ""
 layout: publication
 organization: "ACM"

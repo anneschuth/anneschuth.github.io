@@ -1,6 +1,7 @@
 ---
 author: "Anne Schuth and Maarten Marx"
 date: "2011-01-01"
+doi: "10.1007/978-3-642-23708-9_15"
 journal: "Multilingual and Multimodal Information Access Evaluation"
 key: schuth2011evaluation
 keywords: "CLEF, faceted search"

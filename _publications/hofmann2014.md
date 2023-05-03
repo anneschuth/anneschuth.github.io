@@ -2,6 +2,7 @@
 author: "Katja Hofmann and Anne Schuth and Alejandro Bellogin and Maarten de Rijke"
 booktitle: "Proceedings of ECIR'14"
 date: "2014-01-01"
+doi: "10.1007/978-3-319-06028-6_67"
 key: hofmann2014
 keywords: "ECIR, evaluation, Lerot, recommender systems"
 layout: publication

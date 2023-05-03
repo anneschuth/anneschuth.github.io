@@ -2,6 +2,7 @@
 author: "Anne Schuth and Floor Sietsma and Shimon Whiteson and Maarten de Rijke"
 booktitle: "Proceedings of ECIR'14"
 date: "2014-01-01"
+doi: "10.1007/978-3-319-06028-6_7"
 key: schuth2014
 keywords: "ECIR, learning to rank, Lerot, online learning"
 layout: publication
