@@ -8,12 +8,12 @@ permalink: /wsdm2016-multileave-gradient-descent/
 ---
 
 Our
-paper “[Multileave Gradient Descent for Fast Online Learning to Rank](/assets/wsdm2016-multileave-gradient-descent.pdf)”
-with Anne Schuth, Harrie Oosterhuis, [Shimon Whiteson](https://www.cs.ox.ac.uk/people/shimon.whiteson/),
+paper [Multileave Gradient Descent for Fast Online Learning to Rank](/publications/schuth2016multileave)
+with Anne Schuth, [Harrie Oosterhuis](https://harrieo.github.io/), [Shimon Whiteson](https://www.cs.ox.ac.uk/people/shimon.whiteson/),
 and [Maarten de Rijke](https://staff.fnwi.uva.nl/m.derijke/) was accepted
 at [WSDM2016](http://www.wsdm-conference.org/2016/).
 
-We will present a [one page abstract at DIR](/assets/dir2015-multileave-gradient-descent.pdf).
+We will present a [one page abstract at DIR](/publications/schuth2015mgd).
 
 Modern search systems are based on dozens or even hundreds of ranking features. The *dueling bandit gradient descent* (
 DBGD) algorithm has been shown to effectively learn combinations of these features solely from user interactions. DBGD

@@ -7,7 +7,7 @@ permalink: /trec-opensearch-proposal-accepted/
 
 ---
 Our TREC proposal for OpenSearch has been accepted! TREC OpenSearch will be run in the same vein
-as [CLEF LL4IR](http://living-labs.net/clef-lab/) and use the same infrastructure.
+as CLEF LL4IR and use the same infrastructure.
 
 
 > OpenSearch is a new evaluation paradigm for IR. The experimentation platform *is* an existing search engine.
@@ -16,7 +16,7 @@ as [CLEF LL4IR](http://living-labs.net/clef-lab/) and use the same infrastructur
 
 Organizers
 - Anne Schuth, University of Amsterdam, The Netherlands
-- Krisztian Balog, University of Stavanger, Norway
+- [Krisztian Balog](https://krisztianbalog.com/), University of Stavanger, Norway
 
 Read more on the [TREC OpenSearch website](http://trec-open-search.org/).
 

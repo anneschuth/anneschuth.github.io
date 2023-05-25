@@ -8,8 +8,8 @@ categories:
     - Publication
 ---
 
-Our paper “[Probabilistic Multileave Gradient Descent](/assets/20160224-multileleavegradientdescent.pdf)” with Harrie
-Oosterhuis, Anne Schuth, and [Maarten de Rijke](https://staff.fnwi.uva.nl/m.derijke/) was accepted
+Our paper [Probabilistic Multileave Gradient Descent](/publications/oosterhuis2016) with [Harrie
+Oosterhuis](https://harrieo.github.io/), Anne Schuth, and [Maarten de Rijke](https://staff.fnwi.uva.nl/m.derijke/) was accepted
 at [ECIR2016](http://ecir2016.dei.unipd.it).
 
 Online learning to rank methods aim to optimize ranking models based on user interactions. The dueling bandit gradient

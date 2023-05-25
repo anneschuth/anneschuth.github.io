@@ -9,9 +9,9 @@ categories:
     - Publication
 ---
 
-Our paper “[Probabilistic Multileave for Online Retrieval Evaluation](/assets/2015/05/schuth-probabilistic-2015.pdf)”
-with Anne Schuth, Robert-Jan Bruintjes, Fritjof Büttner, Joost van Doorn, Carla Groenland, Cong-Nguyen Tran, Harrie
-Oosterhuis, Bas Veeling, Jos van der Velde, Roger Wechsler, David Woudenberg, and Maarten de Rijke was accepted as a
+Our paper [Probabilistic Multileave for Online Retrieval Evaluation](/publications/schuth-2015-probabilistic)
+with Anne Schuth, Robert-Jan Bruintjes, Fritjof Büttner, Joost van Doorn, Carla Groenland, Cong-Nguyen Tran, [Harrie
+Oosterhuis](https://harrieo.github.io/), Bas Veeling, Jos van der Velde, Roger Wechsler, David Woudenberg, and Maarten de Rijke was accepted as a
 short paper at [SIGIR2015](http://www.sigir2015.org/).
 
 ### Abstract

@@ -14,7 +14,7 @@ tags:
 ---
 
 Our
-paper “[Effects of Position Bias on Click-Based Recommender Evaluation](/publications/hofmann2014)”
+paper [Effects of Position Bias on Click-Based Recommender Evaluation](/publications/hofmann2014)
 with [Katja Hofmann](http://katja-hofmann.de), Anne Schuth, [Alejandro Bellogin](http://ir.ii.uam.es/~alejandro/),
 and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted as a short paper at ECIR 2014.
 

@@ -7,11 +7,11 @@ permalink: /lila16-tutorial-at-ecir16/
 categories:
     - Workshop
 ---
-[ECIR 2016](http://ecir2016.dei.unipd.it/) in Padova will feature [LiLa 2016](http://living-labs.net/tutorial/), the
+[ECIR 2016](http://ecir2016.dei.unipd.it/) in Padova will feature LiLa 2016, the
 first edition of our tutorial on Living Labs for Online Evaluation.
 
 - Anne Schuth, University of Amsterdam, The Netherlands
-- Krisztian Balog, University of Stavanger, Norway
+- [Krisztian Balog](https://krisztianbalog.com/), University of Stavanger, Norway
 - Duration: Half-Day
 
 Experimental evaluation was always central to Information Retrieval research. The field is increasingly moving towards

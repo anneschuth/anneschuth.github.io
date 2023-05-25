@@ -14,4 +14,4 @@ Firstly, we received funding to host, develop and maintain our LL4IR API. So kee
 through our [issue tracker](https://bitbucket.org/living-labs/ll-api/issues). Stay tuned, things will be faster soon!
 
 Secondly, we will be able to (partially) cover travel expenses of participants of
-our[ CLEF2015 LL4IR](http://clef2015.clef-initiative.eu/CLEF2015/programme.php) Session. More info on that soon too.
+our [CLEF2015 LL4IR](http://clef2015.clef-initiative.eu/CLEF2015/programme.php) Session. More info on that soon too.

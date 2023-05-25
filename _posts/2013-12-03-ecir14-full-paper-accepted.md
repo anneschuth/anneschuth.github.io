@@ -13,7 +13,7 @@ tags:
     - paper
 ---
 
-Our paper “[Optimizing Base Rankers Using Clicks: A Case Study using BM25](/assets/2014/01/ecir2014-schuth-bm25.pdf)”
+Our paper [Optimizing Base Rankers Using Clicks: A Case Study using BM25](/publications/schuth2014)
 with Anne
 Schuth, [Floor Sietsma](http://nl.linkedin.com/pub/floor-sietsma/11/3b0/80b), [Shimon Whiteson](http://staff.science.uva.nl/~whiteson),
 and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted as a full paper at ECIR 2014.

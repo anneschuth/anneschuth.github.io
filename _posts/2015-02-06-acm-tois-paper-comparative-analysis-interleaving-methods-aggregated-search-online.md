@@ -7,7 +7,7 @@ permalink: /acm-tois-paper-comparative-analysis-interleaving-methods-aggregated-
 ---
 
 Our ACM Transactions on Information Systems paper
-called [“A comparative analysis of interleaving methods for aggregated search”](/assets/2015/02/tois2015-interleaving-for-aggregated-search.pdf)
+called [A comparative analysis of interleaving methods for aggregated search](/publications/chuklin2015)
 by [Aleksandr Chuklin](https://www.linkedin.com/in/chuklin), Anne Schuth, [Ke Zhou](http://www.dcs.gla.ac.uk/~zhouke/)
 and [Maarten de Rijke](https://staff.fnwi.uva.nl/m.derijke/) is available now.
 

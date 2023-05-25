@@ -11,8 +11,8 @@ categories:
 ---
 
 Our paper “Sustainable Questions” with Bart de Goede and Maarten de Rijke has been accepted at
-the [Time Aware Information Acces workshop](http://research.microsoft.com/en-us/people/milads/taia2012.aspx "TAIA'12")
-at SIGIR'12. Our paper can be found [here](/assets/2012/08/taia2012-sustainable.pdf).
+the [Time Aware Information Access workshop](http://research.microsoft.com/en-us/people/milads/taia2012.aspx)
+at SIGIR'12. Our paper can be found [here](/publications/de2012sustainable).
 
 ### Abstract
 

@@ -9,5 +9,5 @@ categories:
     - Teaching
 ---
 
-Bart de Goede just successfully defended his master thesis titled: “Sustainable Questions”. A shortened version got
+Bart de Goede just successfully defended his master thesis titled: “Sustainable Questions”. A [shortened version](/publications/de2012sustainable) got
 published at the Time Aware Information Access Workshop at SIGIR 2012 in Portland, Oregon. Congratulations Bart!

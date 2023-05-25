@@ -15,7 +15,7 @@ tags:
 ---
 
 Our
-paper “[Evaluating Intuitiveness of Vertical-Aware Click Models](/assets/Chuklin-et-al.-2014-Evaluating-Intuitiveness-of-Vertical-Aware-Click-Models.pdf)”
+paper [Evaluating Intuitiveness of Vertical-Aware Click Models](/publications/chuklin2014)
 with [Aleksandr Chuklin](http://ch.linkedin.com/in/chuklin), [Ke Zhou](http://www.dcs.gla.ac.uk/~zhouke/), Anne
 Schuth, [Floor Sietsma](http://nl.linkedin.com/pub/floor-sietsma/11/3b0/80b),
 and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted as a short paper at SIGIR 2014.
