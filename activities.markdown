@@ -12,6 +12,7 @@ and served in leadership positions such as chair of the FNWI PhD Council.
 
 ## 2023
 
+- PC member ORSUM2023
 - PC member SIGIR2023 Tutorials
 - Reviewer SIGIR2023 Short Papers
 
