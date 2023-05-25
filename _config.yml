@@ -19,7 +19,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-show_excerpts: true
+paginate: 3
 
 minima:
   date_format: "%b %-d, %Y"

@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+paginate: 5
+
 ---
 
 ![Picture of Anne Schuth](/assets/anne-campus-270x270.png){: .round }

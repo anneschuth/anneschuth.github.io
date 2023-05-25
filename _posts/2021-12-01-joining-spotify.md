@@ -7,8 +7,7 @@ permalink: /joining-spotify/
 
 ---
 
-Last week was my last at DPG Media, after a ride of almost 4 years. I'm thankful for the company and the people there (
-in
+Last week was my last at DPG Media, after a ride of almost 4 years. I'm thankful for the company and the people there (in
 particular [Philippe Remarque](https://www.linkedin.com/in/ACoAAAIpZLABuK7d0Nb0LXSoGGpIxpF0WqgThJs), [Marten Blankesteijn](https://www.linkedin.com/in/ACoAAACcZUIBdz3bGYD0kAABxtRwcF7v-py9EtI), [Paul Vereijken](https://www.linkedin.com/in/ACoAAABbO_cBX1GsF3TSVoHniOOxg0dFxoe7wgk))
 that allowed me to do what I did: growing a team focussing on personalization.
 
