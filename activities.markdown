@@ -12,13 +12,14 @@ and served in leadership positions such as chair of the FNWI PhD Council.
 
 
 ## 2024
-- PC member [WSDM 2024](https://www.wsdm-conference.org/2024/)
+- PC member [WSDM2024](https://www.wsdm-conference.org/2024/)
 
 ## 2023
 
 - PC member ORSUM2023
-- PC member SIGIR2023 Tutorials
-- Reviewer SIGIR2023 Short Papers
+- PC member [SIGIR2023](https://sigir.org/sigir2023/) Tutorials
+- Reviewer [SIGIR2023](https://sigir.org/sigir2023/) Short Papers
+- Member [AlgoSoc](https://algosoc.org/) Stakeholder Advisory Board
 
 ## 2022
 
