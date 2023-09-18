@@ -11,7 +11,6 @@ linkedin_username: anneschuth
 mastodon:
 - username: anneschuth
   instance: mastodon.social
-google_analytics: G-B7V2RZGY6P
 
 theme: minima
 plugins:
