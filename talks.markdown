@@ -8,6 +8,9 @@ permalink: /talks/
 This is an exhaustive (I think) list of talks I gave and posters I presented since obtaining my master's degree. Please
 let me know if something (a slide deck or poster, for instance) is missing. Please feel free to use my slides (with a reference).
 
+## 2024
+- **Meten is Weten: Benchmarks voor Generatieve AI** Launch event vision on Generative AI, January 18, 2024.
+
 ## 2023
 - **AI in an Ivory Tower.** ICAI Townhall, October 12, 2023.
 
