@@ -15,4 +15,4 @@ Amsterdam.
 My defense was recorded and can
 be [viewed online on the website of the university](http://webcolleges.uva.nl/Mediasite/Play/1ee49f6e8d55445496b574b5df73fd3d1d).
 
-![Thesis Cover](/assets/thesis-cover-1-725x1024.png)
+[![Thesis Cover](/assets/thesis-cover-1-725x1024.png)](/publications/schuth-phd-thesis-2016)
