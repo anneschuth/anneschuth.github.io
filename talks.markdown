@@ -9,6 +9,7 @@ This is an exhaustive (I think) list of talks I gave and posters I presented sin
 let me know if something (a slide deck or poster, for instance) is missing. Please feel free to use my slides (with a reference).
 
 ## 2024
+- [upcoming](https://img.shields.io/badge/talk-upcoming-orange) **Citizen Portals in the Netherlands: Enabling citizens to understand how they are scored**, ACM FAccT Conference 2024, June 2024, ([event](https://facctconference.org/2024/)).
 - **AI Validation Team** at the Digilab Meetup, March 26, 2024, ([event](https://realisatieibds.nl/groups/view/0056c9ef-5c2e-44f9-a998-e735f1e9ccaa/federatief-datastelsel/blog/view/1eff7daf-fa67-4b59-84ed-13b427b1bc15/digilab-meetup-een-feit)).
 - **Meten is Weten: Benchmarks voor Generatieve AI.** Launch event vision on Generative AI, January 18, 2024, ([slides](/assets/Meten is weten - benchmarks voor generatieve AI.pdf)).
 
@@ -37,16 +38,16 @@ let me know if something (a slide deck or poster, for instance) is missing. Plea
 
 - **Impact of personalized recommendations on diversity**, *45th EPRA Meeting*. Edinburgh, Scotland. May 19,
   2017 ([slides](/assets/epra-anneschuth.pdf)).
-- **Digital Consciousness,** *Sign of Time #14. Pakhuis de Zwijger, Amsterdam, The Netherlands. March 27,
+- **Digital Consciousness**, *Sign of Time #14. Pakhuis de Zwijger, Amsterdam, The Netherlands. March 27,
   2017 ([slides](https://researchblendle.files.wordpress.com/2017/03/sign-of-time-digital-consciousness-anneschuth.pdf), [event](https://dezwijger.nl/programma/digital-conciousness)).*
 - **Streaming Recommendations**, *Sanoma Tech Talks.* Hoofddorp, The Netherlands. April 10,
   2017 ([slides](https://researchblendle.files.wordpress.com/2016/11/sanoma-tech-talks.pdf), [video](https://www.youtube.com/watch?v=5F2mfhRU3yw)).
-- **Streaming Recommendations,** *Poki.* Amsterdam, The Netherlands. February 7,
+- **Streaming Recommendations**, *Poki.* Amsterdam, The Netherlands. February 7,
   2017 ([slides](/assets/northeast-anneschuth-streamingblendle.pdf)).
 
 ## 2016
 
-- **Personalising the Blendle Newsletter,** *Xite.* Amsterdam, The Netherlands. November 10, 2016. (
+- **Personalising the Blendle Newsletter**, *Xite.* Amsterdam, The Netherlands. November 10, 2016. (
   slides, [Blendle](https://blendle.com/)).
 - **Search and Recommendations at Blendle**, *Invited Lecture Radboud University.* Nijmegen, The Netherlands. November
   7, 2016 (slides, [Blendle](https://blendle.com/)).
@@ -56,7 +57,7 @@ let me know if something (a slide deck or poster, for instance) is missing. Plea
   2016 ([slides](/assets/appliedml-anneschuth-streamingblendle.pdf), [meetup](http://www.meetup.com/The-Amsterdam-Applied-Machine-Learning-Meetup-Group/events/234463593/), [Blendle](https://blendle.com/)).
 - **Streaming Recommendation**, *Data Science Northeast Netherlands.* Meppel, The Netherlands. October 13,
   2016 ([slides](/assets/northeast-anneschuth-streamingblendle.pdf), [meetup](http://www.meetup.com/Data-Science-Northeast-Netherlands/events/233467122/), [Blendle](https://blendle.com/)).
-- **Personalisatie van de Blendle Nieuwsbrief,** *Persgroep Digital Day.* Amsterdam, The Netherlands. October 6, 2016.
+- **Personalisatie van de Blendle Nieuwsbrief**, *Persgroep Digital Day.* Amsterdam, The Netherlands. October 6, 2016.
 - **Realtime Recommendation at Blendle**, *Search Engines Amsterdam Meetup.* Amsterdam, The Netherlands. August 26,
   2016 ([slides](/assets/sea-anneschuth-streamingblendle.pdf), [meetup](http://www.meetup.com/SEA-Search-Engines-Amsterdam/events/230808199/), [Blendle](https://blendle.com/)).
 - **Personalised Blendle**, *ADS Coffee &amp; Data: Personalisation and Recommendations.* Amsterdam, The Netherlands.
@@ -120,49 +121,49 @@ let me know if something (a slide deck or poster, for instance) is missing. Plea
   2014 ([slides](/assets/multileave.pdf), [paper](/assets/ir1190-schuth-cikm2014-multileave.pdf)).
 - **Multileaved Comparisons for Fast Online Evaluation**, *ILPS Soos*. Amsterdam, The Netherlands. October 21,
   2014 ([paper](/assets/ir1190-schuth-cikm2014-multileave.pdf)).
-- **Online Learning to Rank,** *Textkernel Tech Talks*. Amsterdam, The Netherlands. June 26,
+- **Online Learning to Rank**, *Textkernel Tech Talks*. Amsterdam, The Netherlands. June 26,
   2014 ([slides](/assets/20140626-textkernel-anneschuth.pdf)).
-- **Unpublished Work,** *ILPS Soos.* Amsterdam, The Netherlands. June 17, 2014.
-- **Living Labs Challenge API,** *Living Labs Challenge Workshop*. Amsterdam, The Netherlands. June 6, 2014.
-- **Optimizing Base Rankers Using Clicks: A Case Study using BM25,** *ECIR'14*, Amsterdam, The Netherlands. April 14,
+- **Unpublished Work**, *ILPS Soos.* Amsterdam, The Netherlands. June 17, 2014.
+- **Living Labs Challenge API**, *Living Labs Challenge Workshop*. Amsterdam, The Netherlands. June 6, 2014.
+- **Optimizing Base Rankers Using Clicks: A Case Study using BM25**, *ECIR'14*, Amsterdam, The Netherlands. April 14,
   2014 ([slides](/assets/ecir-2014-bm25.pdf), [paper](/assets/ecir2014-schuth-bm25.pdf)).
-- **Effects of Position Bias on Click-Based Recommender Evaluation,** *ECIR'14*, Amsterdam, The Netherlands. April 14,
+- **Effects of Position Bias on Click-Based Recommender Evaluation**, *ECIR'14*, Amsterdam, The Netherlands. April 14,
   2014 ([paper](/assets/ecir2014-sp-interleaving.pdf)).
 
 ## 2013
 
-- **Query Reformulation as a Predictor of Search Satisfaction,** paper by *Ahmed Hassan, Xiaolin Shi, Nick Craswell,
+- **Query Reformulation as a Predictor of Search Satisfaction**, paper by *Ahmed Hassan, Xiaolin Shi, Nick Craswell,
   Bill Ramsey*  *ILPS Reading Group*. Amsterdam, The Netherlands. November 22, 2013.
-- **Lerot: an Online Learning to Rank Framework,** *Living Labs workshop at CIKM'13.* San Francisco, USA. November 1,
+- **Lerot: an Online Learning to Rank Framework**, *Living Labs workshop at CIKM'13.* San Francisco, USA. November 1,
   2013 ([slides](/assets/ll2013-lerot.pdf), [paper](/assets/cikm-livinglab-2013-lerot.pdf)).
-- **Evaluating Aggregated Search Using Interleaving,** *CIKM'13.* San Francisco, USA. October 27,
+- **Evaluating Aggregated Search Using Interleaving**, *CIKM'13.* San Francisco, USA. October 27,
   2013 ([slides](/assets/cikm2013-evaluation-aggregated-search.pdf), [paper](/assets/ir0656-chuklin.pdf)).
-- **Evaluating Aggregated Search Using Interleaving,** *ILPS Soos*. Amsterdam, The Netherlands. October 1, 2013.
-- **Using Intent Information to Model User Behavior in Diversified Search,** paper by *Aleksandr Chuklin, Pavel
+- **Evaluating Aggregated Search Using Interleaving**, *ILPS Soos*. Amsterdam, The Netherlands. October 1, 2013.
+- **Using Intent Information to Model User Behavior in Diversified Search**, paper by *Aleksandr Chuklin, Pavel
   Serdyukov and Maarten de Rijke* *DIR'13.* Delft, The Netherlands. April 26,
   2013 ([slides](/assets/ECIR13-chuklin.pdf), [paper](http://ilps.science.uva.nl/sites/default/files/ecir2013-layout.pdf)).
-- **Doing a PhD in Artificial Intelligence: Search Engines that Learn,** *Information day BSc. Artificial Intelligence.*
+- **Doing a PhD in Artificial Intelligence: Search Engines that Learn**, *Information day BSc. Artificial Intelligence.*
   Amsterdam, The Netherlands. March 23, 2013.
-- **Reusing Historical Interaction Data for Faster Online Learning to Rank for IR,** *Invited talk at the IR group of
+- **Reusing Historical Interaction Data for Faster Online Learning to Rank for IR**, *Invited talk at the IR group of
   the University of Glasgow.* Glasgow, Scotland, UK. March 10,
   2013 ([slides](/assets/20130312-reusinghistoricaldata.pdf), [paper](/assets/wsdm-2013-learning.pdf)).
-- **Learning from Simulations, Users and Annotators: a research agenda,** *ILPS Soos.* Amsterdam, The Netherlands. March
+- **Learning from Simulations, Users and Annotators: a research agenda**, *ILPS Soos.* Amsterdam, The Netherlands. March
   1, 2013.
 
 ## 2012
 
-- **Sustainable Questions,** *Time Aware Information Access Workshop at SIGIR 2012.* Portland, Oregon, USA. August 17,
+- **Sustainable Questions**, *Time Aware Information Access Workshop at SIGIR 2012.* Portland, Oregon, USA. August 17,
   2012 ([slides](/assets/taia2012-sustainable-slides.pdf), [paper](/assets/taia2012-sustainable-slides.pdf)).
-- **From Sentiment to Reputation,** *ILPS Soos.* Amsterdam, The Netherlands. June 12,
+- **From Sentiment to Reputation**, *ILPS Soos.* Amsterdam, The Netherlands. June 12,
   2012 ([slides](/assets/sentiment-presentation.pdf)).
 
 ## 2011
 
-- **Tuning Methods in Statistical Machine Translation,** KION Thesis Award Presentation at BNAIC'11. Gent, Belgium.
+- **Tuning Methods in Statistical Machine Translation**, KION Thesis Award Presentation at BNAIC'11. Gent, Belgium.
   November 4, 2011 ([slides](/assets/KION-presentation.pdf), [thesis](/assets/anne-schuth-msc-thesis.pdf)).
 - **Fast Faceted Search in** XML, XMLAmsterdam Conference. Amsterdam, The Netherlands. October 26,
   2011 ([slides](/assets/presentation-export.pdf)).
-- **Fast Faceted Search in XML,** XML Prague'11 pre-conference day. Prague, Czech Republic. October 17,
+- **Fast Faceted Search in XML**, XML Prague'11 pre-conference day. Prague, Czech Republic. October 17,
   2011 ([slides](/assets/xml-prague-presentation.pdf)).
-- **Evaluation methods for rankings of facetvalues for faceted search,** CLEF'11. Amsterdam, The Netherlands.
+- **Evaluation methods for rankings of facetvalues for faceted search**, CLEF'11. Amsterdam, The Netherlands.
   September 21, 2011 ([slides](/assets/clef2011-presentation.pdf), [paper](/assets/clef2011-schuth-evaluation.pdf)).
