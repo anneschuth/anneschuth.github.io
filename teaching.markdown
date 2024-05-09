@@ -6,10 +6,16 @@ layout: page
 permalink: /teaching/
 ---
 
-## Students
+## Students and Trainees
 
-I (co-)supervised the following students. Many of them were interns, with some we published a paper. If you are
+I (co-)supervised the following students and trainees. Many of them were interns, with some we published a paper. If you are
 interested in internships, feel free to reach out!
+
+### Guusje Juijn (2024)
+
+**Degree**: [Rijks I-Trainee](https://www.rijksorganisatieodi.nl/rijks-i-traineeship)\
+**Host company**: Ministry of the Interior and Kingdom Relations\
+**Co-supervisor**: Christopher Spelt\
 
 ### [Thilina Rajapakse](https://github.com/ThilinaRajapakse) (2023)
 
