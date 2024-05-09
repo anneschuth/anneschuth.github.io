@@ -13,7 +13,7 @@ interested in internships, feel free to reach out!
 
 ### [Guusje Juijn](https://www.linkedin.com/in/guusjejuijn/) (2024)
 
-**Programm**: [Rijks I-Trainee](https://www.rijksorganisatieodi.nl/rijks-i-traineeship)\
+**Program**: [Rijks I-Trainee](https://www.rijksorganisatieodi.nl/rijks-i-traineeship)\
 **Host company**: Ministry of the Interior and Kingdom Relations\
 **Co-supervisor**: Christopher Spelt\
 
