@@ -15,7 +15,7 @@ interested in internships, feel free to reach out!
 
 **Program**: [Rijks I-Trainee](https://www.rijksorganisatieodi.nl/rijks-i-traineeship)\
 **Host company**: Ministry of the Interior and Kingdom Relations\
-**Co-supervisor**: Christopher Spelt\
+**Co-supervisor**: Christopher Spelt
 
 ### [Thilina Rajapakse](https://github.com/ThilinaRajapakse) (2023)
 
