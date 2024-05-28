@@ -11,6 +11,13 @@ permalink: /teaching/
 I (co-)supervised the following students and trainees. Many of them were interns, with some we published a paper. If you are
 interested in internships, feel free to reach out!
 
+### Renate Burema (2024 - 2025)
+**Program**: Intern\
+**Host company**: Ministry of the Interior and Kingdom Relations\
+**Topic**: LLMs Benchmarks for The Netherlands\
+**Co-supervisor**: Christopher Spelt
+
+
 ### [Guusje Juijn](https://www.linkedin.com/in/guusjejuijn/) (2024)
 
 **Program**: [Rijks I-Trainee](https://www.rijksorganisatieodi.nl/rijks-i-traineeship)\
