@@ -8,7 +8,7 @@ paginate: 5
 
 ![Picture of Anne Schuth](/assets/anne-campus-270x270.png){: .round }
 
-I work on AI for the Dutch Government as Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/), employed by the [Rijks ICT Gilde](https://www.rijksorganisatieodi.nl/rijks-ict-gilde). 
+I am the Head of Engineering at the [Rijks ICT Gilde](https://www.rijksorganisatieodi.nl/rijks-ict-gilde) and I work on AI for the Dutch Government as Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
 
 I used to be Machine Learning Engineering Manager in the Search team at Spotify.
 Before joining Spotify, I spent almost 4 years at DPG Media in various roles, all contributing towards a push for
