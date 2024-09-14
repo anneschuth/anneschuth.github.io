@@ -160,7 +160,7 @@ let me know if something (a slide deck or poster, for instance) is missing. Plea
 ## 2011
 
 - **Tuning Methods in Statistical Machine Translation**, KION Thesis Award Presentation at BNAIC'11. Gent, Belgium.
-  November 4, 2011 ([slides](/assets/KION-presentation.pdf), [thesis](/assets/anne-schuth-msc-thesis.pdf)).
+  November 4, 2011 ([slides](/assets/KION-presentation.pdf), [thesis](/publications/schuth2010tuning)).
 - **Fast Faceted Search in** XML, XMLAmsterdam Conference. Amsterdam, The Netherlands. October 26,
   2011 ([slides](/assets/presentation-export.pdf)).
 - **Fast Faceted Search in XML**, XML Prague'11 pre-conference day. Prague, Czech Republic. October 17,
