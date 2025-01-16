@@ -12,7 +12,7 @@ It's been 15 months since my last (and first) [weeknote](/2023/08/20/ivory-tower
 
 ## Why Now?
 
-The timing isn't coincidental. Bureau Architecture, despite what I consider a somewhat misleading name, takes significant inspiration from GDS and Gov.uk. If you're familiar with the UK's digital government transformation, you'll know that weeknotes are part of their DNA. It's a practice that promotes transparency, reflection, and continuous learning - all things we desperately need in government digital transformation. 
+The timing isn't coincidental. Bureau Architecture, despite what I consider a somewhat misleading name, takes significant inspiration from [GDS](https://www.gov.uk/government/organisations/government-digital-service) and [Gov.uk](https://www.gov.uk/) (a single portal to government services in the UK). If you're familiar with the UK's digital government transformation, you'll know that weeknotes are part of their DNA. It's a practice that promotes transparency, reflection, and continuous learning - all things we desperately need in government digital transformation. 
 
 ## The Name Thing
 
