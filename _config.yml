@@ -7,7 +7,7 @@ baseurl: /
 url: https://anneschuth.nl
 github_username: anneschuth
 linkedin_username: anneschuth
-bluesky: anneschuth.nl
+bluesky_username: anneschuth.nl
 mastodon:
 - username: anneschuth
   instance: mastodon.social
