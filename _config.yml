@@ -1,11 +1,10 @@
 title: Anne Schuth
 email: anne.schuth@gmail.com
 description: >- # 
-  Anne Schuth has a PhD in Search, is Head of Engineering, and works on AI for the Dutch Government
+  Anne Schuth has a PhD in Search and works on Engineering for the Dutch Government
 domain: anneschuth.github.io
 baseurl: /
 url: https://anneschuth.nl
-twitter_username: anneschuth
 github_username: anneschuth
 linkedin_username: anneschuth
 mastodon:
@@ -23,7 +22,6 @@ paginate: 3
 minima:
   date_format: "%b %-d, %Y"
   social_links:
-    twitter: anneschuth
     github: anneschuth
     linkedin: anneschuth
 
