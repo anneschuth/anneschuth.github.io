@@ -22,3 +22,4 @@
 
 {%- if site.rss -%}<a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a> &nbsp; {%- endif -%}
 
+{%- if site.bluesky_username -%}<a rel="me" href="https://bsky.app/profile/{{ site.bluesky_username }}" title="Bluesky"><svg class="svg-icon grey" viewBox="0 0 24 24"><path d="M12.063 2.354c-5.8-.013-8.979 6.218-5.828 10.398 2.784 3.695 3.66 5.036 3.66 5.036l2.105 3.858 2.105-3.858c.585-1.024 1.519-2.316 2.803-3.858 3.338-4.003 1.244-11.563-4.845-11.576zm0 6.245c-1.147 0-2.078-.93-2.078-2.078 0-1.147.93-2.077 2.078-2.077 1.147 0 2.077.93 2.077 2.077 0 1.148-.93 2.078-2.077 2.078z"/></svg></a>{%- endif -%}
