@@ -8,7 +8,7 @@ paginate: 5
 
 ![Picture of Anne Schuth](/assets/anne-campus-270x270.png){: .round }
 
-I am the Head of Engineering at the [Rijks ICT Gilde](https://www.rijksorganisatieodi.nl/rijks-ict-gilde) and I work on AI for the Dutch Government as Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
+I work on AI and Engineering for the Dutch Government, currently as Engineer in the Bureau Architecture (in formation). Before this, I was Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
 
 I used to be Machine Learning Engineering Manager in the Search team at Spotify.
 Before joining Spotify, I spent almost 4 years at DPG Media in various roles, all contributing towards a push for
@@ -28,14 +28,14 @@ Cambridge UK and Yandex in Moscow.
 
 ### Government
 
-#### Rijks ICT Gilde (RIG)
+#### Bureau Architecture (in formation)
 *The Hague, The Netherlands*  
-**Head of Engineering** (Sep 2024 -- present)  
-Member of the management team of the Rijks ICT Gilde.
+**Engineer** (Jan 2025 -- present)  
+Engineer in the Bureau Architecture (in formation).
 
 #### Ministry of the Interior and Kingdom Relations (BZK)
 *The Hague, The Netherlands*  
-**Engineering Manager - AI Validation Team** (Aug 2023 -- present)  
+**Engineering Manager - AI Validation Team** (Aug 2023 -- Dec 2024)  
 Growing and supporting the AI Validation Team at the Digital Society Department, NL Ministry of the Interior and Kingdom Relations (BZK). This is a team of engineers, product, UX, focused on building software for AI validation.
 
 ### Industry
