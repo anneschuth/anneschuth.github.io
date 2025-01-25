@@ -53,6 +53,6 @@ The implications of this approach are significant, and I'm still uncovering new 
 toward delivery. I'm looking for opportunities to test these ideas in real, albeit small, contexts.
 
 We need to bring the right people on board - not just engineers and architects, but policy makers, legal experts, and
-most importantly, the civil servants who work directly with citizens.
+most importantly, the civil servants who work directly with citizens. And, importantly, a UX designer, I think.
 
 The experiment continues, but with an eye toward making it real.
