@@ -81,7 +81,7 @@ kijken. Zie ook de sterke stukken van [Bert Hubert](https://berthub.eu/) van de 
 ## Het begin van de zoektocht
 
 Dus zo begon, begin December 2024, onze zoektocht naar een omgeving waar we wel productie kunnen draaien.
-In eerste instance voor de [AMT](https://github.com/MinBZK/amt), maar in principe voor alle software die we maken vanuit
+In eerste instantie voor de [AMT](https://github.com/MinBZK/amt), maar in principe voor alle software die we maken vanuit
 het [Rijks ICT Gilde](https://www.rijksorganisatieodi.nl/rijks-ict-gilde) en in productie willen brengen.
 
 Op zoek naar een productie omgeving binnen de Nederlandse Overheid.
@@ -238,7 +238,7 @@ De lat ligt op 19 minuten. Laten we daar naartoe werken vanaf de ruim 190.000 mi
 Er is **ruimte voor een 10.000x speedup**. Juist omdat die ruimte groot is, heb ik er vertrouwen in dat we grote stappen 
 kunnen zetten om dit beter te maken, zelfs met simpele ingrepen in het huidige proces. 
 Maar beter nog, toewerkend naar een echt platform engineering organisatie, waar een Kubernetes namespace met een 
-simpele druk op de knop geregeld is. En daar draag ik graag aan bij!
+simpele druk op de knop geregeld is. We hebben de mensen en kennis om dit te doen! En daar draag ik met mijn ervaring bij Spotify graag aan bij!
 
 ## Tot slot
 
