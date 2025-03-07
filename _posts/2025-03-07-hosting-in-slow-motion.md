@@ -32,8 +32,11 @@ Minder dan **12 minuten later** kwam het bericht _"done!"_ en hadden we twee Kub
 Precies wat we ook nu zoeken: twee namespaces met elk 4 cores, 4GB geheugen, en een persisted volume van 100GB. Het
 stelt echt helemaal niets voor.
 
-Helaas is de infra van Digilab niet ingericht voor productie.
-Het heeft geen enkele SLA (want veel minder dan een FTE aan ondersteuning) en het is niet geschikt voor productie data.
+Helaas is de infra van Digilab niet geschikt voor productie: het heeft geen enkele SLA (want veel minder dan een
+FTE aan ondersteuning) en het is niet geschikt voor productie data.
+Voor de duidelijkheid, het aanvragen van een productie omgeving bij Digilab (als dit ondersteund zou worden) zou ook 12
+minuten duren, simpelweg omdat alles geautomatiseerd is. En dat is met een _Mattermost_ chat interface, als dit een knop
+zou zijn, dat zou dit praktisch naar 0 minuten gaan.
 
 ## Hoe het ook kan
 
@@ -85,8 +88,9 @@ Op zoek naar een productie omgeving binnen de Nederlandse Overheid.
 Op zoek, in feite, naar twee Kubernetes namespaces met elk 4 cores, 4GB geheugen, en een persisted volume van 100GB.
 Nogmaals: het stelt helemaal niets voor.
 
-Er zijn, zo blijkt, binnen de overheid eigenlijk maar een paar partijen die zoiets aanbieden.
-En uiteindelijk lijken onze opties beperkt tot slechts één partij.
+Er zijn, zo blijkt, binnen de overheid eigenlijk maar een paar diensten binnen de overheid waar we hiervoor kunnen
+aankloppen.
+En uiteindelijk lijken onze opties beperkt tot slechts één dienst.
 Dus die schreven we op **4 December** aan. Dit was het eerste mailtje van, wat we toen nog niet wisten, heel veel
 mailtjes. **Zie onderaan een chronologisch overzicht.**
 
@@ -115,7 +119,7 @@ Dezelfde dag nog kregen we een reactie: "Dag Medewerker3, ik zal vandaag een uit
 dachten we. Er kwam beweging in!
 
 Op **16 december** werd er een mail doorgestuurd waarin onze vragen over dienstverlening werden besproken, en twee dagen
-later, op **18 december**, hadden we eindelijk onze eerste overleg. Vier medewerkers, dertig minuten - dat leek redelijk
+later, op **18 december**, hadden we onze eerste overleg. Vier medewerkers, dertig minuten - dat leek redelijk
 efficiënt.
 
 De volgende dag ontvingen we een opvolgende e-mail: "Hi Medewerker1, Medewerker4, dank voor ons gesprek gisteren..." We
@@ -123,23 +127,22 @@ hadden goede hoop. Het proces was in gang gezet. Nu was het wachten op de volgen
 
 ## Het nieuwe jaar - de bureaucratie ontwaakt
 
-Maar dan volgt er bijna een maand radiostilte. Geen updates, geen vragen, geen voortgang. Het was vakantie.
-Op **15 januari 2025** voelen we ons genoodzaakt om zelf maar weer contact op te nemen: "Hi Medewerker2, hebben jullie
+Maar dan volgt er bijna een maand radiostilte. Geen updates, geen vragen, geen voortgang. Het was dan ook vakantie.
+Op **15 januari 2025** voelen we ons genoodzaakt om zelf contact op te nemen: "Hi Medewerker2, hebben jullie
 tijd gehad...?"
 
 De dag erna komt er een geruststellend antwoord: "Dag Medewerker1, we zijn ermee bezig..." En vier dagen later volgt het
 verzoek om data en tijden door te geven voor een nieuwe vergadering.
 
-Na wat heen en weer gemaild over beschikbaarheid, ontvangen we op **22 januari** eindelijk het nieuws dat er "interne
+Na wat heen en weer gemaild over beschikbaarheid, ontvangen we op **22 januari** het nieuws dat er "interne
 goedkeuring" is. Blijkbaar moest er eerst intern worden besproken of we überhaupt verder konden gaan met het proces.
 
-Op **27 januari** volgt dan eindelijk de "intake meeting". Een vergadering van anderhalf uur met vier mensen. Dat zijn
-zes
-mensuren om te bespreken wat we nodig hebben: twee namespaces, elk 4 cores, 4GB geheugen, en 100GB opslag.
+Op **27 januari** volgt dan de "intake meeting". Een vergadering van anderhalf uur met vier mensen. Dat zijn
+zes mensuren om te bespreken wat we nodig hebben: twee namespaces, elk 4 cores, 4GB geheugen, en 100GB opslag.
 
 ## Februari - de papierwinkel begint
 
-De dag na de intake meeting ontvangen we een document: "Intake Architectuur v0.1.docx". Eindelijk wordt er iets
+De dag na de intake meeting ontvangen we een document: "Intake Architectuur v0.1.docx". Er wordt iets
 concreets opgeleverd!
 
 Op **29 januari** is er weer een meeting, een demonstratie deze keer. Twee uur, vier personen.
@@ -154,22 +157,21 @@ Ondertussen delen we de security-feedback en voeren we een telefoongesprek met o
 opgeven".
 
 Op **10 februari** is er weer een vergadering, een "afstemming meeting" deze keer. Een uur, drie personen. Weer drie
-mensuren om te praten over... ja, waarover eigenlijk? Over het proces? Over de vraag wanneer we nu eindelijk die twee
+mensuren om te praten over... ja, waarover eigenlijk? Over het proces? Over de vraag wanneer we nu  die twee
 namespaces krijgen?
 
 ## De laatste loodjes - of toch niet?
 
 Halverwege februari begint het ongeduld toch echt toe te slaan. Op **17 februari** vragen we expliciet om een tijdpad: "
-Hi
-Medewerker4, zou jij ons een tijdpad kunnen geven...". Twee dagen later volgt er nog een mail: "Hi Medewerker4, mogelijk
+Hi Medewerker4, zou jij ons een tijdpad kunnen geven...". Twee dagen later volgt er nog een mail: "Hi Medewerker4, mogelijk
 zijn er nog wat obstakels...".
 
 Op **21 februari** bespreken we in een Mattermost-chat met onze manager of we moeten escaleren. We zijn nu al bijna drie
-maanden bezig, en we hebben nog steeds geen concrete datum wanneer we de omgeving kunnen verwachten.
+maanden bezig, en we hebben nog geen concrete datum wanneer we de omgeving kunnen verwachten.
 
 We proberen telefonisch contact te leggen met twee contactpersonen bij de Hosting Provider, maar krijgen geen gehoor.
-Later die dag worden we teruggebeld, en dan komt eindelijk het verlossende woord: **het cluster komt in april!**
-Waarschijnlijk de tweede helft. Dat is nog twee maanden wachten, maar tenminste hebben we nu een indicatie.
+Later die dag worden we teruggebeld, en dan komt het verlossende woord: **het cluster komt in april!**
+Waarschijnlijk de tweede helft. Dat is nog bijna twee maanden wachten, maar tenminste hebben we nu een indicatie.
 
 De bevestiging komt ook per e-mail binnen: "Onze huidige inschatting van de planning: oplevering in april (tweede
 helft)". We zijn inmiddels bijna 80 dagen verder sinds ons eerste verzoek.
@@ -184,17 +186,17 @@ We wijzen er op: "Ik was in de veronderstelling dat we dat al tijdens de intake 
 
 ## Maart - De kostenindicatie
 
-Op **4 maart 2025**, exact 90 dagen na ons eerste verzoek, krijgen we eindelijk de kostenindicatie. "Hierbij ontvang je
+Op **4 maart 2025**, exact 90 dagen na ons eerste verzoek, krijgen we de kostenindicatie. "Hierbij ontvang je
 de kostenindicatie voor de hosting van jullie Applicatie". Een mijlpaal!
 
-Maar we hebben toch nog vragen te zijn over de kostenindicatie. De kosten liggen namelijk ruim 10x boven de lat.
+Maar we hebben toch nog wat vragen over de kostenindicatie. De kosten liggen namelijk ruim 10x boven de lat.
 En dat niet alleen, we worden gevraagd te betalen voor de uren die in dit proces gestoken zijn.
 
 En zo zijn we op **7 maart 2025**, 93 dagen na ons eerste verzoek, nog steeds bezig met het beantwoorden van vragen, het
 aanleveren van informatie, en het wachten op goedkeuringen. En de daadwerkelijke oplevering van onze omgeving? Die staat
 gepland voor "april, waarschijnlijk tweede helft". Als alles meezit.
 
-## De balans tot nu to
+## De balans tot nu toe
 
 Helemaal onderaan dit bericht staat een chronologische tijdlijn. Hier de samenvatting daarvan:
 
@@ -231,79 +233,79 @@ onze [Algoritme Management Toolkit (AMT)](https://github.com/MinBZK/amt) aan de 
 verantwoorden en transparanter te maken. Gebruikers die nu
 nog langer moeten wachten omdat wij vastzitten in een proces dat 93+ dagen duurt in plaats van 19 minuten.
 
+## Hoe dan wel
+De lat ligt op 19 minuten. Laten we daar naartoe werken vanaf de ruim 190.000 minuten waar we straks half april op zitten.
+Er is **ruimte voor een 10.000x speedup**. Juist omdat die ruimte groot is, heb ik er vertrouwen in dat we grote stappen 
+kunnen zetten om dit beter te maken, zelfs met simpele ingrepen in het huidige proces. 
+Maar beter nog, toewerkend naar een echt platform engineering organisatie, waar een Kubernetes namespace met een 
+simpele druk op de knop geregeld is. En daar draag ik graag aan bij!
+
 ## Tot slot
 
 Ik wil benadrukken dat dit verhaal niet bedoeld is om individuele medewerkers aan de schandpaal te nagelen. De mensen
 waarmee we hebben gewerkt doen hun best binnen het systeem waarin ze werken. Het probleem zit niet bij de mensen, maar
 bij de processen en de organisatie.
 
-Maar ik vind het wel belangrijk om dit verhaal te vertellen, om te laten zien hoe groot de uitdaging is als we het
-hebben over digitale soevereiniteit. Want als we het niet eens voor elkaar krijgen om in redelijke tijd een simpele
-Kubernetes-omgeving op te zetten, hoe gaan we dan ooit complexere uitdagingen aan?
-
-De lat ligt op 19 minuten. Laten we daar naartoe werken vanaf de 190.080 minuten waar we straks half april op zitten.
-Er is **ruimte voor een 10.000x speedup**!
-
 ## Chronologisch overzicht van onze zoektocht
 
-| **Datum**    | **Type**    | **Beschrijving**                                                                                                                                                                  |
-|--------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 4 dec 2024   | 📨 Email    | Medewerker1: "Hallo Medewerker2, Hierbij de mail zoals besproken..."                                                                                                              |
-| 9 dec 2024   | 📨 Email    | Medewerker3: "Hey Medewerker2, Heb je binnenkort tijd voor een korte meeting..."                                                                                                  |
-| 9 dec 2024   | 📨 Email    | Medewerker2: "Dag Medewerker3, Ik zal vandaag een uitnodiging sturen..."                                                                                                          |
-| 16 dec 2024  | 📨 Email    | Medewerker2: "FW: Vragen over dienstverlening"                                                                                                                                    |
-| 18 dec 2024  | 👥 Meeting  | Vragen over dienstverlening beantwoorden (30 min, 4p)                                                                                                                             |
-| 19 dec 2024  | 📨 Email    | Medewerker2: "Hi Medewerker1, Medewerker4, Dank voor ons gesprek gisteren..."                                                                                                     |
-| 15 jan 2025  | 📨 Email    | Medewerker1: "Hi Medewerker2, Hebben jullie tijd gehad...?"                                                                                                                       |
-| 16 jan 2025  | 📨 Email    | Medewerker2: "Dag Medewerker1, We zijn ermee bezig..."                                                                                                                            |
-| 20 jan 2025  | 📨 Email    | Medewerker2: "Dag Medewerker1, kan je opties voor datum en tijd sturen..."                                                                                                        |
-| 21 jan 2025  | 📨 Email    | Medewerker1: "Ik weet nog niet zeker of ik er bij kan zijn..."                                                                                                                    |
-| 22 jan 2025  | 📨 Email    | Medewerker2: "Na onze interne goedkeuring..."                                                                                                                                     |
-| 27 jan 2025  | 👥 Meeting  | Intake meeting (90 min, 4p)                                                                                                                                                       |
-| 28 jan 2025  | 📨 Email    | Medewerker4: "Hoi Medewerker1, Medewerker3, Bijgaand eerste concept..."                                                                                                           |
-| 28 jan 2025  | 📄 Document | Deelt: "Intake Architectuur v0.1.docx"                                                                                                                                            |
-| 29 jan 2025  | 👥 Meeting  | Demo sessie (120 min, 4p)                                                                                                                                                         |
-| 30 jan 2025  | 📨 Email    | Medewerker3: "Hey Medewerker4, Het ziet er goed uit..."                                                                                                                           |
-| 30 jan 2025  | ✅ Feedback  | Geen belangrijke punten als aanvulling                                                                                                                                            |
-| 30 jan 2025  | 📌 Notities | Opmerkingen over technische componenten                                                                                                                                           |
-| 31 jan 2025  | 📨 Email    | Medewerker1 aan RIG manager: "fyi"                                                                                                                                                |
-| 31 jan 2025  | 📨 Email    | Medewerker1: "Dank Medewerker4, Medewerker3, Ziet er goed uit!"                                                                                                                   |
-| 31 jan 2025  | 📋 Document | Document bijgewerkt met feedback                                                                                                                                                  |
-| 31 jan 2025  | 📄 Document | Deelt: "Intake Architectuur v0.1 - Feedback verwerkt.docx"                                                                                                                        |
-| 31 jan 2025  | 🔄 Actie    | Document gedeeld met Medewerker5 (security expert)                                                                                                                                |
-| 4 feb 2025   | 📨 Email    | Medewerker4: "Beste mailer, Ik ben tot 10 februari afwezig."                                                                                                                      |
-| 4 feb 2025   | 📨 Email    | Medewerker1: "Hi Medewerker4"                                                                                                                                                     |
-| 4 feb 2025   | 🔒 Security | Security feedback van Medewerker5 gedeeld                                                                                                                                         |
-| 4 feb 2025   | 📨 Email    | Medewerker1 aan RIG manager: "Fyi"                                                                                                                                                |                                                                                                                                               |
-| 5 feb 2025   | 📨 Email    | Medewerker3: "Hey Medewerker1, Over technische componenten..."                                                                                                                    |
-| 6 feb 2025   | 📞 Call     | Telefoongesprek met manager: "Niet opgeven"                                                                                                                                       |
-| 10 feb 2025  | 👥 Meeting  | Afstemming meeting (60 min, 3p)                                                                                                                                                   |
-| 17 feb 2025  | 📨 Email    | Medewerker1: "Hi Medewerker4, Zou jij ons een tijdpad kunnen geven..."                                                                                                            |
-| 17 feb 2025  | 📨 Email    | Medewerker1: "Re: Afstemming Intake architectuur"                                                                                                                                 |
-| 19 feb 2025  | 📨 Email    | Medewerker1: "Hi Medewerker4, Mogelijk zijn er nog wat obstakels..."                                                                                                              |
-| 21 feb 2025  | 💬 Chat     | Mattermost gesprek met RIG manager: "Moeten we escaleren?"                                                                                                                        |
-| 21 feb 2025  | 📞 Call     | Poging tot telefonisch contact met Hosting Provider contactpersoon 1 (geen gehoor)                                                                                                |
-| 21 feb 2025  | 📞 Call     | Poging tot telefonisch contact met Hosting Provider contactpersoon 2 (geen gehoor)                                                                                                |
-| 21 feb 2025  | 📞 Call     | Hosting Provider belt terug: BEVESTIGING CLUSTER IN APRIL! (waarschijnlijk tweede helft)                                                                                          |
-| 21 feb 2025  | 📨 Email    | Medewerker1: "FW: Afstemming intake architectuur"                                                                                                                                 |
-| 21 feb 2025  | 📨 Email    | Medewerker2: "RE: Afstemming intake architectuur" - Onze huidige inschatting van de planning: oplevering in april (tweede helft)                                                  |
-| 21 feb 2025  | 📨 Email    | Medewerker1: "FW: Afstemming intake architectuur"                                                                                                                                 |
-| 25 feb 2025  | 📨 Email    | Medewerker1: "RE: Omvang Applicatie" - Ik was in de veronderstelling dat we dat al tijdens de intake vastgelegd hadden                                                            |
-| 25 feb 2025  | 📨 Email    | Medewerker2: "FW: Omvang Applicatie"                                                                                                                                              |
-| 25 feb 2025  | 📨 Email    | Medewerker1: "RE: Omvang Applicatie" - Besproken de mail commerciële waarin we vorige maand CPU/Geheugen/Storage communiceerden                                                   |
-| 25 feb 2025  | 📨 Email    | Medewerker2: "RE: Omvang Applicatie" - Is dit niet wat we tijdens de intake...                                                                                                    |
-| 25 feb 2025  | 📨 Email    | Medewerker2: "Omvang Applicatie" - We zijn bezig met de kostenindicatie voor jullie aanvraag voor de omgeving                                                                     |
-| 25 feb 2025  | 📨 Email    | Medewerker1: "FW: Afstemming intake architectuur"                                                                                                                                 |
-| 25 feb 2025  | 📨 Email    | Medewerker1: "RE: Afstemming intake architectuur" - Als er manieren zijn de boel te versnellen horen we het graag                                                                 |
-| 4 maart 2025 | 📨 Email    | Medewerker1: "kostenindicatie hosting Applicatie" - Hierbij ontvang je de kostenindicatie voor de hosting van jullie Applicatie                                                   |
-| 4 maart 2025 | 📨 Email    | Medewerker2: "FW: kostenindicatie hosting Applicatie" - Opmerking: We hebben een kostenindicatie!                                                                                 |
-| 4 maart 2025 | 📨 Email    | Medewerker2: "RE: kostenindicatie hosting Applicatie" - Bedankt! Ik zal zorgen dat het bij ons de lijn in gaat                                                                    |
+| **Datum**    | **Type**    | **Beschrijving**                                                                                                                                                           |
+|--------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 4 dec 2024   | 📨 Email    | Medewerker1: "Hallo Medewerker2, Hierbij ..."                                                                                                              |
+| 9 dec 2024   | 📨 Email    | Medewerker3: "Hey Medewerker2, Heb je binnenkort tijd voor een korte meeting..."                                                                                           |
+| 9 dec 2024   | 📨 Email    | Medewerker2: "Dag Medewerker3, Ik zal vandaag een uitnodiging sturen..."                                                                                                   |
+| 16 dec 2024  | 📨 Email    | Medewerker2: "FW: Vragen over dienstverlening"                                                                                                                             |
+| 18 dec 2024  | 👥 Meeting  | Vragen over dienstverlening beantwoorden (30 min, 4p)                                                                                                                      |
+| 19 dec 2024  | 📨 Email    | Medewerker2: "Hi Medewerker1, Medewerker4, Dank voor ons gesprek gisteren..."                                                                                              |
+| 15 jan 2025  | 📨 Email    | Medewerker1: "Hi Medewerker2, Hebben jullie tijd gehad...?"                                                                                                                |
+| 16 jan 2025  | 📨 Email    | Medewerker2: "Dag Medewerker1, We zijn ermee bezig..."                                                                                                                     |
+| 20 jan 2025  | 📨 Email    | Medewerker2: "Dag Medewerker1, kan je opties voor datum en tijd sturen..."                                                                                                 |
+| 21 jan 2025  | 📨 Email    | Medewerker1: "Ik weet nog niet zeker of ik er bij kan zijn..."                                                                                                             |
+| 22 jan 2025  | 📨 Email    | Medewerker2: "Na onze interne goedkeuring..."                                                                                                                              |
+| 27 jan 2025  | 👥 Meeting  | Intake meeting (90 min, 4p)                                                                                                                                                |
+| 28 jan 2025  | 📨 Email    | Medewerker4: "Hoi Medewerker1, Medewerker3, Bijgaand eerste concept..."                                                                                                    |
+| 28 jan 2025  | 📄 Document | Deelt: "Intake Architectuur v0.1.docx"                                                                                                                                     |
+| 29 jan 2025  | 👥 Meeting  | Demo sessie (120 min, 4p)                                                                                                                                                  |
+| 30 jan 2025  | 📨 Email    | Medewerker3: "Hey Medewerker4, Het ziet er goed uit..."                                                                                                                    |
+| 30 jan 2025  | ✅ Feedback  | Geen belangrijke punten als aanvulling                                                                                                                                     |
+| 30 jan 2025  | 📌 Notities | Opmerkingen over technische componenten                                                                                                                                    |
+| 31 jan 2025  | 📨 Email    | Medewerker1 aan RIG manager: "fyi"                                                                                                                                         |
+| 31 jan 2025  | 📨 Email    | Medewerker1: "Dank Medewerker4, Medewerker3, Ziet er goed uit!"                                                                                                            |
+| 31 jan 2025  | 📋 Document | Document bijgewerkt met feedback                                                                                                                                           |
+| 31 jan 2025  | 📄 Document | Deelt: "Intake Architectuur v0.1 - Feedback verwerkt.docx"                                                                                                                 |
+| 31 jan 2025  | 🔄 Actie    | Document gedeeld met Medewerker5 (security expert)                                                                                                                         |
+| 4 feb 2025   | 📨 Email    | Medewerker4: "Beste mailer, Ik ben tot 10 februari afwezig."                                                                                                               |
+| 4 feb 2025   | 📨 Email    | Medewerker1: "Hi Medewerker4"                                                                                                                                              |
+| 4 feb 2025   | 🔒 Security | Security feedback van Medewerker5 gedeeld                                                                                                                                  |
+| 4 feb 2025   | 📨 Email    | Medewerker1 aan RIG manager: "Fyi"                                                                                                                                         |                                                                                                                                               |
+| 5 feb 2025   | 📨 Email    | Medewerker3: "Hey Medewerker1, Over technische componenten..."                                                                                                             |
+| 6 feb 2025   | 📞 Call     | Telefoongesprek met manager: "Niet opgeven"                                                                                                                                |
+| 10 feb 2025  | 👥 Meeting  | Afstemming meeting (60 min, 3p)                                                                                                                                            |
+| 17 feb 2025  | 📨 Email    | Medewerker1: "Hi Medewerker4, Zou jij ons een tijdpad kunnen geven..."                                                                                                     |
+| 17 feb 2025  | 📨 Email    | Medewerker1: "Re: Afstemming Intake architectuur"                                                                                                                          |
+| 19 feb 2025  | 📨 Email    | Medewerker1: "Hi Medewerker4, Mogelijk zijn er nog wat obstakels..."                                                                                                       |
+| 21 feb 2025  | 💬 Chat     | Mattermost gesprek met RIG manager: "Moeten we escaleren?"                                                                                                                 |
+| 21 feb 2025  | 📞 Call     | Poging tot telefonisch contact met Hosting Provider contactpersoon 1 (geen gehoor)                                                                                         |
+| 21 feb 2025  | 📞 Call     | Poging tot telefonisch contact met Hosting Provider contactpersoon 2 (geen gehoor)                                                                                         |
+| 21 feb 2025  | 📞 Call     | Hosting Provider belt terug: BEVESTIGING CLUSTER IN APRIL! (waarschijnlijk tweede helft)                                                                                   |
+| 21 feb 2025  | 📨 Email    | Medewerker1: "FW: Afstemming intake architectuur"                                                                                                                          |
+| 21 feb 2025  | 📨 Email    | Medewerker2: "RE: Afstemming intake architectuur" - Onze huidige inschatting van de planning: oplevering in april (tweede helft)                                           |
+| 21 feb 2025  | 📨 Email    | Medewerker1: "FW: Afstemming intake architectuur"                                                                                                                          |
+| 25 feb 2025  | 📨 Email    | Medewerker1: "RE: Omvang Applicatie" - Ik was in de veronderstelling dat we dat al tijdens de intake vastgelegd hadden                                                     |
+| 25 feb 2025  | 📨 Email    | Medewerker2: "FW: Omvang Applicatie"                                                                                                                                       |
+| 25 feb 2025  | 📨 Email    | Medewerker1: "RE: Omvang Applicatie" - Besproken de mail commerciële waarin we vorige maand CPU/Geheugen/Storage communiceerden                                            |
+| 25 feb 2025  | 📨 Email    | Medewerker2: "RE: Omvang Applicatie" - Is dit niet wat we tijdens de intake...                                                                                             |
+| 25 feb 2025  | 📨 Email    | Medewerker2: "Omvang Applicatie" - We zijn bezig met de kostenindicatie voor jullie aanvraag voor de omgeving                                                              |
+| 25 feb 2025  | 📨 Email    | Medewerker1: "FW: Afstemming intake architectuur"                                                                                                                          |
+| 25 feb 2025  | 📨 Email    | Medewerker1: "RE: Afstemming intake architectuur" - Als er manieren zijn de boel te versnellen horen we het graag                                                          |
+| 4 maart 2025 | 📨 Email    | Medewerker1: "kostenindicatie hosting Applicatie" - Hierbij ontvang je de kostenindicatie voor de hosting van jullie Applicatie                                            |
+| 4 maart 2025 | 📨 Email    | Medewerker2: "FW: kostenindicatie hosting Applicatie" - Opmerking: We hebben een kostenindicatie!                                                                          |
+| 4 maart 2025 | 📨 Email    | Medewerker2: "RE: kostenindicatie hosting Applicatie" - Bedankt! Ik zal zorgen dat het bij ons de lijn in gaat                                                             |
 | 6 maart 2025 | 📨 Email    | Medewerker1: "Informatie uitwisseling over Applicatie" - In ons interne besluitvormingsproces kwam de aanvraag voor hosting van Applicatie ook terecht bij onze security managers |
-| 6 maart 2025 | 📨 Email    | Medewerker2: "RE: Informatie uitwisseling over Applicatie" - Natuurlijk, hier is de repository met meer informatie: github.com/Organisatie/applicatienaam                         |
-| 6 maart 2025 | 📨 Email    | Medewerker2: "RE: Informatie uitwisseling over Applicatie" - Dank je wel!                                                                                                         |
-| 6 maart 2025 | 📨 Email    | Medewerker1: "RE: kostenindicatie hosting Applicatie" - Beste collega, toch nog wat vragen over de kostenindicatie                                                                |
-| 6 maart 2025 | 📨 Email    | Medewerker2: "RE: kostenindicatie hosting Applicatie" - Dag collega, Hierbij de antwoorden op jouw vragen                                                                         |
-| 6 maart 2025 | 📨 Email    | Medewerker1: "FW: kostenindicatie hosting Applicatie" - Beste collega, wat vervolg vragen over de kostenindicatie                                                                 |
+| 6 maart 2025 | 📨 Email    | Medewerker2: "RE: Informatie uitwisseling over Applicatie" - Natuurlijk, hier is de repository met meer informatie: github.com/Organisatie/applicatienaam                  |
+| 6 maart 2025 | 📨 Email    | Medewerker2: "RE: Informatie uitwisseling over Applicatie" - Dank je wel!                                                                                                  |
+| 6 maart 2025 | 📨 Email    | Medewerker1: "RE: kostenindicatie hosting Applicatie" - Beste collega, toch nog wat vragen over de kostenindicatie                                                         |
+| 6 maart 2025 | 📨 Email    | Medewerker2: "RE: kostenindicatie hosting Applicatie" - Dag collega, Hierbij de antwoorden op jouw vragen                                                                  |
+| 6 maart 2025 | 📨 Email    | Medewerker1: "FW: kostenindicatie hosting Applicatie" - Beste collega, wat vervolg vragen over de kostenindicatie                                                          |
 
 **Legenda**
 
