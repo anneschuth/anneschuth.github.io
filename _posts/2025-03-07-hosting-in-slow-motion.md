@@ -36,7 +36,7 @@ Helaas is de infra van Digilab niet geschikt voor productie: het heeft geen enke
 FTE aan ondersteuning) en het is niet geschikt voor productie data.
 Voor de duidelijkheid, het aanvragen van een productie omgeving bij Digilab (als dit ondersteund zou worden) zou ook 12
 minuten duren, simpelweg omdat alles geautomatiseerd is. En dat is met een _Mattermost_ chat interface, als dit een knop
-zou zijn, dat zou dit praktisch naar 0 minuten gaan.
+zou zijn, dan zou dit praktisch naar 0 minuten gaan.
 
 ## Hoe het ook kan
 
@@ -97,7 +97,7 @@ mailtjes. **Zie onderaan een chronologisch overzicht.**
 We verwachtten eigenlijk een relatief eenvoudig proces. Misschien zou het een paar dagen duren voordat we een reactie
 kregen, of misschien zelfs een week of twee om alles in te richten. Maar we hadden geen idee dat we hiermee aan een reis
 begonnen die maanden zou duren, tientallen e-mails zou vergen, uren aan vergaderingen zou kosten, en meerdere documenten
-en beoordelingen zou vereisen. En dan hebben we het nog niet over het financiele kant.
+en beoordelingen zou vereisen. En dan hebben we het nog niet over de financiele kant.
 
 Het was alsof we vroegen om een kopje koffie, maar in plaats daarvan werd ons verteld dat we eerst de geschiedenis van
 koffie moesten documenteren, een uitgebreide analyse van verschillende koffiebonen moesten maken, en goedkeuring moesten
