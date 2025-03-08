@@ -18,7 +18,7 @@ nu nog steeds niet zo, maar dit verhaal kan niet langer wachten.
 
 > Edit 1: het probleem dat ik hier beschrijf was kennelijk al bekend, [KPMG schreef een rapport](https://www.tweedekamer.nl/downloads/document?id=2025D01627) in opdracht van EZ.
 
-> Edit 2: na het verschijnen van dit stuk publiceerde [Bert Hubert dit manifest](https://berthub.eu/articles/posts/manifest-big-tech-alternatieven/).
+> Edit 2: na het verschijnen van dit stuk publiceerde [Bert Hubert dit Manifest Big Tech Alternatieven](https://berthub.eu/articles/posts/manifest-big-tech-alternatieven/).
 
 ## Hoe het begon
 
