@@ -234,11 +234,14 @@ verantwoorden en transparanter te maken. Gebruikers die nu
 nog langer moeten wachten omdat wij vastzitten in een proces dat 93+ dagen duurt in plaats van 19 minuten.
 
 ## Hoe dan wel
+
 De lat ligt op 19 minuten. Laten we daar naartoe werken vanaf de ruim 190.000 minuten waar we straks half april op zitten.
 Er is **ruimte voor een 10.000x speedup**. Juist omdat die ruimte groot is, heb ik er vertrouwen in dat we grote stappen 
 kunnen zetten om dit beter te maken, zelfs met simpele ingrepen in het huidige proces. 
 Maar beter nog, toewerkend naar een echt platform engineering organisatie, waar een Kubernetes namespace met een 
 simpele druk op de knop geregeld is. We hebben de mensen en kennis om dit te doen! En daar draag ik met mijn ervaring bij Spotify graag aan bij!
+
+> Edit: dit probleem was kennelijk al bekend,   [KPMG schreef een raport](https://www.tweedekamer.nl/downloads/document?id=2025D01627) in opdracht van EZ.
 
 ## Tot slot
 
