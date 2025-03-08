@@ -92,8 +92,7 @@ Op zoek naar een productie omgeving binnen de Nederlandse Overheid.
 Op zoek, in feite, naar twee Kubernetes namespaces met elk 4 cores, 4GB geheugen, en een persisted volume van 100GB.
 Nogmaals: het stelt helemaal niets voor.
 
-Er zijn, zo blijkt, binnen de overheid eigenlijk maar een paar diensten binnen de overheid waar we hiervoor kunnen
-aankloppen.
+Er zijn, zo blijkt, eigenlijk maar een paar diensten binnen de overheid waar we hiervoor kunnen aankloppen.
 En uiteindelijk lijken onze opties beperkt tot slechts één dienst.
 Dus die schreven we op **4 December** aan. Dit was het eerste mailtje van, wat we toen nog niet wisten, heel veel
 mailtjes. **Zie onderaan een chronologisch overzicht.**
