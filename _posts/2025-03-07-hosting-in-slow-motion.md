@@ -16,6 +16,8 @@ enthousiasme slurpt.
 Maar het echte excuus is dat ik _dit_ verhaal wilde schrijven en dat ik steeds hoopte dat het daar tijd voor was. Dat is
 nu nog steeds niet zo, maar dit verhaal kan niet langer wachten.
 
+> Edit: dit probleem was kennelijk al bekend,   [KPMG schreef een raport](https://www.tweedekamer.nl/downloads/document?id=2025D01627) in opdracht van EZ.
+
 ## Hoe het begon
 
 Dit verhaal begon vlak voor Sinterklaas vorig jaar.
