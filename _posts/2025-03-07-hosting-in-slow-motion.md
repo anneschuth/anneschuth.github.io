@@ -16,7 +16,7 @@ enthousiasme slurpt.
 Maar het echte excuus is dat ik _dit_ verhaal wilde schrijven en dat ik steeds hoopte dat het daar tijd voor was. Dat is
 nu nog steeds niet zo, maar dit verhaal kan niet langer wachten.
 
-> Edit: dit probleem was kennelijk al bekend,   [KPMG schreef een raport](https://www.tweedekamer.nl/downloads/document?id=2025D01627) in opdracht van EZ.
+> Edit: het probleem dat ik hier beschrijft was kennelijk al bekend, [KPMG schreef een rapport](https://www.tweedekamer.nl/downloads/document?id=2025D01627) in opdracht van EZ.
 
 ## Hoe het begon
 
@@ -243,7 +243,7 @@ kunnen zetten om dit beter te maken, zelfs met simpele ingrepen in het huidige p
 Maar beter nog, toewerkend naar een echt platform engineering organisatie, waar een Kubernetes namespace met een 
 simpele druk op de knop geregeld is. We hebben de mensen en kennis om dit te doen! En daar draag ik met mijn ervaring bij Spotify graag aan bij!
 
-> Edit: dit probleem was kennelijk al bekend,   [KPMG schreef een raport](https://www.tweedekamer.nl/downloads/document?id=2025D01627) in opdracht van EZ.
+> Edit: dit probleem was kennelijk al bekend,   [KPMG schreef een rapport](https://www.tweedekamer.nl/downloads/document?id=2025D01627) in opdracht van EZ.
 
 ## Tot slot
 
