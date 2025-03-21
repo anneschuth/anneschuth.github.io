@@ -42,8 +42,8 @@ toegankelijk genoeg is voor niet-programmeurs, maar krachtig genoeg om complexe 
 
 ## Interessante sidenote: Docs en Dinum
 
-Wat leuk was aan dit bezoek, is dat het werd gehost door [DINUM](https://www.numerique.gouv.fr/dinum/) (
-Direction Interministérielle du Numérique), de interministeriële digitale directie die rechtstreeks onder de Franse
+Wat leuk was aan dit bezoek, is dat het werd gehost door [DINUM](https://www.numerique.gouv.fr/dinum/) (Direction
+Interministérielle du Numérique), de interministeriële digitale directie die rechtstreeks onder de Franse
 premier valt. Deze organisatie is verantwoordelijk voor het ontwikkelen en implementeren van de digitale strategie van
 de Franse overheid. DINUM streeft naar een effectievere, eenvoudigere en meer soevereine staat door middel van digitale
 technologie. Het deed me heel sterk denken
