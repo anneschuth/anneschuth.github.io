@@ -25,7 +25,7 @@ Na mijn [eerdere posts](/2025/01/25/machine-law.html) over Machine Law was ik be
 ## Staat van het veld
 
 Mijn belangrijkste inzicht: ondanks dat er veel mensen aan werken, is het veld nog niet zo ver als ik had gehoopt. Er
-zijn zeker interessante initiatieven, maar de meeste benaderingen pakken slechts deelasprecten aan. Ik zag weinig
+zijn zeker interessante initiatieven, maar de meeste benaderingen pakken slechts deelaspecten aan. Ik zag weinig
 projecten die zich richten op het semi-geautomatiseerd omzetten van wetteksten naar machine-leesbare formaten. En
 projecten die de daadwerkelijke uitvoering baseren op zo'n representatie waren er al helemaal niet.
 
