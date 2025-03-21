@@ -8,6 +8,15 @@ tags:
   - 'weeknotes'
 ---
 
+Eerst even over weeknotes zelf. Kees schreef vorige
+week [De Meta Weeknote: een weeknote over weeknotes](https://kees.it.com/weeknotes/2025/03/13/De-meta-weeknote.html),
+de moeite waard om even te lezen!
+Inmiddels schrijven meer collega's weeknotes, zie bijvoorbeeld [Eelco](https://eelco.hotting.it/),
+[Roos](https://roosdegroot.nl/category/weekly/), [Aliza](https://tekofsky.nl/2025/03/14/iron-your-towels/), en
+dus [Kees](https://kees.it.com/).
+
+## Parijs
+
 Begin deze week was ik in Parijs
 voor [Rules as Code Europe](https://docs.numerique.gouv.fr/docs/1b64643b-7163-4a96-b78d-251f3a5e81e7/), een tweedaagse
 bijeenkomst op 17 en 18 maart over het omzetten van wet- en regelgeving naar code.
