@@ -8,7 +8,7 @@ tags:
   - 'weeknotes'
 ---
 
-De naam "Bureau Architectuur" heeft me [sinds dag één](/2025/01/16/2025-01-16-starting-bureau-architecture.html) aan het
+De naam "Bureau Architectuur" heeft me [sinds dag één](/2025/01/16/starting-bureau-architecture.html) aan het
 denken gezet. Niet omdat er iets inherent mis is met architectuur, maar omdat het suggereert dat architectuur iets is
 dat los staat van het daadwerkelijke bouwen. Een separate discipline, een aparte functie, een geïsoleerde
 verantwoordelijkheid. Deze week heeft die spanning weer op verschillende manieren de kop opgestoken.
