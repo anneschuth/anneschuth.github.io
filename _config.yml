@@ -17,6 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-spaceship
 
 paginate: 5
 
