@@ -5,7 +5,7 @@ layout: page
 permalink: /software/
 ---
 
-## Machine-Readable Legislation
+## PoC Machine Law
 
 A proof-of-concept project developed for the Dutch Ministry of the Interior that explores the transformation of legal
 texts into executable code. This innovative system converts complex legislation into machine-readable specifications
@@ -43,9 +43,9 @@ The LL4IR API can be used by researchers to perform several actions such as obta
 and to update runs. The API is RESTful, that is, everything is implemented as HTTP request, and we use the request types
 GET, PUT and DELETE.
 
-The source code is [available from bitbucket](https://bitbucket.org/living-labs/ll-api). It has mainly been developed by
-Anne Schuth and [Krisztian Balog](http://krisztianbalog.com/).
+The source code is [available from bitbucket](https://bitbucket.org/living-labs/ll-api).
 
+It has mainly been developed by Anne Schuth and [Krisztian Balog](http://krisztianbalog.com/).
 Several of my publications relate to Living Labs.
 
 ## Lerot: an Online Learning to Rank Framework
