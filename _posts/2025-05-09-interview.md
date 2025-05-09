@@ -9,7 +9,7 @@ tags:
 ---
 
 *Het was een wat gekke week, met twee vrije dagen doordat mijn kinderen deze week ook vakantie hadden.
-Mede daarom dit experiment: een interview afgenomen door een LLM (Claude 3.7 met extende thinking). Ik was benieuwd wat
+Mede daarom dit experiment: een interview afgenomen door een LLM (Claude 3.7 met extended thinking). Ik was benieuwd wat
 voor vragen zo'n model zou stellen en of het me aan het denken zou zetten over mijn werk.*
 
 *Dit was mijn prompt aan Claude:*
@@ -33,7 +33,7 @@ voor vragen zo'n model zou stellen en of het me aan het denken zou zetten over m
 > style zijn opgemaakt.
 
 *Hieronder het resultaat van dit experiment, zonder bewerkingen. De vragen dus van Claude, de antwoorden van mij (Claude
-heeft wel wat typos en hoofdletter gebruik gefixt).*
+heeft wel wat typos en hoofdlettergebruik gefixt).*
 
 Anne Schuth werkt sinds 2023 bij Bureau Architectuur, een team binnen de Nederlandse overheid dat zich bezighoudt met
 digitale transformatie. Met een achtergrond in zoekmachines en een carrière bij bedrijven als Spotify, Google en DPG
