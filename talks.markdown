@@ -71,78 +71,78 @@ let me know if something (a slide deck or poster, for instance) is missing. Plea
 - **Search Engines that Learn from Their Users**, *Layman's talk, PhD defense.* Amsterdam, The Netherlands. May 27,
   2016 ([video](http://webcolleges.uva.nl/Mediasite/Play/1ee49f6e8d55445496b574b5df73fd3d1d), [slides](/assets/lekenpraatje.pdf), [thesis](/thesis)).
 - **Living Labs for Online Evaluation: From Theory to Practice**, *Tutorial at ECIR 2016.* Padova, Italy. March 20-23,
-  2016 ([website](http://living-labs.net/tutorial/), [abstract](/assets/ecir2016-ll-tutorial.pdf)).
+  2016 ([website](http://living-labs.net/tutorial/), [abstract](/publications/schuth2016lila)).
 - **Multileave Gradient Descent for Fast Online Learning to Rank**, *WSDM'16*, San Francisco, USA. February 24,
-  2016 ([slides](/assets/20160224-multileleavegradientdescent.pdf), [paper](/assets/wsdm2016-multileave-gradient-descent1.pdf), [poster](/assets/20151124-WSDM-MGD.pdf)).
+  2016 ([slides](/assets/20160224-multileleavegradientdescent.pdf), [paper](/publications/schuth2016multileave), [poster](/assets/20151124-WSDM-MGD.pdf)).
 
 ## 2015
 
 - **OpenSearch**, *Lightning Talk, DIR'15,* Amsterdam, The Netherlands. November 27,
-  2015 ([slides](/assets/20151103-dir-lightning.pdf), [abstract](/assets/dir2015-opensearch-proceedings.pdf), [website](http://trec-open-search.org/)).
+  2015 ([slides](/assets/20151103-dir-lightning.pdf), [abstract](/publications/schuth2015opensearch), [website](http://trec-open-search.org/)).
 - **Multileave Gradient Descent for Fast Online Learning to Rank (Abstract)**, *Poster, DIR'15,* Amsterdam, The
   Netherlands. November 27,
-  2015 ([poster](/assets/20151124-WSDM-MGD.pdf), [abstract](/assets/dir2015-multileave-gradient-descent.pdf), [paper](/assets/wsdm2016-multileave-gradient-descent1.pdf)).
+  2015 ([poster](/assets/20151124-WSDM-MGD.pdf), [abstract](/publications/schuth2015mgd), [paper](/publications/schuth2016multileave)).
 - **TREC OpenSearch Planning Session**, *TREC Conference*, Gaithersburg, USA. November 18-19,
   2015 ([poster](/assets/TREC-OpenSearch.pdf), [slides](/assets/20151119-TREC-OpenSearch.pdf), [website](http://trec-open-search.org/)).
 - **TREC OpenSearch**, *ILPS Soos*, Amsterdam, The Netherlands. November 3,
   2015 ([slides](/assets/20151103-dir-lightning.pdf)).
 - **Multileave Gradient Descent for Fast Online Learning to Rank**, *ILPS Soos*, Amsterdam, The Netherlands. November 3,
-  2015 ([slides](/assets/20151103-multileleavegradientdescent.pdf), [paper](/assets/wsdm2016-multileave-gradient-descent1.pdf)).
+  2015 ([slides](/assets/20151103-multileleavegradientdescent.pdf), [paper](/publications/schuth2016multileave)).
 - **Predicting Search Satisfaction Metrics with Interleaved Comparisons**,
   *Criteo Beer&amp;Tech*,* Paris, France. October 28,
-  2015 ([paper](/assets/fp041-schuthA.pdf), [slides](/assets/20151028-criteo.pdf)).
+  2015 ([paper](/publications/schuth-2015-predicting), [slides](/assets/20151028-criteo.pdf)).
 - **Online Evaluation and Living Labs**, *Ahold HR Analytics*, Zaandam, The Netherlands. October 26, 2015.
 - **Probabilistic Multileave for Online Retrieval Evaluation**, *Google NLP PhD
   Summit**,* Zurich, Switzerland. September 24,
-  2015 ([paper](/assets/schuth-probabilistic-2015.pdf), [poster](/assets/20150809-SIGIR-multileave.pdf)).
+  2015 ([paper](/publications/schuth-2015-probabilistic), [poster](/assets/20150809-SIGIR-multileave.pdf)).
 - **LL4IR Introduction**, *CLEF LL4IR'15*, Toulouse,
   France. September 10,
-  2015 ([paper](/assets/clef2015-ll4ir-ceur.pdf), [slides](/assets/clefll4ir_introduction_to_lab.pdf)).
+  2015 ([paper](/publications/schuth-2015-overview), [slides](/assets/clefll4ir_introduction_to_lab.pdf)).
 - **Living Labs for IR Evaluation (LL4IR) Overview**,
   *CLEF'15*, Toulouse, France. September 8,
-  2015 ([paper](/assets/clef2015-ll4ir-ceur.pdf), [slides](/assets/20150908-CLEF-Overview-AnneSchuth.pdf)).
+  2015 ([paper](/publications/schuth-2015-overview), [slides](/assets/20150908-CLEF-Overview-AnneSchuth.pdf)).
 - **Probabilistic Multileave for Online Retrieval Evaluation**, *SIGIR'15,* Santiago, Chili. August 11,
-  2015 ([paper](/assets/schuth-probabilistic-2015.pdf), [poster](/assets/20150809-SIGIR-multileave.pdf)).
+  2015 ([paper](/publications/schuth-2015-probabilistic), [poster](/assets/20150809-SIGIR-multileave.pdf)).
 - **Predicting Search Satisfaction Metrics with Interleaved Comparisons**, *SIGIR'15,* Santiago, Chili. August 11,
-  2015 ([paper](/assets/fp041-schuthA.pdf), [slides](/assets/20150811-SIGIR-PredictingSearchSatisfaction.pdf)).
+  2015 ([paper](/publications/schuth-2015-predicting), [slides](/assets/20150811-SIGIR-PredictingSearchSatisfaction.pdf)).
 - **Probabilistic Multileave for Online Retrieval Evaluation**, *ILPS Soos*. Amsterdam, The Netherlands. July 28,
-  2015 ([paper](/assets/schuth-probabilistic-2015.pdf)).
+  2015 ([paper](/publications/schuth-2015-probabilistic)).
 - **Predicting Search Satisfaction Metrics with Interleaved Comparisons**, *ILPS Soos*. Amsterdam, The Netherlands. May 19,
-  2015 ([paper](/assets/fp041-schuthA.pdf)).
+  2015 ([paper](/publications/schuth-2015-predicting)).
 - **Living Labs for Search**, *Keynote at “Workshop: Towards networked Research Infrastructures for behavioral
   studies”*. Brussels, Belgium. May 7, 2015 ([slides](/assets/20150507-ScienceEurope-AnneSchuth.pdf)).
 - **Multileaved Comparisons for Fast Online Evaluation**, *IAS Colloquium*. Amsterdam, The Netherlands. March 17,
-  2015 ([slides](/assets/multileave.pdf), [paper](/assets/ir1190-schuth-cikm2014-multileave.pdf)).
+  2015 ([slides](/assets/multileave.pdf), [paper](/publications/schuth2014multileaved)).
 
 ## 2014
 
 - **Using users for online evaluation and learning**, *RecSys:NL Meetup*, Amsterdam, The Netherlands. December 8,
   2014 ([slides](/assets/20141208-recommender-anneschuth.pdf)).
 - **Multileaved Comparisons for Fast Online Evaluation**, *VU WAI meeting*. Amsterdam, The Netherlands. November 24,
-  2014 ([paper](/assets/ir1190-schuth-cikm2014-multileave.pdf)).
+  2014 ([paper](/publications/schuth2014multileaved)).
 - **Head First: Living Labs for Ad-hoc Search Evaluation**, *CIKM'14*. Shanghai, China. November 3-7,
   2014 ([poster](/assets/cikm2014-lleval.pdf), [paper](/assets/cikm2014-lleval.pdf)).
 - **Multileaved Comparisons for Fast Online Evaluation**, *CIKM'14*. Shanghai, China. November 3-7,
-  2014 ([slides](/assets/multileave.pdf), [paper](/assets/ir1190-schuth-cikm2014-multileave.pdf)).
+  2014 ([slides](/assets/multileave.pdf), [paper](/publications/schuth2014multileaved)).
 - **Multileaved Comparisons for Fast Online Evaluation**, *ILPS Soos*. Amsterdam, The Netherlands. October 21,
-  2014 ([paper](/assets/ir1190-schuth-cikm2014-multileave.pdf)).
+  2014 ([paper](/publications/schuth2014multileaved)).
 - **Online Learning to Rank**, *Textkernel Tech Talks*. Amsterdam, The Netherlands. June 26,
   2014 ([slides](/assets/20140626-textkernel-anneschuth.pdf)).
 - **Unpublished Work**, *ILPS Soos.* Amsterdam, The Netherlands. June 17, 2014.
 - **Living Labs Challenge API**, *Living Labs Challenge Workshop*. Amsterdam, The Netherlands. June 6, 2014.
 - **Optimizing Base Rankers Using Clicks: A Case Study using BM25**, *ECIR'14*, Amsterdam, The Netherlands. April 14,
-  2014 ([slides](/assets/ecir-2014-bm25.pdf), [paper](/assets/ecir2014-schuth-bm25.pdf)).
+  2014 ([slides](/assets/ecir-2014-bm25.pdf), [paper](/publications/schuth2014)).
 - **Effects of Position Bias on Click-Based Recommender Evaluation**, *ECIR'14*, Amsterdam, The Netherlands. April 14,
-  2014 ([paper](/assets/ecir2014-sp-interleaving.pdf)).
+  2014 ([paper](/publications/hofmann2014)).
 
 ## 2013
 
 - **Query Reformulation as a Predictor of Search Satisfaction**, paper by *Ahmed Hassan, Xiaolin Shi, Nick Craswell,
   Bill Ramsey*  *ILPS Reading Group*. Amsterdam, The Netherlands. November 22, 2013.
 - **Lerot: an Online Learning to Rank Framework**, *Living Labs workshop at CIKM'13.* San Francisco, USA. November 1,
-  2013 ([slides](/assets/ll2013-lerot.pdf), [paper](/assets/cikm-livinglab-2013-lerot.pdf)).
+  2013 ([slides](/assets/ll2013-lerot.pdf), [paper](/publications/schuth-lerot-2013)).
 - **Evaluating Aggregated Search Using Interleaving**, *CIKM'13.* San Francisco, USA. October 27,
-  2013 ([slides](/assets/cikm2013-evaluation-aggregated-search.pdf), [paper](/assets/ir0656-chuklin.pdf)).
+  2013 ([slides](/assets/cikm2013-evaluation-aggregated-search.pdf), [paper](/publications/chuklin-evaluating-2013)).
 - **Evaluating Aggregated Search Using Interleaving**, *ILPS Soos*. Amsterdam, The Netherlands. October 1, 2013.
 - **Using Intent Information to Model User Behavior in Diversified Search**, paper by *Aleksandr Chuklin, Pavel
   Serdyukov and Maarten de Rijke* *DIR'13.* Delft, The Netherlands. April 26,
@@ -158,7 +158,7 @@ let me know if something (a slide deck or poster, for instance) is missing. Plea
 ## 2012
 
 - **Sustainable Questions**, *Time Aware Information Access Workshop at SIGIR 2012.* Portland, Oregon, USA. August 17,
-  2012 ([slides](/assets/taia2012-sustainable-slides.pdf), [paper](/assets/taia2012-sustainable-slides.pdf)).
+  2012 ([slides](/assets/taia2012-sustainable-slides.pdf), [paper](/publications/de2012sustainable)).
 - **From Sentiment to Reputation**, *ILPS Soos.* Amsterdam, The Netherlands. June 12,
   2012 ([slides](/assets/sentiment-presentation.pdf)).
 
@@ -171,4 +171,4 @@ let me know if something (a slide deck or poster, for instance) is missing. Plea
 - **Fast Faceted Search in XML**, XML Prague'11 pre-conference day. Prague, Czech Republic. October 17,
   2011 ([slides](/assets/xml-prague-presentation.pdf)).
 - **Evaluation methods for rankings of facetvalues for faceted search**, CLEF'11. Amsterdam, The Netherlands.
-  September 21, 2011 ([slides](/assets/clef2011-presentation.pdf), [paper](/assets/clef2011-schuth-evaluation.pdf)).
+  September 21, 2011 ([slides](/assets/clef2011-presentation.pdf), [paper](/publications/schuth2011evaluation)).
