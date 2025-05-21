@@ -16,7 +16,7 @@ tags:
 ---
 
 *[Dit artikel is op 3 januari gepubliceerd in dagblad Trouw](http://bit.ly/Ko0FaA), een aangepaste versie verscheen
-op [deFusie](http://defusie.net/fusie-uva-en-vu-was-grootheidswaan/).*  
+op [deFusie](http://defusie.net/fusie-uva-en-vu-was-grootheidswaan/).*
 Door [Sicco de Knecht](http://siccodeknecht.wordpress.com/) en Anne Schuth
 
 Groot, groter, grootst, het zijn de termen die politiek en bestuurlijk Nederland lijken te domineren de afgelopen jaren.
@@ -81,7 +81,6 @@ Hieronder een kleine selectie uit de reacties op twitter.
 >
 > — Fatima Elatik (
 > @FatimaElatik) [January 4, 2014](https://twitter.com/FatimaElatik/status/419375443251560448?ref_src=twsrc%5Etfw)
-
 
 > Interessante opinie in [@trouw](https://twitter.com/trouw?ref_src=twsrc%5Etfw) van
 > twee [\#uva](https://twitter.com/hashtag/uva?src=hash&ref_src=twsrc%5Etfw) promovendi tegen schaalvergroting in het

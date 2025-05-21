@@ -51,10 +51,10 @@ Several of my publications relate to Living Labs.
 ## Lerot: an Online Learning to Rank Framework
 
 Lerot is a framework, designed to run experiments on online learning to rank methods for information retrieval. It has
-mainly been developed by [Katja Hofmann](http://khofm.wordpress.com/) and Anne Schuth.  
-The source code of Lerot is [available from bitbucket](https://bitbucket.org/ilps/lerot).  
+mainly been developed by [Katja Hofmann](http://khofm.wordpress.com/) and Anne Schuth.
+The source code of Lerot is [available from bitbucket](https://bitbucket.org/ilps/lerot).
 A paper describing Lerot is published in the Living Labs Workshop at CIKM'13:
 
 - A. Schuth, K. Hofmann, S. Whiteson, M. de
   Rijke. [Lerot: an Online Learning to Rank Framework](/publications/schuth-lerot-2013)
-  In Living Labs for Information Retrieval Evaluation workshop at CIKM'13, 2013 
+  In Living Labs for Information Retrieval Evaluation workshop at CIKM'13, 2013

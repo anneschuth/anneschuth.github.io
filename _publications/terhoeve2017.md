@@ -20,4 +20,3 @@ recommendation system, and from 120 respondents we learn that news consumers do 
 very strong preference for how explanations should be shown to them. Moreover, we perform an A/B test that shows that
 the open rate per user does not change if users are provided with reasons for the articles recommended for them. Most
 likely this is because users did not pay attention to the reasons.
-

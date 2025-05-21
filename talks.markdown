@@ -9,16 +9,18 @@ This is an exhaustive (I think) list of talks I gave and posters I presented sin
 let me know if something (a slide deck or poster, for instance) is missing. Please feel free to use my slides (with a reference).
 
 ## 2025
+
 - **Prediction is Power, Also in the Public Sector** with prof.dr. Maarten de Rijke, AI in Authority Symposium, CognAC, Radboud University, Nijmegen, May 16, 2025, ([event](https://acais.svcognac.nl/pages/years/2025/)).
 - **Automated Extraction of Machine-Executable Legislation**, Search Engines Amsterdam, April 25, 2025, ([event](https://www.meetup.com/sea-search-engines-amsterdam/events/304267117/)).
 
-
 ## 2024
+
 - **The Watchdog and the Government Exploring Transparency Models for Public Sector Algorithms**, ACM FAccT Conference 2024, June 4, 2024, ([event](https://facctconference.org/2024/acceptedtutorials)).
 - **AI Validation Team** at the Digilab Meetup, March 26, 2024, ([event](https://realisatieibds.nl/groups/view/0056c9ef-5c2e-44f9-a998-e735f1e9ccaa/federatief-datastelsel/blog/view/1eff7daf-fa67-4b59-84ed-13b427b1bc15/digilab-meetup-een-feit)).
 - **Meten is Weten: Benchmarks voor Generatieve AI.** Launch event vision on Generative AI, January 18, 2024, ([slides](/assets/Meten is weten - benchmarks voor generatieve AI.pdf)).
 
 ## 2023
+
 - **AI in an Ivory Tower.** ICAI Townhall, October 12, 2023.
 
 ## 2020

@@ -20,4 +20,3 @@ comes to evaluating ranking systems, such complex result layouts raise their own
 so-called interleaving methods that have arisen as an important type of online evaluation: by mixing results from two
 different result pages, interleaving can easily break the desired Web layout in which vertical documents are grouped
 together, and hence hurt the user experience.
-

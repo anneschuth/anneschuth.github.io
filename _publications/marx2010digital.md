@@ -19,4 +19,3 @@ We address the problem of publishing parliamentary proceedings in a digital sust
 requirements analysis, and based on that propose a uniform XML format. We evaluated our approach by collecting and
 automatically processing proceedings from six parliaments spanning almost 200 years in total. Most of this data is real
 legacy data consisting of scanned and OCRed documents. The approach scales very well and produces high quality data.
-

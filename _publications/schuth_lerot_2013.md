@@ -21,4 +21,3 @@ algorithms, interleaving methods and a full suite of ways to evaluate these meth
 evaluation method bundled in the software package is based on simulations of users interacting with the search engine.
 The software presented here has been used to verify findings of over six papers at major information retrieval venues
 over the last few years.
-

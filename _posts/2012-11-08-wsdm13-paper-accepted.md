@@ -33,4 +33,3 @@ approaches on 9 learning to rank data sets and find that historical data can spe
 and significantly higher online performance. In particular, our pre-selection method proves highly effective at
 compensating for noise in user feedback. Our results show that historical data can be used to make online learning to
 rank for IR much more effective than previously possible, especially when feedback is noisy.
-

@@ -20,4 +20,3 @@ initiative at CLEF and the OpenSearch track at TREC, researchers can now have di
 benchmarking platforms in place, we believe that online evaluation will be an exciting area to work on in the future.
 This half-day tutorial aims to provide a comprehensive overview of the underlying theory and complement it with
 practical guidance.
-

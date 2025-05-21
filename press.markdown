@@ -50,7 +50,7 @@ challenges they may pose to the industry.
 ## Users get what they're looking for
 
 *September 10th,
-2018*, [Hoe steeds meer media hun aanbod personaliseren: de gebruiker krijgt wat hij zoekt.](https://www.svdj.nl/nieuws/media-personaliseren/)  
+2018*, [Hoe steeds meer media hun aanbod personaliseren: de gebruiker krijgt wat hij zoekt.](https://www.svdj.nl/nieuws/media-personaliseren/)
 I was interviewed by Sjors Hofstede about personalisation of news products.
 
 **Summary:** This article focuses on the increasing trend of news personalization among media outlets. I share my
@@ -60,7 +60,7 @@ the benefits of tailoring news experiences for each reader.
 ## They know exactly what your preferences are
 
 *February 8th,
-2017,* [Zij weten precies wat jouw voorkeuren zijn](https://blendle.com/i/nrc-next/zij-weten-precies-wat-jouw-voorkeuren-zijn/bnl-nn-20170208-3_10_2)  
+2017,* [Zij weten precies wat jouw voorkeuren zijn](https://blendle.com/i/nrc-next/zij-weten-precies-wat-jouw-voorkeuren-zijn/bnl-nn-20170208-3_10_2)
 Rens Lieman interviewed me for NRC-Next.
 
 **Summary:** In this interview, I discuss the importance of understanding user preferences in order to deliver
@@ -70,7 +70,7 @@ content to individual users, while also addressing concerns about privacy and th
 ## Data science in Journalism
 
 *December 13th
-2016*, [Datawetenschap in de journalistiek: Zo berekent Blendle wat jij wil lezen](http://nieuwejournalistiek.nl/startup-blendle/2016/12/13/zo-berekent-blendle-wat-jij-wil-lezen/)  
+2016*, [Datawetenschap in de journalistiek: Zo berekent Blendle wat jij wil lezen](http://nieuwejournalistiek.nl/startup-blendle/2016/12/13/zo-berekent-blendle-wat-jij-wil-lezen/)
 Catrien Spijkerman of [Nieuwe Journalistiek](http://nieuwejournalistiek.nl/) interviewed me and Blendle's chief editor
 Ties Joosten and wrote an excellent article about how Blendle combines algorithms for personalized recommendations with
 high-quality manual curation.

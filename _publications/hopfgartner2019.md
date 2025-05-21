@@ -23,4 +23,3 @@ systems. In addition, users miss the chance to benefit from an improved informat
 introduce two evaluation initiatives at CLEF, NewsREEL and Living Labs for IR (LL4IR), that aim to address this growing
 “evaluation gap” between academia and industry. We explain the challenges and discuss the experiences organizing theses
 living labs.
-

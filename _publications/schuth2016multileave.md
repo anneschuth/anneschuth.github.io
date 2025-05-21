@@ -19,4 +19,3 @@ DBGD) algorithm has been shown to effectively learn combinations of these featur
 explores the search space by comparing a possibly improved ranker to the current production ranker. To this end, it uses
 interleaved comparison methods, which can infer with high sensitivity a preference between two rankings based only on
 interaction data. A limiting factor is that it can compare only to a single exploratory ranker.
-

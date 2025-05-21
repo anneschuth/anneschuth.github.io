@@ -28,4 +28,3 @@ position bias. We examine this bias using click models, and show how bias follow
 outcomes of RS evaluation. We find that evaluation based on implicit and explicit feedback can agree well, but only when
 the evaluation metrics are designed to take user behavior and preferences into account, stressing the importance of
 understanding user behavior in deployed RSs.
-

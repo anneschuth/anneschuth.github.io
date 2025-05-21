@@ -13,4 +13,3 @@ shield: conference-INEX-blue
 ---
 
 This paper provides an overview of the Linked Data Track that was newly introduced to the set of INEX tracks in 2012.
-

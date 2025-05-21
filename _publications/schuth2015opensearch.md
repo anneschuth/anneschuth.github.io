@@ -26,4 +26,3 @@ satisfies users. We should move to online evaluation, were we use implicit user 
 major issue for academics however has been the lack of a system with users. Open Search changes this. Open Search opens
 up real search engines with real users for research. Open Search allows researchers to expose their retrieval system to
 real, unsuspecting users with real information needs that can really be satisfied.
-

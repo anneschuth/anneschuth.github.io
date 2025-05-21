@@ -22,4 +22,3 @@ impressions from relatively low traffic sites. We propose that head queries can 
 offline, which are then interleaved with results of the production system for live evaluation. An API is developed to
 orchestrate the communication between commercial parties and benchmark participants. This campaign acts to progress the
 living labs for IR evaluation methodology, and offers important insight into the role of living labs in this space.
-

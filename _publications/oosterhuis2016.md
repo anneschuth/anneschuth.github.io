@@ -20,4 +20,3 @@ an extension of DBGD, called probabilistic multileave gradient descent (PMGD) th
 recently proposed highly sensitive and unbiased online evaluation method. We demonstrate that P-MGD significantly
 outperforms state-of-the-art online learning to rank methods in terms of online performance, without sacrificing offline
 performance and at greater learning speed.
-

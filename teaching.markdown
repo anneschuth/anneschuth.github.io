@@ -12,11 +12,11 @@ I (co-)supervised the following students and trainees. Many of them were interns
 interested in internships, feel free to reach out!
 
 ### Renate Burema (2024 - 2025)
+
 **Program**: Intern\
 **Host company**: Ministry of the Interior and Kingdom Relations\
 **Topic**: LLMs Benchmarks for The Netherlands\
 **Co-supervisor**: Christopher Spelt
-
 
 ### [Guusje Juijn](https://www.linkedin.com/in/guusjejuijn/) (2024)
 
@@ -213,4 +213,3 @@ interested in internships, feel free to reach out!
 ### Language Models
 
 **Year: 2009-2010**
-

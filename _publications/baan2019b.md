@@ -24,4 +24,3 @@ seemingly more transparent: we can ablate fewer heads and heads score higher on 
 if we apply pruning to the sparsemax model we find that we can prune even more heads, raising the question whether
 enforced sparsity actually improves transparency. Finally, we find that relative positions heads seem integral to
 summarization performance and persistently remain after pruning.
-

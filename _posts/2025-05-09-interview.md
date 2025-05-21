@@ -14,7 +14,7 @@ voor vragen zo'n model zou stellen en of het me aan het denken zou zetten over m
 
 *Dit was mijn prompt aan Claude:*
 
-> Ik ben Anne Schuth, auteur van een blog op https://anneschuth.nl (laatste blog posts bijgevoegd, maar zoek ook
+> Ik ben Anne Schuth, auteur van een blog op <https://anneschuth.nl> (laatste blog posts bijgevoegd, maar zoek ook
 > informatie op!) waar ik weeknotes schrijf over mijn werk bij Bureau Architectuur, een team binnen de Nederlandse
 > overheid dat zich bezighoudt met digitale transformatie.
 >

@@ -26,4 +26,3 @@ exploration–exploitation challenge. Third, the amount of feedback and therefor
 the number of user interactions, so it is important to use the observed data as effectively as possible. Here, we
 discuss our work on interpreting user feedback using probabilistic interleaved comparisons, and on learning to rank from
 noisy, relative feedback.
-

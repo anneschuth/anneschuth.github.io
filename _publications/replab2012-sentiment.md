@@ -18,4 +18,3 @@ the entity it talks about (and vice versa). Our model directly captures this imp
 replies—the statement solicits. We present the assumptions behind our model and the model itself. We find that given the
 current setting, results on the test set are strongly entity-dependent and that the test data is very different from the
 trial data. We conclude with a proposal on how to create a task that avoids such dataset dependent problems.
-

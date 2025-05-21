@@ -35,4 +35,3 @@ results, using 38 large-scale online experiments encompassing over 3 billion cli
 demonstrate up to a 22% improvement in agreement with AB metrics (constituting over a 50% error reduction), while
 maintaining interleaving sensitivity of one to two orders of magnitude above the AB tests. This paves the way towards
 more sensitive and accurate online evaluation.
-

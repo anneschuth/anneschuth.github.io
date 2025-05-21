@@ -28,4 +28,3 @@ concreteness, we focus on the optimization of a specific base ranker, viz. BM25.
 improvements in performance can be obtained when optimizing the parameters of BM25 for individual datasets. We also show
 that it is possible to optimize these parameters from clicks, i.e., without the use of manually annotated data, reaching
 or even beating manually tuned parameters.
-

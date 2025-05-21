@@ -9,18 +9,19 @@ permalink: /trec-opensearch-proposal-accepted/
 Our TREC proposal for OpenSearch has been accepted! TREC OpenSearch will be run in the same vein
 as CLEF LL4IR and use the same infrastructure.
 
-
 > OpenSearch is a new evaluation paradigm for IR. The experimentation platform *is* an existing search engine.
 > Researchers have the opportunity to replace components of this search engine and evaluate these components using
 > interactions with real, unsuspecting users of this search engine.
 
 Organizers
+
 - Anne Schuth, University of Amsterdam, The Netherlands
 - [Krisztian Balog](https://krisztianbalog.com/), University of Stavanger, Norway
 
 Read more on the [TREC OpenSearch website](http://trec-open-search.org/).
 
 ## Evaluation Setup
+
 TREC OpenSearch evaluates rankings provided by participants in the context of an actual search engine, by serving
 precomputed runs, for a given set of queries, to the users that enter one of these queries in the real-life search
 engine.
@@ -55,6 +56,7 @@ train queries. We propose this procedure to be able to learn how participants' s
 queries.
 
 ## Limitations
+
 The above setup has limitations. These include that only a selection of queries is considered (all queries are
 reasonably frequent, so no long tail) and there is no contextual information available about the current user (meaning
 that personalization is not possible). On the positive side, this approach avoids the privacy concerns and lowers the

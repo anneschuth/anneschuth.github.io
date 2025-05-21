@@ -19,4 +19,3 @@ with real users in their natural task environments. For this first edition of th
 use-cases: product search and web search. Ranking systems submitted by participants were experimentally compared using
 interleaved comparisons to the production system from the corresponding use-case. In this paper we describe how these
 experiments were performed, what the resulting outcomes are, and conclude with some lessons learned.
-

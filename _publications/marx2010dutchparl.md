@@ -16,4 +16,3 @@ the Dutch language. The first version of DutchParl contains documents from the p
 and Belgium. The corpus is divided along three dimensions: per parliament, scanned or digital documents, written
 recordings of spoken text and others. The digital collection contains more than 800 million tokens, the scanned
 collection more than 1 billion.
-

@@ -82,7 +82,7 @@ Tegelijkertijd zijn de beste engineers die ik ken mensen met een scherp oog voor
 grotere context. Mensen die niet alleen nadenken over hoe ze een specifiek probleem oplossen, maar ook hoe hun oplossing
 past in het grotere geheel.
 
-Het gaat niet om het afschaffen van specialisatie - mensen mogen (nee moeten) verschillende expertises en rollen hebben. 
+Het gaat niet om het afschaffen van specialisatie - mensen mogen (nee moeten) verschillende expertises en rollen hebben.
 Het gaat erom dat deze rollen niet moeten verworden tot strikte scheidingslijnen die samenwerking belemmeren. Teams
 functioneren beter wanneer er vloeiende grenzen zijn tussen de verschillende expertises, ook al hebben individuele
 teamleden misschien hun eigen specialismen.
@@ -103,4 +103,4 @@ echte mensen in de echte wereld.
 
 Uiteindelijk gaat het niet om architectuur zonder architecten, maar om een architectuur die ontstaat uit de gezamenlijke
 inspanning van iedereen die betrokken is bij het bouwen van digitale oplossingen. Een architectuur die niet wordt
-voorgeschreven, maar die ontstaat. 
+voorgeschreven, maar die ontstaat.

@@ -21,9 +21,8 @@ to clickbait to headlines of newspaper articles which can be bought in a digital
 Having a dataset consisting of triples—original headline, rewritten headline, CTR, where CTR is
 the click-through rate of the rewritten headline in a newsletter from the online kiosk Blendle—
 we can directly measure whether these “clickbait features” do what they are believed to do:
-entice readers to click on them. The main findings are as follows. First, the data shows that editors of 
+entice readers to click on them. The main findings are as follows. First, the data shows that editors of
 Blendle indeed often use clickbait features when rewriting headlines. Second, most, but
 not all, of the clickbait features lead to a statistically significant increase in the number of clicks.
 Third, predicting the effectiveness of a headline only on the basis of its clickbait features is not
 possible. The data on which this article is based is publicly available online.
-

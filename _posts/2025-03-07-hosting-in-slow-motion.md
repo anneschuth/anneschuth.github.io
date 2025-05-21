@@ -84,9 +84,9 @@ Het is in mijn ogen _nooit_ logisch geweest voor de overheid om te leunen op (Am
 Maar met recent gebeurtenissen in de wereld is het steeds minder logisch om naar omgevingen zoals Azure, AWS, of GCS te
 kijken. Zie ook de sterke stukken van [Bert Hubert](https://berthub.eu/) van de afgelopen weken over dit onderwerp:
 
-* [Nee je kan niet meer je overheid en maatschappij verhuizen naar Amerikaanse servers](https://berthub.eu/articles/posts/nee-je-kan-niet-meer-je-overheid-bouwen-op-de-us/)
-* [De cloud in soorten en maten](https://berthub.eu/articles/posts/cloud-in-soorten-en-maten/)
-* [Naar de cloud nu je er nog mee wegkomt: is dat het?](https://berthub.eu/articles/posts/naar-de-cloud-nu-het-nog-kan-is-dat-het/)
+- [Nee je kan niet meer je overheid en maatschappij verhuizen naar Amerikaanse servers](https://berthub.eu/articles/posts/nee-je-kan-niet-meer-je-overheid-bouwen-op-de-us/)
+- [De cloud in soorten en maten](https://berthub.eu/articles/posts/cloud-in-soorten-en-maten/)
+- [Naar de cloud nu je er nog mee wegkomt: is dat het?](https://berthub.eu/articles/posts/naar-de-cloud-nu-het-nog-kan-is-dat-het/)
 
 ## Het begin van de zoektocht
 
@@ -325,13 +325,13 @@ bij de processen en de organisatie.
 
 **Legenda**
 
-* 👥 - Meeting
-* 📨 - Email
-* 📄 - Document versie
-* ✅ - Goedkeuring
-* 📌 - Notities/Opmerkingen
-* 🔒 - Security Review
-* 🔄 - Actie
-* 📋 - Document update
-* 📞 - Telefoongesprek
-* 💬 - Chat bericht
+- 👥 - Meeting
+- 📨 - Email
+- 📄 - Document versie
+- ✅ - Goedkeuring
+- 📌 - Notities/Opmerkingen
+- 🔒 - Security Review
+- 🔄 - Actie
+- 📋 - Document update
+- 📞 - Telefoongesprek
+- 💬 - Chat bericht
