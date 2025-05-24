@@ -1,0 +1,12 @@
+---
+title: 'Head First: Living Labs for Ad-hoc Search Evaluation'
+date: '2014-01-01'
+year: 2014
+layout: talk
+key: head-first-living-labs-for-ad-hoc-search-evaluatio-2014
+shield: conference-orange
+venue: CIKM'14
+location: Shanghai, China
+publication_url: /publications/balog2014
+poster_url: /assets/cikm2014-lleval.pdf
+---

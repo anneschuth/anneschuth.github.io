@@ -31,7 +31,19 @@ layout: default
     <a href="https://doi.org/{{page.doi}}"><i class="fa fa-link"></i> https://doi.org/{{page.doi}}</a> <br />
     {% endif %}
     </p>
-
+    {% assign current_pub_url = page.url %}
+    {% assign related_talks = site.talks | where_exp: "talk", "talk.publication_url == current_pub_url" %}
+    {% if related_talks.size > 0 %}
+        <h2>Related Talks</h2>
+        <p>
+        {% for talk in related_talks %}
+            <a href="{{ talk.url }}"><i class="fa fa-microphone"></i> {{ talk.title }}</a>
+            {%- if talk.venue %} - {{ talk.venue }}{% endif -%}
+            {%- if talk.date -%}, {{ talk.date | date: "%B %Y" }}{% endif %}.
+            <br>
+        {% endfor %}
+        </p>
+    {% endif %}
     <h2>Bib</h2>
 <pre>
 @{{page.type}}{ {{- page.key}},
