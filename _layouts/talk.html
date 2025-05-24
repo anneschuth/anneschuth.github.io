@@ -28,7 +28,23 @@ layout: default
                style="display: block;">
         <div style="padding: 10px; text-align: center; background: #f9f9f9;">
             <a href="{{ page.slides_url }}" target="_blank" style="text-decoration: none; color: #666;">
-                📄 View PDF directly
+                📄 View Slides PDF directly
+            </a>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if page.poster_url %}
+    <h2>Poster</h2>
+    <div style="margin: 20px 0; border: 1px solid #ddd; border-radius: 4px; overflow: hidden;">
+        <embed src="{{ page.poster_url }}"
+               type="application/pdf"
+               width="100%"
+               height="500"
+               style="display: block;">
+        <div style="padding: 10px; text-align: center; background: #f9f9f9;">
+            <a href="{{ page.poster_url }}" target="_blank" style="text-decoration: none; color: #666;">
+                📄 View Poster PDF directly
             </a>
         </div>
     </div>

@@ -8,4 +8,5 @@ shield: conference-orange
 venue: ECIR'14
 location: Amsterdam, The Netherlands
 publication_url: /publications/hofmann2014
+poster_url: /assets/Effects-of-Position-Bias-on-Click-Based-Recommender-Evaluation-revised.pdf
 ---
