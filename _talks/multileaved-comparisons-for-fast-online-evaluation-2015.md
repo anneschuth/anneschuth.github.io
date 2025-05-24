@@ -7,6 +7,5 @@ key: multileaved-comparisons-for-fast-online-evaluation-2015
 shield: internal-gray
 venue: IAS Colloquium
 location: Amsterdam, The Netherlands
-slides_url: /assets/multileave.pdf
 publication_url: /publications/schuth2014multileaved
 ---

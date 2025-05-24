@@ -4,7 +4,7 @@ date: '2016-10-06'
 year: 2016
 layout: talk
 key: personalisatie-van-de-blendle-nieuwsbrief-2016
-shield: industry-purple
+shield: talk-lightblue
 venue: Persgroep Digital Day
 location: Amsterdam, The Netherlands
 ---

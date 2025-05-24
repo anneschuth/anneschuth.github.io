@@ -13,91 +13,109 @@ layout: default
     </p>
 
     {% if content != blank %}
-        <div class="talk-description">
-            {{ content }}
+    <div class="talk-description">
+        {{ content }}
+    </div>
+    {% endif %}
+
+    {% if page.slides_url %}
+    <h2>Slides</h2>
+    <div style="margin: 20px 0; border: 1px solid #ddd; border-radius: 4px; overflow: hidden;">
+        <embed src="{{ page.slides_url }}"
+               type="application/pdf"
+               width="100%"
+               height="500"
+               style="display: block;">
+        <div style="padding: 10px; text-align: center; background: #f9f9f9;">
+            <a href="{{ page.slides_url }}" target="_blank" style="text-decoration: none; color: #666;">
+                📄 View PDF directly
+            </a>
         </div>
+    </div>
     {% endif %}
 
     {% assign has_links = false %}
-    {% assign link_fields = 'slides_url,video_url,event_url,meetup_url,website_url,poster_url,thesis_url,repo_url,demo_url' | split: ',' %}
+    {% assign link_fields =
+    'slides_url,video_url,event_url,meetup_url,website_url,poster_url,thesis_url,repo_url,demo_url' | split: ',' %}
     {% for field in link_fields %}
-        {% assign field_value = page[field] %}
-        {% if field_value %}
-            {% assign has_links = true %}
-            {% break %}
-        {% endif %}
+    {% assign field_value = page[field] %}
+    {% if field_value %}
+    {% assign has_links = true %}
+    {% break %}
+    {% endif %}
     {% endfor %}
 
     {% if has_links %}
-        <h2>Links</h2>
-        <p>
+    <h2>Links</h2>
+    <p>
         {% if page.slides_url %}
-            <a href="{{ page.slides_url }}"><i class="fa fa-file-pdf-o"></i> Slides</a><br>
+        <a href="{{ page.slides_url }}"><i class="fa fa-file-pdf-o"></i> Slides</a><br>
         {% endif %}
         {% if page.video_url %}
-            <a href="{{ page.video_url }}" target="_blank"><i class="fa fa-video-camera"></i> Video</a><br>
+        <a href="{{ page.video_url }}" target="_blank"><i class="fa fa-video-camera"></i> Video</a><br>
         {% endif %}
         {% if page.event_url %}
-            <a href="{{ page.event_url }}" target="_blank"><i class="fa fa-calendar"></i> Event</a><br>
+        <a href="{{ page.event_url }}" target="_blank"><i class="fa fa-calendar"></i> Event</a><br>
         {% endif %}
         {% if page.meetup_url %}
-            <a href="{{ page.meetup_url }}" target="_blank"><i class="fa fa-users"></i> Meetup</a><br>
+        <a href="{{ page.meetup_url }}" target="_blank"><i class="fa fa-users"></i> Meetup</a><br>
         {% endif %}
         {% if page.website_url %}
-            <a href="{{ page.website_url }}" target="_blank"><i class="fa fa-globe"></i> Website</a><br>
+        <a href="{{ page.website_url }}" target="_blank"><i class="fa fa-globe"></i> Website</a><br>
         {% endif %}
         {% if page.poster_url %}
-            <a href="{{ page.poster_url }}"><i class="fa fa-file-image-o"></i> Poster</a><br>
+        <a href="{{ page.poster_url }}"><i class="fa fa-file-image-o"></i> Poster</a><br>
         {% endif %}
         {% if page.thesis_url %}
-            <a href="{{ page.thesis_url }}"><i class="fa fa-graduation-cap"></i> Thesis</a><br>
+        <a href="{{ page.thesis_url }}"><i class="fa fa-graduation-cap"></i> Thesis</a><br>
         {% endif %}
         {% if page.repo_url %}
-            <a href="{{ page.repo_url }}" target="_blank"><i class="fa fa-github"></i> Repository</a><br>
+        <a href="{{ page.repo_url }}" target="_blank"><i class="fa fa-github"></i> Repository</a><br>
         {% endif %}
         {% if page.demo_url %}
-            <a href="{{ page.demo_url }}" target="_blank"><i class="fa fa-desktop"></i> Demo</a><br>
+        <a href="{{ page.demo_url }}" target="_blank"><i class="fa fa-desktop"></i> Demo</a><br>
         {% endif %}
-        </p>
+    </p>
     {% endif %}
 
     {% if page.publication_url %}
     <h2>Related Publications</h2>
-        {% assign pub_key = page.publication_url | replace: '/publications/', '' %}
+    {% assign pub_key = page.publication_url | replace: '/publications/', '' %}
 
-        {% assign pub = site.publications | where: "key", pub_key | first %}
+    {% assign pub = site.publications | where: "key", pub_key | first %}
 
-        {% unless pub %}
-            {% assign pub = site.publications | where: "url", page.publication_url | first %}
-        {% endunless %}
+    {% unless pub %}
+    {% assign pub = site.publications | where: "url", page.publication_url | first %}
+    {% endunless %}
 
-        {% unless pub %}
-            {% assign pub_permalink = page.publication_url | append: "/" %}
-            {% assign pub = site.publications | where: "permalink", pub_permalink | first %}
-        {% endunless %}
+    {% unless pub %}
+    {% assign pub_permalink = page.publication_url | append: "/" %}
+    {% assign pub = site.publications | where: "permalink", pub_permalink | first %}
+    {% endunless %}
 
-        {% unless pub %}
-            {% assign pub_filename = pub_key | append: ".md" %}
-            {% for p in site.publications %}
-                {% assign p_filename = p.path | split: "/" | last %}
-                {% if p_filename == pub_filename %}
-                    {% assign pub = p %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-        {% endunless %}
+    {% unless pub %}
+    {% assign pub_filename = pub_key | append: ".md" %}
+    {% for p in site.publications %}
+    {% assign p_filename = p.path | split: "/" | last %}
+    {% if p_filename == pub_filename %}
+    {% assign pub = p %}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+    {% endunless %}
 
-        {% if pub %}
-            <p>
-                <a href="{{ pub.url }}"><i class="fa fa-file-text-o"></i> {{ pub.title }}</a><br>
-                <small><em>{{ pub.author | replace: "Anne Schuth", "<strong>Anne Schuth</strong>" }}.</em>
-                {% if pub.booktitle %}In {{ pub.booktitle }}, {% endif %}{% if pub.journal %}In {{ pub.journal }}, {% endif %}{{ pub.year }}.</small>
-            </p>
-        {% else %}
-            <p>
-                <a href="{{ page.publication_url }}"><i class="fa fa-file-text-o"></i> Related Publication</a>
-            </p>
-        {% endif %}
+    {% if pub %}
+    <p>
+        <a href="{{ pub.url }}"><i class="fa fa-file-text-o"></i> {{ pub.title }}</a><br>
+        <small><em>{{ pub.author | replace: "Anne Schuth", "<strong>Anne Schuth</strong>" }}.</em>
+            {% if pub.booktitle %}In {{ pub.booktitle }}, {% endif %}{% if pub.journal %}In {{ pub.journal }}, {% endif
+            %}{{ pub.year }}.</small>
+    </p>
+    {% else %}
+    <p>
+        <a href="{{ page.publication_url }}"><i class="fa fa-file-text-o"></i> Related Publication</a>
+    </p>
+    {% endif %}
     {% endif %}
 
 </div>

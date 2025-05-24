@@ -1,5 +1,5 @@
 ---
-title: 'Meten is Weten: Benchmarks voor Generatieve AI.'
+title: 'Meten is Weten: Benchmarks voor Generatieve AI'
 date: '2024-01-18'
 year: 2024
 layout: talk
