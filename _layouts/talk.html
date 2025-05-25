@@ -121,9 +121,9 @@ layout: default
     {% if pub %}
     <p>
         <a href="{{ pub.url }}"><i class="fa fa-file-text-o"></i> {{ pub.title }}</a><br>
-        <small><em>{{ pub.author | replace: "Anne Schuth", "<strong>Anne Schuth</strong>" }}.</em>
+        <em>{{ pub.author | replace: "Anne Schuth", "<strong>Anne Schuth</strong>" }}.</em>
             {% if pub.booktitle %}In {{ pub.booktitle }}, {% endif %}{% if pub.journal %}In {{ pub.journal }}, {% endif
-            %}{{ pub.year }}.</small>
+            %}{{ pub.year }}.
     </p>
     {% else %}
     <p>

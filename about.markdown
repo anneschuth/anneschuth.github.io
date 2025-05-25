@@ -8,7 +8,9 @@ paginate: 5
 
 ![Picture of Anne Schuth](/assets/anne-campus-270x270.png){: .round }
 
-I work on AI and Engineering for the Dutch Government, currently as Engineer in the Bureau Architecture (in formation). Before this, I was Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
+I work on AI and Engineering for the Dutch Government, currently as Engineer in
+the [Bureau Architectuur & Software Engineering](https://minbzk.github.io/BASE/) (BASE, in formation).
+Before this, I was Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
 
 I used to be Machine Learning Engineering Manager in the Search team at Spotify.
 Before joining Spotify, I spent almost 4 years at DPG Media in various roles, all contributing towards a push for
@@ -28,17 +30,19 @@ Cambridge UK and Yandex in Moscow.
 
 ### Government
 
-#### Bureau Architecture (in formation)
+#### Bureau Architectuur & Software Engineering (BASE, in formation)
 
 *The Hague, The Netherlands*
 **Engineer** (Jan 2025 -- present)
-Engineer in the Bureau Architecture (in formation).
+Engineer in the Bureau Architectuur & Software Engineering (BASE, in formation), working among other things
+on [PoC Machine Law](https://github.com/MinBZK/poc-machine-law).
 
 #### Ministry of the Interior and Kingdom Relations (BZK)
 
 *The Hague, The Netherlands*
 **Engineering Manager - AI Validation Team** (Aug 2023 -- Dec 2024)
-Growing and supporting the AI Validation Team at the Digital Society Department, NL Ministry of the Interior and Kingdom Relations (BZK). This is a team of engineers, product, UX, focused on building software for AI validation.
+Growing and supporting the AI Validation Team at the Digital Society Department, NL Ministry of the Interior and Kingdom
+Relations (BZK). This is a team of engineers, product, UX, focused on building software for AI validation.
 
 ### Industry
 

@@ -21,6 +21,8 @@ plugins:
 
 paginate: 5
 
+future: true
+
 minima:
   date_format: "%b %-d, %Y"
   social_links:
