@@ -1,6 +1,6 @@
 ---
 title: 'Head First: Living Labs for Ad-hoc Search Evaluation'
-date: '2014-01-01'
+date: '2014-11-03'
 year: 2014
 layout: talk
 key: head-first-living-labs-for-ad-hoc-search-evaluatio-2014

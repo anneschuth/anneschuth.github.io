@@ -1,6 +1,6 @@
 ---
 title: Fast Faceted Search in XML
-date: '2011-01-01'
+date: '2011-10-17'
 year: 2011
 layout: talk
 key: fast-faceted-search-in-xml-2011

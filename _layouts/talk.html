@@ -7,9 +7,7 @@ layout: default
 
     <p>
         {% if page.venue %}<strong>{{ page.venue }}</strong>{% endif -%}
-        {% if page.location %}{% if page.venue -%}, {% endif %}{{ page.location }}{% endif %}.
-        {% if page.venue or page.location %}<br>{% endif %}
-        <em>{{ page.date | date: "%B %d, %Y" }}</em>
+        {% if page.location %}{% if page.venue -%}, {% endif %}{{ page.location }}{% endif %}. <em>{{ page.date | date: "%b %-d, %Y" }}</em>.
     </p>
 
     {% if content != blank %}

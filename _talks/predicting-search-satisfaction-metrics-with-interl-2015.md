@@ -1,6 +1,6 @@
 ---
 title: Predicting Search Satisfaction Metrics with Interleaved Comparisons
-date: '2015-01-01'
+date: '2015-05-19'
 year: 2015
 layout: talk
 key: predicting-search-satisfaction-metrics-with-interl-2015

@@ -39,7 +39,7 @@ layout: default
         {% for talk in related_talks %}
             <a href="{{ talk.url }}"><i class="fa fa-microphone"></i> {{ talk.title }}</a>
             {%- if talk.venue %} - {{ talk.venue }}{% endif -%}
-            {%- if talk.date -%}, {{ talk.date | date: "%B %Y" }}{% endif %}.
+            {% if talk.location %}. {{ talk.location }}{% endif %}. <i>{{ talk.date | date: "%b %-d, %Y" }}</i>.
             <br>
         {% endfor %}
         </p>

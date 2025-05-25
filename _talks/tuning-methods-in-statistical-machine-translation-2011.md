@@ -15,4 +15,4 @@ event_url: https://web.archive.org/web/20150216170912/http://allserv.kahosl.be/b
 
 The KION Thesis Award is a national prize awarded annually by the joint Artificial Intelligence degree programmes in the Netherlands (KION: Kunstmatige Intelligentie-Opleidingen in Nederland) for the best thesis in the field of artificial intelligence.
 
-I was the he 2010 - 2011 award winner with my master thesis "Tuning Methods in Statistical Machine Translation". I presented it at BNAIC.
+I was the 2010 - 2011 award winner with my master thesis "Tuning Methods in Statistical Machine Translation". I presented it at BNAIC.

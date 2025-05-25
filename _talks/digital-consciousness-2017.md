@@ -1,6 +1,6 @@
 ---
 title: Digital Consciousness
-date: '2017-01-01'
+date: '2017-03-27'
 year: 2017
 layout: talk
 key: digital-consciousness-2017

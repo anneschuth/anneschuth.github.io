@@ -1,6 +1,6 @@
 ---
 title: Multileaved Comparisons for Fast Online Evaluation
-date: '2014-01-01'
+date: '2014-10-21'
 year: 2014
 layout: talk
 key: multileaved-comparisons-for-fast-online-evaluation-2014
