@@ -3,36 +3,51 @@ layout: default
 ---
 <div class="post-content">
 
-  <header class="post-header">
-    <h1 class="post-title">Weeknotes</h1>
-  </header>
+    <header class="post-header">
+        <h1 class="post-title">Weeknotes</h1>
+    </header>
 
-  <!-- This loops through the paginated posts -->
-  {% for post in paginator.posts %}
+    <div class="intro">
+        <p>Wekelijkse reflecties over werk, technologie (en het leven). Dit zijn mijn <a
+                href="https://kees.it.com/weeknotes/2025/03/13/De-meta-weeknote.html">weeknotes</a> - korte updates over
+            waar ik over nadenk, aan werk en wat ik leer. Ik schrijf zoal over de spanning tussen technologie en beleid,
+            de uitdagingen van digitale transformatie, en hoe we betekenisvolle verandering kunnen bewerkstelligen.
+            Zoals over <a href="/2025/04/11/maken-over-schrijven.html">maken boven schrijven</a>, de realiteit van <a
+                    href="/2025/03/07/hosting-in-slow-motion.html">hosting in slow motion</a>, gedachten over <a
+                    href="/2025/05/19/ki.html">kunstmatige intelligentie</a>, en waarom <a
+                    href="/2025/04/04/email-is-dood.html">email dood is</a>.</p>
+    </div>
+
+    <div class="notice">
+        <p><em>Momenteel ben ik met ouderschapsverlof.</em></p>
+    </div>
+
+    <!-- This loops through the paginated posts -->
+    {% for post in paginator.posts %}
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <div class="content">
-      {{ post.excerpt }}
+        {{ post.excerpt }}
     </div>
-  {% endfor %}
+    {% endfor %}
 
-  <!-- Pagination links -->
-  <div class="pagination post-meta">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">
-        Previous
-      </a>
-    {% else %}
-      <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">
+    <!-- Pagination links -->
+    <div class="pagination post-meta">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">
+            Previous
+        </a>
+        {% else %}
+        <span class="previous">Previous</span>
+        {% endif %}
+        <span class="page_number ">
       Page: {{ paginator.page }} of {{ paginator.total_pages }}
     </span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-      <span class="next ">Next</span>
-    {% endif %}
-  </div>
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        {% else %}
+        <span class="next ">Next</span>
+        {% endif %}
+    </div>
 
 </div>
