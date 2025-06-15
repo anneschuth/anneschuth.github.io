@@ -8,10 +8,27 @@ repos:
         language: system
         pass_filenames: false
         stages: [commit]
-        
+
       - id: jekyll-build
         name: Jekyll build test
         entry: bundle exec jekyll build --trace
         language: system
         pass_filenames: false
         stages: [commit]
+
+      - id: check-yaml
+        name: Check YAML frontmatter
+        entry: python3 check_yaml.py
+        language: system
+        files: \.(md)$
+        pass_filenames: false
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: \.md$
+      - id: end-of-file-fixer
+        exclude: \.md$
+      - id: check-added-large-files
+        args: ['--maxkb=10000']

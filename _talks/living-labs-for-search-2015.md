@@ -9,3 +9,8 @@ location: Brussels, Belgium
 shield: keynote-red
 slides_url: /assets/20150507-ScienceEurope-AnneSchuth.pdf
 ---
+
+## Summary
+
+This presentation discusses information retrieval research as presented at Workshop: Towards networked Research Infrastructures for behavioral studies.
+

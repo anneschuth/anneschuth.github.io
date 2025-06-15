@@ -9,3 +9,8 @@ venue: Koninklijke Bibliotheek
 location: Den Haag, The Netherlands
 slides_url: /assets/kb-anneschuth-streamingblendle.pdf
 ---
+
+## Summary
+
+This presentation discusses user behavior research as presented at Koninklijke Bibliotheek.
+

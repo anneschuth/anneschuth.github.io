@@ -10,3 +10,8 @@ location: Amsterdam, The Netherlands
 slides_url: /assets/sea-anneschuth-streamingblendle.pdf
 meetup_url: http://www.meetup.com/SEA-Search-Engines-Amsterdam/events/230808199/
 ---
+
+## Summary
+
+This presentation discusses user behavior research as presented at Search Engines Amsterdam Meetup.
+

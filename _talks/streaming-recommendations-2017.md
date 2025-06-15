@@ -9,3 +9,8 @@ venue: Poki
 location: Amsterdam, The Netherlands
 slides_url: /assets/northeast-anneschuth-streamingblendle.pdf
 ---
+
+## Summary
+
+This presentation discusses user behavior research as presented at Poki.
+

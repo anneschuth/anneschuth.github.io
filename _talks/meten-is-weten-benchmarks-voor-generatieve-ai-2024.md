@@ -9,3 +9,8 @@ venue: Launch event vision on Generative AI
 location: Den Haag, The Netherlands
 slides_url: /assets/meten-is-weten-benchmarks-generatieve-ai.pdf
 ---
+
+## Summary
+
+This presentation discusses information retrieval research as presented at Launch event vision on Generative AI.
+

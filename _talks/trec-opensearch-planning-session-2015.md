@@ -11,3 +11,8 @@ slides_url: /assets/20151119-TREC-OpenSearch.pdf
 website_url: http://trec-open-search.org/
 poster_url: /assets/TREC-OpenSearch.pdf
 ---
+
+## Summary
+
+This presentation discusses information retrieval, user behavior, evaluation research and evaluation methodologies as presented at TREC Conference.
+

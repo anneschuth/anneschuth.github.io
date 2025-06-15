@@ -10,3 +10,8 @@ location: Paris, France
 slides_url: /assets/20151028-criteo.pdf
 publication_url: /publications/schuth2014multileaved
 ---
+
+## Summary
+
+This presentation discusses information retrieval, evaluation research and evaluation methodologies as presented at Beer&Tech, Criteo.
+

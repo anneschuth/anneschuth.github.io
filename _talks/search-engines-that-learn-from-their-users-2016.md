@@ -13,6 +13,10 @@ thesis_url: /thesis
 publication_url: /publications/schuth-phd-thesis-2016
 ---
 
+## Summary
+
+This presentation discusses information retrieval, machine learning, user behavior research, focusing on learning approaches and evaluation methodologies as presented at Aula UvA.
+
 On May 27, 2016, I publicly defended my
 dissertation [Search Engines that Learn from Their Users](/publications/schuth-phd-thesis-2016) at the University of
 Amsterdam.

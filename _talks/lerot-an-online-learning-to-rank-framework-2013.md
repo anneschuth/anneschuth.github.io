@@ -10,3 +10,8 @@ location: San Francisco, USA
 slides_url: /assets/ll2013-lerot.pdf
 publication_url: /publications/schuth2013lerot
 ---
+
+## Summary
+
+This presentation discusses information retrieval, machine learning, user behavior research, focusing on learning approaches as presented at Living Labs workshop at CIKM'13.
+

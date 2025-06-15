@@ -12,3 +12,8 @@ slides_url: /assets/20160224-multileleavegradientdescent.pdf
 publication_url: /publications/schuth2016multileave
 poster_url: /assets/20151124-WSDM-MGD.pdf
 ---
+
+## Summary
+
+This presentation discusses information retrieval, machine learning research, focusing on learning approaches as presented at WSDM'16.
+

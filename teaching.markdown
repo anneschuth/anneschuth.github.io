@@ -183,7 +183,7 @@ interested in internships, feel free to reach out!
 - Anne Schuth and Robert-Jan Bruintjes and Fritjof Büttner and Joost van Doorn and Carla Groenland and Harrie
   Oosterhuis and Cong-Nguyen Tran and Bas Veeling and Jos van der Velde and Roger Wechsler and David Woudenberg and
   Maarten de
-  Rijke. [Probabilistic Multileave for Online Retrieval Evaluation](/publications/schuth-2015-probabilistic). In
+  Rijke. [Probabilistic Multileave for Online Retrieval Evaluation](/publications/schuth2015probabilistic.html). In
   Proceedings of SIGIR’15, 2015.
 
 ### Information Retrieval 1 (Curriculum Master Artificial Intelligence)

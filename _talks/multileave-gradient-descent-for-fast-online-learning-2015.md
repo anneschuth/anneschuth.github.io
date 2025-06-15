@@ -11,3 +11,8 @@ location: Amsterdam, The Netherlands
 slides_url: /assets/20151103-multileleavegradientdescent.pdf
 publication_url: /publications/schuth2016multileave
 ---
+
+## Summary
+
+This presentation discusses information retrieval, machine learning, user behavior research, focusing on learning approaches as presented at ILPS Soos.
+

@@ -10,3 +10,8 @@ location: Toulouse, France
 slides_url: /assets/20150908-CLEF-Overview-AnneSchuth.pdf
 publication_url: /publications/schuth2015overview
 ---
+
+## Summary
+
+This presentation discusses user behavior, evaluation research and evaluation methodologies as presented at CLEF'15.
+

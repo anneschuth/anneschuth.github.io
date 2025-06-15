@@ -9,3 +9,8 @@ location: 'Amsterdam, The Netherlands'
 shield: meetup-green
 slides_url: /assets/20141208-recommender-anneschuth.pdf
 ---
+
+## Summary
+
+This presentation discusses information retrieval, machine learning, user behavior research, focusing on learning approaches and evaluation methodologies as presented at RecSys:NL Meetup.
+

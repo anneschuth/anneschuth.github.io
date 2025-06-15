@@ -9,3 +9,8 @@ venue: Textkernel Tech Talks
 location: Amsterdam, The Netherlands
 slides_url: /assets/20140626-textkernel-anneschuth.pdf
 ---
+
+## Summary
+
+This presentation discusses information retrieval, machine learning, user behavior research, focusing on learning approaches as presented at Textkernel Tech Talks.
+

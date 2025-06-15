@@ -10,3 +10,8 @@ shield: meetup-green
 slides_url: /assets/northeast-anneschuth-streamingblendle.pdf
 meetup_url: http://www.meetup.com/Data-Science-Northeast-Netherlands/events/233467122/
 ---
+
+## Summary
+
+This presentation discusses user behavior research as presented at Data Science Northeast Netherlands.
+

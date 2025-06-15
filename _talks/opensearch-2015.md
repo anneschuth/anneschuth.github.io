@@ -11,3 +11,8 @@ slides_url: /assets/20151103-dir-lightning.pdf
 website_url: http://trec-open-search.org/
 publication_url: /publications/schuth2015opensearch
 ---
+
+## Summary
+
+This presentation discusses user behavior, evaluation research and evaluation methodologies as presented at Lightning Talk, DIR'15.
+

@@ -11,3 +11,8 @@ location: Amsterdam, The Netherlands
 slides_url: /assets/ecir-2014-bm25.pdf
 publication_url: /publications/schuth2014
 ---
+
+## Summary
+
+This presentation discusses machine learning, user behavior research, focusing on learning approaches as presented at ECIR'14.
+

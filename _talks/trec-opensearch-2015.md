@@ -9,3 +9,8 @@ venue: ILPS Soos
 location: Amsterdam, The Netherlands
 slides_url: /assets/20151103-dir-lightning.pdf
 ---
+
+## Summary
+
+This presentation discusses user behavior, evaluation research and evaluation methodologies as presented at ILPS Soos.
+

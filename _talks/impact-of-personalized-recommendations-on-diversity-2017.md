@@ -10,3 +10,8 @@ venue: 45th EPRA Meeting
 location: Edinburgh, Scotland
 slides_url: /assets/epra-anneschuth.pdf
 ---
+
+## Summary
+
+This presentation discusses user behavior research as presented at 45th EPRA Meeting.
+

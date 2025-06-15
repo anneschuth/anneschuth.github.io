@@ -10,3 +10,8 @@ location: Toulouse, France
 slides_url: /assets/clefll4ir_introduction_to_lab.pdf
 publication_url: /publications/schuth2015overview
 ---
+
+## Summary
+
+This presentation discusses information retrieval, user behavior, evaluation research and evaluation methodologies as presented at CLEF LL4IR'15.
+
