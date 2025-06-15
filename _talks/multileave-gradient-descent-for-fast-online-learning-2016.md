@@ -15,5 +15,5 @@ poster_url: /assets/20151124-WSDM-MGD.pdf
 
 ## Summary
 
-This presentation discusses information retrieval, machine learning research, focusing on learning approaches as presented at WSDM'16.
+This research addresses the challenge of improving online learning to rank systems by developing Multileave Gradient Descent (MGD), a method that explores multiple ranking directions simultaneously rather than the single direction approach used in traditional Dueling Bandit Gradient Descent (DBGD). The key innovation lies in using multileaved comparisons that can evaluate multiple rankers at once, enabling the algorithm to converge approximately 10 times faster than DBGD while maintaining the same final performance quality. This advancement significantly accelerates the online learning process for search engines, allowing them to adapt more quickly to user feedback and improve ranking performance with fewer update steps.
 
