@@ -21,3 +21,7 @@ algorithms, interleaving methods and a full suite of ways to evaluate these meth
 evaluation method bundled in the software package is based on simulations of users interacting with the search engine.
 The software presented here has been used to verify findings of over six papers at major information retrieval venues
 over the last few years.
+
+---
+
+**See also:** [Blog post about Lerot](/lerot/), [talk about the framework](/talks/lerot-an-online-learning-to-rank-framework-2013.html), and research using Lerot: [multileaved comparisons](/publications/schuth2014multileaved.html), [multileave gradient descent](/publications/schuth2015mgd.html).

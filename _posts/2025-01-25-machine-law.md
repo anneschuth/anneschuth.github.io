@@ -56,3 +56,7 @@ We need to bring the right people on board - not just engineers and architects, 
 most importantly, the civil servants who work directly with citizens. And, importantly, a UX designer, I think.
 
 The experiment continues, but with an eye toward making it real.
+
+---
+
+**Related:** See also my follow-up post on [Rules as Code Europe](/2025/03/21/rules-as-code-europe.html) and my talks on [machine-executable legislation](/talks/automated-extraction-of-machine-executable-legisla-2025.html) and [prediction in the public sector](/talks/prediction-is-power-also-in-the-public-sector-2025.html).

@@ -7,10 +7,12 @@ permalink: /cikm14-full-paper-accepted/
 
 ---
 
-Our paper [Multileaved Comparisons for Fast Online Evaluation](/publications/schuth2014multileaved) by Anne
+Our paper [Multileaved Comparisons for Fast Online Evaluation](/publications/schuth2014multileaved.html) by Anne
 Schuth, [Floor Sietsma](http://nl.linkedin.com/pub/floor-sietsma/11/3b0/80b), [Shimon Whiteson](https://staff.fnwi.uva.nl/s.a.whiteson/Shimon_Whiteson/Home.html),
 Damien Lefortier and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted as a full paper
 at [CIKM'14](http://cikm2014.fudan.edu.cn/).
+
+**Related:** This work builds on the [Lerot framework](/lerot/) and was later presented in talks on [multileaved comparisons](/talks/multileaved-comparisons-for-fast-online-evaluation-2014.html).
 
 Evaluation methods for information retrieval systems come in three types: offline evaluation, using static data sets
 annotated for relevance by human judges; user studies, usually conducted in a lab-based setting; and online evaluation,
