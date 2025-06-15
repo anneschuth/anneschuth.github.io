@@ -59,4 +59,4 @@ The experiment continues, but with an eye toward making it real.
 
 ---
 
-**Related:** See also my follow-up post on [Rules as Code Europe](/2025/03/21/rules-as-code-europe.html) and my talks on [machine-executable legislation](/talks/automated-extraction-of-machine-executable-legisla-2025.html) and [prediction in the public sector](/talks/prediction-is-power-also-in-the-public-sector-2025.html).
+**Related:** See also my follow-up post on [Rules as Code Europe](/2025/03/21/rules-as-code-europe.html) and my talks on [machine-executable legislation](/talks/automated-extraction-of-machine-executable-legislation-2025.html) and [prediction in the public sector](/talks/prediction-is-power-also-in-the-public-sector-2025.html).

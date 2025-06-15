@@ -4,7 +4,7 @@ author: "Katja Hofmann and Shimon Whiteson and Anne Schuth and Maarten de Rijke"
 date: "2014-01-01"
 issn: "1931-1745"
 journal: "SIGWEB Newsletter"
-key: hofmann:2014:lri:2591453.2591458
+key: hofmann2014sigweb
 keywords: "learning to rank, online learning"
 layout: publication
 number: "Spring"

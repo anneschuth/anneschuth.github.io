@@ -9,7 +9,7 @@ permalink: /trec-opensearch-proposal-accepted/
 Our TREC proposal for OpenSearch has been accepted! TREC OpenSearch will be run in the same vein
 as CLEF LL4IR and use the same infrastructure.
 
-**Related work:** This builds on our [Living Labs research](/publications/schuth2015opensearch.html) and the [LL4IR CLEF overview](/publications/schuth_2015_extended.html). See also the [OpenSearch talk](/talks/opensearch-2015.html) and [TREC OpenSearch presentation](/talks/trec-opensearch-2015.html).
+**Related work:** This builds on our [Living Labs research](/publications/schuth2015opensearch.html) and the [LL4IR CLEF overview](/publications/schuth2015extended.html). See also the [OpenSearch talk](/talks/opensearch-2015.html) and [TREC OpenSearch presentation](/talks/trec-opensearch-2015.html).
 
 > OpenSearch is a new evaluation paradigm for IR. The experimentation platform *is* an existing search engine.
 > Researchers have the opportunity to replace components of this search engine and evaluate these components using
@@ -65,4 +65,4 @@ that personalization is not possible). On the positive side, this approach avoid
 barrier to entry: participants prepare their runs offline and partake in an online experiment, without having to build
 and maintain a live service.
 
-[![trecopensearch-darker](/assets/trecopensearch-darker.png?resize=150%2C150&ssl=1)](/assets/trecopensearch-darker.png?ssl=1)
+[![trecopensearch-darker](/assets/trecopensearch-darker.png)](/assets/trecopensearch-darker.png?ssl=1)

@@ -8,7 +8,7 @@ keywords: ""
 layout: publication
 organization: "Digital Government Society of North America"
 pages: "99--104"
-pdf: /assets/Digital_sustainable_publication_of_legacy_parliament.pdf
+pdf: /assets/digital-sustainable-publication-legacy-parliament.pdf
 title: "Digital sustainable publication of legacy parliamentary proceedings"
 type: inproceedings
 year: "2010"

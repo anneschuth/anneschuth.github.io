@@ -21,4 +21,4 @@ runs as a lab at CLEF and TREC OpenSearch, made it possible for researchers to h
 recent developments, we believe that online evaluation will be an exciting area to work on in the future. This half-day
 tutorial aims to provide a comprehensive overview of the underlying theory and complement it with practical guidance.
 
-![lila](/assets/lila.png?resize=150%2C150&ssl=1)
+![lila](/assets/lila.png)

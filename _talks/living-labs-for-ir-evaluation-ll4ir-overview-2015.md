@@ -8,5 +8,5 @@ shield: conference-orange
 venue: CLEF'15
 location: Toulouse, France
 slides_url: /assets/20150908-CLEF-Overview-AnneSchuth.pdf
-publication_url: /publications/schuth-2015-overview
+publication_url: /publications/schuth2015overview
 ---

@@ -7,5 +7,5 @@ key: meten-is-weten-benchmarks-voor-generatieve-ai-2024
 shield: talk-lightblue
 venue: Launch event vision on Generative AI
 location: Den Haag, The Netherlands
-slides_url: /assets/Meten is weten - benchmarks voor generatieve AI.pdf
+slides_url: /assets/meten-is-weten-benchmarks-generatieve-ai.pdf
 ---

@@ -2,7 +2,7 @@
 author: "Katja Hofmann and Anne Schuth and Shimon Whiteson and Maarten de Rijke"
 booktitle: "Proceedings of DIR'13"
 date: "2013-04-26"
-key: hofmann_reusing_2013_dir
+key: hofmann2013reusingdir
 keywords: "DIR, learning to rank, workshop"
 layout: publication
 pdf: /assets/reusing-historical-2013-abstract.pdf
@@ -10,6 +10,8 @@ title: "Reusing Historical Interaction Data for Faster Online Learning to Rank f
 type: inproceedings
 year: "2013"
 shield: abstract-DIR-9cf
+
+redirect_from: /publications/hofmann_reusing_2013_dir.html
 ---
 
-We summarize the findings from [Hofmann et al.](/publications/hofmann_2013_reusing).
+We summarize the findings from [Hofmann et al.](/publications/hofmann2013reusing).

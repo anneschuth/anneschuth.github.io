@@ -14,7 +14,7 @@ tags:
     - wsdm
 ---
 
-Our paper [Reusing Historical Interaction Data for Faster Online Learning to Rank for IR](/publications/hofmann-2013-reusing)
+Our paper [Reusing Historical Interaction Data for Faster Online Learning to Rank for IR](/publications/hofmann2013reusing)
 with [Katja Hofmann](http://khofm.wordpress.com/), [Shimon Whiteson](http://staff.science.uva.nl/~whiteson)
 and [Maarten de Rijke](http://staff.science.uva.nl/~mdr/) was accepted for publication
 in [WSDM'13](http://www.wsdm2013.org/ "http://www.wsdm2013.org/").

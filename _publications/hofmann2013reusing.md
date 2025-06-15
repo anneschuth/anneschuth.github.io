@@ -2,7 +2,7 @@
 author: "Katja Hofmann and Anne Schuth and Shimon Whiteson and Maarten de Rijke"
 booktitle: "Proceedings of WSDM'13"
 date: "2013-02-04"
-key: hofmann_2013_reusing
+key: hofmann2013reusing
 keywords: "learning to rank, Lerot, online learning, WSDM"
 layout: publication
 pdf: /assets/reusing-historical-2013.pdf
@@ -10,6 +10,8 @@ title: "Reusing Historical Interaction Data for Faster Online Learning to Rank f
 type: inproceedings
 year: "2013"
 shield: conference-WSDM-blue
+
+redirect_from: /publications/hofmann_2013_reusing.html
 ---
 
 Online learning to rank for information retrieval (IR) holds promise for allowing the development of “self-learning”

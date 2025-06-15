@@ -2,10 +2,11 @@
 author: "Anne Schuth and Katja Hofmann and Filip Radlinski"
 booktitle: "Proceedings of SIGIR'15"
 date: "2015-08-09"
-key: schuth_2015_predicting
+key: schuth2015predicting
 doi: "10.1145/2766462.2767695"
 keywords: "A/B testing, evaluation, interleaving, SIGIR"
 layout: publication
+redirect_from: /publications/schuth_2015_predicting.html
 pdf: /assets/fp041-schuthA.pdf
 publisher: "ACM"
 title: "Predicting Search Satisfaction Metrics with Interleaved Comparisons"

@@ -7,6 +7,6 @@ date: "2011-01-01"
 keywords: ""
 title: "XML Data Integration in Action"
 year: "2011"
-pdf: /assets/XML_Data_Integration_in_Action.pdf
+pdf: /assets/xml-data-integration-action.pdf
 shield: report-PDF-yellow
 ---

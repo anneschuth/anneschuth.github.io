@@ -2,9 +2,10 @@
 author: "Anne Schuth and Krisztian Balog and Liadh Kelly"
 booktitle: "Proceedings of CLEF'15"
 date: "2015-09-08"
-key: schuth_2015_overview
+key: schuth2015overview
 keywords: "CLEF, evaluation, living labs, workshop"
 layout: publication
+redirect_from: /publications/schuth_2015_overview.html
 pdf: /assets/168329_clef2015_ll4ir.pdf
 publisher: "Springer"
 title: "Overview of the Living Labs for Information Retrieval Evaluation (LL4IR) CLEF Lab 2015"

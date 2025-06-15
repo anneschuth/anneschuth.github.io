@@ -8,5 +8,5 @@ shield: conference-orange
 venue: Living Labs workshop at CIKM'13
 location: San Francisco, USA
 slides_url: /assets/ll2013-lerot.pdf
-publication_url: /publications/schuth-lerot-2013
+publication_url: /publications/schuth2013lerot
 ---

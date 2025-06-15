@@ -7,5 +7,5 @@ key: evaluating-aggregated-search-using-interleaving-2013
 shield: internal-gray
 venue: ILPS Soos
 location: Amsterdam, The Netherlands
-publication_url: /publications/chuklin-evaluating-2013
+publication_url: /publications/chuklin2013evaluating
 ---

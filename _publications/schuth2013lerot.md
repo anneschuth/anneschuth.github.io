@@ -3,9 +3,10 @@ author: "Anne Schuth and Katja Hofmann and Shimon Whiteson and Maarten de Rijke"
 booktitle: "Proceedings of Living Labs for Information Retrieval Evaluation workshop at CIKM'13"
 date: "2013-11-01"
 doi: "10.1145/2513150.2513162"
-key: schuth_lerot_2013
+key: schuth2013lerot
 keywords: "learning to rank, online learning, workshop"
 layout: publication
+redirect_from: /publications/schuth_lerot_2013.html
 pdf: /assets/schuth-lerot-2013.pdf
 title: "Lerot: an Online Learning to Rank Framework"
 type: inproceedings
