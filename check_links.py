@@ -12,6 +12,18 @@ from urllib.parse import urlparse
 
 def find_internal_links(content):
     """Extract internal links from markdown content."""
+    # Split content into lines to filter out commented lines
+    lines = content.split('\n')
+    active_lines = []
+    
+    for line in lines:
+        # Skip lines that start with # (commented YAML)
+        if not line.strip().startswith('#'):
+            active_lines.append(line)
+    
+    # Rejoin only active lines
+    active_content = '\n'.join(active_lines)
+    
     # Patterns for various link formats
     patterns = [
         r'\[([^\]]+)\]\((/[^)]+)\)',  # [text](/path)
@@ -26,7 +38,7 @@ def find_internal_links(content):
 
     links = []
     for pattern in patterns:
-        matches = re.findall(pattern, content)
+        matches = re.findall(pattern, active_content)
         for match in matches:
             if isinstance(match, tuple):
                 link = match[1]  # Get the URL part
@@ -44,6 +56,24 @@ def find_internal_links(content):
 def check_internal_link(link, base_path="/Users/anneschuth/anneschuth.github.io"):
     """Check if an internal link exists."""
     base = Path(base_path)
+
+    # Special case: check for Jekyll permalinks by examining _posts
+    if not link.startswith('/assets/') and not link.startswith('/publications/') and not link.startswith('/talks/'):
+        # Check if this is a Jekyll permalink
+        posts_dir = base / "_posts"
+        if posts_dir.exists():
+            for post_file in posts_dir.glob("*.md"):
+                try:
+                    with open(post_file, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                    # Check if this post has a permalink matching our link
+                    permalink_match = re.search(r'permalink:\s*([^\n]+)', content)
+                    if permalink_match:
+                        permalink = permalink_match.group(1).strip()
+                        if permalink == link or permalink.rstrip('/') == link.rstrip('/'):
+                            return True
+                except Exception:
+                    continue
 
     # Handle different link types
     if link.startswith('/assets/'):
