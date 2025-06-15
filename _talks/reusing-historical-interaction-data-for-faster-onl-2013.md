@@ -7,6 +7,6 @@ key: reusing-historical-interaction-data-for-faster-onl-2013
 venue: 'IR group of the University of Glasgow'
 shield: invited_talk-red
 location: 'Glasgow, Scotland, UK'
-slides_url: /assets/20130312-reusinghistoricaldata.pdf
+# slides_url: /assets/20130312-reusinghistoricaldata.pdf
 publication_url: /publications/hofmann-2013-reusing
 ---

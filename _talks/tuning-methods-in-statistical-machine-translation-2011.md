@@ -7,7 +7,7 @@ key: tuning-methods-in-statistical-machine-translation-2011
 shield: thesis-red
 venue: "KION Thesis Award Presentation at BNAIC'11"
 location: Gent, Belgium
-slides_url: /assets/KION-presentation.pdf
+# slides_url: /assets/KION-presentation.pdf
 thesis_url: /publications/schuth2010tuning
 publication_url: /publications/schuth2010tuning
 event_url: https://web.archive.org/web/20150216170912/http://allserv.kahosl.be/bnaic2011/kion

@@ -5,33 +5,28 @@ author: Anne
 layout: post
 permalink: /research-in-moscow/
 categories:
-    - Blog
+  - Blog
 tags:
-    - internship
-    - moscow
-    - yandex
+  - internship
+  - moscow
+  - yandex
 ---
 
-![My old sovjet building](/assets/IMG_5786-e1392834215221-224x300.jpg)One week ago, I took off
-from Amsterdam to settle in Moscow for 3.5 months. I was going to be a research intern
+One week ago, I took off from Amsterdam to settle in Moscow for 3.5 months. I was going to be a research intern
 at [Yandex](http://company.yandex.com/), *the* Russian search engine and a major player in international search engine
 land.
 
 It was a good thing I printed a map with the location of my apartment, the taxi driver had no clue where to go when I
 told him my address. But after about spending the best part of an hour in a traffic jam where he could study my map, we
-did find my building among thousands of very similar buildings. It turned out that I was going to spend my time in the
-rambling old Soviet building in the picture here on the left!
-
-![Red Square](/assets/IMG_5775-300x224.jpg)
+did find my building among thousands of very similar buildings. It turned out that I was going to spend my time in a
+rambling old Soviet building!
 
 After an evening of fighting with banks and their peculiarities (the Dutch [ING](http://www.ing.nl/) allows a maximum of
 two cash withdrawals per day while the Russian [Сбербанк](http://www.sberbank.ru/) allows a maximum of 5000руб per
 withdrawal, these restrictions together allowed me to withdraw just over €200 with one card, my other card was
 swallowed), sleeping a short night in a very hot room (central Soviet heating) and a continued fight with banks (yes, it
-was a new day, so I could make my two withdrawals again) I took a the superb Moscow metro and walked over the Red Square
+was a new day, so I could make my two withdrawals again) I took the superb Moscow metro and walked over the Red Square
 to the Yandex office.
-
-![Yandex](/assets/IMG_5758-e1392834541583-224x300.jpg)
 
 There, I was welcomed by two adaptation officers; people whose job it is to make sure new employees find their way
 around the office. After a tour through the office and a lunch at one of the excellent Yandex restaurants, I had the
