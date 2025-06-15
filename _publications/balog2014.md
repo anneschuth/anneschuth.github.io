@@ -7,6 +7,8 @@ keywords: "CIKM, evaluation, living labs, poster"
 layout: publication
 pdf: /assets/cikm2014-lleval.pdf
 title: "Head First: Living Labs for Ad-hoc Search Evaluation"
+citations: 44
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:TIZ-Mc8IlK0C"
 type: inproceedings
 year: "2014"
 shield: conference-CIKM-blue

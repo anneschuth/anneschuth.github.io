@@ -9,6 +9,8 @@ layout: publication
 redirect_from: /publications/schuth_lerot_2013.html
 pdf: /assets/schuth-lerot-2013.pdf
 title: "Lerot: an Online Learning to Rank Framework"
+citations: 65
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:8k81kl-MbHgC"
 type: inproceedings
 shield: workshop-CIKM-green
 year: "2013"

@@ -9,6 +9,8 @@ layout: publication
 redirect_from: /publications/schuth_2015_probabilistic.html
 pdf: /assets/schuth-probabilistic-2015.pdf
 title: "Probabilistic Multileave for Online Retrieval Evaluation"
+citations: 36
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:MLfJN-KU85MC"
 type: inproceedings
 shield: conference-SIGIR-blue
 year: "2015"

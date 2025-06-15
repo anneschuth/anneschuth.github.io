@@ -7,6 +7,8 @@ layout: publication
 pdf: /assets/master-thesis-anne-schuth.pdf
 school: "University of Amsterdam"
 title: "Tuning Methods in Statistical Machine Translation"
+citations: 0
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:Tyk-4Ss8FVUC"
 type: mastersthesis
 year: "2010"
 shield: thesis-Master-red

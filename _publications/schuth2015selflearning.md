@@ -7,6 +7,8 @@ keywords: "amsterdamscience, Anne, evaluation, online learning"
 layout: publication
 pdf: /assets/selflearningsearch.pdf
 title: "Self-learning search engines"
+citations: 0
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:foquWX3nUaYC"
 type: misc
 shield: misc-Popular-lightgrey
 year: "2015"

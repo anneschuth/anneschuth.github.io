@@ -15,15 +15,15 @@ def find_internal_links(content):
     # Split content into lines to filter out commented lines
     lines = content.split('\n')
     active_lines = []
-    
+
     for line in lines:
         # Skip lines that start with # (commented YAML)
         if not line.strip().startswith('#'):
             active_lines.append(line)
-    
+
     # Rejoin only active lines
     active_content = '\n'.join(active_lines)
-    
+
     # Patterns for various link formats
     patterns = [
         r'\[([^\]]+)\]\((/[^)]+)\)',  # [text](/path)

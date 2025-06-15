@@ -7,6 +7,8 @@ keywords: "replab, reputation, workshop"
 layout: publication
 pdf: /assets/163193_CLEF2012wn_RepLab_PeetzEt2012.pdf
 title: "From Sentiment to Reputation"
+citations: 0
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:Se3iqnhoufwC"
 type: inproceedings
 year: "2012"
 shield: workshop-RepLab-green

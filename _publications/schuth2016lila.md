@@ -8,6 +8,8 @@ layout: publication
 pdf: /assets/ecir2016-ll-tutorial.pdf
 publisher: "Springer"
 title: "Living Labs for Online Evaluation: From Theory to Practice"
+citations: 1
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:e_rmSamDkqQC"
 type: inproceedings
 shield: tutorial-ECIR-orange
 year: "2016"

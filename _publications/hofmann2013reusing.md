@@ -7,6 +7,8 @@ keywords: "learning to rank, Lerot, online learning, WSDM"
 layout: publication
 pdf: /assets/reusing-historical-2013.pdf
 title: "Reusing Historical Interaction Data for Faster Online Learning to Rank for IR"
+citations: 140
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:hqOjcs7Dif8C"
 type: inproceedings
 year: "2013"
 shield: conference-WSDM-blue
