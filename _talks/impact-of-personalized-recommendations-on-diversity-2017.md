@@ -13,5 +13,5 @@ slides_url: /assets/epra-anneschuth.pdf
 
 ## Summary
 
-This presentation discusses user behavior research as presented at 45th EPRA Meeting.
+This presentation examined the impact of personalized content recommendations on information diversity within news consumption, specifically addressing concerns about filter bubbles in digital media platforms. Using Blendle's news recommendation system as a case study, Schuth demonstrated approaches to maintain editorial independence by avoiding publisher preference bias and price considerations while proposing transparency mechanisms such as explaining recommendation rationale to users ("You see this because...") and clearly labeling personalized content. The work contributes to the ongoing debate about algorithmic curation in journalism by proposing practical solutions that balance personalization benefits with the need to prevent echo chambers and maintain diverse information exposure.
 
