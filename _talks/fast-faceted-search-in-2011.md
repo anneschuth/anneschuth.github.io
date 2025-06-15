@@ -7,6 +7,6 @@ key: fast-faceted-search-in-2011
 shield: conference-orange
 venue: XMLAmsterdam Conference
 location: Amsterdam, The Netherlands
-slides_url: /assets/presentation-export.pdf
+# slides_url: /assets/presentation-export.pdf
 publication_url: /publications/schuth2011fast
 ---

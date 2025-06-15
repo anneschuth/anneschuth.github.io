@@ -9,6 +9,8 @@ layout: publication
 pdf: /assets/ecir2016-prob-multileave-gradient-descent.pdf
 publisher: "Springer"
 title: "Probabilistic Multileave Gradient Descent"
+citations: 34
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:S16KYo8Pm5AC"
 type: inproceedings
 year: "2016"
 shield: conference-ECIR-blue

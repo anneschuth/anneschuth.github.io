@@ -9,6 +9,7 @@ layout: default
         <i>{{ page.author | replace: "Anne Schuth", "<strong>Anne Schuth</strong>" }}.</i>
         {% if page.booktitle %}In {{ page.booktitle }}, {% endif %}{% if page.journal %}In {{ page.journal }}, {% endif
         %}{{ page.year}}.
+        {% if page.citations and page.scholar_url %}<br><i class="fa fa-quote-left"></i> <a href="{{page.scholar_url}}">{{ page.citations }} citations</a>{% endif %}
     </p>
     {% if content != blank %}<h2>Abstract</h2>
     <p>{{ content }}</p>
@@ -29,6 +30,9 @@ layout: default
     {% endif %}
     {% if page.doi %}
     <a href="https://doi.org/{{page.doi}}"><i class="fa fa-link"></i> https://doi.org/{{page.doi}}</a> <br />
+    {% endif %}
+    {% if page.scholar_url %}
+    <a href="{{page.scholar_url}}"><i class="fa fa-graduation-cap"></i> Google Scholar</a> <br />
     {% endif %}
     </p>
     {% assign current_pub_url = page.url %}

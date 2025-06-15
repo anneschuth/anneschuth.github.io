@@ -7,6 +7,8 @@ keywords: "aggregated search, click models, evaluation, Lerot, SIGIR"
 layout: publication
 pdf: /assets/chuklin-evaluating-2014.pdf
 title: "Evaluating Intuitiveness of Vertical-Aware Click Models"
+citations: 14
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:KUbvn5osdkgC"
 type: inproceedings
 year: "2014"
 shield: conference-SIGIR-blue

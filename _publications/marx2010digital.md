@@ -8,8 +8,10 @@ keywords: ""
 layout: publication
 organization: "Digital Government Society of North America"
 pages: "99--104"
-pdf: /assets/Digital_sustainable_publication_of_legacy_parliament.pdf
+pdf: /assets/digital-sustainable-publication-legacy-parliament.pdf
 title: "Digital sustainable publication of legacy parliamentary proceedings"
+citations: 8
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:2osOgNQ5qMEC"
 type: inproceedings
 year: "2010"
 shield: conference-AIDGR-blue

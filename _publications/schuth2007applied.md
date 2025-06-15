@@ -6,6 +6,8 @@ keywords: "Bachelorthesis"
 layout: publication
 pdf: /assets/bachelor-thesis-anne-schuth.pdf
 title: "Applied Text Analytics for Comments on News-Articles"
+citations: 1
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:UeHWp8X0CEIC"
 type: misc
 year: "2007"
 shield: thesis-Bachelor-red

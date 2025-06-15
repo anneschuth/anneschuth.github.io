@@ -6,6 +6,8 @@ keywords: "living labs"
 layout: publication
 pdf: /assets/continues-evaluation-2019.pdf
 title: "Continuous evaluation of large-scale information access systems: a case for living labs"
+citations: 20
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:rmuvC79q63oC"
 type: inbook
 year: "2019"
 shield: chapter-CLEF-blue

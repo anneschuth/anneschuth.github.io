@@ -8,6 +8,8 @@ keywords: "FATREC, RECSYS"
 layout: publication
 pdf: /assets/fatrec2017-recommendation-reasons-blendle.pdf
 title: "Do News Consumers Want Explanations for Personalized News Rankings?"
+citations: 46
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:XoXfffV-tXoC"
 type: inproceedings
 shield: conference-FATREC-blue
 year: "2017"

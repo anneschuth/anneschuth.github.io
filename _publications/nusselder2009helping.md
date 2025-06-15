@@ -10,6 +10,8 @@ organization: "ACM"
 pages: "2095--2096"
 pdf: /assets/helping-people-choose-2009.pdf
 title: "Helping people to choose for whom to vote. a web information system for the 2009 European elections"
+citations: 6
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:9yKSN-GCB0IC"
 type: inproceedings
 year: "2009"
 shield: conference-CIKM-blue

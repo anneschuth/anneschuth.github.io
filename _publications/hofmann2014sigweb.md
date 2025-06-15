@@ -4,7 +4,7 @@ author: "Katja Hofmann and Shimon Whiteson and Anne Schuth and Maarten de Rijke"
 date: "2014-01-01"
 issn: "1931-1745"
 journal: "SIGWEB Newsletter"
-key: hofmann:2014:lri:2591453.2591458
+key: hofmann2014sigweb
 keywords: "learning to rank, online learning"
 layout: publication
 number: "Spring"
@@ -12,6 +12,8 @@ pages: "5:1--5:7"
 pdf: /assets/hofmann-learning-2014.pdf
 publisher: "ACM"
 title: "Learning to Rank for Information Retrieval from User Interactions"
+citations: 8
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:g3aElNc5_aQC"
 type: article
 year: "2014"
 shield: report-SIGWEB-yellow
