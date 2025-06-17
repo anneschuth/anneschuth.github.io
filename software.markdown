@@ -48,6 +48,7 @@ The source code is [available from bitbucket](https://bitbucket.org/living-labs/
 It has mainly been developed by Anne Schuth and [Krisztian Balog](http://krisztianbalog.com/).
 
 **Related publications:**
+
 - [Extended Overview of the Living Labs for Information Retrieval Evaluation (LL4IR) CLEF Lab 2015](/publications/schuth2015extended.html)
 - [OpenSearch: Integrating and Contextualizing Search](/publications/schuth2015opensearch.html)
 - [Overview of the CLEF LL4IR 2015 Lab](/publications/schuth2015overview.html)

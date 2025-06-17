@@ -14,4 +14,3 @@ publication_url: /publications/schuth2015overview
 ## Summary
 
 This presentation introduces the Living Labs for IR Evaluation initiative with the compelling promise of "Give us your ranking, we'll have it clicked!" targeting the evaluation of retrieval methods in live settings with real users in their natural task environments. The focus is on supporting medium to large organizations with substantial search volume that typically lack dedicated R&D departments, providing them with scientific evaluation capabilities. This initiative represents a paradigm shift toward making information retrieval evaluation more accessible and realistic by connecting academic research with operational search systems.
-
