@@ -16,6 +16,10 @@ and served in leadership positions such as chair of the FNWI PhD Council.
 
 - Member [AlgoSoc](https://algosoc.org/) Stakeholder Advisory Board (2023-2025)
 
+### Educational Advisory Roles (2024-2025)
+
+- Member Professional Fields Committee (Beroepsvelden Commissie), [Computer Science Program, Hogeschool Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/) (2024-2025)
+
 ### University Leadership (2012-2014)
 
 - Chair [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html) (2013-2014)
