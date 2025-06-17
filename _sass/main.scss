@@ -312,5 +312,15 @@ button, .btn {
     width: 45px;
     height: 45px;
     font-size: 18px;
+    z-index: 999; // Lower z-index on mobile to stay below navigation
+  }
+  
+  // Ensure mobile menu appears above theme toggle
+  .site-nav {
+    z-index: 1001;
+  }
+  
+  .trigger {
+    z-index: 1002;
   }
 }
