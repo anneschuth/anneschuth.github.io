@@ -218,6 +218,7 @@ button, .btn {
 // Minima theme specific dark mode overrides
 .site-nav {
   border: none !important;
+  background-color: var(--header-bg);
   transition: $theme-transition;
 
   .page-link {
@@ -231,6 +232,13 @@ button, .btn {
 
   .menu-icon {
     color: var(--text-color);
+    transition: $theme-transition;
+  }
+
+  // Mobile menu dropdown background
+  .trigger {
+    background-color: var(--header-bg);
+    border: 1px solid var(--header-border);
     transition: $theme-transition;
   }
 }
