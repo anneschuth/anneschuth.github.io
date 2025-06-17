@@ -19,6 +19,17 @@ plugins:
   - jekyll-redirect-from
   - jekyll-spaceship
 
+# Custom navigation links
+header_pages:
+  - about.markdown
+  - publications.markdown
+  - talks.markdown
+  - activities.markdown
+  - software.markdown
+  - teaching.markdown
+  - thesis.markdown
+  - press.markdown
+
 paginate: 5
 
 future: true

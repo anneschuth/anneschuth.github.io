@@ -78,7 +78,7 @@
 
   // Setup toggle button when DOM is ready
   document.addEventListener('DOMContentLoaded', function() {
-    // Create toggle button if it doesn't exist
+    // Create theme toggle button if it doesn't exist
     let toggle = document.querySelector('.theme-toggle');
     if (!toggle) {
       toggle = document.createElement('button');
@@ -92,6 +92,23 @@
 
       toggle.appendChild(icon);
       document.body.appendChild(toggle);
+    }
+
+    // Create search toggle button if it doesn't exist
+    let searchToggle = document.querySelector('.search-toggle');
+    if (!searchToggle) {
+      searchToggle = document.createElement('button');
+      searchToggle.className = 'search-toggle';
+      searchToggle.setAttribute('aria-label', 'Open search');
+      searchToggle.setAttribute('title', 'Search (press /)');
+      searchToggle.textContent = '🔍';
+
+      // Add click handler to open search overlay
+      searchToggle.addEventListener('click', () => {
+        showSearchOverlay();
+      });
+
+      document.body.appendChild(searchToggle);
     }
 
     // Update icon based on current theme
@@ -108,6 +125,93 @@
       }
     });
   });
+
+  // Search overlay functionality
+  function showSearchOverlay() {
+    // Create overlay if it doesn't exist
+    let overlay = document.getElementById('search-overlay');
+    if (!overlay) {
+      overlay = createSearchOverlay();
+    }
+
+    overlay.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    // Focus the search input
+    const searchInput = overlay.querySelector('.search-input');
+    if (searchInput) {
+      setTimeout(() => searchInput.focus(), 100);
+    }
+  }
+
+  function hideSearchOverlay() {
+    const overlay = document.getElementById('search-overlay');
+    if (overlay) {
+      overlay.style.display = 'none';
+      document.body.style.overflow = '';
+    }
+  }
+
+  function createSearchOverlay() {
+    const overlay = document.createElement('div');
+    overlay.id = 'search-overlay';
+    overlay.className = 'search-overlay';
+
+    overlay.innerHTML = `
+      <div class="search-overlay-backdrop"></div>
+      <div class="search-overlay-content">
+        <div class="search-overlay-header">
+          <h2>Search</h2>
+          <button class="search-close" aria-label="Close search">&times;</button>
+        </div>
+        <div id="search-container" class="search-container">
+          <form id="search-form" class="search-form">
+            <div class="search-input-wrapper">
+              <input
+                type="text"
+                id="search-input"
+                class="search-input"
+                placeholder="Search posts, publications, and talks..."
+                autocomplete="off"
+              >
+              <span class="search-shortcut">ESC to close</span>
+            </div>
+          </form>
+
+          <div id="search-status" class="search-status"></div>
+
+          <div id="search-results" class="search-results" style="display: none;">
+            <!-- Results will be populated by JavaScript -->
+          </div>
+        </div>
+
+        <div class="search-help-mini">
+          <p><strong>Tips:</strong> Use quotes for exact phrases, field:term for specific searches</p>
+        </div>
+      </div>
+    `;
+
+    // Add event listeners
+    const closeButton = overlay.querySelector('.search-close');
+    const backdrop = overlay.querySelector('.search-overlay-backdrop');
+
+    closeButton.addEventListener('click', hideSearchOverlay);
+    backdrop.addEventListener('click', hideSearchOverlay);
+
+    // Handle escape key
+    overlay.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        hideSearchOverlay();
+      }
+    });
+
+    document.body.appendChild(overlay);
+    return overlay;
+  }
+
+  // Make search overlay accessible globally
+  window.showSearchOverlay = showSearchOverlay;
+  window.hideSearchOverlay = hideSearchOverlay;
 
   // Expose theme toggle for external use
   window.ThemeToggle = Theme;
