@@ -78,35 +78,39 @@
   }
 }
 
+// Unified transition timing for smooth theme switching
+$theme-transition: all 0.25s ease-out;
+
 // Global styles with CSS variables
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: $theme-transition;
 }
 
 // Links
 a {
   color: var(--link-color);
-  transition: color 0.3s ease;
+  transition: $theme-transition;
 
   &:hover {
     color: var(--link-hover);
   }
 }
 
-// Headers
+// Headers and navigation - prevent visible blocks during transition
 .site-header {
   background-color: var(--header-bg);
   border-bottom: 1px solid var(--header-border);
-  transition: background-color 0.3s ease, border-color 0.3s ease;
+  transition: $theme-transition;
 }
 
 // Cards and containers
 .post-list,
 .wrapper,
 .page-content {
-  transition: background-color 0.3s ease;
+  background-color: var(--bg-color);
+  transition: $theme-transition;
 }
 
 // Code blocks
@@ -114,7 +118,7 @@ pre, code {
   background-color: var(--code-bg);
   color: var(--text-color);
   border: 1px solid var(--border-color);
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  transition: $theme-transition;
 }
 
 // Tables
@@ -123,12 +127,12 @@ table {
 
   th, td {
     border: 1px solid var(--border-color);
-    transition: border-color 0.3s ease;
+    transition: $theme-transition;
   }
 
   th {
     background-color: var(--button-bg);
-    transition: background-color 0.3s ease;
+    transition: $theme-transition;
   }
 }
 
@@ -136,12 +140,12 @@ table {
 blockquote {
   border-left: 4px solid var(--border-color);
   color: var(--text-muted);
-  transition: border-color 0.3s ease, color 0.3s ease;
+  transition: $theme-transition;
 }
 
 img.round {
   border-radius: 50%;
-  transition: filter 0.3s ease;
+  transition: $theme-transition;
 }
 
 // Dark mode image adjustments
@@ -155,12 +159,12 @@ img.round {
   padding: 15px 20px;
   margin: 20px 0;
   border-radius: 4px;
-  transition: background-color 0.3s ease, border-color 0.3s ease;
+  transition: $theme-transition;
 
   p {
     margin: 0;
     color: var(--notice-text);
-    transition: color 0.3s ease;
+    transition: $theme-transition;
   }
 
   em {
@@ -173,7 +177,7 @@ img.round {
 .post-list li::before,
 [class*="shield"] {
   filter: none;
-  transition: filter 0.3s ease;
+  transition: $theme-transition;
 }
 
 [data-theme="dark"] .post-list li::before,
@@ -186,7 +190,7 @@ input, textarea, select {
   background-color: var(--bg-color);
   color: var(--text-color);
   border: 1px solid var(--border-color);
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  transition: $theme-transition;
 
   &:focus {
     border-color: var(--link-color);
@@ -198,7 +202,7 @@ button, .btn {
   background-color: var(--button-bg);
   color: var(--text-color);
   border: 1px solid var(--border-color);
-  transition: all 0.3s ease;
+  transition: $theme-transition;
 
   &:hover {
     background-color: var(--button-hover);
@@ -207,11 +211,12 @@ button, .btn {
 
 // Minima theme specific dark mode overrides
 .site-nav {
-  background-color: var(--header-bg);
   border: none !important;
+  transition: $theme-transition;
 
   .page-link {
     color: var(--text-color);
+    transition: $theme-transition;
 
     &:hover {
       color: var(--link-hover);
@@ -220,6 +225,7 @@ button, .btn {
 
   .menu-icon {
     color: var(--text-color);
+    transition: $theme-transition;
   }
 }
 
@@ -246,19 +252,25 @@ button, .btn {
 
 .post-meta {
   color: var(--text-muted);
-  transition: color 0.3s ease;
+  transition: $theme-transition;
 }
 
 .post-link {
   color: var(--text-color);
+  transition: $theme-transition;
 
   &:hover {
     color: var(--link-hover);
+  }
+
+  &:visited {
+    color: var(--text-muted);
   }
 }
 
 .post-list h3 {
   color: var(--text-color);
+  transition: $theme-transition;
 }
 
 // Footer dark mode
@@ -266,17 +278,19 @@ button, .btn {
   background-color: var(--header-bg);
   border-top: 1px solid var(--header-border);
   color: var(--text-color);
-  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  transition: $theme-transition;
 }
 
 // Social icons
 .social-media-list {
   .username {
     color: var(--text-color);
+    transition: $theme-transition;
   }
 
   a {
     color: var(--text-muted);
+    transition: $theme-transition;
 
     &:hover {
       color: var(--link-hover);

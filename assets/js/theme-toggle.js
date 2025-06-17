@@ -6,17 +6,17 @@
   const THEME_KEY = 'theme-preference';
   const DARK_THEME = 'dark';
   const LIGHT_THEME = 'light';
-  
+
   // Theme management
   const Theme = {
     // Get stored theme preference or detect system preference
     getPreference() {
       const stored = localStorage.getItem(THEME_KEY);
       if (stored) return stored;
-      
+
       // Check system preference
-      return window.matchMedia('(prefers-color-scheme: dark)').matches 
-        ? DARK_THEME 
+      return window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? DARK_THEME
         : LIGHT_THEME;
     },
 
@@ -37,7 +37,7 @@
       const current = this.getPreference();
       const next = current === DARK_THEME ? LIGHT_THEME : DARK_THEME;
       this.setPreference(next);
-      
+
       // Add rotation animation
       const toggle = document.querySelector('.theme-toggle');
       if (toggle) {
@@ -51,7 +51,7 @@
       const icon = document.querySelector('.theme-toggle .icon');
       if (icon) {
         icon.textContent = theme === DARK_THEME ? '☀️' : '🌙';
-        icon.setAttribute('aria-label', 
+        icon.setAttribute('aria-label',
           theme === DARK_THEME ? 'Switch to light mode' : 'Switch to dark mode'
         );
       }
@@ -61,7 +61,7 @@
     init() {
       // Apply initial theme before page renders
       this.apply(this.getPreference());
-      
+
       // Listen for system theme changes
       window.matchMedia('(prefers-color-scheme: dark)')
         .addEventListener('change', (e) => {
@@ -85,11 +85,11 @@
       toggle.className = 'theme-toggle';
       toggle.setAttribute('aria-label', 'Toggle dark mode');
       toggle.setAttribute('title', 'Toggle dark mode');
-      
+
       const icon = document.createElement('span');
       icon.className = 'icon';
       icon.setAttribute('aria-hidden', 'true');
-      
+
       toggle.appendChild(icon);
       document.body.appendChild(toggle);
     }
