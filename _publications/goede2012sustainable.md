@@ -1,8 +1,9 @@
 ---
-author: "B de Goede, A Schuth, M de Rijke"
+author: "Bart de Goede and Anne Schuth and Maarten de Rijke"
 date: "2012-01-01"
 key: "goede2012sustainable"
 layout: "publication"
+shield: "workshop-TAIA2012-green"
 pdf: "/assets/goede2012sustainable.pdf"
 title: "Sustainable Questions: Determining the Expiration Date of Answers"
 citations: 0
@@ -11,4 +12,8 @@ type: "inproceedings"
 year: "2012"
 ---
 
-This publication was published in 2012. The full text and additional details are available through the links above.
+Community question answering platforms have large repositories of previously answered questions. Reusing the answers for
+new questions is tempting. However, not all stored answers will still be relevant. We define a new and challenging
+problem concerning the sustainability of questions, and present metrics aimed at distinguishing between sustainable
+and non-sustainable questions. We ﬁnd that an intuitive approach to sustainability of questions is not sufficient, but
+that simple properties can already distinguish between sustainable and non-sustainable questions

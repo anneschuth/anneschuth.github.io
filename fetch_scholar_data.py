@@ -12,6 +12,15 @@ from pathlib import Path
 from urllib.parse import quote, urljoin
 from bs4 import BeautifulSoup
 
+# Try to import PyPDF2 for PDF text extraction
+try:
+    import PyPDF2
+    HAS_PYPDF2 = True
+except ImportError:
+    print("⚠️  PyPDF2 not available - PDF abstract extraction disabled")
+    print("   Install with: pip install PyPDF2")
+    HAS_PYPDF2 = False
+
 def fetch_scholar_profile(user_id="Y3ahb_wAAAAJ"):
     """Fetch all publications and profile stats from Google Scholar profile."""
     base_url = "https://scholar.google.com/citations"
@@ -197,81 +206,81 @@ def fetch_publication_details(scholar_url):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
-    
+
     try:
         response = requests.get(scholar_url, headers=headers, timeout=15)
         response.raise_for_status()
-        
+
         soup = BeautifulSoup(response.content, 'html.parser')
         details = {}
-        
+
         # Extract title (for better accuracy)
         title_elem = soup.find('a', class_='gsc_oci_title_link')
         if title_elem:
             details['title'] = title_elem.get_text().strip()
-        
+
         # Extract details from the metadata table
         field_rows = soup.find_all('div', class_='gs_scl')
-        
+
         for row in field_rows:
             field_name = row.find('div', class_='gsc_oci_field')
             field_value = row.find('div', class_='gsc_oci_value')
-            
+
             if field_name and field_value:
                 field_text = field_name.get_text().strip().lower()
                 value_text = field_value.get_text().strip()
-                
+
                 if 'authors' in field_text:
                     # Clean up author names
                     authors = value_text.replace('Authors', '').strip()
                     if authors:
                         details['authors'] = authors
-                
+
                 elif 'publication date' in field_text or 'year' in field_text:
                     year_match = re.search(r'\d{4}', value_text)
                     if year_match:
                         details['year'] = year_match.group()
-                
+
                 elif any(venue_word in field_text for venue_word in ['journal', 'conference', 'book', 'venue', 'published']):
                     # Clean up venue information
                     venue = value_text.strip()
-                    
+
                     # Remove common prefixes and clean up venue
                     venue = re.sub(r'^(Proceedings of the|Proceedings of|In |Journal of )', '', venue, flags=re.IGNORECASE)
-                    
+
                     # Handle truncated venue names that have "..." or weird concatenations
                     if '...' in venue or len(venue.split()) > 15:
                         # Try to extract just the main venue name
                         venue_parts = venue.split(',')[0].split('.')[0].strip()
                         if len(venue_parts) < 100:  # Reasonable length
                             venue = venue_parts
-                    
+
                     # Clean up common formatting issues
                     venue = re.sub(r'\s+', ' ', venue)  # Multiple spaces
                     venue = venue.replace('\n', ' ').strip()
-                    
+
                     if venue and len(venue) > 3 and len(venue) < 200:  # Reasonable length
                         details['venue'] = venue
-        
+
         # Look for PDF link - try multiple strategies
         pdf_url = None
-        
+
         # Strategy 1: Look for direct PDF links
         pdf_links = soup.find_all('a', href=True)
         for link in pdf_links:
             href = link.get('href', '')
             link_text = link.get_text().strip().lower()
-            
+
             # Check if it's a PDF link
             if (href.endswith('.pdf') or 'pdf' in href.lower()) and 'scholar' not in href:
                 pdf_url = href
                 break
-            
+
             # Check if link text suggests PDF
             if any(pdf_word in link_text for pdf_word in ['pdf', 'download']):
                 pdf_url = href
                 break
-        
+
         # Strategy 2: Look in the sidebar for PDF
         if not pdf_url:
             sidebar_links = soup.find_all('div', class_='gsc_oci_merged_snippet')
@@ -282,12 +291,12 @@ def fetch_publication_details(scholar_url):
                     if href.endswith('.pdf') and 'scholar' not in href:
                         pdf_url = href
                         break
-        
+
         if pdf_url:
             details['pdf_url'] = pdf_url
-        
+
         return details
-        
+
     except Exception as e:
         print(f"Error fetching publication details: {e}")
         return {}
@@ -297,25 +306,110 @@ def download_pdf(pdf_url, filename):
     try:
         assets_dir = Path("assets")
         assets_dir.mkdir(exist_ok=True)
-        
+
         headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
-        
+
         response = requests.get(pdf_url, headers=headers, timeout=30)
         response.raise_for_status()
-        
+
         # Check if it's actually a PDF
         if response.headers.get('content-type', '').startswith('application/pdf'):
             file_path = assets_dir / filename
             with open(file_path, 'wb') as f:
                 f.write(response.content)
             return str(file_path)
-        
+
         return None
-        
+
     except Exception as e:
         print(f"Error downloading PDF: {e}")
+        return None
+
+def extract_abstract_from_pdf(pdf_path):
+    """Extract abstract from PDF file."""
+    if not HAS_PYPDF2:
+        return None
+
+    try:
+        with open(pdf_path, 'rb') as file:
+            pdf_reader = PyPDF2.PdfReader(file)
+
+            # Try to extract text from first few pages (abstracts are usually early)
+            text = ""
+            max_pages = min(3, len(pdf_reader.pages))
+
+            for page_num in range(max_pages):
+                try:
+                    page_text = pdf_reader.pages[page_num].extract_text()
+                    text += page_text + "\n"
+                except Exception:
+                    continue
+
+            if not text.strip():
+                return None
+
+            # Clean up the text
+            text = re.sub(r'\s+', ' ', text)  # Normalize whitespace
+            text = text.replace('\n', ' ').strip()
+
+            # Look for abstract section with various patterns
+            abstract_patterns = [
+                r'abstract[:\s]+(.*?)(?:keywords|introduction|1\.|references|acknowledgment)',
+                r'abstract[:\s]+(.*?)(?:\n\s*\n|\n\s*[A-Z][a-z]+:)',
+                r'abstract[:\s]+(.*?)(?:index terms|key words)',
+                r'summary[:\s]+(.*?)(?:keywords|introduction|1\.)',
+            ]
+
+            for pattern in abstract_patterns:
+                match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
+                if match:
+                    abstract = match.group(1).strip()
+
+                    # Clean up the abstract
+                    abstract = re.sub(r'^[^\w]*', '', abstract)  # Remove leading non-word chars
+                    abstract = re.sub(r'[^\w]*$', '', abstract)  # Remove trailing non-word chars
+                    abstract = re.sub(r'\s+', ' ', abstract)     # Normalize spaces
+
+                    # Remove common PDF extraction artifacts
+                    abstract = re.sub(r'(publication date|document version|published in|citation for published version|additional information|click this link|http://[\w\./]+|please be advised|may be subject to change)', '', abstract, flags=re.IGNORECASE)
+                    abstract = re.sub(r'\b\d{4}-\d{2}-\d{2}\b', '', abstract)  # Remove dates
+                    abstract = re.sub(r'\s+', ' ', abstract).strip()  # Re-normalize after cleaning
+
+                    # Validate abstract (reasonable length, contains real content)
+                    if 50 <= len(abstract) <= 2000 and ' ' in abstract:
+                        # Check for corrupted text indicators
+                        if abstract.count('ﬁ') > 3 or abstract.count('ﬂ') > 2:  # PDF ligature issues
+                            # Try to fix common ligature problems
+                            abstract = abstract.replace('ﬁ', 'fi').replace('ﬂ', 'fl')
+                            abstract = abstract.replace('ﬀ', 'ff').replace('ﬃ', 'ffi').replace('ﬄ', 'ffl')
+
+                        # Ensure it starts with a capital letter and makes sense
+                        if abstract and abstract[0].isupper():
+                            # Truncate if too long
+                            if len(abstract) > 1000:
+                                # Find a good breaking point near 1000 chars
+                                break_point = abstract.rfind('.', 800, 1000)
+                                if break_point > 0:
+                                    abstract = abstract[:break_point + 1]
+                                else:
+                                    abstract = abstract[:1000] + "..."
+
+                            return abstract
+
+            # Fallback: try to find any paragraph that looks like an abstract
+            # (starts after title/author info, reasonable length)
+            paragraphs = re.split(r'\n\s*\n|\.\s+[A-Z]', text[:2000])
+            for para in paragraphs[1:]:  # Skip first paragraph (likely title/authors)
+                para = para.strip()
+                if 100 <= len(para) <= 1000 and para.count(' ') >= 10:
+                    return para
+
+            return None
+
+    except Exception as e:
+        print(f"    ⚠️  Error extracting text from PDF: {e}")
         return None
 
 def generate_publication_key(title, year, author=None):
@@ -330,18 +424,81 @@ def generate_publication_key(title, year, author=None):
             first_author = author_parts.split()[-1].lower()
         else:
             first_author = author_parts.lower()
-    
+
     # Clean up first word of title
     title_words = re.sub(r'[^\w\s]', '', title.lower()).split()
     first_title_word = title_words[0] if title_words else "untitled"
-    
+
     # Create key: firstauthor + year + firstword
     key = f"{first_author}{year}{first_title_word}"
-    
+
     # Remove any remaining non-alphanumeric characters
     key = re.sub(r'[^\w]', '', key)
-    
+
     return key
+
+def generate_shield_badge(venue, pub_type="inproceedings"):
+    """Generate a shield/badge string for a publication."""
+    if not venue:
+        return "publication-unknown-gray"
+
+    venue_lower = venue.lower()
+
+    # Determine publication type and color
+    if any(workshop_word in venue_lower for workshop_word in ['workshop', 'demo', 'poster']):
+        pub_type_str = "workshop"
+        color = "green"
+    elif any(conf_word in venue_lower for conf_word in ['conference', 'proceedings', 'symposium']):
+        pub_type_str = "conference"
+        color = "blue"
+    elif any(journal_word in venue_lower for journal_word in ['journal', 'transactions', 'letters']):
+        pub_type_str = "journal"
+        color = "red"
+    elif any(report_word in venue_lower for report_word in ['report', 'technical report', 'arxiv']):
+        pub_type_str = "report"
+        color = "yellow"
+    else:
+        pub_type_str = "publication"
+        color = "gray"
+
+    # Extract venue name/acronym
+    venue_name = "unknown"
+
+    # Common venue acronyms and patterns
+    venue_patterns = {
+        'sigir': 'SIGIR',
+        'cikm': 'CIKM',
+        'ecir': 'ECIR',
+        'wsdm': 'WSDM',
+        'www': 'WWW',
+        'ictir': 'ICTIR',
+        'trec': 'TREC',
+        'clef': 'CLEF',
+        'inex': 'INEX',
+        'factsir': 'FACTSIR',
+        'evia': 'EVIA',
+        'arxiv': 'arXiv'
+    }
+
+    # Try to find known venue acronyms
+    for pattern, acronym in venue_patterns.items():
+        if pattern in venue_lower:
+            venue_name = acronym
+            break
+
+    # If no known pattern, try to extract first meaningful word
+    if venue_name == "unknown":
+        # Remove common prefixes and get first significant word
+        cleaned_venue = re.sub(r'^(proceedings of the|proceedings of|conference on|international|workshop on)', '', venue_lower)
+        words = cleaned_venue.split()
+        if words:
+            # Take first word that's not too short
+            for word in words:
+                if len(word) >= 3 and word.isalpha():
+                    venue_name = word.upper()[:10]  # Limit length
+                    break
+
+    return f"{pub_type_str}-{venue_name}-{color}"
 
 def create_publication_file(scholar_pub, details=None):
     """Create a new publication markdown file."""
@@ -349,14 +506,14 @@ def create_publication_file(scholar_pub, details=None):
         # Use improved title if available from details
         title = details.get('title', scholar_pub['title']) if details else scholar_pub['title']
         year = details.get('year', scholar_pub['year']) if details else scholar_pub['year']
-        
+
         # Generate key
         author = details.get('authors') if details else None
         pub_key = generate_publication_key(title, year, author)
-        
+
         # Generate filename from key
         filename = f"{pub_key}.md"
-        
+
         # Ensure unique filename
         pub_file = Path("_publications") / filename
         counter = 1
@@ -364,28 +521,34 @@ def create_publication_file(scholar_pub, details=None):
             filename = f"{pub_key}{counter}.md"
             pub_file = Path("_publications") / filename
             counter += 1
-        
+
         # Create frontmatter with proper ordering
         frontmatter = {}
-        
+
         # Add author first if available
         if details and 'authors' in details:
             frontmatter['author'] = details['authors']
-        
+
         # Add venue/booktitle
         if details and 'venue' in details:
             frontmatter['booktitle'] = details['venue']
-        
+
         # Add date (quoted string)
         frontmatter['date'] = f"{year}-01-01"
-        
+
         # Add key
         frontmatter['key'] = pub_key
-        
+
         # Add layout
         frontmatter['layout'] = 'publication'
-        
-        # Try to download PDF
+
+        # Generate and add shield badge
+        venue = details.get('venue') if details else None
+        shield = generate_shield_badge(venue)
+        frontmatter['shield'] = shield
+
+        # Try to download PDF and extract abstract
+        pdf_abstract = None
         if details and 'pdf_url' in details:
             pdf_filename = f"{pub_key}.pdf"
             print(f"    📥 Attempting to download PDF...")
@@ -393,20 +556,28 @@ def create_publication_file(scholar_pub, details=None):
             if pdf_path:
                 frontmatter['pdf'] = f"/assets/{pdf_filename}"
                 print(f"    ✅ Downloaded PDF")
+
+                # Try to extract abstract from PDF
+                print(f"    📄 Extracting abstract from PDF...")
+                pdf_abstract = extract_abstract_from_pdf(pdf_path)
+                if pdf_abstract:
+                    print(f"    ✅ Extracted abstract ({len(pdf_abstract)} chars)")
+                else:
+                    print(f"    ⚠️  Could not extract abstract from PDF")
             else:
                 print(f"    ⚠️  Could not download PDF")
-        
+
         # Add title
         frontmatter['title'] = title
-        
+
         # Add citations and scholar_url
         frontmatter['citations'] = scholar_pub['citations']
         frontmatter['scholar_url'] = scholar_pub['scholar_url']
-        
+
         # Add type and year
         frontmatter['type'] = 'inproceedings'  # Default type
         frontmatter['year'] = year
-        
+
         # Write file with proper YAML formatting
         with open(pub_file, 'w', encoding='utf-8') as f:
             f.write("---\n")
@@ -424,31 +595,54 @@ def create_publication_file(scholar_pub, details=None):
                     # Numbers, booleans, etc.
                     f.write(f'{key}: {value}\n')
             f.write("---\n\n")
-            
-            # Add meaningful content based on publication type and venue
-            if details and 'venue' in details:
-                venue = details['venue']
-                if any(workshop_word in venue.lower() for workshop_word in ['workshop', 'demo', 'poster']):
-                    content_type = "workshop paper"
-                elif any(conf_word in venue.lower() for conf_word in ['conference', 'proceedings', 'symposium']):
-                    content_type = "conference paper"
-                elif any(journal_word in venue.lower() for journal_word in ['journal', 'transactions', 'letters']):
-                    content_type = "journal article"
+
+            # Use extracted abstract if available, otherwise generate content
+            if pdf_abstract:
+                f.write(f"{pdf_abstract}\n\n")
+
+                # Add venue and citation info after abstract
+                if details and 'venue' in details:
+                    venue = details['venue']
+                    if any(workshop_word in venue.lower() for workshop_word in ['workshop', 'demo', 'poster']):
+                        content_type = "workshop paper"
+                    elif any(conf_word in venue.lower() for conf_word in ['conference', 'proceedings', 'symposium']):
+                        content_type = "conference paper"
+                    elif any(journal_word in venue.lower() for journal_word in ['journal', 'transactions', 'letters']):
+                        content_type = "journal article"
+                    else:
+                        content_type = "publication"
+
+                    f.write(f"This {content_type} was presented at {venue} in {year}.")
                 else:
-                    content_type = "publication"
-                
-                f.write(f"This {content_type} was presented at {venue} in {year}. ")
+                    f.write(f"This publication was published in {year}.")
+
+                if scholar_pub['citations'] > 0:
+                    f.write(f" It has received {scholar_pub['citations']} citation{'s' if scholar_pub['citations'] != 1 else ''} according to Google Scholar.")
             else:
-                f.write(f"This publication was published in {year}. ")
-            
-            # Add information about citations if significant
-            if scholar_pub['citations'] > 0:
-                f.write(f"It has received {scholar_pub['citations']} citation{'s' if scholar_pub['citations'] != 1 else ''} according to Google Scholar.")
-            else:
-                f.write("The full text and additional details are available through the links above.")
-        
+                # Fallback to generic content when no abstract available
+                if details and 'venue' in details:
+                    venue = details['venue']
+                    if any(workshop_word in venue.lower() for workshop_word in ['workshop', 'demo', 'poster']):
+                        content_type = "workshop paper"
+                    elif any(conf_word in venue.lower() for conf_word in ['conference', 'proceedings', 'symposium']):
+                        content_type = "conference paper"
+                    elif any(journal_word in venue.lower() for journal_word in ['journal', 'transactions', 'letters']):
+                        content_type = "journal article"
+                    else:
+                        content_type = "publication"
+
+                    f.write(f"This {content_type} was presented at {venue} in {year}. ")
+                else:
+                    f.write(f"This publication was published in {year}. ")
+
+                # Add information about citations if significant
+                if scholar_pub['citations'] > 0:
+                    f.write(f"It has received {scholar_pub['citations']} citation{'s' if scholar_pub['citations'] != 1 else ''} according to Google Scholar.")
+                else:
+                    f.write("The full text and additional details are available through the links above.")
+
         return pub_file
-        
+
     except Exception as e:
         print(f"Error creating publication file: {e}")
         return None
@@ -552,11 +746,11 @@ def main():
             try:
                 with open(pub_file, 'r', encoding='utf-8') as f:
                     content = f.read()
-                
+
                 # Check if it already has a PDF
                 if 'pdf:' not in content:
                     print(f"  📄 No PDF found, searching for one...")
-                    
+
                     # Fetch detailed page to look for PDF
                     details = fetch_publication_details(match['scholar_url'])
                     if details and 'pdf_url' in details:
@@ -569,7 +763,7 @@ def main():
                             safe_title = re.sub(r'[^\w\s-]', '', local_title.lower())
                             safe_title = re.sub(r'[-\s]+', '-', safe_title)[:30]
                             pdf_filename = f"{safe_title}.pdf"
-                        
+
                         print(f"    📥 Attempting to download PDF...")
                         pdf_path = download_pdf(details['pdf_url'], pdf_filename)
                         if pdf_path:
@@ -579,7 +773,7 @@ def main():
                             frontmatter_started = False
                             frontmatter_ended = False
                             pdf_added = False
-                            
+
                             for line in lines:
                                 if line.strip() == '---':
                                     if not frontmatter_started:
@@ -597,21 +791,21 @@ def main():
                                         new_lines.append(line)
                                 else:
                                     new_lines.append(line)
-                            
+
                             # Write updated content
                             with open(pub_file, 'w', encoding='utf-8') as f:
                                 f.write('\n'.join(new_lines))
-                            
+
                             print(f"    ✅ Downloaded and added PDF")
                             pdf_downloaded_count += 1
                         else:
                             print(f"    ⚠️  Could not download PDF")
                     else:
                         print(f"    ⚠️  No PDF URL found")
-                    
+
                     # Be nice to Google Scholar
                     time.sleep(random.uniform(1, 3))
-            
+
             except Exception as e:
                 print(f"  ❌ Error checking for PDF: {e}")
 
@@ -622,52 +816,52 @@ def main():
     # Second pass: find missing publications and create them
     print(f"\n🔍 FINDING MISSING PUBLICATIONS")
     missing_pubs = []
-    
+
     for scholar_pub in scholar_pubs:
         # Check if this Scholar publication exists locally
         found = False
-        
+
         # Strategy 1: Check against local titles using bidirectional matching
         for local_title in local_titles:
             # Check both directions for better matching
             _, score1 = find_best_match(local_title, [scholar_pub])
             _, score2 = find_best_match(scholar_pub['title'], [{'title': local_title}])
-            
+
             max_score = max(score1, score2) if score1 or score2 else 0
-            
+
             if max_score > 0.5:  # Same threshold as matching
                 found = True
                 break
-        
+
         # Strategy 2: Check for very similar short titles (only for very short titles)
         if not found:
             scholar_title_words = set(re.sub(r'[^\w\s]', '', scholar_pub['title'].lower()).split())
-            
+
             # Only apply this check for very short titles (2 words or less)
             if len(scholar_title_words) <= 2:
                 for local_title in local_titles:
                     local_title_words = set(re.sub(r'[^\w\s]', '', local_title.lower()).split())
-                    
+
                     # For very short titles, require exact match or near-exact match
                     if len(scholar_title_words.intersection(local_title_words)) == len(scholar_title_words):
                         found = True
                         print(f"  🔍 Short title duplicate detected: '{scholar_pub['title']}' matches '{local_title}'")
                         break
-        
+
         if not found:
             missing_pubs.append(scholar_pub)
 
     if missing_pubs:
         print(f"📚 Found {len(missing_pubs)} missing publications")
-        
+
         created_count = 0
         for i, scholar_pub in enumerate(missing_pubs[:10]):  # Limit to 10 new publications
             print(f"\n[{i+1}/{min(len(missing_pubs), 10)}] Creating: {scholar_pub['title'][:60]}...")
-            
+
             # Fetch additional details
             print("  🔍 Fetching publication details...")
             details = fetch_publication_details(scholar_pub['scholar_url'])
-            
+
             # Create the publication file
             pub_file = create_publication_file(scholar_pub, details)
             if pub_file:
@@ -675,14 +869,14 @@ def main():
                 created_count += 1
             else:
                 print(f"  ❌ Failed to create publication file")
-            
+
             # Be nice to Google Scholar
             time.sleep(random.uniform(2, 5))
-        
+
         if len(missing_pubs) > 10:
             print(f"\n⚠️  Only created first 10 of {len(missing_pubs)} missing publications")
             print("Run the script again to create more.")
-        
+
         print(f"📝 Created {created_count} new publication files")
     else:
         print("✅ All publications are already present locally")
