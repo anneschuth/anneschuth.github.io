@@ -7,6 +7,7 @@
   --border-color: #e1e4e8;
   --link-color: #0366d6;
   --link-hover: #0256c7;
+  --link-visited: #6c757d;
   --header-bg: #ffffff;
   --header-border: #e1e4e8;
   --card-bg: #ffffff;
@@ -27,6 +28,7 @@
   --border-color: #30363d;
   --link-color: #58a6ff;
   --link-hover: #79c0ff;
+  --link-visited: #a5a5a5;
   --header-bg: #161b22;
   --header-border: #21262d;
   --card-bg: #161b22;
@@ -95,6 +97,10 @@ a {
 
   &:hover {
     color: var(--link-hover);
+  }
+
+  &:visited {
+    color: var(--link-visited);
   }
 }
 
@@ -264,7 +270,7 @@ button, .btn {
   }
 
   &:visited {
-    color: var(--text-muted);
+    color: var(--link-visited);
   }
 }
 
