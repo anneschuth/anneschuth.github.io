@@ -120,12 +120,12 @@ pre, code {
 // Tables
 table {
   border-collapse: collapse;
-  
+
   th, td {
     border: 1px solid var(--border-color);
     transition: border-color 0.3s ease;
   }
-  
+
   th {
     background-color: var(--button-bg);
     transition: background-color 0.3s ease;
@@ -208,24 +208,37 @@ button, .btn {
 // Minima theme specific dark mode overrides
 .site-nav {
   background-color: var(--header-bg);
-  border: 1px solid var(--header-border);
-  
+  border: none !important;
+
   .page-link {
     color: var(--text-color);
-    
+
     &:hover {
       color: var(--link-hover);
     }
   }
-  
+
   .menu-icon {
     color: var(--text-color);
   }
 }
 
+// Remove unwanted vertical lines in navigation
+.site-header {
+  border-bottom: 1px solid var(--header-border);
+
+  .wrapper {
+    border: none !important;
+  }
+}
+
+.trigger {
+  border: none !important;
+}
+
 .site-title {
   color: var(--text-color) !important;
-  
+
   &:hover {
     color: var(--link-hover) !important;
   }
@@ -238,7 +251,7 @@ button, .btn {
 
 .post-link {
   color: var(--text-color);
-  
+
   &:hover {
     color: var(--link-hover);
   }
@@ -261,10 +274,10 @@ button, .btn {
   .username {
     color: var(--text-color);
   }
-  
+
   a {
     color: var(--text-muted);
-    
+
     &:hover {
       color: var(--link-hover);
     }
