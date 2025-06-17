@@ -6,6 +6,8 @@ keywords: "deep learning, explainability"
 layout: publication
 pdf: /assets/1911.03898.pdf
 title: "Understanding Multi-Head Attention in Abstractive Summarization"
+citations: 30
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:9pM33mqn1YgC"
 type: article
 year: "2019"
 shield: report-arXiv-yellow

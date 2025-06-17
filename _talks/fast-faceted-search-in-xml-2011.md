@@ -7,6 +7,6 @@ key: fast-faceted-search-in-xml-2011
 shield: conference-orange
 venue: XML Prague'11 pre-conference day
 location: Prague, Czech Republic
-slides_url: /assets/xml-prague-presentation.pdf
+# slides_url: /assets/xml-prague-presentation.pdf
 publication_url: /publications/schuth2011fast
 ---

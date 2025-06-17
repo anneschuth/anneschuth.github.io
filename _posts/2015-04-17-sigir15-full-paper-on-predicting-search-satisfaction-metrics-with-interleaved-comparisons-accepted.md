@@ -9,7 +9,7 @@ categories:
     - Publication
 ---
 
-Our paper [Predicting Search Satisfaction Metrics with Interleaved Comparisons](/publications/schuth-2015-predicting)
+Our paper [Predicting Search Satisfaction Metrics with Interleaved Comparisons](/publications/schuth2015predicting)
 with Anne Schuth, [Katja Hofmann](http://katja-hofmann.de/),
 and [Filip Radlinski](http://research.microsoft.com/~filiprad/) was accepted as a full paper
 at [SIGIR 2015](http://www.sigir2015.org/).

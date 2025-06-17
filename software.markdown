@@ -46,7 +46,14 @@ GET, PUT and DELETE.
 The source code is [available from bitbucket](https://bitbucket.org/living-labs/ll-api).
 
 It has mainly been developed by Anne Schuth and [Krisztian Balog](http://krisztianbalog.com/).
-Several of my publications relate to Living Labs.
+
+**Related publications:**
+
+- [Extended Overview of the Living Labs for Information Retrieval Evaluation (LL4IR) CLEF Lab 2015](/publications/schuth2015extended.html)
+- [OpenSearch: Integrating and Contextualizing Search](/publications/schuth2015opensearch.html)
+- [Overview of the CLEF LL4IR 2015 Lab](/publications/schuth2015overview.html)
+- [Living Labs for Online Evaluation: From Theory to Practice](/talks/living-labs-for-online-evaluation-from-theory-to-p-2016.html)
+- [TREC OpenSearch Track](/talks/trec-opensearch-2015.html)
 
 ## Lerot: an Online Learning to Rank Framework
 
@@ -56,5 +63,5 @@ The source code of Lerot is [available from bitbucket](https://bitbucket.org/ilp
 A paper describing Lerot is published in the Living Labs Workshop at CIKM'13:
 
 - A. Schuth, K. Hofmann, S. Whiteson, M. de
-  Rijke. [Lerot: an Online Learning to Rank Framework](/publications/schuth-lerot-2013)
+  Rijke. [Lerot: an Online Learning to Rank Framework](/publications/schuth2013lerot.html)
   In Living Labs for Information Retrieval Evaluation workshop at CIKM'13, 2013

@@ -7,6 +7,8 @@ keywords: ""
 layout: publication
 pdf: /assets/fast-faceted-2011.pdf
 title: "Fast Faceted Search in XML"
+citations: 1
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:zYLM7Y9cAGgC"
 type: article
 year: "2011"
 booktitle: "Proceedings of XML Prague'11"

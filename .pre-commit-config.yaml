@@ -1,18 +1,49 @@
+# Pre-commit hooks for Jekyll site quality
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+  - repo: local
     hooks:
-      - id: end-of-file-fixer
-      - id: trailing-whitespace
+      - id: check-links
+        name: Check internal links
+        entry: python3 check_links.py
+        language: system
+        pass_filenames: false
+        stages: [commit]
+
+      - id: jekyll-build
+        name: Jekyll build test
+        entry: bundle exec jekyll build --trace
+        language: system
+        pass_filenames: false
+        stages: [commit]
+
       - id: check-yaml
-        exclude: mkdocs.yml
-      - id: check-json
+        name: Check YAML frontmatter
+        entry: python3 check_yaml.py
+        language: system
+        files: \.(md)$
+        pass_filenames: false
+
+      - id: update-citations
+        name: Update citation counts from Google Scholar
+        entry: python3 fetch_scholar_data.py
+        language: system
+        pass_filenames: false
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: \.md$
+      - id: end-of-file-fixer
+        exclude: \.md$
       - id: check-added-large-files
+        args: ['--maxkb=10000']
       - id: check-merge-conflict
       - id: check-toml
       - id: detect-private-key
+
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.44.0
     hooks:
       - id: markdownlint
-        args: [--fix]
+        args: [ --fix ]
