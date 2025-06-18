@@ -7,4 +7,5 @@ key: search-and-recommendations-at-blendle-2016
 venue: 'Radboud University'
 shield: invited_lecture-red
 location: 'Nijmegen, The Netherlands'
+slides_url: /assets/radboud-anneschuth-daanodijk-blendle.pdf
 ---

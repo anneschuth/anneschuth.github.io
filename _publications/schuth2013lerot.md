@@ -14,7 +14,7 @@ scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&u
 type: inproceedings
 shield: workshop-CIKM-green
 year: "2013"
-bitbucket: https://bitbucket.org/ilps/lerot/src/master/
+repo: https://lerot.readthedocs.io/en/stable/
 ---
 
 Online learning to rank methods for IR allow retrieval systems to optimize their own performance directly from

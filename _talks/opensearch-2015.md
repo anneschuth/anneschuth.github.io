@@ -8,7 +8,7 @@ shield: conference-orange
 venue: Lightning Talk, DIR'15
 location: Amsterdam, The Netherlands
 slides_url: /assets/20151103-dir-lightning.pdf
-website_url: http://trec-open-search.org/
+website_url: https://krisztianbalog.com/tag/trec-opensearch/
 publication_url: /publications/schuth2015opensearch
 ---
 

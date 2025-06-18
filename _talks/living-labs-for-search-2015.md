@@ -8,6 +8,7 @@ venue: 'Workshop: Towards networked Research Infrastructures for behavioral stud
 location: Brussels, Belgium
 shield: keynote-red
 slides_url: /assets/20150507-ScienceEurope-AnneSchuth.pdf
+publication_url: /publications/schuth2015overview
 ---
 
 ## Summary

@@ -7,6 +7,7 @@ key: personalized-push-notifications-2019
 venue: 'Hogeschool Rotterdam / Applied ML'
 shield: invited_lecture-red
 slides_url: /assets/appliedml-anneschuth-streamingblendle.pdf
+publication_url: /publications/loni2019
 ---
 
 ## Summary

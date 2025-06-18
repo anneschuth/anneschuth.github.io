@@ -8,6 +8,7 @@ shield: talk-lightblue
 venue: Textkernel Tech Talks
 location: Amsterdam, The Netherlands
 slides_url: /assets/20140626-textkernel-anneschuth.pdf
+publication_url: /publications/schuth-phd-thesis-2016
 ---
 
 ## Summary
