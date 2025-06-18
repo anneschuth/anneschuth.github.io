@@ -8,4 +8,5 @@ redirect_from: /talks/doing-a-phd-in-artificial-intelligence-search-engi-2013.ht
 shield: talk-lightblue
 venue: Information day BSc Artificial Intelligence
 location: Amsterdam, The Netherlands
+publication_url: /publications/schuth-phd-thesis-2016
 ---

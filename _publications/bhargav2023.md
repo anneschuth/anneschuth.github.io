@@ -12,6 +12,7 @@ citations: 8
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:XvxMoLDsR5gC"
 type: inproceedings
 year: "2023"
+publisher: "ACM"
 shield: conference-SIGIR-blue
 repo: https://github.com/spotify-research/tot
 arxiv: "2305.14072"

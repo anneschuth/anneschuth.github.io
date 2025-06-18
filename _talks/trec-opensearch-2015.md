@@ -8,6 +8,7 @@ shield: internal-gray
 venue: ILPS Soos
 location: Amsterdam, The Netherlands
 slides_url: /assets/20151103-dir-lightning.pdf
+publication_url: /publications/schuth2015opensearch
 ---
 
 ## Summary

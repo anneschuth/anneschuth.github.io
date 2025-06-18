@@ -9,6 +9,7 @@ shield: conference-orange
 venue: 45th EPRA Meeting
 location: Edinburgh, Scotland
 slides_url: /assets/epra-anneschuth.pdf
+publication_url: /publications/terhoeve2017
 ---
 
 ## Summary

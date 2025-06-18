@@ -7,4 +7,5 @@ key: personalising-the-blendle-newsletter-2016
 shield: meetup-green
 venue: Xite Meetup
 location: Amsterdam, The Netherlands
+slides_url: /assets/persgroep-blendle-personalisation.pdf
 ---

@@ -8,4 +8,5 @@ shield: internal-gray
 venue: ILPS Soos
 location: Amsterdam, The Netherlands
 publication_url: /publications/schuth2014multileaved
+slides_url: /assets/cikm2014-multileave.pdf
 ---
