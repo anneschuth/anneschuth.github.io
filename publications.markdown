@@ -4,9 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
-I have published {{ site.publications | size }} peer-reviewed scholarly articles; these include full papers at major information retrieval
-venues such as ECIR, CIKM, WSDM, and SIGIR with acceptance rates as low as 10%. According to [Google Scholar](https://scholar.google.com/citations?user=Y3ahb_wAAAAJ&hl=en), my articles
-have received {{ site.data.scholar_stats.total_citations }} citations; my h-index is {{ site.data.scholar_stats.h_index }}.
+{: .intro}
+I have published {{ site.publications | size }} peer-reviewed scholarly articles; these include full papers at major information retrieval venues such as ECIR, CIKM, WSDM, and SIGIR with acceptance rates as low as 10%. According to [Google Scholar](https://scholar.google.com/citations?user=Y3ahb_wAAAAJ&hl=en), my articles have received {{ site.data.scholar_stats.total_citations }} citations; my h-index is {{ site.data.scholar_stats.h_index }}.
 
 See also my publication profiles at [google scholar](http://scholar.google.nl/citations?user=Y3ahb_wAAAAJ&hl=en)
 and [dblp](http://www.dblp.org/search/index.php#query=author:anne_schuth:).

@@ -8,15 +8,16 @@ paginate: 5
 
 ![Picture of Anne Schuth](/assets/anne-campus-270x270.png){: .round }
 
-I work on AI and Engineering for the Dutch Government, currently as Engineer in
-the [Bureau Architectuur & Software Engineering](https://minbzk.github.io/BASE/) (BASE, in formation).
-Before this, I was Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
+{: .intro}
+I work on AI and Engineering for the Dutch Government, currently as Engineer in the [Bureau Architectuur & Software Engineering](https://minbzk.github.io/BASE/) (BASE, in formation). Before this, I was Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
 
 I used to be Machine Learning Engineering Manager in the Search team at Spotify.
 Before joining Spotify, I spent almost 4 years at DPG Media in various roles, all contributing towards a push for
 personalisation of news products. Before that, I was a research scientist at Google AI in London and a data scientist at Blendle in Utrecht. I hold a PhD
 from the University of Amsterdam where I studied self-learning search engines. I interned at Bing/Microsoft Research in
 Cambridge UK and Yandex in Moscow.
+
+{: .cv-section}
 
 ## CV
 

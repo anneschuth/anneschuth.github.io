@@ -100,6 +100,44 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: $theme-transition;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+// Improved typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.3em;
+  margin-top: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: var(--text-color);
+}
+
+p {
+  margin-bottom: 1.5em;
+  line-height: 1.7;
 }
 
 // Links
@@ -705,5 +743,276 @@ mark {
 
   .search-help-mini {
     padding: 16px 20px;
+  }
+}
+
+// Enhanced publication and talk styling
+.publication-item, .talk-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  transition: $theme-transition;
+  box-shadow: 0 2px 4px var(--card-shadow);
+
+  &:hover {
+    box-shadow: 0 4px 12px var(--card-shadow);
+    transform: translateY(-2px);
+  }
+}
+
+// Improved content sections
+.page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em 1em;
+}
+
+.post-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+// Better spacing for about page
+.round {
+  margin: 0 auto 2em;
+  display: block;
+  box-shadow: 0 4px 12px var(--card-shadow);
+  transition: $theme-transition;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Improved intro sections
+.intro {
+  background: var(--notice-bg);
+  border-left: 4px solid var(--link-color);
+  padding: 1.5em 2em;
+  margin: 2em 0;
+  border-radius: 0 8px 8px 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// Publication list improvements
+.publication-list p {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  transition: $theme-transition;
+  box-shadow: 0 2px 4px var(--card-shadow);
+  line-height: 1.6;
+
+  &:hover {
+    box-shadow: 0 4px 12px var(--card-shadow);
+    transform: translateY(-2px);
+  }
+}
+
+// Professional sections styling - targeting About page sections
+.page-content h3:not(.post-list h3) {
+  color: var(--link-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5em;
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+.page-content h4:not(.post-list h4) {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+// CV section styling
+.cv-section {
+  text-align: center;
+  margin: 3em 0;
+
+  img {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px var(--card-shadow);
+    transition: $theme-transition;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+// Homepage / Weeknotes styling
+.post-content {
+  .post-header {
+    text-align: center;
+    margin-bottom: 2em;
+
+    .post-title {
+      font-size: 3em;
+      font-weight: 700;
+      margin-bottom: 0.5em;
+      background: linear-gradient(135deg, var(--link-color), var(--link-hover));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+}
+
+// Individual post preview styling
+.post-content > h3 {
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  font-size: 1.8em;
+
+  a {
+    text-decoration: none;
+    transition: $theme-transition;
+
+    &:hover {
+      color: var(--link-hover);
+    }
+  }
+}
+
+.post-content > .post-meta {
+  color: var(--text-muted);
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+.post-content > .content {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 4px var(--card-shadow);
+  transition: $theme-transition;
+  line-height: 1.6;
+
+  &:hover {
+    box-shadow: 0 4px 12px var(--card-shadow);
+    transform: translateY(-2px);
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Pagination styling
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3em;
+  padding: 1.5em;
+  background: var(--notice-bg);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+
+  .previous, .next {
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    background: var(--button-bg);
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    transition: $theme-transition;
+
+    &:hover {
+      background: var(--button-hover);
+      transform: translateY(-1px);
+    }
+  }
+
+  .page_number {
+    font-weight: 500;
+    color: var(--text-color);
+  }
+}
+
+// Mobile optimizations
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  .page-content {
+    padding: 1em 0.5em;
+  }
+
+  .post-content .post-header .post-title {
+    font-size: 2em;
+  }
+
+  .publication-list p,
+  .post-content > .content {
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+
+  .intro {
+    padding: 1em 1.5em;
+    font-size: 1em;
+  }
+
+  .round {
+    width: 200px;
+    height: 200px;
+  }
+
+  .pagination {
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+
+    .previous, .next {
+      width: 100%;
+    }
+  }
+
+  // Better spacing for mobile
+  .post-content > h3 {
+    margin-top: 2em;
+    font-size: 1.4em;
+  }
+}
+
+// Extra small screens
+@media screen and (max-width: 480px) {
+  .page-content {
+    padding: 0.5em 0.25em;
+  }
+
+  .publication-list p,
+  .post-content > .content {
+    padding: 0.8em;
+  }
+
+  .intro {
+    padding: 1em;
   }
 }
