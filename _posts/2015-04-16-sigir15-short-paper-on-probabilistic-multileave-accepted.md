@@ -3,6 +3,7 @@ title: "SIGIR'15 Short Paper on Probabilistic Multileave Accepted"
 date: '2015-04-16T09:09:59+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /sigir15-short-paper-on-probabilistic-multileave-accepted/
 categories:
     - Paper
