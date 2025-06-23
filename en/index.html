@@ -1,0 +1,44 @@
+---
+layout: default
+permalink: /en/
+---
+<div class="post-content">
+
+    <header class="post-header">
+        <h1 class="post-title">Weeknotes</h1>
+    </header>
+
+    <div class="intro">
+        <p>Weekly reflections on work, technology (and life). These are my <a
+                href="https://kees.it.com/weeknotes/2025/03/13/De-meta-weeknote.html">weeknotes</a> - short updates about
+            what I'm thinking about, working on and learning. I write about the tension between technology and policy,
+            the challenges of digital transformation, and how we can create meaningful change.
+            Like about <a href="/2025/04/11/maken-over-schrijven.html">making over writing</a>, the reality of <a
+                    href="/2025/03/07/hosting-in-slow-motion.html">hosting in slow motion</a>, thoughts on <a
+                    href="/2025/05/19/ki.html">artificial intelligence</a>, and why <a
+                    href="/2025/04/04/email-is-dood.html">email is dead</a>.</p>
+    </div>
+
+
+    <!-- This loops through posts, filtered for English -->
+    {% assign english_posts = site.posts | where: "lang", "en" %}
+    {% if english_posts.size == 0 %}
+        {% assign english_posts = site.posts | where_exp: "post", "post.lang == nil or post.lang == 'nl'" %}
+    {% endif %}
+
+    {% for post in english_posts limit: 10 %}
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <div class="content">
+        {{ post.excerpt }}
+    </div>
+    {% endfor %}
+
+    <!-- Simple pagination for English posts -->
+    {% if english_posts.size > 10 %}
+    <div class="pagination post-meta">
+        <span class="page_number">Showing latest 10 posts</span>
+    </div>
+    {% endif %}
+
+</div>

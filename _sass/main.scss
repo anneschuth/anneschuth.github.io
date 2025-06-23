@@ -42,7 +42,7 @@
 }
 
 // Top-right utility buttons
-.theme-toggle, .search-toggle {
+.theme-toggle, .search-toggle, .language-toggle {
   position: fixed;
   top: 20px;
   background: var(--button-bg);
@@ -86,6 +86,24 @@
 .search-toggle {
   right: 80px;
   font-size: 18px;
+
+  &:hover {
+    color: var(--link-color);
+  }
+}
+
+.language-toggle {
+  right: 140px;
+  font-size: 18px;
+
+  .language-link {
+    color: var(--text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--link-color);
+    }
+  }
 
   &:hover {
     color: var(--link-color);
