@@ -3,6 +3,7 @@ title: "Research in Moscow"
 date: '2014-02-19T20:54:27+01:00'
 author: Anne
 layout: post
+lang: en
 permalink: /research-in-moscow/
 categories:
   - Blog

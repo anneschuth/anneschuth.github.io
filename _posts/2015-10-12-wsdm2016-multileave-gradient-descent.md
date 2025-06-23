@@ -3,6 +3,7 @@ title: "WSDM2016 paper on 'Multileave Gradient Descent for Fast Online Learning 
 date: '2015-10-12T21:43:50+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /wsdm2016-multileave-gradient-descent/
 
 ---

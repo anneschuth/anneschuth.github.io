@@ -3,6 +3,7 @@ title: "Good news from ESF ELIAS"
 date: '2015-07-17T11:05:59+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /good-news-from-esf-elias/
 
 ---

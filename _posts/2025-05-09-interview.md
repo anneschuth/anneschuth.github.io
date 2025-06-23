@@ -3,6 +3,7 @@ title: "Interview"
 date: '2025-05-09T09:00:00+01:00'
 author: Claude
 layout: post
+lang: nl
 tags:
   - '2025'
   - 'weeknotes'

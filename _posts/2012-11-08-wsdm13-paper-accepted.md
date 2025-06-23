@@ -3,6 +3,7 @@ title: "WSDM'13 paper accepted"
 date: '2012-11-08T17:55:56+01:00'
 author: Anne
 layout: post
+lang: en
 permalink: /wsdm13-paper-accepted/
 categories:
     - Paper

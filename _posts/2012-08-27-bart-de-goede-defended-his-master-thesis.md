@@ -3,6 +3,7 @@ title: "Bart de Goede defended his master thesis"
 date: '2012-08-27T14:03:20+02:00'
 author: Anne
 layout: post
+lang: en
 guid: 'http://www.anneschuth.nl/?p=32'
 permalink: /bart-de-goede-defended-his-master-thesis/
 categories:

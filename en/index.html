@@ -20,25 +20,28 @@ permalink: /en/
     </div>
 
 
-    <!-- This loops through posts, filtered for English -->
+    <!-- This loops through posts, filtered for English only -->
     {% assign english_posts = site.posts | where: "lang", "en" %}
-    {% if english_posts.size == 0 %}
-        {% assign english_posts = site.posts | where_exp: "post", "post.lang == nil or post.lang == 'nl'" %}
-    {% endif %}
 
-    {% for post in english_posts limit: 10 %}
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <div class="content">
-        {{ post.excerpt }}
-    </div>
-    {% endfor %}
+    {% if english_posts.size > 0 %}
+        {% for post in english_posts limit: 10 %}
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="content">
+            {{ post.excerpt }}
+        </div>
+        {% endfor %}
 
-    <!-- Simple pagination for English posts -->
-    {% if english_posts.size > 10 %}
-    <div class="pagination post-meta">
-        <span class="page_number">Showing latest 10 posts</span>
-    </div>
+        <!-- Simple pagination for English posts -->
+        {% if english_posts.size > 10 %}
+        <div class="pagination post-meta">
+            <span class="page_number">Showing latest 10 posts</span>
+        </div>
+        {% endif %}
+    {% else %}
+        <div class="no-posts">
+            <p><em>English translations are currently being added. In the meantime, you can read the original posts in Dutch on the <a href="/">Dutch homepage</a>.</em></p>
+        </div>
     {% endif %}
 
 </div>

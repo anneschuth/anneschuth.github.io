@@ -3,6 +3,7 @@ title: "Software Engineering in an Ivory Tower?"
 date: '2023-08-20T19:00:00+01:00'
 author: Anne
 layout: post
+lang: en
 tags:
     - '2023'
     - 'weeknotes'

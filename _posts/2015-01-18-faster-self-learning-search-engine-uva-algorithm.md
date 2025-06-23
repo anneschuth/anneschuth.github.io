@@ -3,6 +3,7 @@ title: "Faster self-learning search engine through UvA algorithm"
 date: '2015-01-18T20:50:06+01:00'
 author: Anne
 layout: post
+lang: en
 permalink: /faster-self-learning-search-engine-uva-algorithm/
 categories:
     - Press

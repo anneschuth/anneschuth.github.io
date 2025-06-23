@@ -3,6 +3,7 @@ title: "TAIA'12 Workshop paper accepted"
 date: '2012-07-19T08:00:31+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /taia12-workshop-paper-accepted/
 categories:
     - Paper

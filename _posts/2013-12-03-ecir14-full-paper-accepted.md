@@ -3,6 +3,7 @@ title: "ECIR'14 full paper accepted"
 date: '2013-12-03T11:20:37+01:00'
 author: Anne
 layout: post
+lang: en
 permalink: /ecir14-full-paper-accepted/
 categories:
     - Paper

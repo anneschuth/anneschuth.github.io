@@ -3,6 +3,7 @@ title: "Hosting in slow motion"
 date: '2025-03-07T09:00:00+01:00'
 author: Anne
 layout: post
+lang: nl
 tags:
   - '2025'
   - 'weeknotes'

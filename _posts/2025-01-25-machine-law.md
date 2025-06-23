@@ -3,6 +3,7 @@ title: "Experiments with Machine Law"
 date: '2025-01-25T07:00:00+01:00'
 author: Anne
 layout: post
+lang: nl
 tags:
   - '2025'
   - 'weeknotes'
