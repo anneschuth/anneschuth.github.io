@@ -1,0 +1,23 @@
+{% assign current_lang = page.lang | default: site.default_lang %}
+<div class="language-switcher">
+  {% for lang in site.languages %}
+    {% if lang == current_lang %}
+      <span class="current-lang">{{ site.data.languages[lang].flag }} {{ site.data.languages[lang].label }}</span>
+    {% else %}
+      {% if page.url == "/" %}
+        {% if lang == site.default_lang %}
+          <a href="{{ site.baseurl }}/" class="lang-link">{{ site.data.languages[lang].flag }} {{ site.data.languages[lang].label }}</a>
+        {% else %}
+          <a href="{{ site.baseurl }}/{{ lang }}/" class="lang-link">{{ site.data.languages[lang].flag }} {{ site.data.languages[lang].label }}</a>
+        {% endif %}
+      {% else %}
+        {% assign alt_url = page.url | replace: '/' | append: lang | prepend: '/' %}
+        {% if lang == site.default_lang %}
+          {% assign alt_url = page.url | replace: current_lang, "" | replace: "//", "/" %}
+        {% endif %}
+        <a href="{{ alt_url }}" class="lang-link">{{ site.data.languages[lang].flag }} {{ site.data.languages[lang].label }}</a>
+      {% endif %}
+    {% endif %}
+    {% unless forloop.last %} | {% endunless %}
+  {% endfor %}
+</div>

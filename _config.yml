@@ -12,6 +12,28 @@ mastodon:
 - username: anneschuth
   instance: mastodon.social
 
+# Multilingual configuration
+languages: ["en", "nl"]
+default_lang: "en"
+exclude_from_localization: ["assets", "feed.xml", "sitemap.xml", "robots.txt"]
+
+# Language-specific content
+translations:
+  en:
+    title: "Anne Schuth"
+    tagline: "PhD in Search, AI & Engineering for Dutch Government"
+    home: "Home"
+    about: "About"
+    posts: "Posts"
+    lang_name: "English"
+  nl:
+    title: "Anne Schuth"
+    tagline: "PhD in Search, AI & Engineering voor de Nederlandse Overheid"
+    home: "Home"
+    about: "Over"
+    posts: "Posts"
+    lang_name: "Nederlands"
+
 theme: minima
 plugins:
   - jekyll-feed

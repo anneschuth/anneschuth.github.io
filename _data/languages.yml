@@ -1,0 +1,9 @@
+en:
+  label: "English"
+  code: "en"
+  flag: "🇺🇸"
+
+nl:
+  label: "Nederlands"
+  code: "nl"
+  flag: "🇳🇱"

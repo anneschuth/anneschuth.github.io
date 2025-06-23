@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: nl
 ---
 <div class="post-content">
 
@@ -21,11 +22,13 @@ layout: default
 
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <div class="content">
-        {{ post.excerpt }}
-    </div>
+        {% if post.lang == "nl" %}
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="content">
+            {{ post.excerpt }}
+        </div>
+        {% endif %}
     {% endfor %}
 
     <!-- Pagination links -->
