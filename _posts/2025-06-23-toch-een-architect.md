@@ -54,4 +54,4 @@ Tijdens mijn verlof ben ik natuurlijk vooral bezig geweest met de baby, haar zus
 
 De toekomst van softwareontwikkeling is niet meer science fiction. Het gebeurt nu, op je terminal, terwijl jij aan het hardlopen bent.
 
-*Overigens hoef je voor Claude Code niet apart te betalen—het is onderdeel van het Claude Pro-abonnement.*
+*Overigens hoef je voor Claude Code niet meer apart te betalen of een developer account te hebben met losse billing voor de API—het is onderdeel van het Claude Pro-abonnement.*
