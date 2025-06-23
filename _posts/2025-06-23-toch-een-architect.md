@@ -52,6 +52,6 @@ Het gaat zelfs nog verder dan alleen Claude Code. Ik gebruik ook [Wispr Flow](ht
 
 Tijdens mijn verlof ben ik natuurlijk vooral bezig geweest met de baby, haar zussen en de moeder. Maar af en toe, tussendoor, kwam ik even bij mijn computer om het een instructie te geven, en dan ging de computer lekker aan de slag. Vanaf volgende week ben ik weer aan het werk, maar juist doordat ik Wispr Flow gebruik, kan ik ook handsfree met een baby best wel makkelijk verder programmeren. De toekomst van ontwikkeling is niet alleen efficiënter, maar ook beter inpasbaar in het leven.
 
-Overigens is Claude Code nu gewoon onderdeel van het Claude Pro-abonnement. Geen aparte tool meer, maar geïntegreerd in wat je toch al hebt.
-
 De toekomst van softwareontwikkeling is niet meer science fiction. Het gebeurt nu, op je terminal, terwijl jij aan het hardlopen bent.
+
+*Overigens is Claude Code nu gewoon onderdeel van het Claude Pro-abonnement. Geen aparte tool meer, maar geïntegreerd in wat je toch al hebt.*
