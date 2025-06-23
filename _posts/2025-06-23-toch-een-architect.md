@@ -10,7 +10,7 @@ tags:
   - 'development'
 ---
 
-Er gebeurt iets bijzonders als je [`claude--dangerously-skip-permissions`](https://docs.anthropic.com/en/docs/claude-code) intikt in je terminal, een taak geeft, en weggaat om te hardlopen. Je komt terug naar een assistent die gewoon is doorgegaan terwijl jij bezig was. Ik zeg zelfs tegen [Claude Code](https://docs.anthropic.com/en/docs/claude-code): "Ik ga nu een uurtje weg. Gebruik de Unix klok om te kijken hoeveel tijd je nog hebt en zorg dat je de tijd goed gebruikt." En hij doet dat.
+Er gebeurt iets bijzonders als je [`claude --dangerously-skip-permissions`](https://docs.anthropic.com/en/docs/claude-code) intikt in je terminal, een taak geeft, en weggaat om te hardlopen. Je komt terug naar een assistent die gewoon is doorgegaan terwijl jij bezig was. Ik zeg zelfs tegen [Claude Code](https://docs.anthropic.com/en/docs/claude-code): "Ik ga nu een uurtje weg. Gebruik de Unix klok om te kijken hoeveel tijd je nog hebt en zorg dat je de tijd goed gebruikt." En hij doet dat.
 
 ## Meer dan alleen code
 
