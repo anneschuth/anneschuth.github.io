@@ -18,6 +18,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-spaceship
+  - jekyll-polyglot
+
+languages:
+  - en
+  - nl
+default_lang: en
 
 # Custom navigation links
 header_pages:

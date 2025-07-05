@@ -92,6 +92,52 @@
   }
 }
 
+.language-toggle {
+  position: fixed;
+  top: 20px;
+  right: 140px; /* Position next to search toggle */
+  background: var(--button-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Larger font for emojis */
+  color: var(--text-color);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 2px 8px var(--card-shadow);
+
+  &:hover {
+    background: var(--button-hover);
+    transform: scale(1.05);
+  }
+
+  &:focus {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+  }
+
+  .lang-link {
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .language-toggle {
+    top: auto;
+    bottom: 20px;
+    right: 130px; /* Adjust for mobile */
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    z-index: 999;
+  }
+}
+
 // Unified transition timing for smooth theme switching
 $theme-transition: all 0.25s ease-out;
 
@@ -652,6 +698,14 @@ mark {
     font-size: 14px;
     color: var(--text-muted);
   }
+}
+
+// Weeknote indicator styling
+.weeknote-indicator {
+  color: var(--link-color);
+  font-weight: 500;
+  font-size: 0.9em;
+  transition: $theme-transition;
 }
 
 // Mobile search adjustments
