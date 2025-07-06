@@ -21,7 +21,12 @@ layout: default
 
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <span class="post-meta">
+        {{ post.date | date: "%b %-d, %Y" }}
+        {%- if post.week_number -%}
+        • Week {{ post.week_number }} bij de Rijksoverheid
+        {%- endif -%}
+    </span>
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <div class="content">
         {{ post.excerpt }}

@@ -3,6 +3,7 @@ title: "Terug op oude grond"
 date: '2025-04-28T08:00:00+01:00'
 author: Anne
 layout: post
+week_number: 91
 tags:
   - '2025'
   - 'weeknotes'

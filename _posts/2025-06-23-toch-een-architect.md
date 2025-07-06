@@ -3,6 +3,7 @@ title: "Toch een architect?"
 date: '2025-06-23T10:00:00+01:00'
 author: Anne
 layout: post
+week_number: 99
 tags:
   - '2025'
   - 'weeknotes'

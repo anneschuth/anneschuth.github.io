@@ -3,6 +3,7 @@ title: "Back to Weeknotes: New Beginnings at Bureau Architecture"
 date: '2025-01-16T21:00:00+01:00'
 author: Anne
 layout: post
+week_number: 77
 tags:
     - '2025'
     - 'weeknotes'

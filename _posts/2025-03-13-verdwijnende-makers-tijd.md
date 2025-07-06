@@ -3,6 +3,7 @@ title: "Verdwijnende maker-tijd"
 date: '2025-03-13T17:00:00+01:00'
 author: Anne
 layout: post
+week_number: 85
 tags:
   - '2025'
   - 'weeknotes'

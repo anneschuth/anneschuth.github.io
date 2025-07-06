@@ -654,6 +654,14 @@ mark {
   }
 }
 
+// Weeknote indicator styling
+.weeknote-indicator {
+  color: var(--link-color);
+  font-weight: 500;
+  font-size: 0.9em;
+  transition: $theme-transition;
+}
+
 // Mobile search adjustments
 @media screen and (max-width: 600px) {
   .search-input {
