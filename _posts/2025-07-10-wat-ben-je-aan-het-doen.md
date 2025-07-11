@@ -32,7 +32,7 @@ Ik schreef al eerder over onze [experimenten met Machine Law](/2025/01/25/machin
 over [hoe het is om met een taalmodel te werken](/2025/06/23/toch-een-architect.html), en dit is eigenlijk vooral gewoon
 een illustratie van het laatste.
 
-Je ziet het mijn input is een rommeltje, ik praat (soms letterlijk
+Je ziet het, mijn input is een rommeltje, ik praat (soms letterlijk
 met [Wispr Flow](https://wispr.ai/), soms snel iets typend vanuit de stilte coupe) in Nederlands en Engels (ironisch in
 deze context misschien), en ik dwaal soms af.
 Maar met wat bijsturen hier en daar kom ik er met zo'n 15 prompts toch uit. Dit was voor mij nu niet veel werk,
@@ -377,7 +377,7 @@ Naar [PR #150](https://github.com/MinBZK/poc-machine-law/pull/150)
 
 - **Commits:** 3 commits op de `dutch-translation-clean` branch
 - **Bestanden:** 100+ bestanden door de hele stack
-- **Regels:** 1146 regels toegevoegd and 1148 regels verwijderd
+- **Regels:** 1146 regels toegevoegd en 1148 regels verwijderd
 - **Resultaat:** [PR #150](https://github.com/MinBZK/poc-machine-law/pull/150) (gemerged)
 
 En dat ziet er dan zo uit in de interface:
@@ -388,7 +388,7 @@ mijn machine. Dat komt later!)_
 
 Deze taak was misschien niet zo spannend, en zelfs hier gingen dingen mis. Taalmodellen maken fouten en je moet ze
 bijsturen. Maar ik was nooit begonnen aan het vertalen van 1146 regels voor deze PoC, dat zou simpelweg nooit de moeite
-waar zijn geweest. Er is veel discussie over de waarde van AI assisted coding (of vibe coding), en inmiddels
+waard zijn geweest. Er is veel discussie over de waarde van AI assisted coding (of vibe coding), en inmiddels
 ook [wat onderzoek](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/). Dit (of ik) is (ben) dan
-misschien slechts 1 datapunt, maar mijn ervaring is dat het wel degelijk versneld, en ook niet een beetje, maar echt een
+misschien slechts 1 datapunt, maar mijn ervaring is dat het wel degelijk versnelt, en ook niet een beetje, maar echt een
 multiplier op mijn normale snelheid.
