@@ -389,6 +389,6 @@ mijn machine. Dat komt later!)_
 Deze taak was misschien niet zo spannend, en zelfs hier gingen dingen mis. Taalmodellen maken fouten en je moet ze
 bijsturen. Maar ik was nooit begonnen aan het vertalen van 1146 regels voor deze PoC, dat zou simpelweg nooit de moeite
 waard zijn geweest. Er is veel discussie over de waarde van AI assisted coding (of vibe coding), en inmiddels
-ook [wat onderzoek](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/). Dit (of ik) is (ben) dan
+ook [wat onderzoek](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/). Dit is (of ik ben) dan
 misschien slechts 1 datapunt, maar mijn ervaring is dat het wel degelijk versnelt, en ook niet een beetje, maar echt een
 multiplier op mijn normale snelheid.
