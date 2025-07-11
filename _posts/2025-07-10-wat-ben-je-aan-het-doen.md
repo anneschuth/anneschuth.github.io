@@ -8,9 +8,9 @@ tags:
   - 'weeknotes'
 ---
 
-Deze post is, ter illustratie, een beschrijving van een taak die ik samen met een AI, een taalmodel, uitvoerde. Voor wie
-zelf AI-assisted code schrijft, is dit triviaal, maar voor wie dit (nog) vooral een abstract concept is, geeft
-het misschien een beeld.
+Deze post is, ter illustratie, een beschrijving van een taak die ik samen met een AI, een taalmodel, uitvoerde.
+Dat noemen we nu AI-assisted coding, of vibe-coding. Voor wie dat zelf al doet of eens geprobeerd heeft, is onderstaande
+triviaal, maar voor wie dit (nog) vooral een abstract concept is, geeft het misschien een beeld.
 
 Eerst de taak. In ons [poc-machine-law project](https://github.com/MinBZK/poc-machine-law) hadden we terminologie in
 wetgeving
