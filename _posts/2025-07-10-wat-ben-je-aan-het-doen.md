@@ -383,6 +383,9 @@ Naar [PR #150](https://github.com/MinBZK/poc-machine-law/pull/150)
 En dat ziet er dan zo uit in de interface:
 ![img.png](/assets/dutch-screen.png)
 
+_(Ja, er gaan hier dingen mis met de euro notatie, zoals ik halverwege m'n sessie ook opmerkte, iets met een locale op
+mijn machine. Dat komt later!)_
+
 Deze taak was misschien niet zo spannend, en zelfs hier gingen dingen mis. Taalmodellen maken fouten en je moet ze
 bijsturen. Maar ik was nooit begonnen aan het vertalen van 1146 regels voor deze PoC, dat zou simpelweg nooit de moeite
 waar zijn geweest. Er is veel discussie over de waarde van AI assisted coding (of vibe coding), en inmiddels
