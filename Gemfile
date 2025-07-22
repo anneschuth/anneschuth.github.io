@@ -40,4 +40,4 @@ gem 'csv'
 gem 'base64'
 gem 'bigdecimal'
 
-gem 'nokogiri', '~> 1.11'
+gem 'nokogiri', '~> 1.18'
