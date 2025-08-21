@@ -3,6 +3,7 @@ title: "Het nieuwe normaal"
 date: '2025-03-28T12:00:00+01:00'
 author: Anne
 layout: post
+week_number: 87
 tags:
   - '2025'
   - 'weeknotes'

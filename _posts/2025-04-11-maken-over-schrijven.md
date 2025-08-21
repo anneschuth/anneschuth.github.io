@@ -3,6 +3,7 @@ title: "Maken > Schrijven"
 date: '2025-04-11T17:00:00+01:00'
 author: Anne
 layout: post
+week_number: 89
 tags:
   - '2025'
   - 'weeknotes'
