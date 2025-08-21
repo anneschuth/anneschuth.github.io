@@ -3,6 +3,7 @@ title: "TREC OpenSearch proposal accepted"
 date: '2015-10-12T09:08:52+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /trec-opensearch-proposal-accepted/
 
 ---

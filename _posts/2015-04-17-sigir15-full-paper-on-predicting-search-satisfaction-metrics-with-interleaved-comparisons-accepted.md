@@ -3,6 +3,7 @@ title: "SIGIR'15 Full Paper on 'Predicting Search Satisfaction Metrics with Inte
 date: '2015-04-17T12:03:02+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /sigir15-full-paper-on-predicting-search-satisfaction-metrics-with-interleaved-comparisons-accepted/
 categories:
     - Paper
