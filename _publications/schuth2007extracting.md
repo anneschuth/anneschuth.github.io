@@ -10,7 +10,7 @@ organization: "ACM"
 pages: "97--104"
 pdf: /assets/schuth-extracting-2007.pdf
 title: "Extracting the discussion structure in comments on news-articles"
-citations: 96
+citations: 94
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:u5HHmVD_uO8C"
 type: inproceedings
 year: "2007"

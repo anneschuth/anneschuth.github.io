@@ -10,6 +10,7 @@ paginate: 5
 
 I work on AI and Engineering for the Dutch Government, currently as Engineer in
 the [Bureau Architectuur & Software Engineering](https://minbzk.github.io/BASE/) (BASE, in formation).
+On Fridays, I also work as ML Engineer at [Ditto](http://ditto.care/).
 Before this, I was Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
 
 I used to be Machine Learning Engineering Manager in the Search team at Spotify.

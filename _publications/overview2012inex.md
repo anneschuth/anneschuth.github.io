@@ -7,7 +7,7 @@ keywords: "CLEF, faceted search, INEX, workshop"
 layout: publication
 pdf: /assets/uva-inex-2012.pdf
 title: "Overview of the INEX 2012 Linked Data Track"
-citations: 39
+citations: 38
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:UebtZRa9Y70C"
 type: inproceedings
 year: "2012"

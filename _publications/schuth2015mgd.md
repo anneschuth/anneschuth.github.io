@@ -7,7 +7,7 @@ keywords: "DIR, online learning, WSDM"
 layout: publication
 pdf: /assets/dir2015-multileave-gradient-descent.pdf
 title: "Multileave Gradient Descent for Fast Online Learning to Rank (Abstract)"
-citations: 109
+citations: 108
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:M7yex6snE4oC"
 type: inproceedings
 shield: abstract-DIR-9cf
