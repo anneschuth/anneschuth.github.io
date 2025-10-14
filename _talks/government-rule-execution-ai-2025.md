@@ -4,6 +4,7 @@ date: '2025-10-14'
 year: 2025
 layout: talk
 key: government-rule-execution-ai-2025
+shield: talk-lightblue
 venue: The Hague Tech
 location: The Hague, The Netherlands
 ---
