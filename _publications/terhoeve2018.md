@@ -5,7 +5,7 @@ key: terhoeve2018
 layout: publication
 pdf: /assets/terhoeve2018.pdf
 title: "Faithfully Explaining Rankings in a News Recommender System"
-citations: 29
+citations: 30
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:FPJr55Dyh1AC"
 type: article
 shield: report-arXiv-yellow
