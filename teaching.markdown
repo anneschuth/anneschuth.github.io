@@ -15,11 +15,12 @@ interested in internships, feel free to reach out!
 {% for student in sorted_students %}
 ### [{{ student.name }}]({{ student.url }}) ({{ student.years }})
 
-{% if student.degree %}**Degree**: {{ student.degree }}{% if student.institution %}, {{ student.institution }}{% endif %}
-{% endif %}{% if student.host_company %}**Host company**: {{ student.host_company }}
-{% endif %}{% if student.topic %}**Topic**: {{ student.topic }}
-{% endif %}{% if student.co_supervisors %}**Co-supervisor{% if student.co_supervisors.size > 1 %}s{% endif %}**: {{ student.co_supervisors | join: ', ' }}
-{% endif %}{% assign student_key = student.path | split: "/" | last | replace: ".md", "" %}
+{% if student.degree %}**Degree**: {{ student.degree }}{% if student.institution %}, {{ student.institution }}{% endif %}<br>
+{% endif %}{% if student.host_company %}**Host company**: {{ student.host_company }}<br>
+{% endif %}{% if student.topic %}**Topic**: {{ student.topic }}<br>
+{% endif %}{% if student.co_supervisors %}**Co-supervisor{% if student.co_supervisors.size > 1 %}s{% endif %}**: {{ student.co_supervisors | join: ', ' }}<br>
+{% endif %}
+{% assign student_key = student.path | split: "/" | last | replace: ".md", "" %}
 {% assign student_pubs = site.publications | where: "student", student_key %}
 {% if student_pubs.size > 0 %}**Publications**:
 
