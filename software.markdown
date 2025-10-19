@@ -5,18 +5,26 @@ layout: page
 permalink: /software/
 ---
 
-## PoC Machine Law
+## RegelRecht
 
-A proof-of-concept project developed for the Dutch Ministry of the Interior that explores the transformation of legal
-texts into executable code. This innovative system converts complex legislation into machine-readable specifications
-that can be processed directly by computer systems. By formalizing legal rules as code, the project aims to improve
-transparency, reduce interpretation errors, and enable automated compliance checking.
+RegelRecht is an exploration by the Dutch Ministry of the Interior (Bureau Architectuur) into machine-executable
+legislation. The project investigates how we can achieve transparent, unambiguous, and consistent execution of laws -
+enabling everyone to understand how decisions are made.
 
-The implementation supports multiple domains like social security, taxation, and administrative law, with a built-in
-engine to execute, validate, and test legal specifications. The technology helps bridge the gap between legal experts
-and software developers by providing a common language for expressing legal requirements.
+This initiative explores whether laws can be written as directly executable code, eliminating the gap between
+legislation and implementation. By creating machine-readable legal specifications, RegelRecht aims to:
 
-The source code is [available on GitHub](https://github.com/MinBZK/poc-machine-law).
+- Provide one single source of truth for legal rules that all parties use
+- Enable full transparency and traceability of government decisions
+- Test new legislation before implementation to detect conflicts and inconsistencies
+- Reduce interpretation differences across government organizations
+
+The ecosystem includes NRML (Normalized Rule Model Language) as a JSON-based format for machine-executable laws,
+execution engines in multiple programming languages, an AI-powered converter for existing analog law, a visual law
+editor, and simulation environments for testing legislative impact.
+
+Learn more at [minbzk.github.io/regelrecht](https://minbzk.github.io/regelrecht/) or explore the source code
+[on GitHub](https://github.com/MinBZK/poc-machine-law).
 
 ## Algorithm Management Toolkit (AMT)
 
