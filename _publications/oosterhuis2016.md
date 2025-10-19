@@ -14,6 +14,7 @@ scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&u
 type: inproceedings
 year: "2016"
 shield: conference-ECIR-blue
+student: oosterhuis-harrie
 ---
 
 Online learning to rank methods aim to optimize ranking models based on user interactions. The dueling bandit gradient

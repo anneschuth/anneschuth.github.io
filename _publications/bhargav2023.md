@@ -16,6 +16,7 @@ publisher: "ACM"
 shield: conference-SIGIR-blue
 repo: https://github.com/spotify-research/tot
 arxiv: "2305.14072"
+student: bhargav-samarth
 ---
 
 We present the first study of Tip-of-the-tongue (ToT) retrieval for

@@ -12,6 +12,7 @@ scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&u
 type: inproceedings
 year: "2012"
 shield: workshop-TAIA-green
+student: de-goede-bart
 ---
 
 Community question answering platforms have large repositories of previously answered questions. Reusing the answers for

@@ -16,6 +16,7 @@ type: article
 volume: "0"
 year: "2017"
 shield: journal-DigitalJournalism-blue
+student: kuiken-jeffrey
 ---
 
 We study the effect on click-through rates of applying textual and stylistic features often related

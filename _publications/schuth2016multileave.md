@@ -14,6 +14,7 @@ scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&u
 type: inproceedings
 shield: conference-WSDM-blue
 year: "2016"
+student: oosterhuis-harrie
 ---
 
 Modern search systems are based on dozens or even hundreds of ranking features. The dueling bandit gradient descent (

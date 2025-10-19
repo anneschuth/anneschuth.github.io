@@ -13,6 +13,7 @@ scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&u
 type: inproceedings
 shield: conference-FATREC-blue
 year: "2017"
+student: ter-hoeve-maartje
 ---
 
 To gain more insight in the question whether personalized news recommender systems should be responsible for their

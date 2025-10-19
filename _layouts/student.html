@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="page">
+    <h1 class="post-title">{{ page.name }}</h1>
+
+    <p>
+        <strong>{{ page.degree }}</strong>{% if page.institution %}, {{ page.institution }}{% endif %}<br>
+        {% if page.years %}<em>{{ page.years }}</em><br>{% endif %}
+        {% if page.host_company %}<strong>Host Company:</strong> {{ page.host_company }}<br>{% endif %}
+        {% if page.topic %}<strong>Topic:</strong> {{ page.topic }}<br>{% endif %}
+        {% if page.co_supervisors %}<strong>{% if page.co_supervisors.size == 1 %}Co-supervisor{% else %}Co-supervisors{% endif %}:</strong> {{ page.co_supervisors | join: ', ' }}<br>{% endif %}
+    </p>
+
+    {% if page.linkedin_url or page.github_url or page.website_url %}
+    <h2>Links</h2>
+    <p>
+        {% if page.linkedin_url %}
+        <a href="{{ page.linkedin_url }}" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a><br>
+        {% endif %}
+        {% if page.github_url %}
+        <a href="{{ page.github_url }}" target="_blank"><i class="fa fa-github"></i> GitHub</a><br>
+        {% endif %}
+        {% if page.website_url %}
+        <a href="{{ page.website_url }}" target="_blank"><i class="fa fa-globe"></i> Website</a><br>
+        {% endif %}
+        {% if page.thesis_url %}
+        <a href="{{ page.thesis_url }}"><i class="fa fa-graduation-cap"></i> Thesis</a><br>
+        {% endif %}
+    </p>
+    {% endif %}
+
+    {% if content != blank %}
+    <h2>About</h2>
+    <div class="student-description">
+        {{ content }}
+    </div>
+    {% endif %}
+
+    {% assign student_key = page.path | split: "/" | last | replace: ".md", "" %}
+    {% assign related_pubs = site.publications | where_exp: "pub", "pub.student == student_key" %}
+    {% if related_pubs.size > 0 %}
+        <h2>Publications</h2>
+        <p>
+        {% for pub in related_pubs %}
+            <a href="{{ pub.url }}"><i class="fa fa-file-text-o"></i> {{ pub.title }}</a><br>
+            <em>{{ pub.author | replace: "Anne Schuth", "<strong>Anne Schuth</strong>" }}.</em>
+            {% if pub.booktitle %}In {{ pub.booktitle }}, {% endif %}{% if pub.journal %}In {{ pub.journal }}, {% endif %}{{ pub.year }}.
+            {% if pub.citations and pub.scholar_url %}<br><i class="fa fa-quote-left"></i> <a href="{{pub.scholar_url}}">{{ pub.citations }} citations</a>{% endif %}
+            <br><br>
+        {% endfor %}
+        </p>
+    {% endif %}
+</div>
