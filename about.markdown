@@ -35,8 +35,8 @@ Cambridge UK and Yandex in Moscow.
 
 *The Hague, The Netherlands*
 **Engineer** (Jan 2025 -- present)
-Engineer in the Bureau Architectuur & Software Engineering (BASE, in formation), working among other things
-on [PoC Machine Law](https://github.com/MinBZK/poc-machine-law).
+Engineer in the Bureau Architectuur & Software Engineering (BASE, in formation), primarily working
+on [RegelRecht](https://minbzk.github.io/regelrecht/), an exploration into machine-executable legislation that aims to achieve transparent, unambiguous, and consistent execution of laws.
 
 #### Ministry of the Interior and Kingdom Relations (BZK)
 
