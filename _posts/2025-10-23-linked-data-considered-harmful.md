@@ -178,8 +178,7 @@ Maar als je een zeer specifiek probleem hebt waarvoor RDF echt de beste oplossin
 trade-offs. De leercurve is steil. De performance is slecht. De tooling is matig. En de kans is groot dat je probleem
 beter opgelost wordt met simpelere technologie.
 
-Na bijna twee decennia en miljarden euro's investering heeft linked data bewezen dat het geen revolutie gaat brengen.
-Het is een niche technologie voor niche problemen, niet de toekomst van data-integratie.
+Na bijna twee decennia heeft linked data bewezen dat het geen revolutie gaat brengen. Het is een niche technologie voor niche problemen, niet de toekomst van data-integratie.
 
 Het is tijd om dat te erkennen en verder te gaan.
 
