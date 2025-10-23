@@ -139,6 +139,108 @@ pre, code {
   transition: $theme-transition;
 }
 
+// Light mode syntax highlighting
+:root {
+  .highlight {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+
+    pre, code {
+      background-color: var(--code-bg) !important;
+      color: var(--text-color) !important;
+    }
+  }
+
+  // Light mode syntax highlighting colors
+  .highlight .c, .highlight .c1, .highlight .cm, .highlight .cp, .highlight .cs {
+    color: #6a737d !important; // Comments in gray
+  }
+
+  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt {
+    color: #d73a49 !important; // Keywords in red
+  }
+
+  .highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx {
+    color: #032f62 !important; // Strings in dark blue
+  }
+
+  .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .ml, .highlight .mo, .highlight .mx {
+    color: #005cc5 !important; // Numbers in blue
+  }
+
+  .highlight .n, .highlight .na, .highlight .nb, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, .highlight .ni, .highlight .nl, .highlight .nn, .highlight .no, .highlight .nt, .highlight .nv, .highlight .nx {
+    color: var(--text-color) !important; // Names in default text color
+  }
+
+  // For plain text blocks in light mode
+  .highlight .p, .highlight .err, .highlight .x {
+    color: var(--text-color) !important;
+  }
+
+  // Ensure inline code uses correct colors in light mode
+  p code, li code, h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+  }
+
+  // For code blocks without syntax highlighting (like ```text blocks) in light mode
+  .language-text pre, .language-text code {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+  }
+}
+
+// Syntax highlighting dark mode fixes
+[data-theme="dark"] {
+  .highlight {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+
+    pre, code {
+      background-color: var(--code-bg) !important;
+      color: var(--text-color) !important;
+    }
+  }
+
+  // Override any syntax highlighting colors that might be white text on white background
+  .highlight .c, .highlight .c1, .highlight .cm, .highlight .cp, .highlight .cs {
+    color: #8b949e !important; // Comments in muted gray
+  }
+
+  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt {
+    color: #ff7b72 !important; // Keywords in red
+  }
+
+  .highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx {
+    color: #a5d6ff !important; // Strings in light blue
+  }
+
+  .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .ml, .highlight .mo, .highlight .mx {
+    color: #79c0ff !important; // Numbers in blue
+  }
+
+  .highlight .n, .highlight .na, .highlight .nb, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, .highlight .ni, .highlight .nl, .highlight .nn, .highlight .no, .highlight .nt, .highlight .nv, .highlight .nx {
+    color: var(--text-color) !important; // Names in default text color
+  }
+
+  // For plain text blocks, ensure they use the correct colors
+  .highlight .p, .highlight .err, .highlight .x {
+    color: var(--text-color) !important;
+  }
+
+  // Ensure inline code also uses correct colors
+  p code, li code, h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+  }
+
+  // For code blocks without syntax highlighting (like ```text blocks)
+  .language-text pre, .language-text code {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+  }
+}
+
 // Tables
 table {
   border-collapse: collapse;

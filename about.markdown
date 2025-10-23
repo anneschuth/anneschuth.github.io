@@ -9,7 +9,8 @@ paginate: 5
 ![Picture of Anne Schuth](/assets/anne-campus-270x270.png){: .round }
 
 I work on AI and Engineering for the Dutch Government, currently as Engineer in
-the [Bureau Architectuur & Software Engineering](https://minbzk.github.io/BASE/) (BASE, in formation).
+the [Bureau Architectuur & Software Engineering](https://minbzk.github.io/BASE/) (BASE, in formation), where I primarily work on [RegelRecht](https://minbzk.github.io/regelrecht/) - an exploration into machine-executable legislation.
+I also run [Axolotl Systems](https://axolotl.systems), where I provide ML engineering and platform consulting services one day per week alongside my government work, including working as ML Engineer at [Ditto](http://ditto.care/).
 Before this, I was Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
 
 I used to be Machine Learning Engineering Manager in the Search team at Spotify.
@@ -34,8 +35,8 @@ Cambridge UK and Yandex in Moscow.
 
 *The Hague, The Netherlands*
 **Engineer** (Jan 2025 -- present)
-Engineer in the Bureau Architectuur & Software Engineering (BASE, in formation), working among other things
-on [PoC Machine Law](https://github.com/MinBZK/poc-machine-law).
+Engineer in the Bureau Architectuur & Software Engineering (BASE, in formation), primarily working
+on [RegelRecht](https://minbzk.github.io/regelrecht/), an exploration into machine-executable legislation that aims to achieve transparent, unambiguous, and consistent execution of laws.
 
 #### Ministry of the Interior and Kingdom Relations (BZK)
 

@@ -6,7 +6,7 @@ keywords: ""
 layout: publication
 pdf: /assets/dutchparl.pdf
 title: "DutchParl The Parliamentary Documents in Dutch"
-citations: 53
+citations: 55
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:u-x6o8ySG0sC"
 type: article
 year: "2010"

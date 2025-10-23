@@ -9,7 +9,7 @@ layout: publication
 pages: "75-87"
 pdf: /assets/ecir2014-fp-bm25.pdf
 title: "Optimizing Base Rankers Using Clicks: A Case Study using BM25"
-citations: 13
+citations: 14
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:EYYDruWGBe4C"
 type: inproceedings
 shield: conference-ECIR-blue

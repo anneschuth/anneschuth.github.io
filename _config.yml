@@ -50,3 +50,6 @@ collections:
   press:
     output: true
     permalink: /:collection/:name
+  students:
+    output: true
+    permalink: /:collection/:name

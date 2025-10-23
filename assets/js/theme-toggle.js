@@ -14,10 +14,10 @@
       const stored = localStorage.getItem(THEME_KEY);
       if (stored) return stored;
 
-      // Check system preference
-      return window.matchMedia('(prefers-color-scheme: dark)').matches
-        ? DARK_THEME
-        : LIGHT_THEME;
+      // Check system preference, default to dark mode
+      return window.matchMedia('(prefers-color-scheme: light)').matches
+        ? LIGHT_THEME
+        : DARK_THEME;
     },
 
     // Set theme preference

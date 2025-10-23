@@ -10,12 +10,13 @@ number: "0"
 pages: "1-15"
 pdf: /assets/Effective-Headlines-of-Newspaper-Articles-in-a-Digital-Environment.pdf
 title: "Effective Headlines of Newspaper Articles in a Digital Environment"
-citations: 353
+citations: 380
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:ruyezt5ZtCIC"
 type: article
 volume: "0"
 year: "2017"
 shield: journal-DigitalJournalism-blue
+student: kuiken-jeffrey
 ---
 
 We study the effect on click-through rates of applying textual and stylistic features often related

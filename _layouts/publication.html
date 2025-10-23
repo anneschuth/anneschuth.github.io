@@ -35,6 +35,17 @@ layout: default
     <a href="{{page.scholar_url}}"><i class="fa fa-graduation-cap"></i> Google Scholar</a> <br />
     {% endif %}
     </p>
+    {% if page.student %}
+        {% assign student_key = page.student %}
+        {% assign student = site.students | where_exp: "s", "s.path contains student_key" | first %}
+        {% if student %}
+        <h2>Supervised Student</h2>
+        <p>
+            <a href="{{ student.url }}"><i class="fa fa-user"></i> {{ student.name }}</a><br>
+            <em>{{ student.degree }}</em>{% if student.years %}, {{ student.years }}{% endif %}
+        </p>
+        {% endif %}
+    {% endif %}
     {% assign current_pub_url = page.url %}
     {% assign related_talks = site.talks | where_exp: "talk", "talk.publication_url == current_pub_url" %}
     {% if related_talks.size > 0 %}
