@@ -97,7 +97,7 @@ ze dezelfde URI delen. Gerelateerde concepten worden automatisch herkend, zonder
 Wil je wet- en regelgeving machine-leesbaar maken? Language models kunnen wetgeving direct interpreteren en zelfs
 inconsistenties detecteren. Zonder dat je eerst een semantisch model van het hele rechtssysteem moet bouwen.
 
-Dit is niet alleen een verschil in aanpak. Het is een fundamenteel andere paradigma. Linked data wilde betekenis
+Dit is niet alleen een verschil in aanpak. Het is een fundamenteel ander paradigma. Linked data wilde betekenis
 formaliseren. Language models leren betekenis uit gebruik. Linked data wilde perfecte, expliciete semantiek. Language
 models werken met probabilistische, impliciete semantiek die goed genoeg is voor de praktijk.
 
