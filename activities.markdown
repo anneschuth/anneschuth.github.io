@@ -10,23 +10,12 @@ top-tier conferences such as SIGIR, WWW, and WSDM. I have also organized and co-
 including TREC OpenSearch, CLEF Living Lab, and SEA Meetup. In addition, I have been involved in various journal reviews
 and served in leadership positions such as chair of the FNWI PhD Council.
 
-## Leadership & Board Positions
+## Leadership & Organizational Roles
 
-### Professional Organizations (2023-2025)
+### Advisory Roles (2023-2025)
 
 - Member [AlgoSoc](https://algosoc.org/) Stakeholder Advisory Board (2023-2025)
-
-### Educational Advisory Roles (2024-2025)
-
 - Member Professional Fields Committee (Beroepsvelden Commissie), [Computer Science Program, Hogeschool Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/) (2024-2025)
-
-### University Leadership (2012-2014)
-
-- Chair [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html) (2013-2014)
-- Member [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html) (2012)
-- Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html) (2012-2013)
-
-## Organizational Roles
 
 ### Workshop & Conference Organization (2012-2019)
 
@@ -43,6 +32,12 @@ and served in leadership positions such as chair of the FNWI PhD Council.
 ### Community Organization (2014-2015)
 
 - Co-organizer [SEA Meetup](http://www.meetup.com/SEA-Search-Engines-Amsterdam/) (2014-2015)
+
+### University Leadership (2012-2014)
+
+- Chair [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html) (2013-2014)
+- Member [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html) (2012)
+- Member [UvAPro](http://www.uva.nl/en/research/phd/support-for-phd-students/the-phd-researchers-association-uvapro/the-phd-researchers-association-uvapro.html) (2012-2013)
 
 ## Program Committee Membership
 
