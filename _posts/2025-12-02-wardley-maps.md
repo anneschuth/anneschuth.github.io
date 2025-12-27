@@ -13,6 +13,8 @@ tags:
 tussen makelaar en maker. Maar wanneer moet je nu eigenlijk zelf bouwen, en wanneer kopen of uitbesteden? We hebben een
 taal nodig om dat gesprek te voeren.
 
+> Update 27 december: ik schreef een vervolg: [AI erodeert](/2025/12/27/ai-erodeert.html). Wat als de Wardley Map hoogte had? En wat doet AI met dat landschap?
+
 ## Wardley Maps
 
 [Simon Wardley](https://blog.gardeviance.org/) ontwikkelde een visuele methode om dit soort strategische beslissingen te
