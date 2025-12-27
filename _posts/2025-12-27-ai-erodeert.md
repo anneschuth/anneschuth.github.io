@@ -10,7 +10,7 @@ tags:
 
 [Een paar weken geleden](/2025/12/02/wardley-maps.html) schreef ik over Wardley Maps. Het werd een van mijn beter gelezen posts (ruim 500 lezers). De vuistregel: links op de kaart bouw je zelf, rechts koop je in. Genesis is onzeker en experimenteel, commodity is gestandaardiseerd en uitwisselbaar.
 
-Maar er ontbreekt iets. De kaart is plat. Strategie niet.
+Maar er ontbreekt iets. De kaart is plat.
 
 ## Wat als de kaart hoogte had?
 
@@ -28,17 +28,17 @@ In Genesis zijn er weinig paden. Het is onontgonnen terrein. Je moet je eigen we
 
 Commodity daarentegen is gladder terrein. Uitgesleten door de tijd. Er zijn verharde wegen. Bewegwijzering. Je weet waar je naartoe gaat. Maar ook hier zijn dalen: vendor lock-in bestaat net zo goed bij commodity. Het verschil is dat de paden ertussen duidelijker zijn. Het is niet per se goedkoop, maar het is *navigeerbaar*.
 
-Dit verklaart waarom Genesis zo moeilijk is. Het is niet alleen dat niemand nog weet hoe het werkt. Het is dat het landschap zelf onbegaanbaar is. Geen paden, geen zicht, makkelijk verdwalen.
+Het is niet alleen dat niemand nog weet hoe het werkt. Het is dat het landschap zelf onbegaanbaar is. Geen paden, geen zicht, makkelijk verdwalen.
 
 ## De dalen: lock-in als lokaal optimum
 
 Nu de dalen. Dalen zijn plekken waar je makkelijk in terechtkomt, maar moeilijk uit klimt. Lokaal comfortabel, globaal gevangen.
 
-Dit is precies wat vendor lock-in is.
+Dat is vendor lock-in.
 
 Een dal is comfortabel. Je hebt geïnvesteerd in een platform, je processen zijn erop ingericht, je mensen kennen het. Weggaan betekent bergen beklimmen. Dat zijn de switchkosten.
 
-Het cruciale inzicht: **dalen bestaan overal op de kaart**, niet alleen bij commodity.
+Maar **dalen bestaan overal op de kaart**, niet alleen bij commodity.
 
 - In Genesis: je zit vast in een experimentele aanpak die nergens toe leidt
 - In Custom: legacy systemen die je zelf hebt gebouwd
@@ -59,13 +59,11 @@ LLMs comprimeren die tijd. Ze creëren wat ik het **Erosie Effect** noem: versne
 
 ![Twee contourkaarten: links ruig terrein met doodlopende paden, rechts geërodeerd met meer routes en een nieuw dal voor AI-platforms.](/assets/rugged-wardley-map.png)
 
-Dat gebeurt op drie manieren.
-
 ### AI maakt het ruige terrein begaanbaar
 
 [In oktober](/2025/10/21/praten.html) schreef ik over hoe ik een app bouwde door tegen mijn computer te praten. 38.000 regels code die ik niet zelf schreef. Geen Dart, Kotlin of Swift geleerd. Toch een werkende app.
 
-Dit is erosie in actie. Het ruige terrein van Genesis wordt begaanbaar. Niet vlak, maar begaanbaar. Je kunt tien paden verkennen in de tijd die één pad kostte.
+Het ruige terrein van Genesis wordt begaanbaar. Niet vlak, maar begaanbaar. Je kunt tien paden verkennen in de tijd die één pad kostte.
 
 Noem het vibe coding. Noem het [tegen je computer praten](/2025/10/21/praten.html). Noem het [architect worden](/2025/06/23/toch-een-architect.html).
 
@@ -81,21 +79,19 @@ Maar als bouwen sneller wordt, worden bergen lager.
 
 "We zitten vast in systeem X" wordt "we kunnen X in afzienbare tijd herbouwen."
 
-Dit is enorm voor legacy. Al die oude systemen waar organisaties in vastzitten: de dalen worden minder diep. De bergen eromheen worden beklimbaar. Ontsnappen wordt een optie.
+Al die oude systemen waar organisaties in vastzitten: de dalen worden minder diep. De bergen eromheen worden beklimbaar. Ontsnappen wordt een optie.
 
 ### AI creëert nieuwe dalen
 
-Maar er is een keerzijde. AI creëert ook nieuwe dalen.
+Maar AI creëert ook nieuwe dalen.
 
 OpenAI, Anthropic, Google: de tools die het landschap veranderen zijn zelf platforms waar je in vast kunt komen te zitten. Training data dependencies. Prompt engineering expertise die gebonden is aan één model. Workflows die afhankelijk zijn van specifieke APIs.
 
 Simon Wardley waarschuwt: als een kleine groep de tools, de taal en het medium controleert, "controleren zij letterlijk hoe je redeneert over de wereld om je heen."
 
-De oude dalen worden minder diep. Nieuwe dalen ontstaan.
-
 ## Wat dit betekent voor de overheid
 
-**Prototypen als verkenning.** [Eerder schreef ik](/2025/10/21/praten.html) dat het bouwen van proof of concepts beleidsvorming ís, niet uitvoering. [RegelRecht](https://minbzk.github.io/regelrecht/) is hier een voorbeeld van. In landschapstermen: je verkent het terrein voordat je een piek kiest om te beklimmen. AI maakt die verkenning goedkoper.
+**Prototypen als verkenning.** [Eerder schreef ik](/2025/10/21/praten.html) dat het bouwen van proof of concepts beleidsvorming ís, niet uitvoering. [RegelRecht](https://minbzk.github.io/regelrecht/) is hier een voorbeeld van. Je verkent het terrein voordat je een piek kiest om te beklimmen. AI maakt die verkenning goedkoper.
 
 **Minder grote aanbestedingen vooraf.** Als je eerst kunt verkennen, hoef je niet meteen honderd pagina's specificaties te schrijven. Je kunt scouten. Kijken welke paden begaanbaar zijn. Dan pas committen.
 
@@ -115,14 +111,6 @@ De oude dalen worden minder diep. Nieuwe dalen ontstaan.
 
 **Nieuwe dalen kunnen dieper zijn.** We weten hoe diep het dal van Microsoft is. We weten nog niet hoe diep het dal van OpenAI of Anthropic wordt.
 
-## Een nieuwe manier om de kaart te zien
-
-De vraag is niet alleen *waar* je naartoe gaat op de kaart. Het is ook: hoe *navigeerbaar* is het terrein? En welke *dalen* kunnen je vasthouden?
-
-Genesis is links én ruig. Dalen zijn overal.
-
-Het Erosie Effect verandert dit. AI maakt Genesis begaanbaarder. AI maakt de bergen rondom dalen lager. AI is een geologische kracht die het hele landschap hervormt.
+## De vraag
 
 De vraag voor de overheid, en voor iedereen die strategie maakt, is niet alleen welke componenten je bouwt of koopt. Het is: hoe beweeg je door dit veranderende landschap? Welke paden verken je? Welke dalen vermijd je? En hoe zorg je dat je niet vast komt te zitten in de nieuwe dalen die AI creëert?
-
-AI erodeert. Bouw, of verdwaal.
