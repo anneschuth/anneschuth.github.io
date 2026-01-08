@@ -3,6 +3,7 @@ title: "Joining Spotify"
 date: '2021-12-01T11:36:00+01:00'
 author: Anne
 layout: post
+lang: en
 permalink: /joining-spotify/
 
 ---

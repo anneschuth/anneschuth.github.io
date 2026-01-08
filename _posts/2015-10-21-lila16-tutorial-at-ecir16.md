@@ -3,6 +3,7 @@ title: "LiLa'16 Tutorial at ECIR'16"
 date: '2015-10-21T18:44:52+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /lila16-tutorial-at-ecir16/
 categories:
     - Workshop

@@ -3,6 +3,7 @@ title: "ECIR'14 short paper accepted"
 date: '2013-12-03T11:16:48+01:00'
 author: Anne
 layout: post
+lang: en
 permalink: /ecir14-short-paper-accepted/
 categories:
     - Paper

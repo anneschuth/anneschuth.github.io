@@ -3,6 +3,7 @@ title: "Interview 'VN De Oplossers"
 date: '2015-09-14T22:06:24+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /vn-de-oplossers/
 categories:
     - Press

@@ -3,6 +3,7 @@ title: "Grotere universiteit is daarom nog niet beter"
 date: '2014-01-04T10:26:28+01:00'
 author: Anne
 layout: post
+lang: nl
 permalink: /grotere-universiteit-is-daarom-nog-niet-beter/
 categories:
     - Education

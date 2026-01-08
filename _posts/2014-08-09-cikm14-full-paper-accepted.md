@@ -3,6 +3,7 @@ title: "CIKM'14 full paper accepted"
 date: '2014-08-09T10:04:57+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /cikm14-full-paper-accepted/
 
 ---

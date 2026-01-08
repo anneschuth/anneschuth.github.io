@@ -3,6 +3,7 @@ title: "Email is dood, lang leve het team"
 date: '2025-04-04T16:00:00+01:00'
 author: Anne
 layout: post
+lang: nl
 tags:
   - '2025'
   - 'weeknotes'

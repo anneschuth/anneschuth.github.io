@@ -3,6 +3,7 @@ title: "SIGIR'14 Short Paper Accepted"
 date: '2014-05-11T15:20:28+02:00'
 author: Anne
 layout: post
+lang: en
 permalink: /sigir-short-paper-accepted/
 categories:
     - Paper

@@ -3,6 +3,7 @@ title: "ACM TOIS paper 'A comparative analysis of interleaving methods for aggre
 date: '2015-02-06T12:12:59+01:00'
 author: Anne
 layout: post
+lang: en
 permalink: /acm-tois-paper-comparative-analysis-interleaving-methods-aggregated-search-online/
 ---
 
