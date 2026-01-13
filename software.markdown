@@ -5,6 +5,18 @@ layout: page
 permalink: /software/
 ---
 
+## Claude-threads
+
+Claude-threads brings Claude Code capabilities directly into team chat platforms like Mattermost and Slack. The bot enables collaborative AI pair programming by streaming Claude's responses live to chat threads, allowing teams to work together on coding tasks in real-time. Each conversation thread maintains its own isolated Claude session with features like interactive approvals through emoji reactions, git integration with worktrees, and support for image analysis. As the tagline suggests, it's "screen-sharing for AI pair programming, but everyone can type."
+
+The source code is [available on GitHub](https://github.com/anneschuth/claude-threads).
+
+## peerpressure
+
+Peerpressure is a social digital detox app that uses peer accountability to help users stay focused and avoid digital distractions. When you join a focus session with friends, they can see when you try to break focus - turning social pressure into your productivity superpower. The app blocks distracting apps in real-time, requires peer approval for emergency unlocks, and tracks focus streaks and session history. By making productivity a collaborative effort, peerpressure helps users break free from digital distractions together.
+
+Learn more at [peerpressure.social](https://peerpressure.social).
+
 ## RegelRecht
 
 RegelRecht is an exploration by the Dutch Ministry of the Interior (Bureau Architectuur) into machine-executable

@@ -7,14 +7,14 @@ repos:
         entry: python3 check_links.py
         language: system
         pass_filenames: false
-        stages: [commit]
+        stages: [pre-commit]
 
       - id: jekyll-build
         name: Jekyll build test
         entry: bundle exec jekyll build --trace
         language: system
         pass_filenames: false
-        stages: [commit]
+        stages: [pre-commit]
 
       - id: check-yaml
         name: Check YAML frontmatter

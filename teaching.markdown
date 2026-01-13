@@ -13,6 +13,7 @@ interested in internships, feel free to reach out!
 
 {% assign sorted_students = site.students | sort: "years" | reverse %}
 {% for student in sorted_students %}
+
 ### [{{ student.name }}]({{ student.url }}) ({{ student.years }})
 
 {% if student.degree %}**Degree**: {{ student.degree }}{% if student.institution %}, {{ student.institution }}{% endif %}<br>
