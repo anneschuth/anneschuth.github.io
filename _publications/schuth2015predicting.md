@@ -10,7 +10,7 @@ redirect_from: /publications/schuth_2015_predicting.html
 pdf: /assets/fp041-schuthA.pdf
 publisher: "ACM"
 title: "Predicting Search Satisfaction Metrics with Interleaved Comparisons"
-citations: 49
+citations: 50
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:VaXvl8Fpj5cC"
 type: inproceedings
 shield: conference-SIGIR-blue

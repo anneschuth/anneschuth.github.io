@@ -10,7 +10,7 @@ pages: "131--136"
 pdf: /assets/clef2011-schuth-evaluation.pdf
 publisher: "Springer"
 title: "Evaluation methods for rankings of facetvalues for faceted search"
-citations: 17
+citations: 18
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:Y0pCki6q_DkC"
 type: article
 year: "2011"
