@@ -82,6 +82,7 @@ and served in leadership positions such as chair of the FNWI PhD Council.
 
 ### Other PC Roles
 
+- PC member [AIOG2026](https://aiog.net/) AI & Open Government Workshop, co-located with ICAIL 2026
 - PC member [ORSUM2023](https://orsum.org/2023/)
 - PC member [CIKM2015](http://www.cikm-2015.org/)
 - PC member NTCIR-12 [EVIA2016](http://research.nii.ac.jp/ntcir/evia2016/index.html) Workshop
