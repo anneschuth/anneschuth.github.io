@@ -16,3 +16,6 @@ MD001: false
 
 # Allow table column count
 MD056: false
+
+# Allow first line after frontmatter to be non-heading (Jekyll collections)
+MD041: false
