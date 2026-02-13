@@ -10,6 +10,7 @@ have received {{ site.data.scholar_stats.total_citations }} citations; my h-inde
 
 See also my publication profiles at [google scholar](http://scholar.google.nl/citations?user=Y3ahb_wAAAAJ&hl=en)
 and [dblp](http://www.dblp.org/search/index.php#query=author:anne_schuth:).
+See also: [Talks](/talks/) &middot; [Thesis](/thesis/) &middot; [Teaching](/teaching/) &middot; [Press](/press/)
 
 {% assign publications = site.publications | sort: "date" | reverse %}
 {% for pub in publications %}

@@ -1,50 +1,56 @@
 ---
 layout: default
 ---
-<div class="post-content">
-
-    <header class="post-header">
-        <h1 class="post-title">Weeknotes</h1>
-    </header>
-
-    <div class="intro">
-        <p>Wekelijkse reflecties over werk, technologie (en het leven). Dit zijn mijn <a
-                href="https://kees.it.com/weeknotes/2025/03/13/De-meta-weeknote.html">weeknotes</a>: korte updates over
-            waar ik over nadenk, aan werk en wat ik leer. Ik schrijf zoal over de spanning tussen technologie en beleid,
-            de uitdagingen van digitale transformatie, en hoe we betekenisvolle verandering kunnen bewerkstelligen.
-            Zoals over <a href="/2025/12/27/ai-erodeert.html">hoe AI het strategisch landschap erodeert</a>,
-            <a href="/2025/12/02/wardley-maps.html">wanneer bouwen en wanneer kopen</a>,
-            <a href="/2025/10/21/praten.html">apps bouwen door te praten</a>, en de realiteit van <a
-                    href="/2025/03/07/hosting-in-slow-motion.html">hosting in slow motion</a>.</p>
+<section class="hero">
+  <div class="hero-content">
+    <img src="/assets/anne-campus-270x270.png" alt="Anne Schuth" class="hero-photo" />
+    <div class="hero-text">
+      <h1 class="hero-name">Anne Schuth</h1>
+      <p class="hero-role">Engineer at the Dutch Government &middot; PhD in Search</p>
+      <nav class="hero-links">
+        <a href="/about/">About me</a>
+        <a href="/publications/">Publications</a>
+        <a href="/software/">Software</a>
+      </nav>
     </div>
+  </div>
+</section>
 
+<section class="weeknotes-section">
+  <header class="section-header">
+    <h2>Weeknotes</h2>
+    <p class="section-intro">Wekelijkse reflecties over werk, technologie (en het leven). Dit zijn mijn <a
+        href="https://kees.it.com/weeknotes/2025/03/13/De-meta-weeknote.html">weeknotes</a>: korte updates over
+      waar ik over nadenk, aan werk en wat ik leer.</p>
+  </header>
 
-    <!-- This loops through the paginated posts -->
+  <div class="post-list">
     {% for post in paginator.posts %}
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <div class="content">
-        {{ post.excerpt }}
-    </div>
+    <article class="post-card">
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3 class="post-card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="post-card-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 30 }}
+      </div>
+      <a href="{{ post.url }}" class="read-more">Read more &rarr;</a>
+    </article>
     {% endfor %}
+  </div>
 
-    <!-- Pagination links -->
-    <div class="pagination post-meta">
-        {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">
-            Previous
-        </a>
-        {% else %}
-        <span class="previous">Previous</span>
-        {% endif %}
-        <span class="page_number ">
-      Page: {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
-        {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-        {% else %}
-        <span class="next ">Next</span>
-        {% endif %}
-    </div>
+  <!-- Pagination -->
+  <nav class="pagination" aria-label="Pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="pagination-btn pagination-prev">&larr; Newer</a>
+    {% else %}
+    <span class="pagination-btn pagination-prev disabled">&larr; Newer</span>
+    {% endif %}
 
-</div>
+    <span class="pagination-info">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="pagination-btn pagination-next">Older &rarr;</a>
+    {% else %}
+    <span class="pagination-btn pagination-next disabled">Older &rarr;</span>
+    {% endif %}
+  </nav>
+</section>
