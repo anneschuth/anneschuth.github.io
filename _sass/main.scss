@@ -237,11 +237,16 @@ h1, h2, h3, h4, h5, h6 {
 
 // Mobile: flatten dropdowns into the hamburger menu
 @media screen and (max-width: 600px) {
-  .nav-dropdown {
+  // Match Minima's mobile nav styling for dropdown containers
+  .site-nav .nav-dropdown {
     display: block;
 
     .dropdown-toggle {
+      // Match Minima's .page-link mobile styling exactly
       display: block;
+      padding: 5px 10px;
+      margin-left: 20px;
+      line-height: 1.5;
     }
 
     .dropdown-arrow {
@@ -261,13 +266,19 @@ h1, h2, h3, h4, h5, h6 {
       background: transparent;
 
       a {
-        padding: 0.35rem 0 0.35rem 1rem;
+        display: block;
+        padding: 3px 10px 3px 40px;
         font-size: 0.85rem;
         color: var(--text-muted);
+        line-height: 1.6;
 
         &:hover {
           background-color: transparent;
           color: var(--link-color);
+        }
+
+        &:visited {
+          color: var(--text-muted);
         }
       }
     }
