@@ -9,6 +9,7 @@ layout: null
       "url": {{ post.url | jsonify }},
       "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
       "type": "post",
+      "lang": {{ post.lang | default: "nl" | jsonify }},
       "tags": {{ post.tags | jsonify }},
       "excerpt": {{ post.excerpt | strip_html | truncatewords: 30 | jsonify }}
     }{% unless forloop.last %},{% endunless %}

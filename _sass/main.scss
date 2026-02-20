@@ -775,6 +775,46 @@ img.round {
   transition: $theme-transition;
 }
 
+// Language switcher
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+
+  .lang-active,
+  a {
+    padding: 0.25rem 0.6rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .lang-active {
+    background: var(--accent-color);
+    color: #fff;
+  }
+
+  a {
+    background: var(--button-bg);
+    color: var(--text-muted);
+
+    &:hover {
+      background: var(--button-hover);
+      color: var(--text-color);
+    }
+
+    &:visited {
+      color: var(--text-muted);
+    }
+  }
+}
+
 // More generous spacing for post content
 .post-content {
   h2 {
