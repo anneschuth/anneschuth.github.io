@@ -1,0 +1,12 @@
+{%- if page.translation -%}
+  {%- if page.lang == "nl" -%}
+    {%- assign nl_url = page.url -%}
+    {%- assign en_url = page.translation -%}
+  {%- else -%}
+    {%- assign nl_url = page.translation -%}
+    {%- assign en_url = page.url -%}
+  {%- endif -%}
+<link rel="alternate" hreflang="nl" href="{{ nl_url | absolute_url }}" />
+<link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}" />
+<link rel="alternate" hreflang="x-default" href="{{ nl_url | absolute_url }}" />
+{%- endif -%}
