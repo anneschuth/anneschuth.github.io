@@ -15,9 +15,9 @@ Before this, I was Engineering Manager of the [AI Validation Team](https://minbz
 
 I used to be Machine Learning Engineering Manager in the Search team at Spotify.
 Before joining Spotify, I spent almost 4 years at DPG Media in various roles, all contributing towards a push for
-personalisation of news products. Before that, I was a research scientist at Google AI in London and a data scientist at Blendle in Utrecht. I hold a PhD
+personalisation of news products. Before that, I was a research scientist at Google AI in London and a data scientist at Blendle in Utrecht. I hold a [PhD](/publications/schuth-phd-thesis-2016)
 from the University of Amsterdam where I studied self-learning search engines. I interned at Bing/Microsoft Research in
-Cambridge UK and Yandex in Moscow.
+Cambridge UK and Yandex in Moscow. My [publications](/publications/) have received over {{ site.data.scholar_stats.total_citations }} citations ([Google Scholar](https://scholar.google.com/citations?user=Y3ahb_wAAAAJ&hl=en)).
 
 ## CV
 
@@ -42,8 +42,8 @@ on [RegelRecht](https://minbzk.github.io/regelrecht/), an exploration into machi
 
 *The Hague, The Netherlands*
 **Engineering Manager - AI Validation Team** (Aug 2023 -- Dec 2024)
-Growing and supporting the AI Validation Team at the Digital Society Department, NL Ministry of the Interior and Kingdom
-Relations (BZK). This is a team of engineers, product, UX, focused on building software for AI validation.
+Growing and supporting the [AI Validation Team](https://minbzk.github.io/ai-validation/) at the Digital Society Department, NL Ministry of the Interior and Kingdom
+Relations (BZK). This is a team of engineers, product, UX, focused on building software for AI validation, including the [Algorithm Management Toolkit](/software/#algorithm-management-toolkit-amt).
 
 ### Industry
 
@@ -84,7 +84,7 @@ Responsible for learning aspects of Blendle’s recommendation engine for journa
 **PhD Candidate** (2011--2016)
 *Informatics Institute, University of Amsterdam, The Netherlands*
 Research Topic: Online Learning to Rank for Information Retrieval.
-Research on how search engines can learn from users to improve their results. Supervised by prof. dr. Maarten de Rijke and dr. Shimon Whiteson.
+Research on how search engines can learn from users to improve their results. Built the [Lerot](/software/#lerot-an-online-learning-to-rank-framework) framework. Supervised by prof. dr. Maarten de Rijke and dr. Shimon Whiteson.
 
 **Software Engineer** (2010--2011)
 *Informatics Institute, University of Amsterdam, The Netherlands*
@@ -104,7 +104,7 @@ Responsible for collecting, structuring, and indexing political data.
 
 *Cambridge, United Kingdom*
 **Research Intern** (2014)
-Collaborated on online evaluation of Bing, focusing on bringing interleaved comparisons closer to AB testing. Published a full paper at SIGIR2015.
+Collaborated on online evaluation of Bing, focusing on bringing interleaved comparisons closer to AB testing. Published a [full paper at SIGIR2015](/publications/schuth2015predicting).
 
 #### Yandex
 
@@ -137,4 +137,4 @@ Committee: dr. Christof Monz, dr. ir. Leo Dorst, and prof. dr. Khalil Sima'an.
 
 *University of Amsterdam, The Netherlands (2004--2007)*
 Thesis: [Applied Text Analytics for Comments on News-Articles](/publications/schuth2007applied).
-Thesis was published and cited over 90 times.
+Thesis was [published](/publications/schuth2007extracting) and cited over 90 times.
