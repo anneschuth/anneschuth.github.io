@@ -19,7 +19,7 @@ Learn more at [peerpressure.social](https://peerpressure.social).
 
 ## RegelRecht
 
-RegelRecht is an exploration by the Dutch Ministry of the Interior (Bureau Architectuur) into machine-executable
+RegelRecht is an exploration by the Dutch Ministry of the Interior (Bureau Architectuur Digitale Overheid) into machine-executable
 legislation. The project investigates how we can achieve transparent, unambiguous, and consistent execution of laws -
 enabling everyone to understand how decisions are made.
 

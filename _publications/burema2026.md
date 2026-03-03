@@ -9,4 +9,5 @@ title: "A Dutch Benchmark to Assess Social Bias in LLMs within a Hiring Decision
 type: inproceedings
 year: "2026"
 shield: conference-LREC-blue
+student: burema-renate
 ---

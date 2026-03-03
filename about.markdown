@@ -9,7 +9,7 @@ paginate: 5
 ![Picture of Anne Schuth](/assets/anne-campus-270x270.png){: .round }
 
 I work on AI and Engineering for the Dutch Government, currently as Engineer in
-the [Bureau Architectuur & Software Engineering](https://minbzk.github.io/BASE/) (BASE, in formation), where I primarily work on [RegelRecht](https://minbzk.github.io/regelrecht/) - an exploration into machine-executable legislation.
+the Bureau Architectuur Digitale Overheid (BADO), where I primarily work on [RegelRecht](https://minbzk.github.io/regelrecht/) - an exploration into machine-executable legislation.
 I also run [Axolotl Systems](https://axolotl.systems), where I provide ML engineering and platform consulting services one day per week alongside my government work, including working as ML Engineer at [Ditto](http://ditto.care/).
 Before this, I was Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
 
@@ -31,11 +31,11 @@ Cambridge UK and Yandex in Moscow.
 
 ### Government
 
-#### Bureau Architectuur & Software Engineering (BASE, in formation)
+#### Bureau Architectuur Digitale Overheid (BADO)
 
 *The Hague, The Netherlands*
 **Engineer** (Jan 2025 -- present)
-Engineer in the Bureau Architectuur & Software Engineering (BASE, in formation), primarily working
+Engineer in the Bureau Architectuur Digitale Overheid (BADO), primarily working
 on [RegelRecht](https://minbzk.github.io/regelrecht/), an exploration into machine-executable legislation that aims to achieve transparent, unambiguous, and consistent execution of laws.
 
 #### Ministry of the Interior and Kingdom Relations (BZK)
@@ -137,4 +137,4 @@ Committee: dr. Christof Monz, dr. ir. Leo Dorst, and prof. dr. Khalil Sima'an.
 
 *University of Amsterdam, The Netherlands (2004--2007)*
 Thesis: [Applied Text Analytics for Comments on News-Articles](/publications/schuth2007applied).
-Thesis was published and cited over 50 times.
+Thesis was published and cited over 90 times.
