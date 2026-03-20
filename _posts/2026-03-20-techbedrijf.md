@@ -11,7 +11,9 @@ tags:
   - 'maken'
 ---
 
-Ik krijg regelmatig de vraag wat platform engineering is en waarom de overheid zich daar druk om zou moeten maken. Mijn antwoord begint bij een these: de overheid is de facto het grootste en meest complexe softwarebedrijf van Nederland, en ze moet zich ook zo organiseren. Platform engineering is de manier om dat te doen. Hier acht argumenten.
+Ik krijg regelmatig de vraag wat platform engineering is en waarom de overheid zich daar druk om zou moeten maken. Mijn antwoord begint bij een these: de overheid is de facto het grootste en meest complexe softwarebedrijf[^bedrijf] van Nederland, en ze moet zich ook zo organiseren. Platform engineering is de manier om dat te doen. Hier acht argumenten.
+
+[^bedrijf]: De overheid is natuurlijk geen bedrijf. Maar het helpt om zo te kijken, de rest van dit stuk legt uit waarom. 
 
 ## Argument 1: Softwarebedrijf
 
@@ -33,7 +35,7 @@ Code wordt goedkoop. De marginale kosten van het schrijven van software dalen sn
 
 Het gevolg voor de koop-versus-bouw-afweging ligt voor de hand. Grote SaaS-contracten en meerjarige maatwerk-trajecten worden relatief duurder ten opzichte van zelf bouwen. De productiviteitswinst van AI-tooling verschilt per context, maar zelfs conservatieve schattingen laten zien dat kleinere teams significant meer kunnen dan een paar jaar geleden[^aistudies]. Maar dat werkt alleen als die engineers een goed platform hebben om op te bouwen, en niet eerst weken bezig zijn met infrastructure setup en compliance-papierwerk.
 
-[^aistudies]: De schattingen lopen uiteen. Een [RCT bij Google](https://arxiv.org/abs/2410.12944) (96 engineers) vond 21% sneller. Een [RCT van METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) (16 ervaren open-source developers) vond juist 19% *trager*, ondanks dat de developers zelf dachten sneller te zijn. De veelgehoorde claim van 4x of meer is niet empirisch onderbouwd.
+[^aistudies]: Een [RCT bij Microsoft en Accenture](https://economics.mit.edu/sites/default/files/inline-files/draft_copilot_experiments.pdf) (4.867 developers, Management Science 2025) vond 26% meer afgeronde taken, met 27-39% winst bij junior developers. [GitHub's eigen studie](https://arxiv.org/abs/2302.06590) vond 55% sneller op een geïsoleerde taak. De veelgehoorde claim van 4x of meer is niet empirisch onderbouwd.
 
 ## Argument 4: De multiplier
 
@@ -70,3 +72,5 @@ De overheid is een softwarebedrijf. Ze moet zich ook zo organiseren. In het AI-t
 Maar een platform bouw je niet vanuit een community die op goodwill draait. Dat vereist mandaat en structurele financiering, met een organisatie die er verantwoordelijk voor is. DigiD werkt omdat Logius het beheert met dedicated budget en een helder mandaat. Een overheidsbreed developer platform heeft datzelfde nodig.
 
 De bouwblokken liggen er. Ze moeten nu worden samengebracht en structureel geborgd. Platform engineering maakt het mogelijk om de output van engineers te vermenigvuldigen en compliance in te bouwen als default.
+
+----
