@@ -10,4 +10,5 @@ type: inproceedings
 year: "2026"
 shield: conference-LREC-blue
 student: burema-renate
+repo: https://github.com/MinBZK/llm-benchmark/tree/main/benchmarks/social-bias
 ---
