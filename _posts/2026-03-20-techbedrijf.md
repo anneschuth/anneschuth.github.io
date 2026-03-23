@@ -11,6 +11,8 @@ tags:
   - 'maken'
 ---
 
+> **Update 23 maart:** Argument 8 aangepast na feedback.
+
 Ik krijg regelmatig de vraag wat platform engineering is en waarom de overheid zich daar druk om zou moeten maken. Mijn antwoord begint bij een these: de overheid is de facto het grootste en meest complexe softwarebedrijf[^bedrijf] van Nederland, en ze moet zich ook zo organiseren. Platform engineering is de manier om dat te doen. Hier acht argumenten.
 
 [^bedrijf]: [Eerder zei ik](/2025/05/09/interview.html) dat de vergelijking tussen Spotify en de overheid "totaal mank gaat." Dat vind ik nog steeds, qua missie. Maar qua software-complexiteit helpt de vergelijking wel. 
@@ -57,11 +59,11 @@ De overheid publiceert standaarden: API Design Rules, NORA, BIO, WCAG. Maar adop
 
 Het tekort aan IT-specialisten bij de overheid is nijpend[^whitelane]. Engineers kiezen voor werkgevers waar ze productief kunnen zijn, waar de tooling goed is, waar ze niet het grootste deel van hun [makers-tijd](/2025/03/13/verdwijnende-makers-tijd.html) bezig zijn met bureaucratie. Goed gereedschap trekt goed vakmanschap aan. Een overheid waar je in minuten een productieomgeving hebt is een aantrekkelijkere werkgever dan een overheid waar dat maanden duurt.
 
-## Argument 8: Fragiele bouwblokken
+## Argument 8: Versnipperde bouwblokken
 
 [Haven](https://haven.commonground.nl/) standaardiseert Kubernetes-hosting. [FSC](https://fsc-standaard.nl/) regelt federatieve dienstverlening tussen organisaties. Er zijn initiatieven rond Common Ground, OpenZaak, [Open Notificaties](https://github.com/open-zaak/open-notificaties), [Open Formulieren](https://github.com/open-formulieren/open-forms), [NL Design System](https://nldesignsystem.nl/).
 
-Maar eerlijk: deze bouwblokken zijn fragiel. Open Formulieren heeft meer dan 500 open issues en draait op een alpha-versie. Haven groeit, maar adoptie bij gemeenten gaat langzaam ondanks de VNG-standaardverklaring. De projecten worden onderhouden door kleine teams die kwetsbaar zijn voor uitval. En ze zijn onafhankelijk van elkaar gebouwd, met verschillende aannames over authenticatie, datamodellen en deployment. Ze passen nog niet op elkaar.
+Sommige van deze projecten draaien in productie, Open Formulieren bijvoorbeeld bij tientallen organisaties. Maar het geheel is versnipperd. De projecten zijn onafhankelijk van elkaar gebouwd, met verschillende aannames over authenticatie, datamodellen en deployment. Ze passen nog niet op elkaar. De teams die ze onderhouden zijn klein. Er is geen gedeelde roadmap, geen overkoepelende architectuur, geen plek waar je als developer kunt zien hoe alles samenhangt.
 
 Dat is precies waarom platform engineering nodig is. Iemand moet deze bouwblokken versterken en op elkaar aansluiten. Er is geen developer portal, geen service catalog, geen golden paths. Die verbindende laag ontbreekt.
 
