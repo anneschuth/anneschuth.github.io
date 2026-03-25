@@ -14,6 +14,8 @@ tags:
 Ik krijg regelmatig de vraag wat platform engineering is en waarom de overheid zich daar druk om zou moeten maken. Mijn antwoord begint bij een these: de overheid is de facto het grootste en meest complexe softwarebedrijf[^bedrijf] van Nederland, en ze moet zich ook zo organiseren. Platform engineering is de manier om dat te doen. Hier acht argumenten.
 
 > **Update 23 maart:** Argument 8 aangepast na feedback.
+>
+> **Update 25 maart:** Zie ook de [blogpost op developer.overheid.nl](https://developer.overheid.nl/blog/2026/03/25/skills) over skills.
 
 [^bedrijf]: [Eerder zei ik](/2025/05/09/interview.html) dat de vergelijking tussen Spotify en de overheid "totaal mank gaat." Dat vind ik nog steeds, qua missie. Maar qua software-complexiteit helpt de vergelijking wel. 
 
