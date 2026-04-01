@@ -5,5 +5,5 @@ year: 2026
 layout: talk
 key: wat-als-software-bouwen-bijna-gratis-wordt-2026
 shield: keynote-red
-venue: IT meetup JNV Justitie en Veiligheid
+venue: IT meetup JenV Justitie en Veiligheid
 ---
