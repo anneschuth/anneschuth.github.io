@@ -6,7 +6,7 @@ paginate: 5
 
 ---
 
-![Picture of Anne Schuth](/assets/anne-campus-270x270.png){: .round }
+![Picture of Anne Schuth](/assets/anne-270x270.png){: .round }
 
 I work on AI and Engineering for the Dutch Government, currently as Engineer in
 the Bureau Architectuur Digitale Overheid (BADO), where I primarily work on [RegelRecht](https://minbzk.github.io/regelrecht/) - an exploration into machine-executable legislation.
