@@ -74,7 +74,7 @@ vanuit een individuele organisatie, maar vanuit ons allemaal samen.
 
 De standaard Wardley terminologie (bouw/koop/outsource) past net niet goed op de overheid. Je kunt DigiD niet "kopen"; er is geen markt. Logius, de leverancier, is onderdeel van de Rijksoverheid. Dus heb ik de labels aangepast.
 
-**Genesis (EXPERIMENTEER)**: Proactieve dienstverlening, [RegelRecht](https://minbzk.github.io/regelrecht/). Dit zijn
+**Genesis (EXPERIMENTEER)**: Proactieve dienstverlening, [RegelRecht](https://regelrecht.rijks.app). Dit zijn
 dingen die we nog aan het uitvinden zijn. Hier moeten we zelf kennis opbouwen.
 
 **Custom (ONTWIKKEL)**: [OpenZaak](https://openzaak.org/), [NL Design System](https://nldesignsystem.nl/),

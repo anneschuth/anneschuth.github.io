@@ -91,7 +91,7 @@ Simon Wardley waarschuwt: als een kleine groep de tools, de taal en het medium c
 
 ## Wat dit betekent voor de overheid
 
-**Prototypen als verkenning.** [Eerder schreef ik](/2025/10/21/praten.html) dat het bouwen van proof of concepts beleidsvorming ís, niet uitvoering. [RegelRecht](https://minbzk.github.io/regelrecht/) is hier een voorbeeld van. Je verkent het terrein voordat je een piek kiest om te beklimmen. AI maakt die verkenning goedkoper.
+**Prototypen als verkenning.** [Eerder schreef ik](/2025/10/21/praten.html) dat het bouwen van proof of concepts beleidsvorming ís, niet uitvoering. [RegelRecht](https://regelrecht.rijks.app) is hier een voorbeeld van. Je verkent het terrein voordat je een piek kiest om te beklimmen. AI maakt die verkenning goedkoper.
 
 **Minder grote aanbestedingen vooraf.** Als je eerst kunt verkennen, hoef je niet meteen honderd pagina's specificaties te schrijven. Je kunt scouten. Kijken welke paden begaanbaar zijn. Dan pas committen.
 

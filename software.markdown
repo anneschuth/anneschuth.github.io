@@ -35,7 +35,7 @@ The ecosystem includes NRML (Normalized Rule Model Language) as a JSON-based for
 execution engines in multiple programming languages, an AI-powered converter for existing analog law, a visual law
 editor, and simulation environments for testing legislative impact.
 
-Learn more at [minbzk.github.io/regelrecht](https://minbzk.github.io/regelrecht/) or explore the source code
+Learn more at [regelrecht.rijks.app](https://regelrecht.rijks.app) or explore the source code
 [on GitHub](https://github.com/MinBZK/poc-machine-law).
 
 ## Algorithm Management Toolkit (AMT)

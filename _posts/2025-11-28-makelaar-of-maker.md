@@ -23,7 +23,7 @@ mede-organisator van deze studiereis. Zou de subliminal message zijn dat overhed
 maken aan de markt over moeten laten?
 
 Dat is een ander model dan wat wij (of in ieder geval ik) bij Bureau Architectuur, Digilab, en
-met [RegelRecht](https://minbzk.github.io/regelrecht/) nastreven. Wij proberen kennis over zelf bouwen dichtbij te
+met [RegelRecht](https://regelrecht.rijks.app) nastreven. Wij proberen kennis over zelf bouwen dichtbij te
 houden. Niet omdat de overheid alles zelf moet doen, maar omdat je minstens een goede opdrachtgever moet kunnen zijn. En
 soms moet je dingen echt naar je toe trekken. Waar het kerntaken betreft, of waar je nog niet kunt bepalen wat je
 precies wilt. Waar het eigenlijk [onderdeel van beleidsvorming](/2025/10/21/praten.html) is.
