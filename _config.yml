@@ -30,7 +30,7 @@ header_pages:
   - thesis.markdown
   - press.markdown
 
-paginate: 5
+paginate: 10
 
 future: true
 
