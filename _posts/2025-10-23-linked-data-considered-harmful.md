@@ -183,7 +183,7 @@ Na bijna twee decennia heeft linked data bewezen dat het geen revolutie gaat bre
 Het is tijd om dat te erkennen en verder te gaan.
 
 Als je dit leest en denkt "maar linked data heeft ons enorm geholpen!", dan ben ik oprecht benieuwd naar je
-ervaring. [Stuur me een bericht](/about). Misschien leer ik iets nieuws. Maar na 20 jaar wachten op de Semantische Web
+ervaring. [Stuur me een bericht](/about/). Misschien leer ik iets nieuws. Maar na 20 jaar wachten op de Semantische Web
 revolutie ben ik niet optimistisch.
 
 Voorlopig blijf ik [maken boven schrijven](/2025/04/11/maken-over-schrijven.html): JSON schrijven, API's bouwen,
