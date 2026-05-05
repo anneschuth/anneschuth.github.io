@@ -5,6 +5,7 @@ date: "2016-03-20"
 key: schuth2016lila
 keywords: "ECIR, evaluation, interleaving, living labs"
 layout: publication
+selected: true
 pdf: /assets/ecir2016-ll-tutorial.pdf
 publisher: "Springer"
 title: "Living Labs for Online Evaluation: From Theory to Practice"

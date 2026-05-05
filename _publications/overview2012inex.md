@@ -5,6 +5,7 @@ date: "2012-09-19"
 key: overview2012inex
 keywords: "CLEF, faceted search, INEX, workshop"
 layout: publication
+selected: true
 pdf: /assets/uva-inex-2012.pdf
 title: "Overview of the INEX 2012 Linked Data Track"
 citations: 38

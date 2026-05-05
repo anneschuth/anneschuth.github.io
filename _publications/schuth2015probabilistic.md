@@ -6,6 +6,7 @@ key: schuth2015probabilistic
 doi: "10.1145/2766462.2767838"
 keywords: "evaluation, interleaving, Lerot, multileaving, poster, SIGIR"
 layout: publication
+selected: true
 redirect_from: /publications/schuth_2015_probabilistic.html
 pdf: /assets/schuth-probabilistic-2015.pdf
 title: "Probabilistic Multileave for Online Retrieval Evaluation"

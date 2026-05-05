@@ -22,6 +22,7 @@ plugins:
 # Custom navigation links
 header_pages:
   - about.markdown
+  - cv.markdown
   - publications.markdown
   - talks.markdown
   - activities.markdown

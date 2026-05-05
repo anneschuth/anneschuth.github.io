@@ -4,6 +4,7 @@ booktitle: "DIR2015"
 date: "2015-01-01"
 key: "schuth2015open"
 layout: "publication"
+selected: true
 shield: "publication-DIR-gray"
 pdf: "/assets/schuth2015open.pdf"
 title: "Open Search"

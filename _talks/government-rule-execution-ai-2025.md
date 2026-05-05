@@ -3,6 +3,7 @@ title: How to make Government and Rule Execution more effective using AI and whe
 date: '2025-10-14'
 year: 2025
 layout: talk
+selected: true
 key: government-rule-execution-ai-2025
 shield: talk-lightblue
 venue: The Hague Tech

@@ -4,6 +4,7 @@ booktitle: "Twenty-Fifth Text REtrieval Conference (TREC 2016). NIST"
 date: "2016-01-01"
 key: "balog2016overview"
 layout: "publication"
+selected: true
 shield: "conference-TREC-blue"
 title: "Overview of the trec 2016 open search track"
 citations: 21

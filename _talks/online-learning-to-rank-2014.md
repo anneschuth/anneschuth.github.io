@@ -3,6 +3,7 @@ title: Online Learning to Rank
 date: '2014-06-26'
 year: 2014
 layout: talk
+selected: true
 key: online-learning-to-rank-2014
 shield: talk-lightblue
 venue: Textkernel Tech Talks

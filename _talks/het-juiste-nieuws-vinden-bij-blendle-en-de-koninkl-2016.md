@@ -3,6 +3,7 @@ title: Het juiste nieuws vinden bij Blendle en de Koninklijke Bibliotheek
 date: '2016-11-01'
 year: 2016
 layout: talk
+selected: true
 key: het-juiste-nieuws-vinden-bij-blendle-en-de-koninkl-2016
 shield: talk-lightblue
 venue: Koninklijke Bibliotheek

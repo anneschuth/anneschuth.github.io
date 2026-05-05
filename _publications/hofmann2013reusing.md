@@ -5,6 +5,7 @@ date: "2013-02-04"
 key: hofmann2013reusing
 keywords: "learning to rank, Lerot, online learning, WSDM"
 layout: publication
+selected: true
 pdf: /assets/reusing-historical-2013.pdf
 title: "Reusing Historical Interaction Data for Faster Online Learning to Rank for IR"
 citations: 142

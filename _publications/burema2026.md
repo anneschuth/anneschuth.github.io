@@ -5,6 +5,7 @@ date: "2026-02-13"
 key: burema2026
 keywords: "social bias, LLMs, hiring, benchmark, Dutch"
 layout: publication
+selected: true
 title: "A Dutch Benchmark to Assess Social Bias in LLMs within a Hiring Decision Setting"
 type: inproceedings
 year: "2026"

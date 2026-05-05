@@ -5,6 +5,7 @@ date: "2012-01-01"
 key: de2012sustainable
 keywords: "SIGIR, workshop"
 layout: publication
+selected: true
 pdf: /assets/degoede-sustainable-2012.pdf
 title: "Sustainable Questions"
 citations: 0

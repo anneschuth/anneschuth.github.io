@@ -1,0 +1,72 @@
+name: Regenerate CV PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cv.markdown"
+      - "about.markdown"
+      - "activities.markdown"
+      - "_publications/**"
+      - "_talks/**"
+      - "_students/**"
+      - "_includes/cv/**"
+      - "assets/css/cv-print.scss"
+      - "_data/scholar_stats.yml"
+      - "generate_cv_pdf.py"
+      - "requirements-dev.txt"
+      - ".github/workflows/cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cv-pdf-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  regenerate-cv-pdf:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: .ruby-version
+          bundler-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install WeasyPrint system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b \
+            libcairo2 libgdk-pixbuf-2.0-0 libffi-dev shared-mime-info
+
+      - name: Install Python deps
+        run: pip install -r requirements-dev.txt
+
+      - name: Generate CV PDF
+        run: python generate_cv_pdf.py
+
+      - name: Commit regenerated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain assets/cv-anne-schuth.pdf)" ]]; then
+            git add assets/cv-anne-schuth.pdf
+            git commit -m "chore: regenerate CV PDF [skip ci]"
+            git push
+          else
+            echo "No changes to assets/cv-anne-schuth.pdf"
+          fi

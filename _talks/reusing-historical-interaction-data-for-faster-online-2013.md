@@ -3,6 +3,7 @@ title: 'Reusing Historical Interaction Data for Faster Online Learning to Rank f
 date: '2013-03-10'
 year: 2013
 layout: talk
+selected: true
 key: reusing-historical-interaction-data-for-faster-online-2013
 redirect_from: /talks/reusing-historical-interaction-data-for-faster-onl-2013.html
 venue: 'IR group of the University of Glasgow'

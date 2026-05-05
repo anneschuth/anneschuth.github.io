@@ -1,5 +1,6 @@
 ---
 layout: publication
+selected: true
 type: inproceedings
 shield: conference-CLEF-blue
 key: schuth2015extended
