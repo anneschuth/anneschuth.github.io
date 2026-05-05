@@ -6,6 +6,7 @@ journal: "Multilingual and Multimodal Information Access Evaluation"
 key: schuth2011evaluation
 keywords: "CLEF, faceted search"
 layout: publication
+selected: true
 pages: "131--136"
 pdf: /assets/clef2011-schuth-evaluation.pdf
 publisher: "Springer"

@@ -6,6 +6,7 @@ journal: "Digital Journalism"
 key: kuiken2017
 keywords: "blendle, journal"
 layout: publication
+selected: true
 number: "0"
 pages: "1-15"
 pdf: /assets/Effective-Headlines-of-Newspaper-Articles-in-a-Digital-Environment.pdf

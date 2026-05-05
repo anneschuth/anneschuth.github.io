@@ -6,6 +6,7 @@ key: nusselder2009helping
 doi: "10.1145/1645953.1646320"
 keywords: ""
 layout: publication
+selected: true
 organization: "ACM"
 pages: "2095--2096"
 pdf: /assets/helping-people-choose-2009.pdf

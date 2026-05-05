@@ -1,0 +1,153 @@
+---
+---
+/* Stylesheet used by WeasyPrint to render /cv/ to assets/cv-anne-schuth.pdf.
+   It is loaded directly by generate_cv_pdf.py, NOT by the Jekyll site at runtime,
+   so it deliberately overrides minima styles for paged-media output. */
+
+@page {
+  size: A4;
+  margin: 18mm 18mm 22mm 18mm;
+
+  @bottom-center {
+    content: "Anne Schuth — CV — page " counter(page) " of " counter(pages);
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 8pt;
+    color: #666;
+  }
+
+  @top-right {
+    content: "Anne Schuth";
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 8pt;
+    color: #888;
+  }
+}
+
+@page :first {
+  @top-right { content: ""; }
+}
+
+html, body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.35;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header,
+.site-footer,
+.site-nav,
+.no-print,
+.cv-pdf-link,
+header.site-header,
+footer.site-footer {
+  display: none !important;
+}
+
+.page-content,
+.wrapper,
+main,
+.post,
+.page {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h1, .post-title {
+  font-size: 18pt;
+  margin: 0 0 4pt 0;
+  border-bottom: 1.5pt solid #333;
+  padding-bottom: 2pt;
+}
+
+h2 {
+  font-size: 12pt;
+  margin: 14pt 0 4pt 0;
+  border-bottom: 0.5pt solid #999;
+  padding-bottom: 1pt;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 10.5pt;
+  margin: 8pt 0 2pt 0;
+  page-break-after: avoid;
+}
+
+h4 {
+  font-size: 9.5pt;
+  font-weight: bold;
+  margin: 6pt 0 2pt 0;
+  page-break-after: avoid;
+}
+
+p {
+  margin: 0 0 4pt 0;
+  orphans: 2;
+  widows: 2;
+}
+
+ul, ol {
+  margin: 2pt 0 4pt 0;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 1.5pt 0;
+}
+
+a, a:visited {
+  color: #1a4f8a;
+  text-decoration: none;
+}
+
+img.round {
+  display: none;  /* don't include the avatar in the printed CV */
+}
+
+.cv-header {
+  margin-bottom: 8pt;
+}
+
+.cv-contact {
+  font-size: 8.5pt;
+  color: #555;
+  margin: 2pt 0 6pt 0;
+}
+
+.cv-citations {
+  color: #888;
+  font-size: 0.9em;
+}
+
+/* Avoid orphaned section titles */
+h2 + h3,
+h2 + p {
+  page-break-before: avoid;
+}
+
+/* Tighten dl-style "Software Skills" entries */
+dl {
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 4pt;
+}
+
+dd {
+  margin-left: 12pt;
+  margin-bottom: 2pt;
+}
+
+/* Reduce wasted whitespace from minima's wrapper paddings */
+hr {
+  border: none;
+  border-top: 0.5pt solid #ccc;
+  margin: 6pt 0;
+}

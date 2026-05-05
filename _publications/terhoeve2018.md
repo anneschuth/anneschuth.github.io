@@ -3,6 +3,7 @@ author: "Maartje ter Hoeve and Anne Schuth and Daan Odijk and Maarten de Rijke"
 date: "2018-01-01"
 key: terhoeve2018
 layout: publication
+selected: true
 pdf: /assets/terhoeve2018.pdf
 title: "Faithfully Explaining Rankings in a News Recommender System"
 citations: 30

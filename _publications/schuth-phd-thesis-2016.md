@@ -5,6 +5,7 @@ isbn: "978-94-6182-674-9"
 key: schuth-phd-thesis-2016
 keywords: "evaluation, online learning, thesis"
 layout: publication
+selected: true
 pdf: /assets/thesis_anne-schuth_search-engines-that-learn-from-their-users.pdf
 school: "Informatics Institute, University of Amsterdam"
 title: "Search Engines that Learn from Their Users"

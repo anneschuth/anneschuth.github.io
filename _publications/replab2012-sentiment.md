@@ -5,6 +5,7 @@ date: "2012-09-18"
 key: replab2012-sentiment
 keywords: "replab, reputation, workshop"
 layout: publication
+selected: true
 pdf: /assets/163193_CLEF2012wn_RepLab_PeetzEt2012.pdf
 title: "From Sentiment to Reputation"
 citations: 0

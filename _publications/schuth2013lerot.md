@@ -6,6 +6,7 @@ doi: "10.1145/2513150.2513162"
 key: schuth2013lerot
 keywords: "learning to rank, online learning, workshop"
 layout: publication
+selected: true
 redirect_from: /publications/schuth_lerot_2013.html
 pdf: /assets/schuth-lerot-2013.pdf
 title: "Lerot: an Online Learning to Rank Framework"

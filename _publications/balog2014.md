@@ -5,6 +5,7 @@ date: "2014-11-03"
 key: balog2014
 keywords: "CIKM, evaluation, living labs, poster"
 layout: publication
+selected: true
 pdf: /assets/cikm2014-lleval.pdf
 title: "Head First: Living Labs for Ad-hoc Search Evaluation"
 citations: 44

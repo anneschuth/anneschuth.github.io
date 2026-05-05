@@ -6,6 +6,7 @@ doi: "10.1007/978-3-319-06028-6_7"
 key: schuth2014
 keywords: "ECIR, learning to rank, Lerot, online learning"
 layout: publication
+selected: true
 pages: "75-87"
 pdf: /assets/ecir2014-fp-bm25.pdf
 title: "Optimizing Base Rankers Using Clicks: A Case Study using BM25"

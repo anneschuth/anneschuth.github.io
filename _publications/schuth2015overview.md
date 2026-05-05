@@ -5,6 +5,7 @@ date: "2015-09-08"
 key: schuth2015overview
 keywords: "CLEF, evaluation, living labs, workshop"
 layout: publication
+selected: true
 redirect_from: /publications/schuth_2015_overview.html
 pdf: /assets/168329_clef2015_ll4ir.pdf
 publisher: "Springer"

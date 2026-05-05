@@ -5,6 +5,7 @@ date: "2015-12-01"
 key: schuth2015selflearning
 keywords: "amsterdamscience, Anne, evaluation, online learning"
 layout: publication
+selected: true
 pdf: /assets/selflearningsearch.pdf
 title: "Self-learning search engines"
 citations: 0

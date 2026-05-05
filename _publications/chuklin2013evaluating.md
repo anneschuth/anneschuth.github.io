@@ -5,6 +5,7 @@ date: "2013-10-01"
 key: chuklin2013evaluating
 keywords: "aggregated search, CIKM, evaluation, Lerot"
 layout: publication
+selected: true
 pdf: /assets/chuklin-evaluating-2013.pdf
 title: "Evaluating Aggregated Search Using Interleaving"
 citations: 39

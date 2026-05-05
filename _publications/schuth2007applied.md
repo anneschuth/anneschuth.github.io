@@ -4,6 +4,7 @@ date: "2007-01-01"
 key: schuth2007applied
 keywords: "Bachelorthesis"
 layout: publication
+selected: true
 pdf: /assets/bachelor-thesis-anne-schuth.pdf
 title: "Applied Text Analytics for Comments on News-Articles"
 citations: 1

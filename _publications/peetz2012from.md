@@ -4,6 +4,7 @@ booktitle: "CLEF 2012: Conference on Multilingual and Multimodal Information Acc
 date: "2012-01-01"
 key: "peetz2012from"
 layout: "publication"
+selected: true
 shield: "conference-CLEF-blue"
 pdf: "/assets/peetz2012from.pdf"
 title: "From sentiment to reputation ILPS at RepLab 2012"

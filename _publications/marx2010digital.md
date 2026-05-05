@@ -6,6 +6,7 @@ key: marx2010digital
 doi: "10.5555/1809874.1809895"
 keywords: ""
 layout: publication
+selected: true
 organization: "Digital Government Society of North America"
 pages: "99--104"
 pdf: /assets/digital-sustainable-publication-legacy-parliament.pdf

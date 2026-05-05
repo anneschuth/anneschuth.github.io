@@ -6,6 +6,7 @@ key: chuklin2015
 doi: "10.1145/2668120"
 keywords: "aggregated search, evaluation, interleaving, journal, Lerot, TOIS"
 layout: publication
+selected: true
 pdf: /assets/chuklin-comparative-2015.pdf
 title: "A comparative analysis of interleaving methods for aggregated search"
 citations: 39

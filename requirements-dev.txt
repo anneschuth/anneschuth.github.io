@@ -1,0 +1,5 @@
+# Dev-only dependencies.
+# Used by generate_cv_pdf.py and the .github/workflows/cv.yml workflow that
+# auto-regenerates assets/cv-anne-schuth.pdf from /cv/.
+weasyprint==62.3
+pydyf<0.11

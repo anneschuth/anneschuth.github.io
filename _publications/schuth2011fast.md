@@ -5,6 +5,7 @@ doi: "10.1007/978-3-642-35734-3_13"
 key: schuth2011fast
 keywords: ""
 layout: publication
+selected: true
 pdf: /assets/fast-faceted-2011.pdf
 title: "Fast Faceted Search in XML"
 citations: 1

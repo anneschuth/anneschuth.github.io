@@ -6,6 +6,7 @@ key: schuth2016multileave
 doi: "10.1145/2835776.2835804"
 keywords: "learning to rank, Lerot, multileaving, online learning, WSDM"
 layout: publication
+selected: true
 pdf: /assets/wsdm2016-multileave-gradient-descent.pdf
 publisher: "ACM"
 title: "Multileave Gradient Descent for Fast Online Learning to Rank"
