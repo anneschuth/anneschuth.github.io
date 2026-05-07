@@ -1,9 +1,10 @@
-### Advisory Roles (2023-2026)
+{%- assign h = include.heading | default: "###" -%}
+{{ h }} Advisory Roles (2023-2026)
 
 - Member [AlgoSoc](https://algosoc.org/) Stakeholder Advisory Board (2023-2026)
 - Member Professional Fields Committee (Beroepsvelden Commissie), [Computer Science Program, Hogeschool Rotterdam](https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/) (2024-2026)
 
-### Workshop & Conference Organization (2012-2019)
+{{ h }} Workshop & Conference Organization (2012-2019)
 
 - Organizer [DIR2019](http://www.dir2019.nl/) (2019)
 - Co-organizer [TREC OpenSearch](http://trec-open-search.org/) (2016-2017)
@@ -15,11 +16,11 @@
 - Volunteer [CIKM2013](http://www.cikm2013.org/) (2013)
 - Co-organizer [INEX2012](https://inex.mmci.uni-saarland.de/) Linked Data Track (2012)
 
-### Community Organization (2014-2015)
+{{ h }} Community Organization (2014-2015)
 
 - Co-organizer [SEA Meetup](http://www.meetup.com/SEA-Search-Engines-Amsterdam/) (2014-2015)
 
-### University Leadership (2012-2014)
+{{ h }} University Leadership (2012-2014)
 
 - Chair [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html) (2013-2014)
 - Member [FNWI PhD Council](http://staff.uva.nl/science/research/phd-and-pd-council/phd-and-pd-council.html) (2012)

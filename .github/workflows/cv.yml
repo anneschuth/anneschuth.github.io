@@ -3,7 +3,7 @@ name: Regenerate CV PDF
 on:
   push:
     branches: [main]
-    paths:
+    paths: &cv_paths
       - "cv.markdown"
       - "about.markdown"
       - "activities.markdown"
@@ -14,8 +14,10 @@ on:
       - "assets/css/cv-print.scss"
       - "_data/scholar_stats.yml"
       - "generate_cv_pdf.py"
-      - "requirements-dev.txt"
+      - "requirements-cv.txt"
       - ".github/workflows/cv.yml"
+  pull_request:
+    paths: *cv_paths
   workflow_dispatch:
 
 permissions:
@@ -33,12 +35,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          # Need full history so generate_cv_pdf.py can derive
+          # SOURCE_DATE_EPOCH from the last commit touching CV inputs.
           fetch-depth: 0
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: .ruby-version
+          ruby-version-file: .ruby-version
           bundler-cache: true
 
       - name: Set up Python
@@ -54,12 +58,26 @@ jobs:
             libcairo2 libgdk-pixbuf-2.0-0 libffi-dev shared-mime-info
 
       - name: Install Python deps
-        run: pip install -r requirements-dev.txt
+        run: pip install -r requirements-cv.txt
 
       - name: Generate CV PDF
+        env:
+          LANG: C.UTF-8
+          LC_ALL: C.UTF-8
         run: python generate_cv_pdf.py
 
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-anne-schuth
+          path: assets/cv-anne-schuth.pdf
+          if-no-files-found: error
+          retention-days: 14
+
       - name: Commit regenerated PDF
+        # Only commit on direct pushes to main; for PRs the artifact above
+        # is the deliverable, since GITHUB_TOKEN can't push to forks.
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
-"""Render the Jekyll-built /cv/ page to assets/cv-anne-schuth.pdf via WeasyPrint."""
+"""Render the Jekyll-built /cv/ page to assets/cv-anne-schuth.pdf via WeasyPrint.
+
+The output is byte-deterministic: SOURCE_DATE_EPOCH is set to the timestamp of
+the last git commit that touches CV inputs (overridable via the env var) so two
+identical builds produce identical PDFs and the workflow only commits the PDF
+back when the content actually changed.
+"""
 from __future__ import annotations
 
 import argparse
+import os
 import shutil
 import subprocess
 import sys
@@ -13,6 +20,18 @@ SITE = ROOT / "_site"
 CV_HTML = SITE / "cv" / "index.html"
 PRINT_CSS = SITE / "assets" / "css" / "cv-print.css"
 OUTPUT_PDF = ROOT / "assets" / "cv-anne-schuth.pdf"
+
+# Inputs whose timestamps determine SOURCE_DATE_EPOCH when unset.
+CV_INPUTS = [
+    "cv.markdown",
+    "_publications",
+    "_talks",
+    "_students",
+    "_includes/cv",
+    "activities.markdown",
+    "assets/css/cv-print.scss",
+    "_data/scholar_stats.yml",
+]
 
 
 def run_jekyll_build() -> None:
@@ -26,13 +45,43 @@ def run_jekyll_build() -> None:
     )
 
 
+def ensure_source_date_epoch() -> None:
+    """Pin SOURCE_DATE_EPOCH for reproducible PDFs.
+
+    WeasyPrint uses this env var to set /CreationDate and /ModDate in the PDF;
+    without it, every run produces a different file and the auto-commit
+    workflow would commit on every push.
+    """
+    if os.environ.get("SOURCE_DATE_EPOCH"):
+        return
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%ct", "--", *CV_INPUTS],
+            cwd=ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        ts = result.stdout.strip()
+        if ts:
+            os.environ["SOURCE_DATE_EPOCH"] = ts
+            print(f"==> SOURCE_DATE_EPOCH={ts} (from git log of CV inputs)", flush=True)
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        # Not in a git repo, or git missing — fall back to a fixed epoch so
+        # the output is still deterministic across runs.
+        os.environ["SOURCE_DATE_EPOCH"] = "1700000000"
+        print("==> SOURCE_DATE_EPOCH=1700000000 (fallback)", flush=True)
+
+
 def render_pdf() -> None:
     if not CV_HTML.exists():
         sys.exit(f"error: {CV_HTML} not found; did Jekyll build succeed?")
     if not PRINT_CSS.exists():
         sys.exit(f"error: {PRINT_CSS} not found; expected Jekyll to compile cv-print.scss")
 
-    # WeasyPrint is imported lazily so `--help` and `--no-build` work without it.
+    ensure_source_date_epoch()
+
+    # WeasyPrint is imported lazily so `--help` works without it.
     from weasyprint import CSS, HTML  # type: ignore
 
     print(f"==> rendering {CV_HTML} -> {OUTPUT_PDF}", flush=True)

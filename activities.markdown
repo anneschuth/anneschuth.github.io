@@ -12,12 +12,12 @@ and served in leadership positions such as chair of the FNWI PhD Council.
 
 ## Leadership & Organizational Roles
 
-{% include cv/activities.md %}
+{% include cv/activities.md heading="###" %}
 
 ## Program Committee Membership
 
-{% include cv/program-committees.md %}
+{% include cv/program-committees.md heading="###" %}
 
 ## Reviewing Activities
 
-{% include cv/reviewing.md %}
+{% include cv/reviewing.md heading="###" %}
