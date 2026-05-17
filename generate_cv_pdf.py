@@ -20,6 +20,8 @@ SITE = ROOT / "_site"
 CV_HTML = SITE / "cv" / "index.html"
 PRINT_CSS = SITE / "assets" / "css" / "cv-print.css"
 OUTPUT_PDF = ROOT / "assets" / "cv-anne-schuth.pdf"
+OUTPUT_THUMB = ROOT / "assets" / "cv-thumbnail.png"
+THUMB_WIDTH = 600  # px; the about page displays it small, this keeps it crisp on retina
 
 # Inputs whose timestamps determine SOURCE_DATE_EPOCH when unset.
 CV_INPUTS = [
@@ -94,6 +96,31 @@ def render_pdf() -> None:
     print(f"==> wrote {OUTPUT_PDF} ({size_kb:.1f} KB)", flush=True)
 
 
+def render_thumbnail() -> None:
+    """Rasterize page 1 of the PDF to assets/cv-thumbnail.png.
+
+    The about page links this image to the full PDF; regenerating it here keeps
+    the preview in sync with the CV instead of drifting like the old static one.
+    """
+    if not OUTPUT_PDF.exists():
+        sys.exit(f"error: {OUTPUT_PDF} not found; cannot render thumbnail")
+
+    import pypdfium2 as pdfium  # type: ignore
+
+    pdf = pdfium.PdfDocument(str(OUTPUT_PDF))
+    page = pdf[0]
+    scale = THUMB_WIDTH / page.get_size()[0]
+    image = page.render(scale=scale).to_pil().convert("RGB")
+    image.save(str(OUTPUT_THUMB), optimize=True)
+    page.close()
+    pdf.close()
+    size_kb = OUTPUT_THUMB.stat().st_size / 1024
+    print(
+        f"==> wrote {OUTPUT_THUMB} ({image.width}x{image.height}, {size_kb:.1f} KB)",
+        flush=True,
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -106,6 +133,7 @@ def main() -> None:
     if not args.no_build:
         run_jekyll_build()
     render_pdf()
+    render_thumbnail()
 
 
 if __name__ == "__main__":

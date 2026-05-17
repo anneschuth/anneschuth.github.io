@@ -3,3 +3,4 @@
 # auto-regenerates assets/cv-anne-schuth.pdf from /cv/.
 weasyprint==62.3
 pydyf<0.11
+pypdfium2==4.30.0

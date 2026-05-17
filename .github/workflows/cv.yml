@@ -66,25 +66,27 @@ jobs:
           LC_ALL: C.UTF-8
         run: python generate_cv_pdf.py
 
-      - name: Upload PDF as artifact
+      - name: Upload PDF and thumbnail as artifact
         uses: actions/upload-artifact@v4
         with:
           name: cv-anne-schuth
-          path: assets/cv-anne-schuth.pdf
+          path: |
+            assets/cv-anne-schuth.pdf
+            assets/cv-thumbnail.png
           if-no-files-found: error
           retention-days: 14
 
-      - name: Commit regenerated PDF
+      - name: Commit regenerated PDF and thumbnail
         # Only commit on direct pushes to main; for PRs the artifact above
         # is the deliverable, since GITHUB_TOKEN can't push to forks.
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain assets/cv-anne-schuth.pdf)" ]]; then
-            git add assets/cv-anne-schuth.pdf
-            git commit -m "chore: regenerate CV PDF [skip ci]"
+          if [[ -n "$(git status --porcelain assets/cv-anne-schuth.pdf assets/cv-thumbnail.png)" ]]; then
+            git add assets/cv-anne-schuth.pdf assets/cv-thumbnail.png
+            git commit -m "chore: regenerate CV PDF and thumbnail [skip ci]"
             git push
           else
-            echo "No changes to assets/cv-anne-schuth.pdf"
+            echo "No changes to CV PDF or thumbnail"
           fi
