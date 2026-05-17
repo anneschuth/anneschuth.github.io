@@ -3,7 +3,7 @@ title: Personalized Regional Push Notifications
 date: '2018-10-19'
 year: 2018
 layout: talk
-selected: true
+selected: false
 key: personalized-regional-push-notifications-2018
 shield: talk-lightblue
 venue: "SEA XL \u2013 Algorithms and the News"

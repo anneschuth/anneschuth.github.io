@@ -1,6 +1,6 @@
 ---
 layout: publication
-selected: true
+selected: false
 type: inproceedings
 shield: conference-INEX-blue
 key: schuth2011university

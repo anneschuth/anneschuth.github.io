@@ -9,6 +9,7 @@ venue: SIGIR'15
 location: Santiago, Chile
 slides_url: /assets/20150811-SIGIR-PredictingSearchSatisfaction.pdf
 publication_url: /publications/schuth2015predicting
+selected: false
 ---
 
 ## Summary

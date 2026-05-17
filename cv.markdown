@@ -6,6 +6,7 @@ permalink: /cv/
 ---
 
 <div class="cv-header">
+  <p class="cv-name">Anne Schuth</p>
   <p class="cv-contact">
     <a href="mailto:anne.schuth@gmail.com">anne.schuth@gmail.com</a>
     &middot; <a href="https://anneschuth.nl">anneschuth.nl</a>
@@ -75,7 +76,12 @@ building and running the last stage of Spotify's search platform.
 #### DPG Media
 
 *Amsterdam, The Netherlands*<br>
-**Head of News Personalisation** (May 2020 -- Nov 2021)<br>
+**Machine Learning Architect** (Feb 2021 -- Nov 2021)<br>
+Focused on the technical aspects of building a large-scale recommendation system
+spanning all news products and brands; oversaw the technical challenges of about
+25 people working on products with a recommender system at their core.
+
+**Head of News Personalisation** (May 2020 -- Feb 2021)<br>
 Managed 15 people, divided over 3 teams working on content understanding & search,
 user understanding, and ranking. Responsible for personalising the news selection
 across major Dutch and Belgian news titles (Volkskrant, AD, Trouw, Parool, HLN,
@@ -88,7 +94,8 @@ Managed two teams focused on news personalisation and newsroom analytics.
 Started and led the News Personalisation Team, a group of nine engineers and
 scientists working on personalisation for major Dutch and Belgian news titles.
 
-**Machine Learning Engineer** (Mar 2018 -- Jul 2018)
+**Machine Learning Engineer** (Mar 2018 -- Jul 2018)<br>
+Spent the first months developing plans for personalisation across DPG's news brands.
 
 #### Google AI
 
@@ -204,23 +211,15 @@ cited over 90 times.
 
 I (co-)supervised the following students and trainees.
 
+<dl class="cv-students">
 {% assign sorted_students = site.students | sort: "years" | reverse %}
 {% for student in sorted_students %}
-
-#### [{{ student.name }}]({{ student.url }}) ({{ student.years }})
-
-{% if student.degree %}**Degree**: {{ student.degree }}{% if student.institution %}, {{ student.institution }}{% endif %}<br>
-{% endif %}{% if student.host_company %}**Host company**: {{ student.host_company }}<br>
-{% endif %}{% if student.topic %}**Topic**: {{ student.topic }}<br>
-{% endif %}{% if student.co_supervisors %}**Co-supervisor{% if student.co_supervisors.size > 1 %}s{% endif %}**: {{ student.co_supervisors | join: ', ' }}<br>
-{% endif %}
 {% assign student_key = student.path | split: "/" | last | replace: ".md", "" %}
 {% assign student_pubs = site.publications | where: "student", student_key %}
-{% if student_pubs.size > 0 %}**Publications**:
-
-{% for pub in student_pubs %}- {{ pub.author | replace: "Anne Schuth", "**Anne Schuth**" }}. [{{ pub.title }}]({{ pub.url }}). {% if pub.booktitle %}In {{ pub.booktitle }}, {% endif %}{% if pub.journal %}In {{ pub.journal }}, {% endif %}{{ pub.year }}.
-{% endfor %}{% endif %}
+<dt>{{ student.years }}</dt>
+<dd><a href="{{ student.url }}">{{ student.name }}</a>{% if student.degree %}, {{ student.degree }}{% if student.institution %} at {{ student.institution }}{% endif %}{% endif %}{% if student.host_company %} (internship at {{ student.host_company }}){% endif %}{% if student.topic %}. {{ student.topic }}{% endif %}{% if student.co_supervisors %}. Co-supervised with {{ student.co_supervisors | join: ', ' }}{% endif %}{% if student_pubs.size > 0 %}. Published at {% for pub in student_pubs %}{% if pub.booktitle %}{{ pub.booktitle | remove: "Proceedings of " | remove: "Proceedings of the " }}{% elsif pub.journal %}{{ pub.journal }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}.</dd>
 {% endfor %}
+</dl>
 
 ### Courses and Tutorials
 

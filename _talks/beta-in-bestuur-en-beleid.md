@@ -4,7 +4,7 @@ date: '2025-08-25'
 published: true
 year: 2025
 layout: talk
-selected: true
+selected: false
 key: beta-in-bestuur-en-beleid
 shield: talk-lightblue
 venue: 'BiBB Zomerschool 2025'

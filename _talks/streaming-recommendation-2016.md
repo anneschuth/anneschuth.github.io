@@ -3,7 +3,7 @@ title: 'Streaming Recommendation'
 date: '2016-10-13'
 year: 2016
 layout: talk
-selected: true
+selected: false
 key: streaming-recommendation-2016
 venue: 'Data Science Northeast Netherlands'
 location: 'Meppel, The Netherlands'
