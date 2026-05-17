@@ -1,4 +1,6 @@
-# Pre-commit hooks for Jekyll site quality
+# Pre-commit hooks for the anneschuth.nl Jekyll site.
+# Run locally on every commit and enforced on CI (.github/workflows/ci.yml).
+# Run all hooks manually with: uv run pre-commit run --all-files
 repos:
   - repo: local
     hooks:
@@ -11,26 +13,33 @@ repos:
 
       - id: check-links
         name: Check internal links
-        entry: python3 check_links.py
+        entry: uv run python check_links.py
         language: system
         pass_filenames: false
         stages: [pre-commit]
 
       - id: check-yaml
         name: Check YAML frontmatter
-        entry: python check_yaml.py
-        language: python
-        additional_dependencies: [pyyaml]
-        files: \.(md)$
+        entry: uv run python check_yaml.py
+        language: system
+        files: \.md$
         pass_filenames: false
+        stages: [pre-commit]
 
       - id: update-citations
         name: Update citation counts from Google Scholar
-        entry: python3 fetch_scholar_data.py
+        entry: uv run python fetch_scholar_data.py
         language: system
         pass_filenames: false
         always_run: true
         stages: [manual]
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.13
+    hooks:
+      - id: ruff
+        name: Lint Python (ruff)
+        args: [--no-fix]
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
@@ -43,10 +52,11 @@ repos:
         args: ['--maxkb=30000']
       - id: check-merge-conflict
       - id: check-toml
+      - id: check-yaml
       - id: detect-private-key
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.44.0
     hooks:
       - id: markdownlint
-        args: [ --fix ]
+        args: [--fix]

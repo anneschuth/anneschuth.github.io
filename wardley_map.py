@@ -5,8 +5,6 @@ Shows the build vs buy vs outsource decision framework.
 """
 
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
-import numpy as np
 
 # Enable xkcd style
 plt.xkcd()
