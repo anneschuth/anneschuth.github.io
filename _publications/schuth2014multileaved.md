@@ -6,6 +6,7 @@ key: schuth2014multileaved
 doi: "10.1145/2661829.2661952"
 keywords: "CIKM, evaluation, interleaving, Lerot, multileaving"
 layout: publication
+selected: true
 pdf: /assets/schuthcikm14.pdf
 title: "Multileaved Comparisons for Fast Online Evaluation"
 citations: 95

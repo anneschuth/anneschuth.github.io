@@ -2,13 +2,6 @@
 repos:
   - repo: local
     hooks:
-      - id: check-links
-        name: Check internal links
-        entry: python3 check_links.py
-        language: system
-        pass_filenames: false
-        stages: [pre-commit]
-
       - id: jekyll-build
         name: Jekyll build test
         entry: bundle exec jekyll build --trace
@@ -16,10 +9,18 @@ repos:
         pass_filenames: false
         stages: [pre-commit]
 
+      - id: check-links
+        name: Check internal links
+        entry: python3 check_links.py
+        language: system
+        pass_filenames: false
+        stages: [pre-commit]
+
       - id: check-yaml
         name: Check YAML frontmatter
-        entry: python3 check_yaml.py
-        language: system
+        entry: python check_yaml.py
+        language: python
+        additional_dependencies: [pyyaml]
         files: \.(md)$
         pass_filenames: false
 

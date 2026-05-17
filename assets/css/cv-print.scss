@@ -1,0 +1,263 @@
+---
+---
+/* Stylesheet used by WeasyPrint to render /cv/ to assets/cv-anne-schuth.pdf.
+   It is loaded directly by generate_cv_pdf.py, NOT by the Jekyll site at runtime,
+   so it deliberately overrides minima styles for paged-media output.
+
+   Visual target: moderncv "classic" — a slim accent rule under a large name,
+   blue section headings with a hairline rule, dense vertical rhythm, and a
+   date that sits flush right of each role line.
+
+   Typography: Latin Modern, the font moderncv renders with (Computer Modern
+   redrawn as OpenType). Roman for body, Sans for headings — the moderncv
+   classic pairing.
+
+   The .otf files are bundled under assets/fonts/ and discovered via a
+   fontconfig file that generate_cv_pdf.py points at that directory (see
+   FONTCONFIG_FILE there), which is why no @font-face is needed and the build
+   is identical on macOS and the Ubuntu CI runner. The family names below are
+   the fonts' real fontconfig names ("Latin Modern Roman" / "Latin Modern
+   Sans"), not the short "LM Roman 10" PostScript names. */
+
+$serif: "Latin Modern Roman", Georgia, serif;
+$sans: "Latin Modern Sans", "Helvetica Neue", Arial, sans-serif;
+
+$accent: #2a5d8f;
+$ink: #1c1c1c;
+$muted: #666;
+
+@page {
+  size: A4;
+  margin: 16mm 17mm 20mm 17mm;
+
+  @bottom-center {
+    content: "Anne Schuth — Curriculum Vitae — page " counter(page) " / " counter(pages);
+    font-family: $sans;
+    font-size: 7.5pt;
+    color: #999;
+  }
+  @top-right {
+    content: "Anne Schuth";
+    font-family: $sans;
+    font-size: 7.5pt;
+    color: #aaa;
+  }
+}
+
+@page :first {
+  @top-right { content: ""; }
+}
+
+html, body {
+  font-family: $serif;
+  font-size: 9.5pt;
+  line-height: 1.35;
+  color: $ink;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header,
+.site-footer,
+.site-nav,
+.no-print,
+.cv-pdf-link,
+header.site-header,
+footer.site-footer {
+  display: none !important;
+}
+
+.page-content,
+.wrapper,
+main,
+.post,
+.page {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* --- Name / title block ------------------------------------------------- */
+
+/* The layout's page <h1> ("Curriculum Vitae") sits in .post-header above the
+   content; suppress it and rebuild the header inside .cv-header instead. */
+.post-header,
+h1.post-title {
+  display: none !important;
+}
+
+.cv-name {
+  font-family: $sans;
+  font-size: 25pt;
+  font-weight: 700;
+  letter-spacing: -0.3pt;
+  color: $ink;
+  margin: 0;
+}
+
+.cv-name + .cv-contact::before {
+  content: "CURRICULUM VITAE";
+  display: block;
+  font-family: $sans;
+  font-size: 8.5pt;
+  font-weight: 400;
+  letter-spacing: 3pt;
+  color: $muted;
+  margin: 1pt 0 5pt 0;
+}
+
+.cv-header {
+  margin: 0 0 11pt 0;
+  border-bottom: 2pt solid $accent;
+  padding-bottom: 5pt;
+}
+
+.cv-contact {
+  font-size: 8.5pt;
+  color: $muted;
+  margin: 3pt 0 0 0;
+}
+
+.cv-contact a,
+.cv-contact a:visited { color: $muted; }
+
+/* Intro paragraph right after the header. */
+.cv-header + p {
+  font-size: 9pt;
+  color: #333;
+  margin: 0 0 4pt 0;
+}
+
+/* --- Section headings --------------------------------------------------- */
+
+h2 {
+  font-family: $sans;
+  font-size: 12.5pt;
+  font-weight: 700;
+  color: $accent;
+  text-transform: uppercase;
+  letter-spacing: 0.4pt;
+  margin: 15pt 0 5pt 0;
+  padding-bottom: 1.5pt;
+  border-bottom: 0.75pt solid $accent;
+  page-break-after: avoid;
+}
+
+/* Sub-grouping inside a section (e.g. Government / Industry / Academic). */
+h3 {
+  font-family: $sans;
+  font-size: 9.5pt;
+  font-weight: 700;
+  color: $muted;
+  text-transform: uppercase;
+  letter-spacing: 0.6pt;
+  margin: 9pt 0 3pt 0;
+  page-break-after: avoid;
+}
+
+/* Organization / institution / talk-year header. */
+h4 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: $ink;
+  margin: 7pt 0 1pt 0;
+  page-break-after: avoid;
+}
+
+p {
+  margin: 0 0 5pt 0;
+  orphans: 2;
+  widows: 2;
+}
+
+/* The first line of an entry's <p> carries "<em>location</em><br>
+   <strong>Role</strong> (dates)". Style role bold/ink and let the
+   surrounding paragraph keep description text at body weight. */
+p > em:first-child {
+  color: $muted;
+  font-style: italic;
+  font-size: 8.5pt;
+}
+
+p > strong { color: $ink; }
+
+ul, ol {
+  margin: 2pt 0 5pt 0;
+  padding-left: 13pt;
+}
+
+li {
+  margin: 0 0 1.5pt 0;
+  page-break-inside: avoid;
+}
+
+a, a:visited {
+  color: $accent;
+  text-decoration: none;
+}
+
+img.round { display: none; }
+
+.cv-citations {
+  color: #999;
+  font-size: 0.85em;
+}
+.cv-citations a, .cv-citations a:visited { color: #999; }
+
+/* Keep an organization heading glued to its first entry, and keep each
+   appointment / education / press paragraph from splitting across a page. */
+h2 + h3,
+h2 + p,
+h3 + h4,
+h4 + p {
+  page-break-before: avoid;
+}
+
+h4 + p,
+.cv-header + p {
+  page-break-inside: avoid;
+}
+
+/* --- Student supervision: tight date-gutter definition list ------------- */
+
+dl.cv-students {
+  margin: 3pt 0 5pt 0;
+  display: grid;
+  grid-template-columns: 5.4em 1fr;
+  column-gap: 9pt;
+  row-gap: 2.5pt;
+}
+
+dl.cv-students dt {
+  font-weight: 700;
+  color: $muted;
+  font-size: 8.5pt;
+  white-space: nowrap;
+}
+
+dl.cv-students dd {
+  margin: 0;
+  page-break-inside: avoid;
+}
+
+/* --- Generic dl (Software Skills uses Kramdown definition lists) -------- */
+
+dl:not(.cv-students) {
+  margin: 0;
+}
+dl:not(.cv-students) dt {
+  font-weight: 700;
+  margin-top: 4pt;
+  color: $ink;
+}
+dl:not(.cv-students) dd {
+  margin-left: 12pt;
+  margin-bottom: 2pt;
+}
+
+hr {
+  border: none;
+  border-top: 0.5pt solid #ccc;
+  margin: 6pt 0;
+}

@@ -6,6 +6,7 @@ doi: "10.1007/978-3-319-06028-6_67"
 key: hofmann2014
 keywords: "ECIR, evaluation, Lerot, recommender systems"
 layout: publication
+selected: true
 pdf: /assets/hofmann-effects-2014.pdf
 title: "Eﬀects of Position Bias on Click-Based Recommender Evaluation"
 citations: 66

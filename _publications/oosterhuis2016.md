@@ -6,6 +6,7 @@ key: oosterhuis2016
 doi: "10.1007/978-3-319-30671-1_50"
 keywords: "ECIR, learning to rank, Lerot, online learning"
 layout: publication
+selected: true
 pdf: /assets/ecir2016-prob-multileave-gradient-descent.pdf
 publisher: "Springer"
 title: "Probabilistic Multileave Gradient Descent"

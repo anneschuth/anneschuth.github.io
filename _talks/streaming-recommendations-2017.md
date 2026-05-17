@@ -3,6 +3,7 @@ title: Streaming Recommendations
 date: '2017-02-07'
 year: 2017
 layout: talk
+selected: false
 key: streaming-recommendations-2017
 shield: talk-lightblue
 venue: Poki

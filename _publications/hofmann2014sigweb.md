@@ -7,6 +7,7 @@ journal: "SIGWEB Newsletter"
 key: hofmann2014sigweb
 keywords: "learning to rank, online learning"
 layout: publication
+selected: false
 number: "Spring"
 pages: "5:1--5:7"
 pdf: /assets/hofmann-learning-2014.pdf

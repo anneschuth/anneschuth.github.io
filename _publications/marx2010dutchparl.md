@@ -4,6 +4,7 @@ date: "2010-01-01"
 key: marx2010dutchparl
 keywords: ""
 layout: publication
+selected: true
 pdf: /assets/dutchparl.pdf
 title: "DutchParl The Parliamentary Documents in Dutch"
 citations: 55

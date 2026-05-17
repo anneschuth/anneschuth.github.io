@@ -6,6 +6,7 @@ key: schuth2007extracting
 doi: "10.1145/1316902.1316919"
 keywords: ""
 layout: publication
+selected: true
 organization: "ACM"
 pages: "97--104"
 pdf: /assets/schuth-extracting-2007.pdf

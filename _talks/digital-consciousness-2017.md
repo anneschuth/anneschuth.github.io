@@ -3,6 +3,7 @@ title: Digital Consciousness
 date: '2017-03-27'
 year: 2017
 layout: talk
+selected: true
 key: digital-consciousness-2017
 shield: talk-lightblue
 venue: 'Sign of Time #14'

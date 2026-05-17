@@ -4,6 +4,7 @@ date: "2010-09-01"
 key: schuth2010tuning
 keywords: ""
 layout: publication
+selected: true
 pdf: /assets/master-thesis-anne-schuth.pdf
 school: "University of Amsterdam"
 title: "Tuning Methods in Statistical Machine Translation"

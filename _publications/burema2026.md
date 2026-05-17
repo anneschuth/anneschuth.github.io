@@ -10,6 +10,7 @@ layout: publication
 pages: "3932-3943"
 pdf: /assets/burema-lrec2026.pdf
 publisher: "European Language Resources Association (ELRA)"
+selected: true
 title: "A Dutch Benchmark to Assess Social Bias in LLMs within a Hiring Decision Setting"
 type: inproceedings
 year: "2026"
@@ -24,4 +25,4 @@ the applicants' demographics and using first names as proxies. We evaluate both 
 find that all tested models, gpt-4o-mini, claude-3.5-haiku, Geitje-7B-Ultra and EuroLLM-9B-Instruct, exhibit some degree
 of social bias in their decisions. Furthermore, all models tested are sensitive to the manner in which the prompts are
 written. We make our benchmark publicly available under an EUPL-1.2 license. The benchmark is available at
-https://github.com/MinBZK/llm-benchmark/tree/main/benchmarks/social-bias.
+<https://github.com/MinBZK/llm-benchmark/tree/main/benchmarks/social-bias>.

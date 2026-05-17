@@ -6,6 +6,7 @@ doi: "10.18122/B24D7N"
 key: terhoeve2017
 keywords: "FATREC, RECSYS"
 layout: publication
+selected: true
 pdf: /assets/fatrec2017-recommendation-reasons-blendle.pdf
 title: "Do News Consumers Want Explanations for Personalized News Rankings?"
 citations: 44

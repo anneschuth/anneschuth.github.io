@@ -6,6 +6,7 @@ key: schuth2015predicting
 doi: "10.1145/2766462.2767695"
 keywords: "A/B testing, evaluation, interleaving, SIGIR"
 layout: publication
+selected: true
 redirect_from: /publications/schuth_2015_predicting.html
 pdf: /assets/fp041-schuthA.pdf
 publisher: "ACM"

@@ -4,6 +4,7 @@ date: "2019-01-01"
 key: hopfgartner2019
 keywords: "living labs"
 layout: publication
+selected: true
 pdf: /assets/continues-evaluation-2019.pdf
 title: "Continuous evaluation of large-scale information access systems: a case for living labs"
 citations: 20
