@@ -9,7 +9,6 @@ dependencies = []
 # CV PDF generation: generate_cv_pdf.py + .github/workflows/cv.yml
 cv = [
     "weasyprint==68.0",
-    "pydyf<0.11",
     "pypdfium2==4.30.0",
 ]
 # Google Scholar sync: fetch_scholar_data.py
