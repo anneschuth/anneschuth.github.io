@@ -8,8 +8,7 @@ dependencies = []
 [dependency-groups]
 # CV PDF generation: generate_cv_pdf.py + .github/workflows/cv.yml
 cv = [
-    "weasyprint==62.3",
-    "pydyf<0.11",
+    "weasyprint==68.0",
     "pypdfium2==4.30.0",
 ]
 # Google Scholar sync: fetch_scholar_data.py
