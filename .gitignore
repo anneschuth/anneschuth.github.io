@@ -10,3 +10,7 @@ __pycache__/
 .venv/
 .ruff_cache/
 .playwright-mcp/
+
+# Unpublished drafts, never checked in. Jekyll skips _drafts unless
+# --drafts is passed, and check_links.py only scans _posts.
+_drafts/
