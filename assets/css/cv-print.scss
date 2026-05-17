@@ -6,7 +6,21 @@
 
    Visual target: moderncv "classic" — a slim accent rule under a large name,
    blue section headings with a hairline rule, dense vertical rhythm, and a
-   date that sits flush right of each role line. */
+   date that sits flush right of each role line.
+
+   Typography: Latin Modern, the font moderncv renders with (Computer Modern
+   redrawn as OpenType). Roman for body, Sans for headings — the moderncv
+   classic pairing.
+
+   The .otf files are bundled under assets/fonts/ and discovered via a
+   fontconfig file that generate_cv_pdf.py points at that directory (see
+   FONTCONFIG_FILE there), which is why no @font-face is needed and the build
+   is identical on macOS and the Ubuntu CI runner. The family names below are
+   the fonts' real fontconfig names ("Latin Modern Roman" / "Latin Modern
+   Sans"), not the short "LM Roman 10" PostScript names. */
+
+$serif: "Latin Modern Roman", Georgia, serif;
+$sans: "Latin Modern Sans", "Helvetica Neue", Arial, sans-serif;
 
 $accent: #2a5d8f;
 $ink: #1c1c1c;
@@ -18,13 +32,13 @@ $muted: #666;
 
   @bottom-center {
     content: "Anne Schuth — Curriculum Vitae — page " counter(page) " / " counter(pages);
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: $sans;
     font-size: 7.5pt;
     color: #999;
   }
   @top-right {
     content: "Anne Schuth";
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: $sans;
     font-size: 7.5pt;
     color: #aaa;
   }
@@ -35,9 +49,9 @@ $muted: #666;
 }
 
 html, body {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 9pt;
-  line-height: 1.34;
+  font-family: $serif;
+  font-size: 9.5pt;
+  line-height: 1.35;
   color: $ink;
   margin: 0;
   padding: 0;
@@ -74,6 +88,7 @@ h1.post-title {
 }
 
 .cv-name {
+  font-family: $sans;
   font-size: 25pt;
   font-weight: 700;
   letter-spacing: -0.3pt;
@@ -84,6 +99,7 @@ h1.post-title {
 .cv-name + .cv-contact::before {
   content: "CURRICULUM VITAE";
   display: block;
+  font-family: $sans;
   font-size: 8.5pt;
   font-weight: 400;
   letter-spacing: 3pt;
@@ -116,6 +132,7 @@ h1.post-title {
 /* --- Section headings --------------------------------------------------- */
 
 h2 {
+  font-family: $sans;
   font-size: 12.5pt;
   font-weight: 700;
   color: $accent;
@@ -129,6 +146,7 @@ h2 {
 
 /* Sub-grouping inside a section (e.g. Government / Industry / Academic). */
 h3 {
+  font-family: $sans;
   font-size: 9.5pt;
   font-weight: 700;
   color: $muted;

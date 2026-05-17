@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -19,6 +20,7 @@ ROOT = Path(__file__).resolve().parent
 SITE = ROOT / "_site"
 CV_HTML = SITE / "cv" / "index.html"
 PRINT_CSS = SITE / "assets" / "css" / "cv-print.css"
+SITE_URL = "https://anneschuth.nl"  # for rewriting root-relative links in the PDF
 OUTPUT_PDF = ROOT / "assets" / "cv-anne-schuth.pdf"
 OUTPUT_THUMB = ROOT / "assets" / "cv-thumbnail.png"
 THUMB_WIDTH = 600  # px; the about page displays it small, this keeps it crisp on retina
@@ -75,12 +77,45 @@ def ensure_source_date_epoch() -> None:
         print("==> SOURCE_DATE_EPOCH=1700000000 (fallback)", flush=True)
 
 
+def ensure_fontconfig() -> None:
+    """Point fontconfig at the bundled Latin Modern fonts.
+
+    WeasyPrint resolves font families through fontconfig, not the stylesheet's
+    @font-face url(). Latin Modern is not installed on the GitHub runner (and
+    may not be on a given Mac either), so we write a minimal fontconfig file
+    that adds assets/fonts/ as a font directory and export FONTCONFIG_FILE.
+    This makes "Latin Modern Roman"/"Latin Modern Sans" resolvable identically
+    everywhere, with no system font install.
+    """
+    fonts_dir = ROOT / "assets" / "fonts"
+    if not any(fonts_dir.glob("*.otf")):
+        sys.exit(f"error: no .otf files in {fonts_dir}; cannot set up Latin Modern")
+    cache_dir = ROOT / ".fontconfig-cache"
+    cache_dir.mkdir(exist_ok=True)
+    conf = ROOT / ".fonts.conf"
+    conf.write_text(
+        '<?xml version="1.0"?>\n'
+        '<!DOCTYPE fontconfig SYSTEM "fonts.dtd">\n'
+        "<fontconfig>\n"
+        f"  <dir>{fonts_dir}</dir>\n"
+        "  <dir>/System/Library/Fonts</dir>\n"
+        "  <dir>/Library/Fonts</dir>\n"
+        "  <dir>/usr/share/fonts</dir>\n"
+        f"  <cachedir>{cache_dir}</cachedir>\n"
+        "</fontconfig>\n",
+        encoding="utf-8",
+    )
+    os.environ["FONTCONFIG_FILE"] = str(conf)
+    print(f"==> FONTCONFIG_FILE={conf} (Latin Modern from {fonts_dir})", flush=True)
+
+
 def render_pdf() -> None:
     if not CV_HTML.exists():
         sys.exit(f"error: {CV_HTML} not found; did Jekyll build succeed?")
     if not PRINT_CSS.exists():
         sys.exit(f"error: {PRINT_CSS} not found; expected Jekyll to compile cv-print.scss")
 
+    ensure_fontconfig()
     ensure_source_date_epoch()
 
     # WeasyPrint is imported lazily so `--help` works without it.
@@ -88,7 +123,22 @@ def render_pdf() -> None:
 
     print(f"==> rendering {CV_HTML} -> {OUTPUT_PDF}", flush=True)
     OUTPUT_PDF.parent.mkdir(parents=True, exist_ok=True)
-    HTML(filename=str(CV_HTML), base_url=str(SITE)).write_pdf(
+
+    # Internal links in the CV are root-relative (href="/software/"). On the
+    # live site that is correct, but in a standalone PDF WeasyPrint resolves
+    # them against base_url, i.e. to a file:// path on the build machine, so
+    # they are dead for anyone who opens the downloaded PDF. Rewrite them to
+    # absolute production URLs. Local build assets (the bundled fonts and the
+    # compiled stylesheet under /assets/) must stay relative so WeasyPrint can
+    # still read them off disk, so those prefixes are left untouched.
+    html = CV_HTML.read_text(encoding="utf-8")
+    html = re.sub(
+        r'(href|src)="/(?!/|assets/)',
+        rf'\1="{SITE_URL}/',
+        html,
+    )
+
+    HTML(string=html, base_url=str(SITE)).write_pdf(
         target=str(OUTPUT_PDF),
         stylesheets=[CSS(filename=str(PRINT_CSS))],
     )
