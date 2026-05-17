@@ -10,12 +10,10 @@ without being asked each time.
 ## CV PDF generation
 
 `just cv` regenerates `assets/cv-anne-schuth.pdf` and the thumbnail from
-`/cv/`. On macOS, WeasyPrint needs the Homebrew pango/gobject libraries on the
-dyld path, so run it as:
-
-```bash
-DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib uv run python generate_cv_pdf.py
-```
+`/cv/`. The recipe sets `DYLD_FALLBACK_LIBRARY_PATH` to the Homebrew prefix on
+macOS (WeasyPrint needs pango/gobject there; on Linux/CI it is a no-op), so
+`just cv` works as-is. Do not reintroduce a manual env-var prefix in docs or
+commands; if the dyld path is wrong, fix the `cv` recipe in the justfile.
 
 Source of truth is `cv.markdown` plus the includes under `_includes/cv/`.
 Print styling lives in `assets/css/cv-print.scss` (WeasyPrint loads it
