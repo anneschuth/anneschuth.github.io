@@ -54,3 +54,5 @@ collections:
   students:
     output: true
     permalink: /:collection/:name
+  software:
+    output: false

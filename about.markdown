@@ -22,10 +22,11 @@ Cambridge UK and Yandex in Moscow. My [publications](/publications/) have receiv
 ## CV
 
 For a full overview of my appointments, education, students, talks, publications,
-and activities, see my [CV](/cv/) — auto-generated from this site so it always
-stays up to date.
+and activities, see my [CV](/cv/).
 
-[![CV Anne Schuth](/assets/cv-thumbnail.png)](/assets/cv-anne-schuth.pdf)
+<a class="cv-preview" href="/assets/cv-anne-schuth.pdf">
+  <img src="/assets/cv-thumbnail.png" alt="Eerste pagina van het CV van Anne Schuth" />
+</a>
 
 ## Contact
 

@@ -25,7 +25,7 @@ def check_yaml_frontmatter(file_path):
 def main():
     """Check YAML in all content files."""
     errors = 0
-    for content_dir in ['_publications', '_talks', '_posts']:
+    for content_dir in ['_publications', '_talks', '_posts', '_software']:
         dir_path = Path(content_dir)
         if dir_path.exists():
             for file_path in dir_path.glob('*.md'):

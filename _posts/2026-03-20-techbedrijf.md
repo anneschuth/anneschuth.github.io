@@ -17,7 +17,7 @@ Ik krijg regelmatig de vraag wat platform engineering is en waarom de overheid z
 >
 > **Update 25 maart:** Zie ook de [blogpost op developer.overheid.nl](https://developer.overheid.nl/blog/2026/03/25/skills) over skills.
 
-[^bedrijf]: [Eerder zei ik](/2025/05/09/interview.html) dat de vergelijking tussen Spotify en de overheid "totaal mank gaat." Dat vind ik nog steeds, qua missie. Maar qua software-complexiteit helpt de vergelijking wel. 
+[^bedrijf]: [Eerder zei ik](/2025/05/09/interview.html) dat de vergelijking tussen Spotify en de overheid "totaal mank gaat." Dat vind ik nog steeds, qua missie. Maar qua software-complexiteit helpt de vergelijking wel.
 
 ## Argument 1: Softwarebedrijf
 
@@ -43,7 +43,7 @@ Het gevolg voor de koop-versus-bouw-afweging ligt voor de hand. Grote SaaS-contr
 
 ## Argument 4: De multiplier
 
-Bij [Spotify](/2021/12/01/joining-spotify.html) hoefden productteams zich niet bezig te houden met compute, databases, CI/CD, monitoring of security scanning. Dat was allemaal self-service beschikbaar via het platform. Intern onderzoek liet zien dat frequente gebruikers van het developer portal (Backstage) 2,3x actiever waren op GitHub, 2x zoveel code changes maakten in 17% minder cycle time, en 2x zo vaak deployden[^backstage]. Een correlatie, geen bewezen causaliteit, maar het verschil is opvallend genoeg om serieus te nemen.
+Bij [Spotify](/joining-spotify/) hoefden productteams zich niet bezig te houden met compute, databases, CI/CD, monitoring of security scanning. Dat was allemaal self-service beschikbaar via het platform. Intern onderzoek liet zien dat frequente gebruikers van het developer portal (Backstage) 2,3x actiever waren op GitHub, 2x zoveel code changes maakten in 17% minder cycle time, en 2x zo vaak deployden[^backstage]. Een correlatie, geen bewezen causaliteit, maar het verschil is opvallend genoeg om serieus te nemen.
 
 [^backstage]: [Supercharged Developer Portals](https://engineering.atspotify.com/2024/04/supercharged-developer-portals/), Spotify Engineering, april 2024. De studie vergeleek frequente met infrequente Backstage-gebruikers. Er was geen controlegroep.
 

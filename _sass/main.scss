@@ -1471,3 +1471,25 @@ mark {
     padding: 16px 20px;
   }
 }
+
+
+.cv-preview {
+  display: inline-block;
+  width: 200px;
+  max-width: 45%;
+  margin: 8px 0 4px;
+  border: 1px solid var(--border-strong);
+  line-height: 0;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.cv-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cv-preview:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+}

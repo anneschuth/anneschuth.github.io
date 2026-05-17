@@ -21,7 +21,7 @@ permalink: /cv/
 
 I work on AI and Engineering for the Dutch Government, currently as Engineer in
 the Bureau Architectuur Digitale Overheid (BADO), where I primarily work on
-[RegelRecht](https://regelrecht.rijks.app) — an exploration into machine-executable
+[RegelRecht](https://regelrecht.rijks.app), an exploration into machine-executable
 legislation. I also run [Axolotl Systems](https://axolotl.systems), where I provide
 ML engineering and platform consulting services one day per week alongside my
 government work, including working as ML Engineer at [Ditto](http://ditto.care/).
@@ -317,6 +317,7 @@ A curated selection from my [full talks list](/talks/).
 ### {{ year_group.name }}
 
 {% for talk in year_group.items %}
+
 - [{{ talk.title }}]({{ talk.url }}){% if talk.venue %}. *{{ talk.venue }}*{% endif %}{% if talk.location %}. {{ talk.location }}{% endif %}. *{{ talk.date | date: "%b %-d" }}*.
 {% endfor %}
 {% endfor %}
@@ -352,6 +353,7 @@ see [publications](/publications/) for the full list.
 ### {{ year_group.name }}
 
 {% for pub in year_group.items %}
+
 - {{ pub.author | replace: "Anne Schuth", "**Anne Schuth**" }}. [{{ pub.title }}]({{ pub.url }}). {% if pub.booktitle %}In {{ pub.booktitle }}, {% endif %}{% if pub.journal %}In {{ pub.journal }}, {% endif %}{{ pub.year }}.{% if pub.citations and pub.citations > 0 and pub.scholar_url %} <span class="cv-citations">[{{ pub.citations }} citations]({{ pub.scholar_url }})</span>{% endif %}
 {% endfor %}
 {% endfor %}
@@ -375,11 +377,11 @@ see [publications](/publications/) for the full list.
 
 ## Open Source
 
-- [Algorithm Management Toolkit (AMT)](/software/#algorithm-management-toolkit-amt) — system for managing algorithm registrations in the public sector
-- [Lerot](/software/#lerot-an-online-learning-to-rank-framework) — online learning-to-rank framework (Bitbucket)
-- [Living Labs API](https://bitbucket.org/living-labs/ll-api) — IR evaluation API
+{% assign sw = site.software | sort: "order" %}
+{% for project in sw %}{% if project.link %}{% assign href = project.link %}{% elsif project.repo %}{% assign href = project.repo %}{% else %}{% capture href %}/software/#{{ project.slug }}{% endcapture %}{% endif %}- [{{ project.title }}]({{ href }}) — {{ project.summary }}
+{% endfor %}
 
-See [software](/software/) for more.
+See [software](/software/) for the full descriptions and related work.
 
 ## Languages
 
