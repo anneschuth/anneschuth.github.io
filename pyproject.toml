@@ -1,0 +1,48 @@
+[project]
+name = "anneschuth-site-tooling"
+version = "0.0.0"
+description = "Build and maintenance tooling for anneschuth.nl (Jekyll site)."
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+# CV PDF generation: generate_cv_pdf.py + .github/workflows/cv.yml
+cv = [
+    "weasyprint==62.3",
+    "pydyf<0.11",
+    "pypdfium2==4.30.0",
+]
+# Google Scholar sync: fetch_scholar_data.py
+scholar = [
+    "requests",
+    "beautifulsoup4",
+    "PyPDF2",
+]
+# Frontmatter / link checkers: check_yaml.py, check_links.py
+checks = [
+    "pyyaml",
+]
+# Wardley map renderers: wardley_map.py, scripts/rugged_wardley_map.py
+viz = [
+    "matplotlib",
+    "numpy",
+    "scipy",
+]
+# Default group: everything plus the tooling that CI runs.
+dev = [
+    "pre-commit",
+    "ruff",
+    { include-group = "cv" },
+    { include-group = "scholar" },
+    { include-group = "checks" },
+    { include-group = "viz" },
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+# Default rule set (E, F, plus pyflakes). Pre-existing scripts are untyped and
+# not in scope for a rewrite here; silence only what would force churn.
+ignore = []

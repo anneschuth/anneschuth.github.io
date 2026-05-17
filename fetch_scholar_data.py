@@ -7,9 +7,8 @@ import requests
 import re
 import time
 import random
-import os
 from pathlib import Path
-from urllib.parse import quote, urljoin
+from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 # Try to import PyPDF2 for PDF text extraction
@@ -551,21 +550,21 @@ def create_publication_file(scholar_pub, details=None):
         pdf_abstract = None
         if details and 'pdf_url' in details:
             pdf_filename = f"{pub_key}.pdf"
-            print(f"    📥 Attempting to download PDF...")
+            print("    📥 Attempting to download PDF...")
             pdf_path = download_pdf(details['pdf_url'], pdf_filename)
             if pdf_path:
                 frontmatter['pdf'] = f"/assets/{pdf_filename}"
-                print(f"    ✅ Downloaded PDF")
+                print("    ✅ Downloaded PDF")
 
                 # Try to extract abstract from PDF
-                print(f"    📄 Extracting abstract from PDF...")
+                print("    📄 Extracting abstract from PDF...")
                 pdf_abstract = extract_abstract_from_pdf(pdf_path)
                 if pdf_abstract:
                     print(f"    ✅ Extracted abstract ({len(pdf_abstract)} chars)")
                 else:
-                    print(f"    ⚠️  Could not extract abstract from PDF")
+                    print("    ⚠️  Could not extract abstract from PDF")
             else:
-                print(f"    ⚠️  Could not download PDF")
+                print("    ⚠️  Could not download PDF")
 
         # Add title
         frontmatter['title'] = title
@@ -737,10 +736,10 @@ def main():
 
             # Update the file
             if update_publication_with_scholar_data(pub_file, match):
-                print(f"  ✅ Updated file with Scholar data")
+                print("  ✅ Updated file with Scholar data")
                 updated_count += 1
             else:
-                print(f"  ❌ Failed to update file")
+                print("  ❌ Failed to update file")
 
             # Check if this publication needs a PDF
             try:
@@ -749,7 +748,7 @@ def main():
 
                 # Check if it already has a PDF
                 if 'pdf:' not in content:
-                    print(f"  📄 No PDF found, searching for one...")
+                    print("  📄 No PDF found, searching for one...")
 
                     # Fetch detailed page to look for PDF
                     details = fetch_publication_details(match['scholar_url'])
@@ -764,7 +763,7 @@ def main():
                             safe_title = re.sub(r'[-\s]+', '-', safe_title)[:30]
                             pdf_filename = f"{safe_title}.pdf"
 
-                        print(f"    📥 Attempting to download PDF...")
+                        print("    📥 Attempting to download PDF...")
                         pdf_path = download_pdf(details['pdf_url'], pdf_filename)
                         if pdf_path:
                             # Add PDF to frontmatter
@@ -796,12 +795,12 @@ def main():
                             with open(pub_file, 'w', encoding='utf-8') as f:
                                 f.write('\n'.join(new_lines))
 
-                            print(f"    ✅ Downloaded and added PDF")
+                            print("    ✅ Downloaded and added PDF")
                             pdf_downloaded_count += 1
                         else:
-                            print(f"    ⚠️  Could not download PDF")
+                            print("    ⚠️  Could not download PDF")
                     else:
-                        print(f"    ⚠️  No PDF URL found")
+                        print("    ⚠️  No PDF URL found")
 
                     # Be nice to Google Scholar
                     time.sleep(random.uniform(1, 3))
@@ -814,7 +813,7 @@ def main():
             print("  ⚠️  No good match found")
 
     # Second pass: find missing publications and create them
-    print(f"\n🔍 FINDING MISSING PUBLICATIONS")
+    print("\n🔍 FINDING MISSING PUBLICATIONS")
     missing_pubs = []
 
     for scholar_pub in scholar_pubs:
@@ -868,7 +867,7 @@ def main():
                 print(f"  ✅ Created {pub_file.name}")
                 created_count += 1
             else:
-                print(f"  ❌ Failed to create publication file")
+                print("  ❌ Failed to create publication file")
 
             # Be nice to Google Scholar
             time.sleep(random.uniform(2, 5))
@@ -881,7 +880,7 @@ def main():
     else:
         print("✅ All publications are already present locally")
 
-    print(f"\n🎉 COMPLETED")
+    print("\n🎉 COMPLETED")
     print(f"Matched: {matched_count}/{len(publication_files)}")
     print(f"Updated: {updated_count}")
     if pdf_downloaded_count > 0:

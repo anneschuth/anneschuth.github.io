@@ -15,7 +15,9 @@ on:
       - "assets/css/cv-print.scss"
       - "_data/scholar_stats.yml"
       - "generate_cv_pdf.py"
-      - "requirements-cv.txt"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".python-version"
       - ".github/workflows/cv.yml"
   pull_request:
     paths: *cv_paths
@@ -46,10 +48,10 @@ jobs:
           ruby-version-file: .ruby-version
           bundler-cache: true
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
         with:
-          python-version: "3.11"
+          python-version-file: .python-version
 
       - name: Install WeasyPrint system deps
         run: |
@@ -59,13 +61,13 @@ jobs:
             libcairo2 libgdk-pixbuf-2.0-0 libffi-dev shared-mime-info
 
       - name: Install Python deps
-        run: pip install -r requirements-cv.txt
+        run: uv sync --group cv
 
       - name: Generate CV PDF
         env:
           LANG: C.UTF-8
           LC_ALL: C.UTF-8
-        run: python generate_cv_pdf.py
+        run: uv run python generate_cv_pdf.py
 
       - name: Upload PDF and thumbnail as artifact
         uses: actions/upload-artifact@v4
