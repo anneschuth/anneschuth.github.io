@@ -51,8 +51,8 @@ of laws.
 **Engineering Manager - AI Validation Team** (Aug 2023 -- Dec 2024)<br>
 Grew and supported the [AI Validation Team](https://minbzk.github.io/ai-validation/)
 at the Digital Society Department, NL Ministry of the Interior and Kingdom
-Relations (BZK). A team of engineers, product, UX, focused on building software for
-AI validation, including the
+Relations (BZK). A team of about seven engineers, plus product and UX, focused on
+building software for AI validation, including the
 [Algorithm Management Toolkit](/software/#algorithm-management-toolkit-amt).
 
 ### Industry
@@ -71,7 +71,8 @@ as ML Engineer at [Ditto](http://ditto.care/).
 **ML Engineering Manager Search** (Dec 2021 -- Jul 2023)<br>
 Machine Learning Engineering Manager, primarily supporting the Search Ranking team.
 The team consisted of Backend, Data, and Machine Learning engineers responsible for
-building and running the last stage of Spotify's search platform.
+building and running the last stage of Spotify's search platform. Also supported
+several other teams during this time.
 
 #### DPG Media
 

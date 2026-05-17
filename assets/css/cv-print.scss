@@ -156,11 +156,15 @@ h3 {
   page-break-after: avoid;
 }
 
-/* Organization / institution / talk-year header. */
+/* Organization / institution / talk-year header. The organization is the
+   anchor of each entry, so it carries the accent colour and a touch more size
+   to set it apart from the role line (a plain bold run inside the entry's
+   paragraph just below it). */
 h4 {
-  font-size: 10pt;
+  font-family: $sans;
+  font-size: 10.5pt;
   font-weight: 700;
-  color: $ink;
+  color: $accent;
   margin: 7pt 0 1pt 0;
   page-break-after: avoid;
 }
