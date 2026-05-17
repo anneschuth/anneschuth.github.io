@@ -8,7 +8,7 @@ dependencies = []
 [dependency-groups]
 # CV PDF generation: generate_cv_pdf.py + .github/workflows/cv.yml
 cv = [
-    "weasyprint==62.3",
+    "weasyprint==68.0",
     "pydyf<0.11",
     "pypdfium2==4.30.0",
 ]
