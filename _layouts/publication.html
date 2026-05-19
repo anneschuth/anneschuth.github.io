@@ -59,6 +59,17 @@ layout: default
         {% endfor %}
         </p>
     {% endif %}
+    {% assign related_software = site.software | where_exp: "s", "s.publications contains page.key" | sort: "order" %}
+    {% if related_software.size > 0 %}
+        <h2>Related Software</h2>
+        <p>
+        {% for sw in related_software %}
+            <a href="/software/#{{ sw.slug }}"><i class="fa fa-code"></i> {{ sw.title }}</a>
+            {%- if sw.summary %} &mdash; {{ sw.summary }}{% endif %}
+            <br>
+        {% endfor %}
+        </p>
+    {% endif %}
     <h2>Bib</h2>
 <pre>
 @{{page.type}}{ {{- page.key}},
