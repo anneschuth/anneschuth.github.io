@@ -47,7 +47,7 @@ Bij [Spotify](/joining-spotify/) hoefden productteams zich niet bezig te houden 
 
 [^backstage]: [Supercharged Developer Portals](https://engineering.atspotify.com/2024/04/supercharged-developer-portals/), Spotify Engineering, april 2024. De studie vergeleek frequente met infrequente Backstage-gebruikers. Er was geen controlegroep.
 
-Voor de overheid betekent dit: in plaats van dat elke uitvoeringsorganisatie zelf een Kubernetes-cluster opzet en zelf security scanning inricht, bied je dat aan als self-service. Een team dat een nieuwe service moet bouwen klikt op "new project" en krijgt een repo met CI/CD, monitoring, security scanning, en deployment naar een compliant omgeving. In minuten. In plaats van [93 dagen](/2025/03/07/hosting-in-slow-motion.html).
+Voor de overheid betekent dit: in plaats van dat elke uitvoeringsorganisatie zelf een Kubernetes-cluster opzet en zelf security scanning inricht, bied je dat aan als self-service. Een team dat een nieuwe service moet bouwen klikt op "new project" en krijgt een repo met CI/CD, monitoring, security scanning, en deployment naar een compliant omgeving. In minuten. In plaats van [160 dagen](/2025/03/07/hosting-in-slow-motion.html).
 
 ## Argument 5: Bijzonder genoeg
 

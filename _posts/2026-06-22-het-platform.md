@@ -28,7 +28,7 @@ Platform engineering pakt die onderbouw, maakt hem één keer goed, door een tea
 
 In dat woordje zélf zit het verschil met het oude beheer. De ontwikkelaar blijft aan het stuur, maar bouwt niet meer alles zelf. De voorziening is er al, hij pakt die en gaat door met zijn eigenlijke werk. Vroeger was het: dien een verzoek in en wij doen het, op onze tijd. Nu is het: hier staat het, gebruik het wanneer je wilt, wij houden het goed. Hij drukt op de knop, het platformteam zorgt dat er iets deugdelijks achter zit.
 
-Dat is in [Techbedrijf](/2026/03/20/techbedrijf.html) de multiplier: een team klikt op "nieuw project" en krijgt een repository met CI/CD, monitoring, beveiligingsscans en een uitrol naar een omgeving die aan de eisen voldoet. In minuten, waar het nu [93 dagen](/2025/03/07/hosting-in-slow-motion.html) kost. Maar het werkt alleen als teams de voorziening ook echt gaan gebruiken. Daar zit de kern van platform engineering, en die kern is een handvol ideeën die ik stuk voor stuk wil langslopen.
+Dat is in [Techbedrijf](/2026/03/20/techbedrijf.html) de multiplier: een team klikt op "nieuw project" en krijgt een repository met CI/CD, monitoring, beveiligingsscans en een uitrol naar een omgeving die aan de eisen voldoet. In minuten, waar het nu [160 dagen](/2025/03/07/hosting-in-slow-motion.html) kost. Maar het werkt alleen als teams de voorziening ook echt gaan gebruiken. Daar zit de kern van platform engineering, en die kern is een handvol ideeën die ik stuk voor stuk wil langslopen.
 
 ## Het gebaande pad
 
