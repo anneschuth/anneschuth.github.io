@@ -9,7 +9,7 @@ keywords: ""
 layout: publication
 selected: true
 title: "When the Music Stops: Tip-of-the-Tongue Retrieval for Music"
-citations: 13
+citations: 15
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:XvxMoLDsR5gC"
 type: inproceedings
 year: "2023"
