@@ -9,7 +9,7 @@ layout: publication
 selected: true
 pdf: /assets/hofmann-effects-2014.pdf
 title: "Eﬀects of Position Bias on Click-Based Recommender Evaluation"
-citations: 66
+citations: 68
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:ILKRHgRFtOwC"
 type: inproceedings
 year: "2014"

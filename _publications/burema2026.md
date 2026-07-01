@@ -17,6 +17,8 @@ year: "2026"
 shield: conference-LREC-blue
 student: burema-renate
 repo: https://github.com/MinBZK/llm-benchmark/tree/main/benchmarks/social-bias
+citations: 0
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:6ZxmRoH8BuwC"
 ---
 
 In this paper, we present a Dutch benchmark to assess whether large language models (LLMs) exhibit social biases in
