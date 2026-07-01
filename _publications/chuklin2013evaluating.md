@@ -8,7 +8,7 @@ layout: publication
 selected: true
 pdf: /assets/chuklin-evaluating-2013.pdf
 title: "Evaluating Aggregated Search Using Interleaving"
-citations: 39
+citations: 40
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:5nxA0vEk-isC"
 type: inproceedings
 year: "2013"

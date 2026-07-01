@@ -9,7 +9,7 @@ layout: publication
 selected: true
 pdf: /assets/schuthcikm14.pdf
 title: "Multileaved Comparisons for Fast Online Evaluation"
-citations: 95
+citations: 96
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:tYavs44e6CUC"
 type: inproceedings
 shield: conference-CIKM-blue
