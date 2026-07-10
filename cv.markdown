@@ -19,8 +19,8 @@ permalink: /cv/
   </p>
 </div>
 
-I work on AI and Engineering for the Dutch Government, currently as Engineer in
-the Bureau Architectuur Digitale Overheid (BADO), where I primarily work on
+I work on AI and Engineering for the Dutch Government, currently as Staff Engineer
+at the Nederlandse Digitale Dienst, where I primarily work on
 [RegelRecht](https://regelrecht.rijks.app), an exploration into machine-executable
 legislation. I also run [Axolotl Systems](https://axolotl.systems), where I provide
 ML engineering and platform consulting services one day per week alongside my
@@ -36,10 +36,19 @@ my h-index is {{ site.data.scholar_stats.h_index }}.
 
 ### Government
 
+#### Nederlandse Digitale Dienst
+
+*The Hague, The Netherlands*<br>
+**Staff Engineer** (Jul 2026 -- present)<br>
+Staff Engineer at the Nederlandse Digitale Dienst, primarily working
+on [RegelRecht](https://regelrecht.rijks.app), an exploration into machine-executable
+legislation that aims to achieve transparent, unambiguous, and consistent execution
+of laws.
+
 #### Bureau Architectuur Digitale Overheid (BADO)
 
 *The Hague, The Netherlands*<br>
-**Engineer** (Jan 2025 -- present)<br>
+**Engineer** (Jan 2025 -- Jun 2026)<br>
 Engineer in the Bureau Architectuur Digitale Overheid (BADO), primarily working
 on [RegelRecht](https://regelrecht.rijks.app), an exploration into machine-executable
 legislation that aims to achieve transparent, unambiguous, and consistent execution
