@@ -8,10 +8,10 @@ paginate: 5
 
 ![Picture of Anne Schuth](/assets/anne-270x270.png){: .round }
 
-I work on AI and Engineering for the Dutch Government, currently as Engineer in
-the Bureau Architectuur Digitale Overheid (BADO), where I primarily work on [RegelRecht](https://regelrecht.rijks.app) - an exploration into machine-executable legislation.
+I work on AI and Engineering for the Dutch Government, currently as Staff Engineer at the
+Nederlandse Digitale Dienst, where I primarily work on [RegelRecht](https://regelrecht.rijks.app) - an exploration into machine-executable legislation.
 I also run [Axolotl Systems](https://axolotl.systems), where I provide ML engineering and platform consulting services one day per week alongside my government work, including working as ML Engineer at [Ditto](http://ditto.care/).
-Before this, I was Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
+Before this, I was Engineer at the Bureau Architectuur Digitale Overheid (BADO), and before that Engineering Manager of the [AI Validation Team](https://minbzk.github.io/ai-validation/).
 
 I used to be Machine Learning Engineering Manager in the Search team at Spotify.
 Before joining Spotify, I spent almost 4 years at DPG Media in various roles, all contributing towards a push for
