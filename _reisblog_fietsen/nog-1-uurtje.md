@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/nog-1-uurtje/
 lang: nl
 title: "Nog 1 uurtje"
 date: 2008-06-13
@@ -13,7 +14,7 @@ lng: 37.1343
 ---
 
 <p>Mensen!</p>
-<p>Waar te beginnen? <a href="/reisblog/weer-in-iran/">Waar ik gebleven was</a> is het makkelijkst, dat was in Yazd, in Iran! Dat lijkt vanuit Syri&euml; ver weg, in tijd, niet zozeer in afstand.<br />
+<p>Waar te beginnen? <a href="/reisblog/fietsen/weer-in-iran/">Waar ik gebleven was</a> is het makkelijkst, dat was in Yazd, in Iran! Dat lijkt vanuit Syri&euml; ver weg, in tijd, niet zozeer in afstand.<br />
 Twee weken geleden probeerde ik weg te komen, maar door &#8216;Heart-Rending Departure of the Great Leader of the Islamic Republic of Iran&#8217; en de vakantie daaromheen was ik gelimiteerd in m&#8217;n keuzes. Ik nam een bus naar Kashan, een klein stadje in de buurt, en liep daar 2 dagen rond door gerestaureerde historische huizen en parken. Mooi, maar na het heftige India en Pakistan is Iran een beetje een saai land. De vriendelijke mensen, de schone, groene straten, de georganiseerde busstations, de nieuwe en comfortabele bussen maken het reizen minder uitdagend en interessant.</p>
 <p>Ik nam zo&#8217;n bus naar Tehran en belandde daar in hetzelfde bed in de dorm (gedeelde kamer) als op de heenweg en na een paar uurtjes plofte Joe (de Australi&euml;r met wie ik de grens vanuit Pakistan overstak) naast me neer. Snel fabriceerden we een plan, we gingen weg uit Tehran voor de feestdagen, alles zou toch gesloten zijn. Pay (Australisch meisje) sloot zich bij ons aan. En voor we vertrokken gingen we eerst nog op weg naar de Heilige Tombe van Imam Khomeini waar z&#8217;n overlijden herdacht werd. Vreemde bedoening daar, een gigantische hangar met duizenden mensen, een festivalsfeer, overal thee, ijs en de lucht van zweetvoeten omdat de schoenen uit moeten.</p>
 <p>Dezelfde middag hadden we een bus richting Qazvin, een stadje 2 uur van Tehran verwijderd van waaruit je richting de Kastelen van de Assassins kan gaan. In de bus kwamen we mensen tegen die daar toevallig vlakbij woonden, en die regelden een redelijk goedkope taxi, tenminste dat dachten we. Maar toen we erin zaten en de rit 2 uur bleek te duren (ik bij Joe op schoot op de bijrijdersstoel) waren we ervan overtuigd dat we ons weer eens vergist hadden in de toman/rials. De toman is 10 rial en wordt meestal in spreektaal gebruikt, maar niet altijd, erg verwarrend! Alsnog was de rit minder dan 4 euro per persoon. We kwamen aan in een klein dorpje in de heuvels. Prachtig! We vonden onderdak bij een familie die een simpele maaltijd voor ons kookte en &#8217;s ochtends vroeg een ontbijt klaar had staan.</p>

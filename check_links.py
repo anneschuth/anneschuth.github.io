@@ -120,7 +120,7 @@ def main():
         "software.markdown", "about.markdown", "activities.markdown",
         "press.markdown", "publications.markdown", "talks.markdown",
         "teaching.markdown", "thesis.markdown", "cv.markdown",
-        "reisblog/index.html", "reisblog/kaart.html",
+        "reisblog/index.html", "reisblog/fietsen.html", "reisblog/kaart.html", "reisblog/india.html", "reisblog/india-kaart.html",
     ]
 
     total_files = total_links = total_broken = 0

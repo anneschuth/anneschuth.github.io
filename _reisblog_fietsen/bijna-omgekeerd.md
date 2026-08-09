@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/bijna-omgekeerd/
 lang: nl
 title: "Bijna omgekeerd"
 date: 2007-08-28

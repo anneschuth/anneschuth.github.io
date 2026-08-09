@@ -58,7 +58,7 @@ collections:
     output: false
   reisblog_fietsen:
     output: true
-    permalink: /reisblog/:name/
+    permalink: /reisblog/fietsen/:name/
   reisblog_india:
     output: true
     permalink: /reisblog/india/:name/

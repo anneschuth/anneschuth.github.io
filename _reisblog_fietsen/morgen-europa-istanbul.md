@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/morgen-europa-istanbul/
 lang: nl
 title: "Morgen Europa: Istanbul"
 date: 2008-06-26
@@ -13,11 +14,11 @@ lng: 34.8289
 ---
 
 <p>Beste mensen,</p>
-<p>Syri&euml; zit er alweer op! <a href="/reisblog/nog-1-uurtje/">Twee weken geleden</a> was ik aan het bekomen van mijn arak-kater terwijl ik schreef. Joe (<a href="http://www.travelblog.org/Bloggers/Joel/" target="_blank">zijn blog</a>) was toen ook net aangekomen. Samen verkenden we de oude bazaar en aten we ons vol met humus, falafel en kebab!<br />
+<p>Syri&euml; zit er alweer op! <a href="/reisblog/fietsen/nog-1-uurtje/">Twee weken geleden</a> was ik aan het bekomen van mijn arak-kater terwijl ik schreef. Joe (<a href="http://www.travelblog.org/Bloggers/Joel/" target="_blank">zijn blog</a>) was toen ook net aangekomen. Samen verkenden we de oude bazaar en aten we ons vol met humus, falafel en kebab!<br />
 Na twee dagen was het tijd om verder te gaan. We namen de bus naar Hama, een stad halverwege Syri&euml;. Op een kaart lijkt het ver, een half land oversteken, maar na de gigantische landen India, Pakistan en Iran is zoiets in Syri&euml; een lachertje. Na 2 uur stonden we in Hama de gigantische houten waterraderen te bekijken. Die dingen brengen water van een rivier omhoog naar aquaducten, en draaien nog steeds piepend en krakend rond, al wordt er vervolgens niets met het water in de aquaducten gedaan&#8230;<br />
 Verder was er weinig te zien of te doen daar, en zodoende zaten we de volgende dag alweer in de bus, dit keer naar het oosten, in de richting van Irak. We waren onderweg naar Palmyra:</p>
 <figure class="reisblog-photo"><img src="/assets/reisblog/palmyra.jpg" alt="De colonnade van Palmyra" loading="lazy" /><figcaption>Palmyra</figcaption></figure>
-<p>Op Joe z&#8217;n studentenkaart kon ik voor 1/15e van de prijs alle ru&iuml;nes bekijken terwijl hij ziek in bed lag; alle westerlingen lijken immers op elkaar in de ogen van een Arabier. De ru&iuml;nes waren heel indrukwekkend. Zoals ik eerder schreef heb ik het niet zo op <a href="/reisblog/oude-stenen/">oude stenen</a> en verzamelingen daarvan, maar dit gebeuren is een uitzondering. Er staat nog behoorlijk veel overeind en er waren nauwelijks toeristen. In het theater is het niet moeilijk om je voor te stellen hoe het moet zijn geweest!<br />
+<p>Op Joe z&#8217;n studentenkaart kon ik voor 1/15e van de prijs alle ru&iuml;nes bekijken terwijl hij ziek in bed lag; alle westerlingen lijken immers op elkaar in de ogen van een Arabier. De ru&iuml;nes waren heel indrukwekkend. Zoals ik eerder schreef heb ik het niet zo op <a href="/reisblog/fietsen/oude-stenen/">oude stenen</a> en verzamelingen daarvan, maar dit gebeuren is een uitzondering. Er staat nog behoorlijk veel overeind en er waren nauwelijks toeristen. In het theater is het niet moeilijk om je voor te stellen hoe het moet zijn geweest!<br />
 Na weer een paar uurtjes in de bus (het blijft fantastisch hoe dichtbij alles is!) zaten we in Damascus! Wat een stad! Ons hostel bevond zich in een straatje waar de tijd stil heeft gestaan. Overal kleermakers, kappers en andere handwerklieden, de hele boel hier en daar overdekt met wijnranken. We sliepen op het dakterras, tussen de andere backpackers, weg van de &#8216;toeristen&#8217; in hun dure kamers :)<br />
 Die avond was het tijd om de lokale wijn te proberen, samen met wat Canadezen, voor we de voetbalwedstrijd tussen Nederland en Roemeni&euml; gingen bekijken. Europees voetbal is ontzettend populair in Syri&euml;, en uit Nederland komen was een fantastische ervaring, tot &#8216;we&#8217; verloren; als je wint dan heb je vrienden!<br />
 Joe ging er vandoor, naar Libanon voor een paar dagen. Ik koos ervoor dat niet te doen, zou te veel in te weinig tijd zijn dacht ik. Ik bleef dus in Damascus en besteedde vier dagen aan het verkennen van de souqs (bazaar) die eveneens overdekt waren met druivenranken en overal eten, drinken en ijs in de aanbieding hadden. Samen met Anna, een Amerikaanse, vertrok ik na 4 nachten richting Crac de Chevalier, een kasteel.<br />

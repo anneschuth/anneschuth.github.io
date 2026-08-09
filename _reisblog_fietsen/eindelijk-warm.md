@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/eindelijk-warm/
 lang: nl
 title: "Eindelijk warm"
 date: 2007-09-20

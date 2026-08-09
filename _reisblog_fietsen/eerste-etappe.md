@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/eerste-etappe/
 lang: nl
 title: "Eerste etappe"
 date: 2007-08-26

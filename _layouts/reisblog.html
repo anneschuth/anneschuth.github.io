@@ -7,7 +7,7 @@ layout: default
     {%- if page.collection == "reisblog_india" %}
     <p class="reisblog-crumb"><a href="/reisblog/india/">Anne&#8217;s reisverslag</a> &middot; India, Nepal &amp; Tibet 2003&ndash;2004</p>
     {%- else %}
-    <p class="reisblog-crumb"><a href="/reisblog/">Stukje Fietsen, enzo&#8230;</a> &middot; reisblog 2007&ndash;2008</p>
+    <p class="reisblog-crumb"><a href="/reisblog/fietsen/">Stukje Fietsen, enzo&#8230;</a> &middot; reisblog 2007&ndash;2008</p>
     {%- endif %}
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
@@ -16,7 +16,7 @@ layout: default
       {%- if page.collection == "reisblog_india" -%}
         {%- assign kaarturl = "/reisblog/india/kaart/" -%}
       {%- else -%}
-        {%- assign kaarturl = "/reisblog/kaart/" -%}
+        {%- assign kaarturl = "/reisblog/fietsen/kaart/" -%}
       {%- endif -%}
       {%- if page.lat %} &middot; <a href="{{ kaarturl | relative_url }}#{{ slug }}" title="Waar dit bericht geschreven werd, op de reiskaart">schrijflocatie</a>{% endif -%}
     </p>

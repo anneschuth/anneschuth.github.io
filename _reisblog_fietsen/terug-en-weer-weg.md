@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/terug-en-weer-weg/
 lang: nl
 title: "Terug en weer weg"
 date: 2007-11-01
@@ -12,7 +13,7 @@ lng: 4.8435759544
 ---
 
 <p>Beste mensen,</p>
-<p><a href="/reisblog/amsterdam-anamur/">Een week geleden mailde ik jullie</a> dat het allemaal over was, ik kwam naar huis. Dit zorgde voor een hele hoop bezoekers (exact 666 unieke bezoekers in een week!) en erg veel bemoedigende reacties op mijn blog. Dank hiervoor! Ik begin zelf bijna te geloven dat ik een held ben doordat ik opgeef, alhoewel, opgeef. Ik heb intussen een ticket gekocht: op 3 december vlieg ik terug naar Antalya, zonder fiets, dat wel.</p>
+<p><a href="/reisblog/fietsen/amsterdam-anamur/">Een week geleden mailde ik jullie</a> dat het allemaal over was, ik kwam naar huis. Dit zorgde voor een hele hoop bezoekers (exact 666 unieke bezoekers in een week!) en erg veel bemoedigende reacties op mijn blog. Dank hiervoor! Ik begin zelf bijna te geloven dat ik een held ben doordat ik opgeef, alhoewel, opgeef. Ik heb intussen een ticket gekocht: op 3 december vlieg ik terug naar Antalya, zonder fiets, dat wel.</p>
 <p>Ik wil toch nog even schrijven hoe ik vanuit een halfblinde toestand in Turkije in het veilige huis van mijn ouders belandde. De dag dat ik mijn vlucht boekte zat ik nog in het hotel waar ik heen gestrompeld was vanaf mijn tent. Dat was een heel eind van de stad waar de dokter zijn praktijk had. Niet handig dus, en ik wilde de volgende ochtend de bus nemen, met mijn fiets naar de stad. Ondanks dat iedereen mij verzekerd had dat dit geen enkel probleem zou zijn, was dit natuurlijk wél een probleem. Maar na wat aandringen, met geld zwaaien en zielig doen met mijn oog kon ik mee met het busje:</p>
 <p class="reisblog-missing">[De foto die hier stond is verloren gegaan.]</p>
 <p>In het stadje Anamur aangekomen nam ik een hotel naast het busstation, handig als ik de bus &#8217;s ochtends vroeg naar het vliegveld moet nemen! Ook gelijk bij die bus maar even regelen dat de fiets mee kan! Dat heb ik daar 3 keer gedaan, je kan niet zeker genoeg zijn. En iedere keer werd mij verzekerd dat het geen enkel probleem op zou leveren.</p>

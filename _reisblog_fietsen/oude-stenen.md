@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/oude-stenen/
 lang: nl
 title: "Oude stenen"
 date: 2007-10-03
@@ -11,8 +12,8 @@ lat: 37.8682219890
 lng: 27.2670364379
 ---
 
-<p><a href="/reisblog/biertje-voor-e60/">M’n vorige verslag</a> was misschien een beetje kort, zal het nu iets uitgebreider maken, zonder langdradig te worden, hoop ik.<br />
-Ik kreeg reacties van mensen dat <a href="/reisblog/biertje-voor-e60/">“een biertje  voor  €60,-“</a> ze  bekend voorkwam. De avond dat dat gebeurde lazen WF en ik al in de Lonely Planet (een reisgids) dat dit een veelvoorkomende scam is in Istanbul. Later kwam ik ook anderen tegen die veel meer betaald hadden voor een biertje, heb bedragen tot wel  € 3000,- voorbij horen komen. Bizar.  In Canakkale, waar ik m’n vorige verslag schreef, kon ik geen plek vinden voor een redelijke prijs. Heb dus boodschappen gedaan en ben doorgefietst. Vond een heel mooi plekje hoog boven het water, met uitzicht over de vernauwing die de Egeïsche Zee van de Marmarazee scheidt: </p>
+<p><a href="/reisblog/fietsen/biertje-voor-e60/">M’n vorige verslag</a> was misschien een beetje kort, zal het nu iets uitgebreider maken, zonder langdradig te worden, hoop ik.<br />
+Ik kreeg reacties van mensen dat <a href="/reisblog/fietsen/biertje-voor-e60/">“een biertje  voor  €60,-“</a> ze  bekend voorkwam. De avond dat dat gebeurde lazen WF en ik al in de Lonely Planet (een reisgids) dat dit een veelvoorkomende scam is in Istanbul. Later kwam ik ook anderen tegen die veel meer betaald hadden voor een biertje, heb bedragen tot wel  € 3000,- voorbij horen komen. Bizar.  In Canakkale, waar ik m’n vorige verslag schreef, kon ik geen plek vinden voor een redelijke prijs. Heb dus boodschappen gedaan en ben doorgefietst. Vond een heel mooi plekje hoog boven het water, met uitzicht over de vernauwing die de Egeïsche Zee van de Marmarazee scheidt: </p>
 <p class="reisblog-missing">[De foto die hier stond is verloren gegaan.]</p>
 <p>Ik zat daar fantastisch mooi te dineren, met o.a. zelfgemaakte pudding, onder een grote eikenboom, tot ik merkte dat ik op een mierenhoop zat en moest verhuizen om niet opgegeten te worden. Tien meter verderop was het prima. Volgende dag vroeg op, naar Troje! Onderweg werd ik ingehaald door Nederlandse motoren. De berijders kwam ik in Troje weer tegen. Ze bleken ingevlogen te zijn, naar Istanbul. Heb even met ze staan praten, en volgens mij geloven ze nu nog niet dat ik wel de hele weg gefietst heb. Troje is trouwens alleen bijzonder door de verhalen. Er is niet erg veel meer van over. En wat  er over is, is niet erg duidelijk doordat er in 5000 jaar vele steden op elkaar gebouwd zijn. Het paard van Troje is er overigens nog: </p>
 <figure class="reisblog-photo"><img src="/assets/reisblog/paard-van-troje.jpg" alt="Het paard van Troje" loading="lazy" /></figure>

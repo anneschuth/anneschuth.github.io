@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/malaria-negative-postive-negative/
 lang: nl
 title: "Malaria: negative, positive, negative?"
 date: 2008-02-02
@@ -12,7 +13,7 @@ lng: 76.4534711837
 ---
 
 <p>Mensen,</p>
-<p><a href="/reisblog/zon-zee-strand/">Twee weken geleden schreef ik vanuit Goa</a>, ik sliep toen in m&#8217;n tipi:</p>
+<p><a href="/reisblog/fietsen/zon-zee-strand/">Twee weken geleden schreef ik vanuit Goa</a>, ik sliep toen in m&#8217;n tipi:</p>
 <figure class="reisblog-photo"><img src="/assets/reisblog/tipi.jpg" alt="M&#8217;n tipi in Goa" loading="lazy" /></figure>
 <p>De volgende dag was het zaterdag, en tijd voor m&#8217;n eerste en laatste Goa Party. We hoorden dat er om 3 uur &#8217;s middags een begon. Ik ging er met Atakan, een Turkse vriend, heen en tot 10 uur werd er op het strand trance muziek gedraaid, erg gaaf en vermoeiend, 10 uur voelde als 5 uur &#8217;s ochtends. De volgende dag was het tijd om uit Goa te vertrekken voor ik bleef plakken, op naar Hampi.<br />
 Ik werd door m&#8217;n vrienden op de bus gezet, en na een aantal lokale bussen stond ik op een groot busstation alwaar die avond een bus richting Hampi vertrok. Ik had besloten een &#8216;lokale&#8217; bus te nemen, die was bijna 4 keer zo goedkoop als de toeristenbussen die hier inmiddels, naar Thais model, zijn. Opzich is zo&#8217;n bus prima, afgezien van het feit dat het een beetje krap is, maar ik had pech. Ik kwam terecht naast een dronken Indiër die constant over mij in elkaar stortte en over de mensen voor hem heen kotste. En tot overmaat van ramp zat er een vrouw achter me, ze leek 100 maar was waarschijnlijk 50, die minstens zo dronken was en de hele tijd een 2 liter fles stinkend rijstbier open had. Ze was extreem luidruchtig, maar mijn pogingen haar stil te krijgen werden waarschijnlijk verkeerd geïnterpreteerd en het leek alsof ze me probeerde te zoenen. Na een slaaptechnisch dus niet zo geslaagde busrit kwam ik om 5 uur &#8217;s ochtends aan in de buurt van Hampi alwaar om 7 uur een korte busrit me naar de plek bracht waar ik zijn wilde. Daar vond ik het guesthouse waar ik 4 jaar geleden ook geslapen had. Het was, afgezien van de prijzen, nauwelijks veranderd, en ik kon een kamer krijgen. En daar begint dit verhaal eigenlijk.<br />

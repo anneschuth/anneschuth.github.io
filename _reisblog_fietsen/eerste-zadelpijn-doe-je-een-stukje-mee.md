@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/eerste-zadelpijn-doe-je-een-stukje-mee/
 lang: nl
 title: "Eerste zadelpijn, doe je een stukje mee?"
 date: 2007-08-21

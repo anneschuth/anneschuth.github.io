@@ -1,5 +1,6 @@
 ---
 layout: reisblog
+redirect_from: /reisblog/vier-dagen-iran/
 lang: nl
 title: "Vier dagen Iran"
 date: 2007-12-11
@@ -13,7 +14,7 @@ lng: 46.23046875
 
 <p>Beste mensen!</p>
 <p>Ik ben nog maar een week weg maar heb intussen al wel ruim 2000km<br />
-afgelegd, dat red je niet op een fiets! <a href="/reisblog/daar-ben-ik-weer/">Vorige week zat ik bij Apollo</a><br />
+afgelegd, dat red je niet op een fiets! <a href="/reisblog/fietsen/daar-ben-ik-weer/">Vorige week zat ik bij Apollo</a><br />
 thuis, in Alanya. Die avond werd ik door zijn broertje naar de bus<br />
 gebracht, de bus naar Sanliurfa. Daar kwam ik in de ochtend aan, met<br />
 druilerig weer. Jammer. Tijd om m&#8217;n warme kleren tevoorschijn te<br />
