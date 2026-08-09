@@ -24,4 +24,3 @@ lng: 85.1376
 <p>Morgen ga ik naar Gaya, een belangrijke Hindi stad, vanuit daar naar Bodhgaya, een belangrijke Budist stad (misschien wel de belangrijkste?) en dan naar Varanasi. Vlakbij Varanasi ga ik waarschijnlijk een meditatiecursus volgen voor een week en daarna ga ik Nepal in, m'n visa verloopt.</p>
 <p>Heb nu op de een of andere manier 3 uur besteed aan internet onzin. Meer dan genoeg dus!</p>
 <p>Groetjes,<br />Anne</p>
-<p>zie www.anneinindia.tk</p>
