@@ -59,6 +59,9 @@ collections:
   reisblog:
     output: true
     permalink: /reisblog/:name/
+  reisblog_india:
+    output: true
+    permalink: /reisblog/india/:name/
 
 # Let op: dit overschrijft Jekylls standaard-excludes, dus die staan er hier
 # expliciet bij (anders leest de build gem-bestanden onder vendor/ mee).
