@@ -30,7 +30,10 @@ layout: default
   </nav>
 
   <p class="reisblog-note">Dit bericht komt uit het reisblog dat ik in 2007&ndash;2008 onderweg bijhield.
-    De site is allang offline; de tekst is teruggehaald uit het
-    <a href="https://web.archive.org/web/2008/http://reis.anneschuth.nl/">Internet Archive</a>.</p>
+    De site is allang offline; de tekst is
+    {%- if page.source == "mail" %} teruggevonden als e-mail aan de abonnees van het blog.
+    {%- else %} teruggehaald uit het
+    <a href="https://web.archive.org/web/2008/http://reis.anneschuth.nl/">Internet Archive</a>.
+    {%- endif %}</p>
 
 </article>
