@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="/assets/vendor/leaflet/leaflet.css" />
+{%- if page.collection == "reisblog_india" -%}
+  {%- assign kaarturl = "/reisblog/india/kaart/" -%}
+{%- else -%}
+  {%- assign kaarturl = "/reisblog/fietsen/kaart/" -%}
+{%- endif -%}
+{%- assign slug = page.url | split: "/" | last -%}
+<div id="reisblog-postmap" title="Het traject van dit verslag &mdash; klik voor de hele reiskaart"></div>
+<p class="reisblog-postmap-caption">Het traject van dit bericht &middot; <a href="{{ kaarturl | relative_url }}#{{ slug }}">bekijk de hele reiskaart</a></p>
+<script src="/assets/vendor/leaflet/leaflet.js"></script>
+<script>
+  (function () {
+    {%- assign posts = site[page.collection] | where_exp: "p", "p.lat" | sort: "date" %}
+    // De hele route (alleen coördinaten) als vage contextlijn.
+    var route = [
+      {%- for p in posts -%}
+      {%- for w in p.route -%}[{{ w.lat }},{{ w.lng }}],{% endfor -%}
+      [{{ p.lat }},{{ p.lng }}]{%- unless forloop.last %},{% endunless -%}
+      {%- endfor -%}
+    ];
+    {%- assign curi = -1 -%}
+    {%- for p in posts -%}
+      {%- if p.url == page.url -%}{%- assign curi = forloop.index0 -%}{%- endif -%}
+    {%- endfor -%}
+    {%- assign previ = curi | minus: 1 -%}
+    {%- assign prev = posts[previ] %}
+    // Het traject van dit bericht: vorige schrijflocatie, tussenstops, schrijflocatie.
+    var leg = [
+      {%- if curi > 0 %}
+      { lat: {{ prev.lat }}, lng: {{ prev.lng }}, name: {{ prev.title | jsonify }}, kind: "prev" },
+      {%- endif %}
+      {%- for w in page.route %}
+      { lat: {{ w.lat }}, lng: {{ w.lng }}, name: {{ w.name | jsonify }}, kind: "wp" },
+      {%- endfor %}
+      { lat: {{ page.lat }}, lng: {{ page.lng }}, name: {{ page.title | jsonify }}, kind: "main" }
+    ];
+
+    var el = document.getElementById('reisblog-postmap');
+    var map = L.map(el, {
+      dragging: false, scrollWheelZoom: false, doubleClickZoom: false,
+      boxZoom: false, keyboard: false, touchZoom: false, zoomControl: false
+    });
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    var styles = getComputedStyle(document.documentElement);
+    var accent = styles.getPropertyValue('--accent-color').trim() || '#c2410c';
+    var alt = styles.getPropertyValue('--route-alt-color').trim() || '#3d6f9e';
+
+    L.polyline(route, { color: '#888888', weight: 1.5, opacity: 0.35, dashArray: '4 6', interactive: false }).addTo(map);
+    L.polyline(leg.map(function (p) { return [p.lat, p.lng]; }),
+      { color: accent, weight: 3, opacity: 0.75, interactive: false }).addTo(map);
+
+    leg.forEach(function (p) {
+      if (p.kind === 'wp') {
+        L.circleMarker([p.lat, p.lng], {
+          radius: 3.5, color: alt, weight: 1.5, fillColor: alt, fillOpacity: 0.6, interactive: false
+        }).addTo(map);
+      } else if (p.kind === 'prev') {
+        L.circleMarker([p.lat, p.lng], {
+          radius: 4, color: '#888888', weight: 1.5, fillColor: '#888888', fillOpacity: 0.4, interactive: false
+        }).addTo(map);
+      } else {
+        L.circleMarker([p.lat, p.lng], {
+          radius: 6, color: accent, weight: 2, fillColor: accent, fillOpacity: 0.6, interactive: false
+        }).addTo(map);
+      }
+    });
+
+    map.fitBounds(leg.map(function (p) { return [p.lat, p.lng]; }), { padding: [28, 28], maxZoom: 9 });
+
+    el.addEventListener('click', function () {
+      window.location.href = {{ kaarturl | relative_url | jsonify }} + '#' + {{ slug | jsonify }};
+    });
+  })();
+</script>

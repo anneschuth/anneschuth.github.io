@@ -12,15 +12,12 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date_display }}</time>
-      {%- assign slug = page.url | split: "/" | last -%}
-      {%- if page.collection == "reisblog_india" -%}
-        {%- assign kaarturl = "/reisblog/india/kaart/" -%}
-      {%- else -%}
-        {%- assign kaarturl = "/reisblog/fietsen/kaart/" -%}
-      {%- endif -%}
-      {%- if page.lat %} &middot; <a href="{{ kaarturl | relative_url }}#{{ slug }}" title="Waar dit bericht geschreven werd, op de reiskaart">schrijflocatie</a>{% endif -%}
     </p>
   </header>
+
+  {%- if page.lat %}
+  {% include reisblog-postkaart.html %}
+  {%- endif %}
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
