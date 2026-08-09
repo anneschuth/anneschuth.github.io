@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Probeer de Picasa-foto's uit de reisblogposts terug te vinden in de
-Wayback Machine en sla gevonden exemplaren op in reisblog-raw/photos/."""
+Wayback Machine en sla gevonden exemplaren op in reisblog-raw/photos/.
+(Wordt door .github/workflows/fetch-reisblog.yml op een runner uitgevoerd.)"""
 
 import json
 import re
