@@ -56,3 +56,16 @@ collections:
     permalink: /:collection/:name
   software:
     output: false
+  reisblog:
+    output: true
+    permalink: /reisblog/:name/
+
+# Let op: dit overschrijft Jekylls standaard-excludes, dus die staan er hier
+# expliciet bij (anders leest de build gem-bestanden onder vendor/ mee).
+exclude:
+  - reisblog-raw
+  - scripts
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock

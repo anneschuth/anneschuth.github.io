@@ -1,6 +1,11 @@
 # Pre-commit hooks for the anneschuth.nl Jekyll site.
 # Run locally on every commit and enforced on CI (.github/workflows/ci.yml).
 # Run all hooks manually with: uv run pre-commit run --all-files
+
+# reisblog-raw/ bevat verbatim Wayback-snapshots van reis.anneschuth.nl;
+# die mogen niet door formatters worden aangepast.
+exclude: ^reisblog-raw/
+
 repos:
   - repo: local
     hooks:

@@ -1493,3 +1493,146 @@ mark {
   border-color: var(--accent-color);
   transform: translateY(-2px);
 }
+
+// ============================================
+// Reisblog-archief (2007-2008)
+// ============================================
+
+.reisblog-subtitle {
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: -8px;
+}
+
+.reisblog-crumb {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+
+  a {
+    color: var(--text-muted);
+  }
+}
+
+.reisblog-year {
+  margin-top: 1.5em;
+}
+
+.reisblog-list {
+  list-style: none;
+  margin-left: 0;
+
+  li {
+    margin-bottom: 6px;
+  }
+}
+
+.reisblog-date {
+  display: inline-block;
+  width: 8.5em;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.reisblog-post .post-content {
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--border-strong);
+    padding: 3px;
+    background: var(--card-bg);
+  }
+
+  .wp-smiley {
+    border: none;
+    padding: 0;
+  }
+}
+
+.reisblog-center {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.reisblog-video {
+  display: block;
+  margin: 1em auto;
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--border-strong);
+}
+
+.reisblog-missing {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.reisblog-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin-top: 2.5em;
+  padding-top: 1em;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9em;
+}
+
+.reisblog-note {
+  margin-top: 1.5em;
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.reisblog-comments {
+  margin-top: 2.5em;
+  padding-top: 1em;
+  border-top: 1px solid var(--border-color);
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+.reisblog-comment {
+  margin: 1.25em 0;
+  padding-left: 12px;
+  border-left: 2px solid var(--border-color);
+}
+
+.reisblog-comment-meta {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin-bottom: 4px;
+}
+
+#reisblog-map {
+  height: 70vh;
+  min-height: 320px;
+  margin: 1.5em 0;
+  border: 1px solid var(--border-strong);
+  background: var(--code-bg);
+  z-index: 0;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+[data-theme="dark"] #reisblog-map .leaflet-layer,
+[data-theme="dark"] #reisblog-map .leaflet-control-zoom,
+[data-theme="dark"] #reisblog-map .leaflet-control-attribution {
+  filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
+}
+
+.reisblog-photo {
+  margin: 1.5em auto;
+  text-align: center;
+
+  figcaption {
+    margin-top: 6px;
+    font-size: 0.85em;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+}

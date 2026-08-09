@@ -1,0 +1,40 @@
+---
+layout: page
+title: Stukje Fietsen, enzo…
+permalink: /reisblog/
+lang: nl
+---
+
+<p class="reisblog-subtitle">Amsterdam &ndash; Beijing (?) &middot; reisblog, 2007&ndash;2008</p>
+
+<p>In augustus 2007 vertrok ik op de fiets vanaf de Dam in Amsterdam, richting
+Beijing &mdash; vandaar het vraagteken in de ondertitel. Samen met WF fietste
+ik in drie weken naar Istanbul, en daarna alleen verder langs de Turkse kust,
+tot een hoornvliesontsteking in Anamur een eind maakte aan het fietsen. Na een
+paar weken thuis vertrok ik in december opnieuw, nu met rugzak: door Iran en
+Pakistan naar India en de Andamanen, en weer terug. Het blog eindigt &mdash;
+voor zover het archief reikt &mdash; eind mei 2008 in Iran, op de terugweg via
+Syri&euml; naar Europa.</p>
+
+<p>De site waar deze verhalen op stonden is allang offline. De teksten zijn in
+2026 teruggehaald uit het <a
+href="https://web.archive.org/web/2008/http://reis.anneschuth.nl/">Internet
+Archive</a> en staan hier bewaard als archiefje. De foto&#8217;s bij de
+berichten waren niet mee gearchiveerd, maar de meeste konden worden
+teruggeplaatst uit de originele fotoalbums; waar dat niet lukte staat dat
+aangegeven. Alle schrijflocaties samen staan op
+<a href="/reisblog/kaart/">de reiskaart</a>.</p>
+
+{% assign posts = site.reisblog | sort: "date" %}
+{% assign years = posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in years %}
+<h2 class="reisblog-year">{{ year.name }}</h2>
+<ul class="reisblog-list">
+  {% for p in year.items %}
+  <li>
+    <span class="reisblog-date">{{ p.date_display | remove: year.name | strip }}</span>
+    <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
