@@ -8,8 +8,7 @@ on:
   push:
     branches: [claude/reisblog-wayback-archive-rnep5f]
     paths:
-      - scripts/fetch_reisblog.py
-      - .github/workflows/fetch-reisblog.yml
+      - scripts/fetch_reisblog_photos.py
 
 permissions:
   contents: write
@@ -24,7 +23,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - run: python scripts/fetch_reisblog.py
+      - run: python scripts/fetch_reisblog_photos.py
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
