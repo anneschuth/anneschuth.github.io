@@ -10,7 +10,7 @@ lat: 28.6439
 lng: 77.2167
 route:
   - name: "Thiksey"
-    lat: 33.943
+    lat: 34.056
     lng: 77.666
   - name: "Leh"
     lat: 34.1526
