@@ -8,6 +8,10 @@ author: Anne
 location: "Mysore"
 lat: 12.2958
 lng: 76.6394
+route:
+  - name: "Mangalore"
+    lat: 12.9141
+    lng: 74.856
 ---
 
 <p>Dag mensen,</p>

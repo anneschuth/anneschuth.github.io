@@ -10,6 +10,16 @@ wp_id: 35
 category_label: Op de fiets
 lat: 36.2653140732
 lng: 32.3155975341
+route:
+  - name: "Olympos"
+    lat: 36.396
+    lng: 30.474
+  - name: "Antalya"
+    lat: 36.8969
+    lng: 30.7133
+  - name: "Alanya"
+    lat: 36.5437
+    lng: 31.9998
 ---
 
 <p>Beste mensen!</p>

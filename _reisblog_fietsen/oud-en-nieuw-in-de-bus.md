@@ -10,6 +10,19 @@ wp_id: 47
 category_label: onderweg
 lat: 30.1872222
 lng: 67.0125
+route:
+  - name: "Tehran"
+    lat: 35.6892
+    lng: 51.389
+  - name: "Shiraz"
+    lat: 29.5918
+    lng: 52.5837
+  - name: "Persepolis"
+    lat: 29.9354
+    lng: 52.8916
+  - name: "Yazd"
+    lat: 31.8974
+    lng: 54.3675
 ---
 
 <p>Beste mensen,</p>

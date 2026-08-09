@@ -8,6 +8,22 @@ author: Anne
 location: "Guwahati"
 lat: 26.1445
 lng: 91.7362
+route:
+  - name: "Siliguri"
+    lat: 26.7271
+    lng: 88.3953
+  - name: "Guwahati"
+    lat: 26.1445
+    lng: 91.7362
+  - name: "Shillong"
+    lat: 25.5788
+    lng: 91.8933
+  - name: "Cherrapunjee"
+    lat: 25.284
+    lng: 91.721
+  - name: "Shillong"
+    lat: 25.5788
+    lng: 91.8933
 ---
 
 <p>Dag mensen,</p>

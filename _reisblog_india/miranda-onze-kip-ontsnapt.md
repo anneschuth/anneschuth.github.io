@@ -8,6 +8,16 @@ author: Anne
 location: "Port Blair, Andaman-eilanden"
 lat: 11.6234
 lng: 92.7265
+route:
+  - name: "Havelock Island"
+    lat: 12.03
+    lng: 92.983
+  - name: "Long Island"
+    lat: 12.363
+    lng: 92.931
+  - name: "Rangat"
+    lat: 12.505
+    lng: 92.79
 ---
 
 <p class="reisblog-note">Archiefnoot: dit verslag bevat woordgebruik zoals ik het in 2003, als negentienjarige, opschreef.</p>

@@ -10,6 +10,13 @@ wp_id: 58
 category_label: onderweg
 lat: 28.6399786513
 lng: 77.2153472900
+route:
+  - name: "Konark"
+    lat: 19.8876
+    lng: 86.0945
+  - name: "Puri"
+    lat: 19.8135
+    lng: 85.8312
 ---
 
 <p>Ik wilde na mijn laatste verhaal wat meer details opschrijven, na alles bij elkaar zo&#8217;n jaar in India geweest te zijn lijkt het allemaal zo normaal. Ik besloot dus mijn ogen open te doen en meer om me heen te kijken. Zodra ik dat deed gebeurde er van alles, vandaar nu alweer mail!<br />

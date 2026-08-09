@@ -11,6 +11,22 @@ category_label: onderweg
 source: mail
 lat: 38.6431
 lng: 34.8289
+route:
+  - name: "Hama"
+    lat: 35.1318
+    lng: 36.7578
+  - name: "Palmyra"
+    lat: 34.556
+    lng: 38.2739
+  - name: "Damascus"
+    lat: 33.5138
+    lng: 36.2765
+  - name: "Crac des Chevaliers"
+    lat: 34.757
+    lng: 36.2945
+  - name: "Lattakia"
+    lat: 35.5196
+    lng: 35.7915
 ---
 
 <p>Beste mensen,</p>

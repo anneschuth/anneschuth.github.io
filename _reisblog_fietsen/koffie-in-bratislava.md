@@ -10,6 +10,13 @@ wp_id: 14
 category_label: Op de fiets
 lat: 47.5
 lng: 19.0833333
+route:
+  - name: "Hainburg an der Donau"
+    lat: 48.1464
+    lng: 16.943
+  - name: "Bratislava"
+    lat: 48.1486
+    lng: 17.1077
 ---
 
 <p>Beste mensen,</p>

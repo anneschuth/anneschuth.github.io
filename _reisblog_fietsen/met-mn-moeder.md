@@ -10,6 +10,19 @@ wp_id: 63
 category_label: onderweg
 lat: 30.8998679852
 lng: 76.9674682617
+route:
+  - name: "Agra"
+    lat: 27.1767
+    lng: 78.0081
+  - name: "Varanasi"
+    lat: 25.3176
+    lng: 82.9739
+  - name: "Rishikesh"
+    lat: 30.0869
+    lng: 78.2676
+  - name: "Shimla"
+    lat: 31.1048
+    lng: 77.1734
 ---
 
 <p>Beste mensen,</p>

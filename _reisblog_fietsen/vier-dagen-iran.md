@@ -10,6 +10,28 @@ wp_id: 45
 category_label: onderweg
 lat: 38.0653923513
 lng: 46.23046875
+route:
+  - name: "Sanliurfa"
+    lat: 37.1591
+    lng: 38.7969
+  - name: "Harran"
+    lat: 36.8628
+    lng: 39.0296
+  - name: "Van"
+    lat: 38.4941
+    lng: 43.38
+  - name: "Dogubayazit"
+    lat: 39.5453
+    lng: 44.0817
+  - name: "Maku"
+    lat: 39.2952
+    lng: 44.5133
+  - name: "Tabriz"
+    lat: 38.0805
+    lng: 46.2919
+  - name: "Kandovan"
+    lat: 37.7897
+    lng: 46.2496
 ---
 
 <p>Beste mensen!</p>

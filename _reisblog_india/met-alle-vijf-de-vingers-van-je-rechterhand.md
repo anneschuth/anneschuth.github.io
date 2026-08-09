@@ -8,6 +8,19 @@ author: Anne
 location: "Fort Cochin (Kochi)"
 lat: 9.9658
 lng: 76.2421
+route:
+  - name: "Bangalore"
+    lat: 12.9716
+    lng: 77.5946
+  - name: "Coimbatore"
+    lat: 11.0168
+    lng: 76.9558
+  - name: "Ooty"
+    lat: 11.4102
+    lng: 76.695
+  - name: "Coimbatore"
+    lat: 11.0168
+    lng: 76.9558
 ---
 
 <p>Dag mensen,</p>

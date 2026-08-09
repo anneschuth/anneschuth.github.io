@@ -10,6 +10,16 @@ wp_id: 52
 category_label: onderweg
 lat: 11.6669468379
 lng: 92.7428054809
+route:
+  - name: "Chennai"
+    lat: 13.0827
+    lng: 80.2707
+  - name: "Mamallapuram"
+    lat: 12.6208
+    lng: 80.1945
+  - name: "Chennai"
+    lat: 13.0827
+    lng: 80.2707
 ---
 
 <p>Beste Mensen!<br />

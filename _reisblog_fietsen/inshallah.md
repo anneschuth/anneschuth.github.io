@@ -10,6 +10,10 @@ wp_id: 46
 category_label: onderweg
 lat: 32.6597222
 lng: 51.6713889
+route:
+  - name: "Tehran"
+    lat: 35.6892
+    lng: 51.389
 ---
 
 <p>Beste mensen,</p>

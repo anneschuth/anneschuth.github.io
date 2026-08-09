@@ -10,6 +10,10 @@ wp_id: 12
 category_label: Op de fiets
 lat: 51.500811
 lng: 7.459729
+route:
+  - name: "Winterswijk"
+    lat: 51.972
+    lng: 6.7197
 ---
 
 <p>Gisteren vertrokken Willem Frederik (WF, jeugdvriend, rijdt mee tot aan Istanbul, nu niet meer vragen ;) ) vroeg vanaf zijn huis in Amersfoort. 140 km later stonden we over de grens bij Winterswijk een heel stuk Duitsland in. We vonden een heel mooi plekje, net van het fietspad af, waar we ongezien onze tent konden stallen. Het was nog vroeg, en we zijn dus ook maar vroeg gaan slapen zodat we er ook weer vroeg naast stonden. Na lekkere espresso gezet te hebben waren we vanochtend weer onderweg.</p>

@@ -10,6 +10,10 @@ wp_id: 37
 category_label: onderweg
 lat: 52.4710830589
 lng: 4.8435759544
+route:
+  - name: "Antalya"
+    lat: 36.8969
+    lng: 30.7133
 ---
 
 <p>Beste mensen,</p>

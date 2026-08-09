@@ -8,6 +8,19 @@ author: Anne
 location: "Varanasi"
 lat: 25.3176
 lng: 82.9739
+route:
+  - name: "Gaya"
+    lat: 24.796
+    lng: 85.0
+  - name: "Bodhgaya"
+    lat: 24.695
+    lng: 84.991
+  - name: "Gaya"
+    lat: 24.796
+    lng: 85.0
+  - name: "Mughal Sarai"
+    lat: 25.282
+    lng: 83.12
 ---
 
 <p>Dag mensen,</p>

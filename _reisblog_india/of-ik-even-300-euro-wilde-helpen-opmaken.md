@@ -8,6 +8,19 @@ author: Anne
 location: "Palolem (Goa)"
 lat: 15.01
 lng: 74.023
+route:
+  - name: "Benaulim"
+    lat: 15.257
+    lng: 73.927
+  - name: "Vasco da Gama"
+    lat: 15.3959
+    lng: 73.8157
+  - name: "Benaulim"
+    lat: 15.257
+    lng: 73.927
+  - name: "Margao"
+    lat: 15.273
+    lng: 73.958
 ---
 
 <p>Dag mensen,</p>

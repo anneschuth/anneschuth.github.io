@@ -10,6 +10,13 @@ wp_id: 54
 category_label: onderweg
 lat: 11.6669468379
 lng: 92.7428054809
+route:
+  - name: "Havelock Island"
+    lat: 12.016
+    lng: 92.987
+  - name: "Long Island"
+    lat: 12.36
+    lng: 92.932
 ---
 
 <p>Beste mensen,</p>

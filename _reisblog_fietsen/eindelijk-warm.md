@@ -10,6 +10,10 @@ wp_id: 19
 category_label: Op de fiets
 lat: 41.0142639175
 lng: 28.9763116836
+route:
+  - name: "Corlu"
+    lat: 41.1592
+    lng: 27.8003
 ---
 
 <p align="left">Bijna een week geleden waren we in Sofia (Bulgarije). Het lijkt alweer veel langer geleden, vandaar dat ik maar weer eens wat schrijf!</p>

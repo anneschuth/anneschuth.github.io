@@ -8,6 +8,10 @@ author: Anne
 location: "Varanasi"
 lat: 25.3176
 lng: 82.9739
+route:
+  - name: "Sarnath"
+    lat: 25.381
+    lng: 83.024
 ---
 
 <p>Dag mensen,</p>
