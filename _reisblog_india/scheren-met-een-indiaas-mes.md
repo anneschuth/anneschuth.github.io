@@ -23,4 +23,3 @@ lng: 88.2663
 <p>Na 4 dagen vrijwilligerswerk, veel te kort, nam ik 's avonds de trein naar het noorden, naar Darjeeling. Dit ligt aan de voet van de Himalaya, op 2100 meter. Vanuit hier is de derde hoogste berg van de wereld te zien. Het is echt een geweldig mooie stad, veel kleine straatjes, vriendelijke mensen en weinig verkeer. De mensen hier zien er anders uit. Ze lijken op (en zijn) Tibetanen. De meisjes hier zijn veel spontaner en in tegenstelling tot de rest van India (waar alleen de jongens dit doen) komen ze op je af om met je te praten. Verder is het hier behoorlijk koud en vriest het 's nachts. Darjeeling is de plek waar 25% van de Indiase thee (en Indiërs drinken veel thee) vandaan komt. Het is dus omgeven met plantages, erg mooi om te zien!</p>
 <p>Ik zit hier te bibberen van de kou zonder handschoenen en ga er dus weer vandoor!</p>
 <p>Groet,<br />Anne</p>
-<p>M'n route: http://members.ams.chello.nl/gschuth1/india/Kaart.jpg</p>
