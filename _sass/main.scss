@@ -1605,3 +1605,22 @@ mark {
   font-size: 0.85em;
   margin-bottom: 4px;
 }
+
+#reisblog-map {
+  height: 70vh;
+  min-height: 320px;
+  margin: 1.5em 0;
+  border: 1px solid var(--border-strong);
+  background: var(--code-bg);
+  z-index: 0;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+[data-theme="dark"] #reisblog-map .leaflet-layer,
+[data-theme="dark"] #reisblog-map .leaflet-control-zoom,
+[data-theme="dark"] #reisblog-map .leaflet-control-attribution {
+  filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
+}

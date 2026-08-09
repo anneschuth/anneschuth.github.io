@@ -8,7 +8,8 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date_display }}</time>
-      {%- if page.lat %} &middot; <a href="https://www.openstreetmap.org/?mlat={{ page.lat }}&amp;mlon={{ page.lng }}#map=6/{{ page.lat }}/{{ page.lng }}" title="Waar dit bericht geschreven werd">schrijflocatie</a>{% endif -%}
+      {%- assign slug = page.url | split: "/" | last -%}
+      {%- if page.lat %} &middot; <a href="{{ '/reisblog/kaart/' | relative_url }}#{{ slug }}" title="Waar dit bericht geschreven werd, op de reiskaart">schrijflocatie</a>{% endif -%}
     </p>
   </header>
 
