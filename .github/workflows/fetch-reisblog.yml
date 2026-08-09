@@ -5,6 +5,11 @@ name: Fetch reisblog from Wayback Machine
 
 on:
   workflow_dispatch:
+  push:
+    branches: [claude/reisblog-wayback-archive-rnep5f]
+    paths:
+      - scripts/fetch_reisblog.py
+      - .github/workflows/fetch-reisblog.yml
 
 permissions:
   contents: write
