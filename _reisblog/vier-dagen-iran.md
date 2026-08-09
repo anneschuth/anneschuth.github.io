@@ -13,7 +13,7 @@ lng: 46.23046875
 
 <p>Beste mensen!</p>
 <p>Ik ben nog maar een week weg maar heb intussen al wel ruim 2000km<br />
-afgelegd, dat red je niet op een fiets! Vorige week zat ik bij Apollo<br />
+afgelegd, dat red je niet op een fiets! <a href="/reisblog/daar-ben-ik-weer/">Vorige week zat ik bij Apollo</a><br />
 thuis, in Alanya. Die avond werd ik door zijn broertje naar de bus<br />
 gebracht, de bus naar Sanliurfa. Daar kwam ik in de ochtend aan, met<br />
 druilerig weer. Jammer. Tijd om m&#8217;n warme kleren tevoorschijn te<br />
@@ -23,6 +23,7 @@ mij deden, leuk om over te horen!<br />
 De volgende ochtend een minibusje naar Harran genomen, volgens velen<br />
 de langst continue bewoonde plek ter wereld. Maar in wat voor woning!<br />
 Er staan daar een soort bijenkorfachtige hutten, vreemd om te zien.<br />
+<figure class="reisblog-photo"><img src="/assets/reisblog/harran-hutten.jpg" alt="Bijenkorfachtige lemen hutten in Harran" loading="lazy" /><figcaption>De bijenkorfachtige hutten van Harran</figcaption></figure>
 Maar ook daar was het koud! En toen ik de volgende ochtend uit de bus<br />
 stapte in Van was het zowaar nog kouder, lekkere vakantie!<br />
 Van ligt helemaal in het oosten van Turkije, niet ver van de grens met<br />
@@ -74,7 +75,9 @@ uittekent als je ergens heen wilt. Hier kwam ik ook Dmitrij tegen, een<br />
 Engelse jongen die ook in mijn hotel zat. De volgende ochtend gingen<br />
 we samen met het openbaar vervoer (als uitdaging) naar Kandovan. Een<br />
 dorpje waar de mensen in uit rotsen gehouwen huizen wonen, een bizar<br />
-gezicht! &#8217;s Avonds zijn we de bazaar in gegaan om waterpijp te roken<br />
+gezicht!<br />
+<figure class="reisblog-photo"><img src="/assets/reisblog/kandovan.jpg" alt="Uit rotsen gehouwen huizen in Kandovan" loading="lazy" /><figcaption>Kandovan: wonen in de rotsen</figcaption></figure>
+&#8217;s Avonds zijn we de bazaar in gegaan om waterpijp te roken<br />
 en wat kleine dingetjes te kopen. Dat waterpijp roken is een<br />
 belevenis. Even rondvragen en dan ga je ergens een klein trappetje op<br />
 en kom je in een ruimte vol mannen die zitten te roken en thee aan het<br />

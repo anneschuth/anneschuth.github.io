@@ -1624,3 +1624,15 @@ mark {
 [data-theme="dark"] #reisblog-map .leaflet-control-attribution {
   filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
 }
+
+.reisblog-photo {
+  margin: 1.5em auto;
+  text-align: center;
+
+  figcaption {
+    margin-top: 6px;
+    font-size: 0.85em;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+}
