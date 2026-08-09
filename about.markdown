@@ -28,6 +28,13 @@ and activities, see my [CV](/cv/).
   <img src="/assets/cv-thumbnail.png" alt="Eerste pagina van het CV van Anne Schuth" />
 </a>
 
+## Archive
+
+Long before any of the above, in 2007&ndash;2008, I set off from Amsterdam by
+bicycle towards Beijing &mdash; and got as far as India and back, overland. The
+travel blog I kept along the way (in Dutch) is preserved as
+[a little archive](/reisblog/).
+
 ## Contact
 
 <anne.schuth@gmail.com>

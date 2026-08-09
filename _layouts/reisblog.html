@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="post reisblog-post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <p class="reisblog-crumb"><a href="/reisblog/">Stukje Fietsen, enzo&#8230;</a> &middot; reisblog 2007&ndash;2008</p>
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date_display }}</time>
+      {%- if page.lat %} &middot; <a href="https://www.openstreetmap.org/?mlat={{ page.lat }}&amp;mlon={{ page.lng }}#map=6/{{ page.lat }}/{{ page.lng }}" title="Waar dit bericht geschreven werd">schrijflocatie</a>{% endif -%}
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- assign posts = site.reisblog | sort: "date" -%}
+  {%- assign i = -1 -%}
+  {%- for p in posts -%}
+    {%- if p.url == page.url -%}{%- assign i = forloop.index0 -%}{%- endif -%}
+  {%- endfor -%}
+  {%- assign previ = i | minus: 1 -%}
+  {%- assign nexti = i | plus: 1 -%}
+  <nav class="reisblog-nav">
+    <span>{% if i > 0 %}{% assign prev = posts[previ] %}&laquo; <a href="{{ prev.url | relative_url }}">{{ prev.title }}</a>{% endif %}</span>
+    <span>{% assign next = posts[nexti] %}{% if next %}<a href="{{ next.url | relative_url }}">{{ next.title }}</a> &raquo;{% endif %}</span>
+  </nav>
+
+  <p class="reisblog-note">Dit bericht komt uit het reisblog dat ik in 2007&ndash;2008 onderweg bijhield.
+    De site is allang offline; de tekst is teruggehaald uit het
+    <a href="https://web.archive.org/web/2008/http://reis.anneschuth.nl/">Internet Archive</a>.</p>
+
+</article>

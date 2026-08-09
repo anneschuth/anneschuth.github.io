@@ -56,3 +56,10 @@ collections:
     permalink: /:collection/:name
   software:
     output: false
+  reisblog:
+    output: true
+    permalink: /reisblog/:name/
+
+exclude:
+  - reisblog-raw
+  - scripts
