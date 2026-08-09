@@ -19,6 +19,10 @@ jobs:
           sleep 2
           # frames/redirects van Dot.TK: haal ook de niet-raw versie op
           curl -sL "https://web.archive.org/web/20041205135130/http://www.anneinindia.tk:80/" > wayback-anneinindia/anneinindia-20041205-rendered.html || true
+          sleep 2
+          curl -s "https://web.archive.org/cdx/search/cdx?url=members.ams.chello.nl/gschuth1&matchType=prefix&output=text&limit=2000" > wayback-anneinindia/cdx-chello-gschuth1.txt || true
+          sleep 2
+          curl -sL "https://web.archive.org/web/20041213123820id_/http://members.ams.chello.nl:80/gschuth1/india/home/" > wayback-anneinindia/chello-india-home-20041213.html || true
       - name: Commit results
         run: |
           git config user.name "github-actions"
