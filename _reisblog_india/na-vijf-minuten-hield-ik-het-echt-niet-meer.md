@@ -17,4 +17,3 @@ lng: 82.9739
 <p>Na 7 dagen mediteren ben ik vanmiddag weer naar Varanasi gekomen omdat er morgen een groot Shiva (een Hindu god)-festival is. Vanmiddag zat ik op de trappen van een Ghat aan de Ganges en was nog steeds een beetje in de sfeer van de meditatie van deze morgen en op de een of andere manier zagen bedelkinderen dat en kwamen op me af zonder geld te vragen. Ze zaten twee uur lang op m'n schoot en stoeiden met me zonder ook maar een keer iets te vragen, geweldig!</p>
 <p>Over een kwartiertje heb ik een afspraak met een jongen die ik net ontmoet heb om te dineren onder begeleiding van Indiase muziek.</p>
 <p>Groet,<br />Anne</p>
-
