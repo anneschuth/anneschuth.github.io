@@ -1,0 +1,27 @@
+name: Fetch anneinindia.tk from Wayback
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch CDX listings and snapshots
+        run: |
+          mkdir -p wayback-anneinindia
+          curl -s "https://web.archive.org/cdx/search/cdx?url=anneinindia.tk&matchType=domain&output=text&limit=500" > wayback-anneinindia/cdx-anneinindia.txt || true
+          curl -s "https://web.archive.org/cdx/search/cdx?url=woutinindia.tk&matchType=domain&output=text&limit=500" > wayback-anneinindia/cdx-woutinindia.txt || true
+          sleep 2
+          curl -sL "https://web.archive.org/web/20041205135130id_/http://www.anneinindia.tk:80/" > wayback-anneinindia/anneinindia-20041205.html || true
+          sleep 2
+          # frames/redirects van Dot.TK: haal ook de niet-raw versie op
+          curl -sL "https://web.archive.org/web/20041205135130/http://www.anneinindia.tk:80/" > wayback-anneinindia/anneinindia-20041205-rendered.html || true
+      - name: Commit results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add wayback-anneinindia
+          git commit -m "Wayback-resultaten anneinindia.tk (tijdelijk)" || echo "nothing to commit"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin HEAD:"${GITHUB_REF_NAME}"
