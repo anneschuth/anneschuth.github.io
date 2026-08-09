@@ -22,4 +22,4 @@ lng: 82.9739
 <p>Morgenochtend rond zonsopgang neem ik met Rachel een boot om langs de oevers van de Ganges te varen. Dan ga ik met de bus naar Sarnath voor de meditatiecursus. En afhankelijk van hoe dit mij bevalt blijf ik daar 3 dagen tot een week. Daarna ga ik naar Nepal.</p>
 <p>Nu ga ik eten in een goed restaurant dat ik vanmiddag tegenkwam, als ik het terug kan vinden tenminste.</p>
 <p>Groet,<br />Anne</p>
-<p>www.anneinindia.tk</p>
+
