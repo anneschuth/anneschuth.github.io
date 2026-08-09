@@ -17,7 +17,7 @@ bijbehorende verhaal.</p>
 <script src="/assets/vendor/leaflet/leaflet.js"></script>
 <script>
   (function () {
-    {% assign posts = site.reisblog | sort: "date" %}
+    {% assign posts = site.reisblog | where_exp: "p", "p.lat" | sort: "date" %}
     var posts = [
       {%- for p in posts %}
       { lat: {{ p.lat }}, lng: {{ p.lng }}, title: {{ p.title | jsonify }}, url: {{ p.url | relative_url | jsonify }}, date: {{ p.date_display | jsonify }}, slug: {{ p.url | split: "/" | last | jsonify }} }{% unless forloop.last %},{% endunless %}

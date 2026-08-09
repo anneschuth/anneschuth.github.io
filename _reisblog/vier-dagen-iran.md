@@ -22,9 +22,9 @@ al 17 maanden onderweg waren en min of meer de omgekeerde route van<br />
 mij deden, leuk om over te horen!<br />
 De volgende ochtend een minibusje naar Harran genomen, volgens velen<br />
 de langst continue bewoonde plek ter wereld. Maar in wat voor woning!<br />
-Er staan daar een soort bijenkorfachtige hutten, vreemd om te zien.<br />
+Er staan daar een soort bijenkorfachtige hutten, vreemd om te zien.</p>
 <figure class="reisblog-photo"><img src="/assets/reisblog/harran-hutten.jpg" alt="Bijenkorfachtige lemen hutten in Harran" loading="lazy" /><figcaption>De bijenkorfachtige hutten van Harran</figcaption></figure>
-Maar ook daar was het koud! En toen ik de volgende ochtend uit de bus<br />
+<p>Maar ook daar was het koud! En toen ik de volgende ochtend uit de bus<br />
 stapte in Van was het zowaar nog kouder, lekkere vakantie!<br />
 Van ligt helemaal in het oosten van Turkije, niet ver van de grens met<br />
 Iran. Ik ben daar 1 nacht gebleven en nam de volgende ochtend een<br />
@@ -75,9 +75,9 @@ uittekent als je ergens heen wilt. Hier kwam ik ook Dmitrij tegen, een<br />
 Engelse jongen die ook in mijn hotel zat. De volgende ochtend gingen<br />
 we samen met het openbaar vervoer (als uitdaging) naar Kandovan. Een<br />
 dorpje waar de mensen in uit rotsen gehouwen huizen wonen, een bizar<br />
-gezicht!<br />
+gezicht!</p>
 <figure class="reisblog-photo"><img src="/assets/reisblog/kandovan.jpg" alt="Uit rotsen gehouwen huizen in Kandovan" loading="lazy" /><figcaption>Kandovan: wonen in de rotsen</figcaption></figure>
-&#8217;s Avonds zijn we de bazaar in gegaan om waterpijp te roken<br />
+<p>&#8217;s Avonds zijn we de bazaar in gegaan om waterpijp te roken<br />
 en wat kleine dingetjes te kopen. Dat waterpijp roken is een<br />
 belevenis. Even rondvragen en dan ga je ergens een klein trappetje op<br />
 en kom je in een ruimte vol mannen die zitten te roken en thee aan het<br />
