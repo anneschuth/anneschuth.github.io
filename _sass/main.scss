@@ -1636,3 +1636,20 @@ mark {
     font-style: italic;
   }
 }
+
+.reisblog-noot-ref a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.reisblog-voetnoten {
+  margin-top: 2em;
+  padding-top: 0.75em;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.85em;
+  color: var(--text-muted);
+
+  p {
+    margin-bottom: 6px;
+  }
+}

@@ -115,12 +115,12 @@ def main():
         print(f"\n❌ {SITE} not found. Run `bundle exec jekyll build` first.")
         return 1
 
-    content_dirs = ["_publications", "_talks", "_posts", "_software", "_reisblog"]
+    content_dirs = ["_publications", "_talks", "_posts", "_software", "_reisblog_fietsen", "_reisblog_india"]
     page_files = [
         "software.markdown", "about.markdown", "activities.markdown",
         "press.markdown", "publications.markdown", "talks.markdown",
         "teaching.markdown", "thesis.markdown", "cv.markdown",
-        "reisblog/index.html", "reisblog/kaart.html",
+        "reisblog/index.html", "reisblog/fietsen.html", "reisblog/kaart.html", "reisblog/india.html", "reisblog/india-kaart.html",
     ]
 
     total_files = total_links = total_broken = 0

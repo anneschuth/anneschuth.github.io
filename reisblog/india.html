@@ -1,0 +1,35 @@
+---
+layout: page
+title: Anne's reisverslag
+permalink: /reisblog/india/
+lang: nl
+---
+
+<p class="reisblog-subtitle"><a href="/reisblog/">&larr; het reisarchief</a> &middot; India, Nepal &amp; Tibet &middot; reismails, 2003&ndash;2004</p>
+
+<p>In september 2003 vertrok ik, negentien jaar oud, voor elf maanden naar
+India. Er was nog geen blog; onderweg stuurde ik vanuit internetcaf&eacute;s
+(bijna) wekelijks een mail naar een steeds langere lijst thuisblijvers. Van
+Goa via Hampi naar Calcutta en Darjeeling, de Annapurna rond in Nepal, naar
+Lhasa in Tibet, en de laatste maanden samen met m&#8217;n broertje Wout terug
+door Noord-India.</p>
+
+<p>De mails zijn in 2026 teruggevonden in m&#8217;n e-mailarchief en staan hier
+bewaard zoals ze verstuurd werden, als archiefje naast het
+<a href="/reisblog/fietsen/">reisblog van de fietsreis van 2007&ndash;2008</a>. Alle
+schrijflocaties samen staan op <a href="/reisblog/india/kaart/">de
+reiskaart</a>.</p>
+
+{% assign posts = site.reisblog_india | sort: "date" %}
+{% assign years = posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in years %}
+<h2 class="reisblog-year">{{ year.name }}</h2>
+<ul class="reisblog-list">
+  {% for p in year.items %}
+  <li>
+    <span class="reisblog-date">{{ p.date_display | remove: year.name | strip }}</span>
+    <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
