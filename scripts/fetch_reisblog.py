@@ -67,7 +67,7 @@ def main():
     rows = r.json()
     if not rows:
         raise SystemExit("CDX gaf geen resultaten")
-    header, rows = rows[0], rows[1:]
+    rows = rows[1:]
     print(f"{len(rows)} snapshots gevonden", flush=True)
 
     # Nieuwste snapshot per unieke URL
