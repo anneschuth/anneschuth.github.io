@@ -29,7 +29,7 @@ aangegeven. Alle schrijflocaties samen staan op
 elf maanden in India, Nepal en Tibet. De reismails van toen staan in
 <a href="/reisblog/india/">een eigen archiefje</a>.</p>
 
-{% assign posts = site.reisblog | sort: "date" %}
+{% assign posts = site.reisblog_fietsen | sort: "date" %}
 {% assign years = posts | group_by_exp: "p", "p.date | date: '%Y'" %}
 {% for year in years %}
 <h2 class="reisblog-year">{{ year.name }}</h2>

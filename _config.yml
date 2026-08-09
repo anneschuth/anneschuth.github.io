@@ -56,7 +56,7 @@ collections:
     permalink: /:collection/:name
   software:
     output: false
-  reisblog:
+  reisblog_fietsen:
     output: true
     permalink: /reisblog/:name/
   reisblog_india:
