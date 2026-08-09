@@ -1,0 +1,29 @@
+# Tijdelijke workflow: downloadt het Wayback-archief van reis.anneschuth.nl
+# en commit het resultaat naar deze branch. Wordt verwijderd zodra de
+# content is verwerkt.
+name: Fetch reisblog from Wayback Machine
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python scripts/fetch_reisblog.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A reisblog-raw
+          git commit -m "Voeg ruwe Wayback-archiefbestanden van reis.anneschuth.nl toe" || echo "niets te committen"
+          git push
