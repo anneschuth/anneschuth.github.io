@@ -1,5 +1,7 @@
 name: Fetch anneinindia.tk from Wayback
-on: workflow_dispatch
+on:
+  push:
+    branches: [claude/reisblog-wayback-archive-rnep5f]
 permissions:
   contents: write
 jobs:
