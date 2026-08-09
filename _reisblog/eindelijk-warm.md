@@ -28,7 +28,7 @@ Anne</p>
 <p align="left">Er staan weer wat meer foto&#8217;s op mijn fotoboek.</p>
 
 <div class="reisblog-comments">
-<h2>Reacties (12)</h2>
+<h2>Reacties (13)</h2>
 <div class="reisblog-comment"><p class="reisblog-comment-meta">johanna &middot; september 20th, 2007 at 16:09</p>
 <p>hey anne,<br />
 alvast van harte gefeliciteerd!!! niet alleen met je verjaardag maar ook met deze fantastische reis, erg bewonderenswaardig! je eerste doel is bereikt, heerlijk.<br />
@@ -78,4 +78,8 @@ Hartelijke groet Nelly</p></div>
 Zo te horen heeft WF echt een leuke reis gehad!. Jouw reis duurt toch nog ffies iets langer: veel succes en plezier er verder mee!!!!!</p>
 <p>Groetjes Eva<br />
 (ps. doe nu maar wel iets rustiger aan:150km per dag is toch wel een beetje overdreven:-p )</p></div>
+<div class="reisblog-comment"><p class="reisblog-comment-meta">hanneke &middot; 11 augustus 2008</p>
+<p>Hallo:) Wat geweldig dat je de halve wereldbol overfietst. Wij wonen een half jaar per jaar in Anamur waar jij rond hebt lopen dolen op zoek naar een doos:) Ik heb je toen niet gezien. Ik fiets van het strand naar de stad. Dat is 5 kilometer. Dan ben ik buiten adem van het klimmen. Moet toch iets aan mijn conditie doen als ik jou zo bezig zie:)<br />
+Groeten, en nog vele reizen toegewenst.<br />
+Hanneke en Ilhan</p></div>
 </div>
