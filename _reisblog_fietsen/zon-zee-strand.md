@@ -10,6 +10,19 @@ wp_id: 50
 category_label: onderweg
 lat: 15.391267
 lng: 73.948519
+route:
+  - name: "Islamabad"
+    lat: 33.6844
+    lng: 73.0479
+  - name: "Lahore"
+    lat: 31.5497
+    lng: 74.3436
+  - name: "Amritsar"
+    lat: 31.634
+    lng: 74.8723
+  - name: "Bombay (Mumbai)"
+    lat: 18.9402
+    lng: 72.8354
 ---
 
 <p>Beste mensen,</p>

@@ -8,6 +8,10 @@ author: Anne
 location: "Mumbai (Colaba)"
 lat: 18.922
 lng: 72.833
+route:
+  - name: "Mumbai Airport"
+    lat: 19.0896
+    lng: 72.8656
 ---
 
 <p>Hoi!</p>

@@ -10,6 +10,19 @@ wp_id: 56
 category_label: onderweg
 lat: 19.8041779677
 lng: 85.8382415771
+route:
+  - name: "Mayabunder"
+    lat: 12.9214
+    lng: 92.8963
+  - name: "Port Blair"
+    lat: 11.6234
+    lng: 92.7265
+  - name: "Kolkata"
+    lat: 22.5726
+    lng: 88.3639
+  - name: "Bhubaneswar"
+    lat: 20.2961
+    lng: 85.8245
 ---
 
 <p>Beste mensen,</p>

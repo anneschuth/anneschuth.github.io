@@ -8,6 +8,19 @@ author: Anne
 location: "Kovalam"
 lat: 8.4004
 lng: 76.9787
+route:
+  - name: "Alleppey"
+    lat: 9.4981
+    lng: 76.3388
+  - name: "Kollam"
+    lat: 8.8932
+    lng: 76.6141
+  - name: "Varkala"
+    lat: 8.7379
+    lng: 76.7163
+  - name: "Trivandrum"
+    lat: 8.5241
+    lng: 76.9366
 ---
 
 <p>Dag mensen,</p>

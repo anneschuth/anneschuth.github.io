@@ -8,6 +8,13 @@ author: Anne
 location: "Hampi"
 lat: 15.335
 lng: 76.46
+route:
+  - name: "Bangalore"
+    lat: 12.9716
+    lng: 77.5946
+  - name: "Hospet"
+    lat: 15.2689
+    lng: 76.3909
 ---
 
 <p>Dag mensen,</p>

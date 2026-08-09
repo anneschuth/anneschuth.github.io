@@ -10,6 +10,13 @@ wp_id: 17
 category_label: Op de fiets
 lat: 42.7066595635
 lng: 23.3349609375
+route:
+  - name: "IJzeren Poort (Orsova)"
+    lat: 44.725
+    lng: 22.3961
+  - name: "Iskar-kloof"
+    lat: 43.0872
+    lng: 23.3866
 ---
 
 <p>Allereerst, bedankt voor alle reacties, op m&#8217;n blog en via de mail! Ik ga niet alles beantwoorden, kost me echt te veel tijd in muffe internetcafeetjes.</p>

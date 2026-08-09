@@ -10,6 +10,10 @@ wp_id: 61
 category_label: onderweg
 lat: 28.6
 lng: 77.2
+route:
+  - name: "Jaipur"
+    lat: 26.9124
+    lng: 75.7873
 ---
 
 <p>Beste mensen,</p>

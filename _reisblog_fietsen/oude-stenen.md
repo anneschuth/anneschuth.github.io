@@ -10,6 +10,16 @@ wp_id: 30
 category_label: Op de fiets
 lat: 37.8682219890
 lng: 27.2670364379
+route:
+  - name: "Troje"
+    lat: 39.9576
+    lng: 26.2389
+  - name: "Alexandria Troas"
+    lat: 39.7511
+    lng: 26.1586
+  - name: "Izmir"
+    lat: 38.4237
+    lng: 27.1428
 ---
 
 <p><a href="/reisblog/fietsen/biertje-voor-e60/">M’n vorige verslag</a> was misschien een beetje kort, zal het nu iets uitgebreider maken, zonder langdradig te worden, hoop ik.<br />

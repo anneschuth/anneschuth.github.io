@@ -8,6 +8,31 @@ author: Anne
 location: "Kalimpong"
 lat: 27.0594
 lng: 88.4695
+route:
+  - name: "Gangtok"
+    lat: 27.3389
+    lng: 88.6065
+  - name: "Tsomgo Lake"
+    lat: 27.3752
+    lng: 88.7628
+  - name: "Gangtok"
+    lat: 27.3389
+    lng: 88.6065
+  - name: "Pelling"
+    lat: 27.3
+    lng: 88.24
+  - name: "Khecheopalri Lake"
+    lat: 27.349
+    lng: 88.19
+  - name: "Yuksam"
+    lat: 27.367
+    lng: 88.221
+  - name: "Tashiding"
+    lat: 27.276
+    lng: 88.298
+  - name: "Pelling"
+    lat: 27.3
+    lng: 88.24
 ---
 
 <p>Dag mensen,</p>

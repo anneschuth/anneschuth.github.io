@@ -8,6 +8,25 @@ author: Anne
 location: "Mamallapuram (Mahabalipuram)"
 lat: 12.6208
 lng: 80.1945
+route:
+  - name: "Trivandrum"
+    lat: 8.5241
+    lng: 76.9366
+  - name: "Kanyakumari"
+    lat: 8.0883
+    lng: 77.5385
+  - name: "Nagercoil"
+    lat: 8.178
+    lng: 77.434
+  - name: "Madurai"
+    lat: 9.9252
+    lng: 78.1198
+  - name: "Rameswaram"
+    lat: 9.2876
+    lng: 79.3129
+  - name: "Chengalpattu"
+    lat: 12.6819
+    lng: 79.9864
 ---
 
 <p>Dag mensen,</p>

@@ -10,6 +10,13 @@ wp_id: 10
 category_label: Op de fiets
 lat: 52.160309
 lng: 5.38672
+route:
+  - name: "Amsterdam (Dam)"
+    lat: 52.3731
+    lng: 4.8932
+  - name: "Ouderkerk aan de Amstel"
+    lat: 52.2942
+    lng: 4.907
 ---
 
 <p>Beste mensen, </p>

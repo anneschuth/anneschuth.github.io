@@ -10,6 +10,22 @@ wp_id: 65
 category_label: onderweg
 lat: 31.8402326679
 lng: 54.3603515625
+route:
+  - name: "Peshawar"
+    lat: 34.0151
+    lng: 71.5249
+  - name: "Lahore"
+    lat: 31.5497
+    lng: 74.3436
+  - name: "Quetta"
+    lat: 30.1798
+    lng: 66.975
+  - name: "Zahedan"
+    lat: 29.4963
+    lng: 60.8629
+  - name: "Kerman"
+    lat: 30.2839
+    lng: 57.0834
 ---
 
 <p>Beste Mensen!<br />

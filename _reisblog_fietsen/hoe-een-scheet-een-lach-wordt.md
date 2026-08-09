@@ -10,6 +10,16 @@ wp_id: 34
 category_label: Op de fiets
 lat: 36.1994039613
 lng: 29.6311569213
+route:
+  - name: "Ephesus"
+    lat: 37.9411
+    lng: 27.3419
+  - name: "Pamukkale"
+    lat: 37.9203
+    lng: 29.1211
+  - name: "Oludeniz"
+    lat: 36.55
+    lng: 29.1152
 ---
 
 <p>Nadat ik <a href="/reisblog/fietsen/oude-stenen/">m&#8217;n vorige verslag</a> schreef kwam ik terug op de camping de Nederlandse dame weer tegen, die heeft me heel aardig aan nieuwe voorraden afwasmiddel en zout geholpen; het is een beetje overdreven om met kilo&#8217;s van beide rond te fietsen als je er toch zo weinig van nodig hebt. En een grote fles of zak kopen en dan het meeste weggooien doe je ook niet. Hetzelfde geldt eigenlijk voor wc-papier: ik rij niet met vier rollen rond, ik leen gewoon af en toe een rolletje bij een benzinepompstation.</p>

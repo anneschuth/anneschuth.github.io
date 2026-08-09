@@ -10,6 +10,25 @@ wp_id: 64
 category_label: onderweg
 lat: 35.8534396195
 lng: 71.7736816406
+route:
+  - name: "Delhi"
+    lat: 28.6139
+    lng: 77.209
+  - name: "Dharamsala"
+    lat: 32.219
+    lng: 76.3234
+  - name: "Lahore"
+    lat: 31.5497
+    lng: 74.3436
+  - name: "Peshawar"
+    lat: 34.0151
+    lng: 71.5249
+  - name: "Chitral"
+    lat: 35.8511
+    lng: 71.7864
+  - name: "Brun (Bumburet)"
+    lat: 35.702
+    lng: 71.69
 ---
 
 <p>Beste Mensen,</p>

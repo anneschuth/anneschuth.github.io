@@ -8,6 +8,22 @@ author: Anne
 location: "Patna"
 lat: 25.5941
 lng: 85.1376
+route:
+  - name: "Kaziranga National Park"
+    lat: 26.576
+    lng: 93.33
+  - name: "Jorhat"
+    lat: 26.7509
+    lng: 94.2037
+  - name: "Majuli"
+    lat: 26.95
+    lng: 94.17
+  - name: "Jorhat"
+    lat: 26.7509
+    lng: 94.2037
+  - name: "Mariani"
+    lat: 26.6587
+    lng: 94.3308
 ---
 
 <p>Dag mensen,</p>

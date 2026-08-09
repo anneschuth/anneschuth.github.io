@@ -8,6 +8,10 @@ author: Anne
 location: "Port Blair (Andamanen)"
 lat: 11.6234
 lng: 92.7265
+route:
+  - name: "Chennai"
+    lat: 13.0827
+    lng: 80.2707
 ---
 
 <p>Dag mensen,</p>

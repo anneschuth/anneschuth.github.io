@@ -8,6 +8,13 @@ author: Anne
 location: "Chennai (Madras)"
 lat: 13.0827
 lng: 80.2707
+route:
+  - name: "Pondicherry"
+    lat: 11.9416
+    lng: 79.8083
+  - name: "Kanchipuram"
+    lat: 12.8342
+    lng: 79.7036
 ---
 
 <p>Dag mensen,</p>

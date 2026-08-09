@@ -4,13 +4,19 @@
 <script>
   (function () {
     {% assign posts = include.posts | where_exp: "p", "p.lat" | sort: "date" %}
-    var posts = [
+    // Punten in reisvolgorde: per verslag eerst de tussenstops uit de tekst,
+    // dan de schrijflocatie (het klikbare hoofdpunt).
+    var points = [
       {%- for p in posts %}
-      { lat: {{ p.lat }}, lng: {{ p.lng }}, title: {{ p.title | jsonify }}, url: {{ p.url | relative_url | jsonify }}, date: {{ p.date_display | jsonify }}, slug: {{ p.url | split: "/" | last | jsonify }} }{% unless forloop.last %},{% endunless %}
+      {%- for w in p.route %}
+      { lat: {{ w.lat }}, lng: {{ w.lng }}, name: {{ w.name | jsonify }}, main: false },
+      {%- endfor %}
+      { lat: {{ p.lat }}, lng: {{ p.lng }}, title: {{ p.title | jsonify }}, url: {{ p.url | relative_url | jsonify }}, date: {{ p.date_display | jsonify }}, slug: {{ p.url | split: "/" | last | jsonify }}, main: true }{% unless forloop.last %},{% endunless %}
       {%- endfor %}
     ];
 
-    if (!posts.length) { return; }
+    var mains = points.filter(function (p) { return p.main; });
+    if (!mains.length) { return; }
     var map = L.map('reisblog-map', { scrollWheelZoom: false });
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
@@ -20,16 +26,23 @@
     var accent = getComputedStyle(document.documentElement)
       .getPropertyValue('--accent-color').trim() || '#c2410c';
 
-    L.polyline(posts.map(function (p) { return [p.lat, p.lng]; }),
+    L.polyline(points.map(function (p) { return [p.lat, p.lng]; }),
       { color: accent, weight: 2, opacity: 0.5, dashArray: '6 6' }).addTo(map);
 
+    points.forEach(function (p) {
+      if (p.main) { return; }
+      L.circleMarker([p.lat, p.lng], {
+        radius: 3, color: accent, weight: 1, opacity: 0.6, fillColor: accent, fillOpacity: 0.4
+      }).addTo(map).bindTooltip(p.name);
+    });
+
     var markers = {};
-    posts.forEach(function (p, i) {
+    mains.forEach(function (p, i) {
       markers[p.slug] = L.circleMarker([p.lat, p.lng], {
         radius: 6, color: accent, weight: 2, fillColor: accent, fillOpacity: 0.5
       }).addTo(map).bindPopup(
         '<strong><a href="' + p.url + '">' + p.title + '</a></strong><br />' +
-        (i + 1) + '/' + posts.length + ' &middot; ' + p.date
+        (i + 1) + '/' + mains.length + ' &middot; ' + p.date
       );
     });
 
@@ -39,7 +52,7 @@
       map.setView(markers[hash].getLatLng(), 7);
       markers[hash].openPopup();
     } else {
-      map.fitBounds(posts.map(function (p) { return [p.lat, p.lng]; }), { padding: [30, 30] });
+      map.fitBounds(points.map(function (p) { return [p.lat, p.lng]; }), { padding: [30, 30] });
     }
   })();
 </script>

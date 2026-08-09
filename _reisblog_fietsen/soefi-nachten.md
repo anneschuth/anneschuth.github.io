@@ -10,6 +10,13 @@ wp_id: 49
 category_label: onderweg
 lat: 31.5497222
 lng: 74.3436111
+route:
+  - name: "Lahore"
+    lat: 31.5497
+    lng: 74.3436
+  - name: "Islamabad"
+    lat: 33.6844
+    lng: 73.0479
 ---
 
 <p>Hallo!</p>

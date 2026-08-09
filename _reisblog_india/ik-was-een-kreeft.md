@@ -8,6 +8,16 @@ author: Anne
 location: "Anjuna (Goa)"
 lat: 15.573
 lng: 73.74
+route:
+  - name: "Elephanta Island"
+    lat: 18.9633
+    lng: 72.9315
+  - name: "Thivim"
+    lat: 15.601
+    lng: 73.802
+  - name: "Vagator"
+    lat: 15.5989
+    lng: 73.7444
 ---
 
 <p>Dag mensen!</p>
