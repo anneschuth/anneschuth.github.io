@@ -22,6 +22,7 @@
   --button-bg: transparent;
   --button-hover: #ece7db;
   --accent-color: #c2410c;
+  --route-alt-color: #3d6f9e;
   --selection-bg: rgba(194, 65, 12, 0.18);
 }
 
@@ -45,6 +46,7 @@
   --button-bg: transparent;
   --button-hover: #1a1a1c;
   --accent-color: #ff7a45;
+  --route-alt-color: #7fb2e5;
   --selection-bg: rgba(255, 122, 69, 0.22);
 }
 
@@ -1622,6 +1624,26 @@ mark {
 [data-theme="dark"] #reisblog-map .leaflet-layer,
 [data-theme="dark"] #reisblog-map .leaflet-control-zoom,
 [data-theme="dark"] #reisblog-map .leaflet-control-attribution {
+  filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
+}
+
+#reisblog-postmap {
+  height: 230px;
+  margin: 0.75em 0 0.35em;
+  border: 1px solid var(--border-strong);
+  background: var(--code-bg);
+  z-index: 0;
+  cursor: pointer;
+}
+
+.reisblog-postmap-caption {
+  margin: 0 0 1.5em;
+  font-size: 0.8em;
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] #reisblog-postmap .leaflet-layer,
+[data-theme="dark"] #reisblog-postmap .leaflet-control-attribution {
   filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
 }
 
