@@ -27,4 +27,3 @@ route:
 <p>Morgenochtend ga ik met de bus naar Mapusa-Panaji-Margao-Benaulim waar ik vervolgens waarschijnlijk een paar dagen zal blijven. En als het me bevalt in Panaji (hoofdstad van Goa) dan blijf ik daar eerst een nachtje.</p>
 <p>Bedankt voor al jullie mailtjes, en sorry dat ik ze niet allemaal beantwoord..., heb geen zin om de hele dag hier rond te hangen!</p>
 <p>Groetjes, Anne</p>
-<p>Ps: bekijk hier mijn route</p>
