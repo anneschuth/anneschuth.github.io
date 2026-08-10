@@ -27,4 +27,3 @@ Na die dag begon het eigenlijk allemaal pas. De kleine heuveltjes begonnen grote
 <p>Dat was het voor nu!</p>
 <p>Groetjes,<br />
 Anne</p>
-<p>Zie mijn fotoboek voor een paar foto&#8217;s</p>

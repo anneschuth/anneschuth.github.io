@@ -30,7 +30,6 @@ Toen het na een uur echt druk begon te worden vertrokken we naar de Blauwe Moske
 <p align="left">Net even gekeken naar een goedkoper bed, voor als WF weg is, een hele mooie gevonden op het dak van een hostel met uitzicht over de Aya Sofia. Vanavond gaan we het nachtleven van Istanbul verkennen en om 12 uur mijn verjaardag vieren!  Morgenmiddag vliegt WF naar huis en blijf ik hier. Nog een paar dagen Istanbul en naar de zuidkust van Turkije. Die ga ik volgen tot Alanya waar Laura en een vriendin mij 16 oktober komen bezoeken! Ik kan dus wat rustiger aan gaan doen; wat minder fietsen en wat langer op een plek blijven.</p>
 <p align="left">Groetjes,<br />
 Anne</p>
-<p align="left">Er staan weer wat meer foto&#8217;s op mijn fotoboek.</p>
 
 <div class="reisblog-comments">
 <h2>Reacties (13)</h2>

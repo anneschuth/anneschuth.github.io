@@ -29,7 +29,6 @@ In de regen miste ik een treinrails en viel, dat deed even pijn, maar wonder bov
 <p>Vanochtend Sofia in gereden, en wat rond gereden. We blijven hier niet lang, gaan zo weer door, richting de Turkse (misschien eerst nog Griekse) grens. Op die manier hebben we wat dagen over in Istanbul (iemand tips qua uitgaan en slapen?), en dat is wat we willen! Tot dan!</p>
 <p>Groetjes,<br />
 Anne</p>
-<p>Voor een paar nieuwe foto&#8217;s zie mijn fotoboek</p>
 
 <div class="reisblog-voetnoten">
 <p id="noot-1"><a href="#noot-1-ref">1.</a> Archiefnoot (2026): &#8216;zigeuners&#8217; schreef ik in 2007 op; tegenwoordig zeg je Roma.</p>
