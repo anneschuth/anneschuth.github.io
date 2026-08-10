@@ -5,7 +5,7 @@ lang: nl
 title: "Malaria: negative, positive, negative?"
 date: 2008-02-02
 date_display: 2 februari 2008
-author: Wout
+author: Anne
 wp_id: 51
 category_label: onderweg
 lat: 15.3406229140
