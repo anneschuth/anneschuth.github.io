@@ -29,4 +29,3 @@ route:
 <p>Ik ben nu al een uur aan het tikken en zal mezelf en jullie dus maar niet langer ophouden.</p>
 <p>Groetjes,<br />
 Anne</p>
-<p>zie hier mijn route</p>

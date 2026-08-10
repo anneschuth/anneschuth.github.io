@@ -36,4 +36,3 @@ route:
 <p>Afgelopen week heb ik de datum van m'n retourvlucht naar Nederland vastgelegd. Op vrijdag 13 augustus 2004, om 06:45 Nederlandse tijd land ik in Amsterdam.</p>
 <p>Goed, dat was het weer, m'n volgende mailtje komt waarschijnlijk uit Gaya.</p>
 <p>Groet,<br />Anne</p>
-<p>PS: Zie hier mijn actuele route en hier de website met foto's en oudere verslagen (met dank aan Wout!)</p>

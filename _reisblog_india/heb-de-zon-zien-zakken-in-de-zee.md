@@ -23,4 +23,3 @@ route:
 <p>Ik ga er weer vandoor.</p>
 <p>Groetjes,<br />
 Anne</p>
-<p>Klik hier voor mijn route</p>
