@@ -2,44 +2,54 @@
   <div class="wrapper">
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}" aria-label="{{ site.title | escape }}">anneschuth</a>
 
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Site navigation">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-      <label for="nav-trigger">
-        <span class="menu-icon">
-          <svg viewBox="0 0 18 15" width="18px" height="15px">
-            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-          </svg>
-        </span>
+      <label for="nav-trigger" class="nav-toggle" aria-label="Menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
       </label>
+      <label for="nav-trigger" class="nav-backdrop" aria-hidden="true"></label>
 
       <div class="trigger">
-        <a class="page-link" href="{{ "/about/" | relative_url }}">About</a>
-        <a class="page-link" href="{{ "/cv/" | relative_url }}">CV</a>
-        <a class="page-link" href="{{ "/" | relative_url }}">Writing</a>
-        <div class="nav-dropdown">
-          <a class="page-link dropdown-toggle" href="{{ "/publications/" | relative_url }}">Research <svg class="dropdown-arrow" viewBox="0 0 10 6" width="10" height="6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-          <div class="dropdown-menu">
-            <a href="{{ "/publications/" | relative_url }}">Publications</a>
-            <a href="{{ "/talks/" | relative_url }}">Talks</a>
-            <a href="{{ "/thesis/" | relative_url }}">Thesis</a>
-            <a href="{{ "/teaching/" | relative_url }}">Teaching</a>
-          </div>
-        </div>
-        <a class="page-link" href="{{ "/software/" | relative_url }}">Software</a>
-        <div class="nav-dropdown">
-          <a class="page-link dropdown-toggle" href="{{ "/reisblog/" | relative_url }}">Reizen <svg class="dropdown-arrow" viewBox="0 0 10 6" width="10" height="6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-          <div class="dropdown-menu">
-            <a href="{{ "/reisblog/fietsen/" | relative_url }}">Fietsen &#8217;07&#8211;&#8217;08</a>
-            <a href="{{ "/reisblog/india/" | relative_url }}">India &#8217;03&#8211;&#8217;04</a>
-          </div>
-        </div>
-        <div class="nav-dropdown">
-          <a class="page-link dropdown-toggle" href="{{ "/activities/" | relative_url }}">More <svg class="dropdown-arrow" viewBox="0 0 10 6" width="10" height="6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-          <div class="dropdown-menu">
-            <a href="{{ "/activities/" | relative_url }}">Activities</a>
-            <a href="{{ "/press/" | relative_url }}">Press</a>
-          </div>
-        </div>
+        {%- for item in site.data.navigation -%}
+          {%- comment -%} Is this item (or one of its children) the current page? {%- endcomment -%}
+          {%- assign item_exact = false -%}
+          {%- assign item_active = false -%}
+          {%- if page.url == item.url -%}
+            {%- assign item_exact = true -%}
+            {%- assign item_active = true -%}
+          {%- elsif item.url == "/" -%}
+            {%- if page.layout == "post" or page.url contains "/page" -%}
+              {%- assign item_active = true -%}
+            {%- endif -%}
+          {%- endif -%}
+          {%- if item.children -%}
+            {%- for child in item.children -%}
+              {%- if child.url != "/" and page.url contains child.url -%}
+                {%- assign item_active = true -%}
+              {%- endif -%}
+            {%- endfor -%}
+
+            <div class="nav-dropdown">
+              <a class="page-link dropdown-toggle{% if item_active %} active{% endif %}" href="{{ item.url | relative_url }}"{% if item_exact %} aria-current="page"{% elsif item_active %} aria-current="true"{% endif %}>{{ item.title }} <svg class="dropdown-arrow" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <span class="nav-group-label">{{ item.title | downcase }}</span>
+              <div class="dropdown-menu">
+                {%- for child in item.children -%}
+                  {%- assign child_active = false -%}
+                  {%- if page.url == child.url -%}
+                    {%- assign child_active = true -%}
+                  {%- elsif child.url != item.url and child.url != "/" and page.url contains child.url -%}
+                    {%- assign child_active = true -%}
+                  {%- endif -%}
+                  <a{% if child_active %} class="active" aria-current="page"{% endif %} href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                {%- endfor -%}
+              </div>
+            </div>
+          {%- else -%}
+            <a class="page-link{% if item_active %} active{% endif %}"{% if item_exact %} aria-current="page"{% elsif item_active %} aria-current="true"{% endif %} href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {%- endif -%}
+        {%- endfor -%}
       </div>
     </nav>
   </div>

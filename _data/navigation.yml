@@ -1,0 +1,37 @@
+# Site navigation. Rendered by _includes/header.html for both the desktop
+# nav (dropdowns) and the mobile panel (grouped list).
+- title: About
+  url: /about/
+- title: CV
+  url: /cv/
+- title: Writing
+  url: /
+- title: Software
+  url: /software/
+- title: Research
+  url: /publications/
+  children:
+    - title: Publications
+      url: /publications/
+    - title: Talks
+      url: /talks/
+    - title: Thesis
+      url: /thesis/
+    - title: Teaching
+      url: /teaching/
+- title: Reizen
+  url: /reisblog/
+  children:
+    - title: Reisarchief
+      url: /reisblog/
+    - title: "Fietsen ’07–’08"
+      url: /reisblog/fietsen/
+    - title: "India ’03–’04"
+      url: /reisblog/india/
+- title: More
+  url: /activities/
+  children:
+    - title: Activities
+      url: /activities/
+    - title: Press
+      url: /press/
