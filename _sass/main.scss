@@ -24,6 +24,9 @@
   --accent-color: #c2410c;
   --route-alt-color: #3d6f9e;
   --selection-bg: rgba(194, 65, 12, 0.18);
+  --nav-backdrop: rgba(43, 42, 38, 0.4);
+  --nav-shadow: 0 16px 32px rgba(43, 42, 38, 0.16);
+  --dropdown-shadow: 0 8px 20px rgba(43, 42, 38, 0.1);
 }
 
 [data-theme="dark"] {
@@ -48,6 +51,9 @@
   --accent-color: #ff7a45;
   --route-alt-color: #7fb2e5;
   --selection-bg: rgba(255, 122, 69, 0.22);
+  --nav-backdrop: rgba(0, 0, 0, 0.6);
+  --nav-shadow: 0 16px 32px rgba(0, 0, 0, 0.55);
+  --dropdown-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
 }
 
 ::selection {
@@ -161,14 +167,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-nav {
   border: none !important;
-  background-color: var(--header-bg);
+  background-color: transparent;
   transition: $theme-transition;
+
+  // The checkbox that drives the mobile panel; never visible itself.
+  .nav-trigger {
+    display: none;
+  }
 
   .page-link {
     color: var(--text-color);
     font-weight: 400;
     font-size: 0.85rem;
     position: relative;
+    text-decoration: none;
     transition: color 0.15s ease;
 
     &::before {
@@ -195,144 +207,356 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 1;
       }
     }
-  }
 
-  .menu-icon {
-    color: var(--text-color);
-    transition: $theme-transition;
-  }
+    &:focus-visible {
+      outline: 1px solid var(--link-color);
+      outline-offset: 3px;
+    }
 
-  .trigger {
-    background-color: var(--header-bg);
-    border: 1px solid var(--border-color);
-    transition: $theme-transition;
+    // Current page/section: show the brackets, terminal-prompt style.
+    &.active {
+      color: var(--link-color);
+
+      &::before, &::after {
+        opacity: 0.6;
+      }
+    }
   }
 }
 
-.trigger {
-  border: none !important;
+// ============================================
+// Navigation: desktop (> 768px)
+// ============================================
+
+@media screen and (min-width: 769px) {
+  // Hamburger + backdrop are mobile-only
+  .site-nav label.nav-toggle,
+  .site-nav label.nav-backdrop,
+  .site-nav .nav-group-label {
+    display: none;
+  }
+
+  .nav-dropdown {
+    position: relative;
+    display: inline-block;
+
+    .dropdown-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .dropdown-arrow {
+      transition: transform 0.2s ease;
+      opacity: 0.6;
+      flex-shrink: 0;
+    }
+
+    // Invisible bridge across the gap between trigger and menu, so the
+    // dropdown doesn't close while the cursor travels down to it.
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      height: 0.6rem;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: calc(100% + 0.5rem);
+      left: -1rem;
+      min-width: 176px;
+      background: var(--header-bg);
+      border: 1px solid var(--border-strong);
+      border-radius: 0;
+      padding: 0.3rem 0;
+      box-shadow: var(--dropdown-shadow);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(4px);
+      transition: opacity 0.15s ease, visibility 0.15s ease, transform 0.15s ease;
+      z-index: 100;
+
+      a {
+        display: block;
+        padding: 0.45rem 1rem;
+        font-size: 0.85rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--text-color);
+        text-decoration: none;
+        transition: background-color 0.15s ease, color 0.15s ease;
+        white-space: nowrap;
+
+        &::before {
+          content: "> ";
+          color: var(--text-muted);
+          opacity: 0;
+          transition: opacity 0.15s ease;
+        }
+
+        &:hover {
+          background-color: var(--button-hover);
+          color: var(--link-color);
+
+          &::before {
+            opacity: 1;
+            color: var(--link-color);
+          }
+        }
+
+        &:visited {
+          color: var(--text-color);
+        }
+
+        &:visited:hover {
+          color: var(--link-color);
+        }
+
+        &.active {
+          color: var(--link-color);
+
+          &::before {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    // Last dropdown ("More") sits at the right edge: align right so the
+    // menu never overflows the viewport.
+    &:last-child .dropdown-menu {
+      left: auto;
+      right: -0.5rem;
+    }
+
+    // Open on hover and on keyboard focus.
+    &:hover,
+    &:focus-within {
+      .dropdown-arrow {
+        transform: rotate(180deg);
+        opacity: 1;
+      }
+
+      .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+    }
+  }
 }
 
 // ============================================
-// Navigation Dropdowns
+// Navigation: mobile (<= 768px)
+// Full-width panel below the header instead of Minima's floating box.
 // ============================================
 
-.nav-dropdown {
-  position: relative;
-  display: inline-block;
-
-  .dropdown-toggle {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.25rem;
+@media screen and (max-width: 768px) {
+  .site-header {
+    position: relative;
   }
 
-  .dropdown-arrow {
-    transition: transform 0.2s ease;
-    opacity: 0.6;
-    flex-shrink: 0;
-  }
-
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    min-width: 160px;
-    background: var(--header-bg);
-    border: 1px solid var(--border-strong);
+  // Undo Minima's mobile treatment (absolute box, border, right-aligned)
+  .site-nav {
+    position: static;
+    float: right;
+    background-color: transparent;
+    border: none;
     border-radius: 0;
-    padding: 0.3rem 0;
-    box-shadow: none;
+    text-align: left;
+  }
+
+  // --- Hamburger toggle -------------------------------------------
+  .site-nav label.nav-toggle {
+    position: relative;
+    z-index: 1300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    float: none;
+    width: 48px;
+    height: 55px;
+    margin: 0 -14px 0 0; // optical alignment with the wrapper edge
+    cursor: pointer;
+  }
+
+  .nav-toggle-bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--text-color);
+    transition: transform 0.22s ease, opacity 0.15s ease;
+  }
+
+  .nav-trigger:checked ~ .nav-toggle {
+    .nav-toggle-bar:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    .nav-toggle-bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .nav-toggle-bar:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+  }
+
+  // --- Backdrop: dims the page, tap to close ----------------------
+  .site-nav label.nav-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1100;
+    display: block;
+    float: none;
+    width: auto;
+    height: auto;
+    background: var(--nav-backdrop);
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.15s ease, visibility 0.15s ease, transform 0.15s ease;
-    transform: translateX(-50%) translateY(4px);
-    z-index: 100;
-    margin-top: 0.25rem;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+  }
+
+  .nav-trigger:checked ~ .nav-backdrop {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  // --- Panel -------------------------------------------------------
+  // Horizontal padding matches the page wrapper so menu text lines up
+  // with the content below it.
+  .site-nav .trigger {
+    --nav-pad: 30px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1200;
+    clear: none;
+    background: var(--header-bg);
+    border-bottom: 1px solid var(--border-strong);
+    box-shadow: var(--nav-shadow);
+    padding: 0.5rem 0 1.1rem;
+    max-height: calc(100vh - 60px);
+    max-height: calc(100dvh - 60px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .site-nav input ~ .trigger {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+  }
+
+  .site-nav input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 1.1rem;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  // Keep the page from scrolling underneath the open menu.
+  body:has(.nav-trigger:checked) {
+    overflow: hidden;
+  }
+
+  // --- Links -------------------------------------------------------
+  .site-nav .page-link {
+    display: block;
+    margin: 0;
+    padding: 0.65rem var(--nav-pad);
+    font-size: 0.95rem;
+    line-height: 1.4;
+
+    // Bracket affordance is a hover effect; not useful on touch.
+    &::before, &::after {
+      display: none;
+    }
+
+    &.active {
+      color: var(--link-color);
+      box-shadow: inset 2px 0 0 var(--accent-color);
+    }
+  }
+
+  // --- Groups ------------------------------------------------------
+  // Sections get a muted "// label" header; children sit flush left
+  // underneath it, no fussy indentation.
+  .site-nav .nav-dropdown {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  // The desktop trigger link is redundant here: its destination is
+  // listed in the group itself.
+  .site-nav .dropdown-toggle {
+    display: none;
+  }
+
+  .nav-group-label {
+    display: block;
+    padding: 0 var(--nav-pad);
+    margin-bottom: 0.1rem;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+
+    &::before {
+      content: "// ";
+      color: var(--accent-color);
+    }
+  }
+
+  .site-nav .dropdown-menu {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    background: transparent;
 
     a {
       display: block;
-      padding: 0.45rem 1rem;
+      padding: 0.55rem var(--nav-pad);
       font-size: 0.9rem;
-      font-weight: 500;
+      line-height: 1.4;
       color: var(--text-color);
       text-decoration: none;
-      transition: background-color 0.15s ease, color 0.15s ease;
-      white-space: nowrap;
-
-      &:hover {
-        background-color: var(--button-bg);
-        color: var(--link-color);
-      }
 
       &:visited {
         color: var(--text-color);
       }
-    }
-  }
 
-  &:hover {
-    .dropdown-arrow {
-      transform: rotate(180deg);
-      opacity: 1;
-    }
+      &:hover {
+        color: var(--link-color);
+      }
 
-    .dropdown-menu {
-      opacity: 1;
-      visibility: visible;
-      transform: translateX(-50%) translateY(0);
+      &.active {
+        color: var(--link-color);
+        box-shadow: inset 2px 0 0 var(--accent-color);
+      }
     }
   }
 }
 
-// Mobile: flatten dropdowns into the hamburger menu
+// Narrow phones: match Minima's tighter wrapper padding.
 @media screen and (max-width: 600px) {
-  // Match Minima's mobile nav styling for dropdown containers
-  .site-nav .nav-dropdown {
-    display: block;
-
-    .dropdown-toggle {
-      // Match Minima's .page-link mobile styling exactly
-      display: block;
-      padding: 5px 10px;
-      margin-left: 20px;
-      line-height: 1.5;
-    }
-
-    .dropdown-arrow {
-      display: none;
-    }
-
-    .dropdown-menu {
-      position: static;
-      transform: none;
-      opacity: 1;
-      visibility: visible;
-      border: none;
-      box-shadow: none;
-      padding: 0;
-      margin: 0;
-      min-width: 0;
-      background: transparent;
-
-      a {
-        display: block;
-        padding: 3px 10px 3px 40px;
-        font-size: 0.85rem;
-        color: var(--text-muted);
-        line-height: 1.6;
-
-        &:hover {
-          background-color: transparent;
-          color: var(--link-color);
-        }
-
-        &:visited {
-          color: var(--text-muted);
-        }
-      }
-    }
+  .site-nav .trigger {
+    --nav-pad: 15px;
   }
 }
 
@@ -775,7 +999,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media screen and (max-width: 600px) {
+// Below the nav breakpoint the hamburger occupies the top-right corner,
+// so the utility buttons move to the bottom.
+@media screen and (max-width: 768px) {
   .theme-toggle {
     top: auto;
     bottom: 16px;
