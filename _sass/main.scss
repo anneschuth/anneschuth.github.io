@@ -452,6 +452,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     opacity: 0;
     visibility: hidden;
+    pointer-events: none;
     transform: translateY(-6px);
     transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
   }
@@ -461,6 +462,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 1.1rem;
     opacity: 1;
     visibility: visible;
+    pointer-events: auto;
     transform: translateY(0);
   }
 
@@ -517,11 +519,12 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
+  // NOTE: no opacity/visibility overrides here — visibility is inherited,
+  // and re-enabling it on children would leave invisible-but-clickable
+  // links floating over the page while the panel is closed.
   .site-nav .dropdown-menu {
     position: static;
     transform: none;
-    opacity: 1;
-    visibility: visible;
     border: none;
     box-shadow: none;
     padding: 0;
