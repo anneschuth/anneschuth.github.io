@@ -24,8 +24,8 @@ Cambridge UK and Yandex in Moscow. My [publications](/publications/) have receiv
 For a full overview of my appointments, education, students, talks, publications,
 and activities, see my [CV](/cv/).
 
-<a class="cv-preview" href="/assets/cv-anne-schuth.pdf">
-  <img src="/assets/cv-thumbnail.png" alt="Eerste pagina van het CV van Anne Schuth" />
+<a class="cv-preview" href="/assets/cv-anne-schuth.pdf?v={{ site.time | date: '%s' }}">
+  <img src="/assets/cv-thumbnail.png?v={{ site.time | date: '%s' }}" alt="Eerste pagina van het CV van Anne Schuth" />
 </a>
 
 ## Archive
