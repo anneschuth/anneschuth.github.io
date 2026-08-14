@@ -15,7 +15,7 @@ permalink: /cv/
     &middot; <a href="https://scholar.google.com/citations?user=Y3ahb_wAAAAJ&hl=en">Google Scholar</a>
   </p>
   <p class="cv-pdf-link no-print">
-    <a href="/assets/cv-anne-schuth.pdf"><i class="fa fa-file-pdf-o"></i> Download as PDF</a>
+    <a href="/assets/cv-anne-schuth.pdf?v={{ site.time | date: '%s' }}"><i class="fa fa-file-pdf-o"></i> Download as PDF</a>
   </p>
 </div>
 
