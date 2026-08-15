@@ -40,5 +40,5 @@ route:
 <p>PS: ik heb niet alle persoonlijke mailtjes gelezen, het internet is te traag. Vanaf 24 december ga ik die weer beantwoorden, sorry.</p>
 
 <div class="reisblog-voetnoten">
-<p id="noot-1"><a href="#noot-1-ref">1.</a> Archiefnoot (2026): zo schreef ik dat op in 2003. De oorspronkelijke bewoners van de Andamanen &mdash; onder andere de Jarawa en de Onge &mdash; noem je uiteraard geen &#8216;inboorlingen&#8217; of &#8216;negers&#8217;; hun voorouders bereikten de eilanden tienduizenden jaren geleden als een van de vroegste migraties uit Afrika.</p>
+<p id="noot-1"><a href="#noot-1-ref">1.</a> Archiefnoot (2026): zo schreef ik dat op in 2003. De oorspronkelijke bewoners van de Andamanen &mdash; onder andere de <a href="https://en.wikipedia.org/wiki/Jarawas_(Andaman_Islands)">Jarawa</a> en de Onge &mdash; noem je uiteraard geen &#8216;inboorlingen&#8217; of &#8216;negers&#8217;; hun voorouders bereikten de eilanden tienduizenden jaren geleden als een van de vroegste migraties uit Afrika.</p>
 </div>
