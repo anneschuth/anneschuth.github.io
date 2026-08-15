@@ -8,6 +8,10 @@ author: Anne
 location: "Calcutta (Kolkata)"
 lat: 22.5726
 lng: 88.3639
+route:
+  - name: "Neil Island"
+    lat: 11.8311
+    lng: 93.029
 ---
 
 <p>Dag mensen!</p>

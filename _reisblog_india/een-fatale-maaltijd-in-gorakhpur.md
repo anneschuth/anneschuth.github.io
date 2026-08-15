@@ -9,6 +9,9 @@ location: "Varanasi, India"
 lat: 25.3176
 lng: 82.9739
 route:
+  - name: "Patan"
+    lat: 27.6644
+    lng: 85.3188
   - name: "Sunauli"
     lat: 27.505
     lng: 83.462
