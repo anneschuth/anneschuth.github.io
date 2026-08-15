@@ -96,7 +96,7 @@ Hier werkt een ontzettend vriendelijke, goed Engels sprekende en<br />
 behulpzame man, Nasser, die de beste restaurants liet zien en kaartjes<br />
 uittekent als je ergens heen wilt. Hier kwam ik ook Dmitrij tegen, een<br />
 Engelse jongen die ook in mijn hotel zat. De volgende ochtend gingen<br />
-we samen met het openbaar vervoer (als uitdaging) naar Kandovan. Een<br />
+we samen met het openbaar vervoer (als uitdaging) naar <a href="https://en.wikipedia.org/wiki/Kandovan">Kandovan</a>. Een<br />
 dorpje waar de mensen in uit rotsen gehouwen huizen wonen, een bizar<br />
 gezicht!</p>
 <figure class="reisblog-photo"><img src="/assets/reisblog/kandovan.jpg" alt="Uit rotsen gehouwen huizen in Kandovan" loading="lazy" /><figcaption>Kandovan: wonen in de rotsen</figcaption></figure>
