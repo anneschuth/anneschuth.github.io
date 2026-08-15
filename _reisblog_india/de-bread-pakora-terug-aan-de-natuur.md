@@ -12,6 +12,9 @@ route:
   - name: "Manali"
     lat: 32.2432
     lng: 77.1892
+  - name: "Kunzum La"
+    lat: 32.4067
+    lng: 77.642
   - name: "Kaza"
     lat: 32.2274
     lng: 78.0722
