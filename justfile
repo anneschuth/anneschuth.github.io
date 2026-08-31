@@ -17,7 +17,8 @@ build:
 check:
     uv run pre-commit run --all-files
 
-# Regenerate the CV PDF and thumbnail
+# Render the CV PDF and thumbnail into assets/ for a local preview. Both files
+# are gitignored; the ones on the live site are built by .github/workflows/deploy.yml.
 cv:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -29,9 +30,11 @@ cv:
     fi
     uv run python generate_cv_pdf.py
 
-# Sync citation counts from Google Scholar
+# Full Google Scholar sync, for local use: citation counts plus PDF hunting and
+# new entries for publications missing locally. The monthly CI sync
+# (.github/workflows/scholar.yml) only refreshes citation counts.
 scholar:
-    uv run pre-commit run --hook-stage manual update-citations
+    uv run python fetch_scholar_data.py
 
 # Regenerate the Wardley map image
 wardley:

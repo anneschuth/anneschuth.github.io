@@ -2,7 +2,8 @@
 
 Deployed at <https://anneschuth.nl/>
 
-The site is a Jekyll project, served by GitHub Pages natively from `main`.
+The site is a Jekyll project. GitHub Actions builds it and deploys it to GitHub
+Pages on every push to `main` (`.github/workflows/deploy.yml`).
 Alongside it live a few Python tools: CV PDF generation, a Google Scholar
 citation sync, link and frontmatter checkers, and the Wardley map renderers.
 
@@ -46,16 +47,31 @@ uv run pre-commit install
 
 ## Citation sync
 
-Citation counts come from Google Scholar and are refreshed on demand, not on
-every commit (the scrape hits the network and rate-limits):
+Citation counts come from Google Scholar. `.github/workflows/scholar.yml`
+refreshes them on the first day of every month and opens a pull request with
+the diff; it never pushes to `main`. It runs `fetch_scholar_data.py
+--citations-only`, which does a single request to Scholar and touches only
+`_data/scholar_stats.yml` and the `citations` / `scholar_url` fields of
+existing publications. Trigger it by hand with `gh workflow run scholar.yml`.
+
+The full script also hunts for PDFs and creates entries for Scholar
+publications that are missing locally. That mode is for local use, since its
+output needs a look before it lands:
 
 ```sh
-just scholar      # or: uv run pre-commit run --hook-stage manual update-citations
+just scholar      # or: uv run python fetch_scholar_data.py
 ```
 
-The CV PDF at `assets/cv-anne-schuth.pdf` regenerates automatically via the
-`cv.yml` workflow when CV inputs change. To rebuild it by hand:
+## CV PDF
+
+The CV at `/cv/` is also served as `assets/cv-anne-schuth.pdf`, with a PNG
+thumbnail on the about page. Neither file is in git. `deploy.yml` renders both
+with WeasyPrint into the built site on every deployment, and `ci.yml` renders
+them on every pull request as a smoke test (downloadable there as the
+`cv-anne-schuth` artifact). To preview locally:
 
 ```sh
 just cv           # or: uv run python generate_cv_pdf.py
 ```
+
+This writes into `assets/`, where both files are gitignored.

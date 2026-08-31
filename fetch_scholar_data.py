@@ -3,6 +3,7 @@
 Fetch citation data from Google Scholar profile and update publications.
 """
 
+import argparse
 import requests
 import re
 import time
@@ -665,8 +666,25 @@ def save_profile_stats(stats):
         print(f"Error saving profile stats: {e}")
         return False
 
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Sync citation counts (and optionally PDFs and new entries) from Google Scholar."
+    )
+    parser.add_argument(
+        "--citations-only",
+        action="store_true",
+        help=(
+            "only refresh _data/scholar_stats.yml and the citations/scholar_url fields of "
+            "existing publications; do not download PDFs or create new publication files. "
+            "One request to Scholar. This is what .github/workflows/scholar.yml runs."
+        ),
+    )
+    return parser.parse_args()
+
+
 def main():
     """Main function."""
+    args = parse_args()
     print("🎓 GOOGLE SCHOLAR DATA FETCHER")
     print("=" * 50)
 
@@ -747,7 +765,7 @@ def main():
                     content = f.read()
 
                 # Check if it already has a PDF
-                if 'pdf:' not in content:
+                if 'pdf:' not in content and not args.citations_only:
                     print("  📄 No PDF found, searching for one...")
 
                     # Fetch detailed page to look for PDF
@@ -811,6 +829,12 @@ def main():
             matched_count += 1
         else:
             print("  ⚠️  No good match found")
+
+    if args.citations_only:
+        print("\n🎉 COMPLETED (citations only)")
+        print(f"Matched: {matched_count}/{len(publication_files)}")
+        print(f"Updated: {updated_count}")
+        return 0
 
     # Second pass: find missing publications and create them
     print("\n🔍 FINDING MISSING PUBLICATIONS")

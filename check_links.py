@@ -21,6 +21,16 @@ from urllib.parse import unquote, urlparse
 REPO = Path(__file__).resolve().parent
 SITE = REPO / "_site"
 
+# Files that exist on the deployed site but not in a local `jekyll build`: the
+# CV PDF and its thumbnail are rendered by .github/workflows/deploy.yml straight
+# into _site/assets/ and are never committed (see CLAUDE.md, "CV PDF"). Links to
+# them are exempt from the _site/ lookup below; the deploy workflow itself fails
+# if either file is missing from the build output.
+DEPLOY_TIME_ASSETS = {
+    "/assets/cv-anne-schuth.pdf",
+    "/assets/cv-thumbnail.png",
+}
+
 LINK_PATTERNS = [
     r'\[([^\]]+)\]\((/[^)]+)\)',  # [text](/path)
     r'href="(/[^"]+)"',           # href="/path"
@@ -78,6 +88,8 @@ def _resolved_file(path_part):
 def check_internal_link(link):
     """True if the link resolves in the built site, fragments included."""
     parsed = urlparse(link)
+    if parsed.path in DEPLOY_TIME_ASSETS:
+        return True
     target = _resolved_file(parsed.path)
     if target is None:
         return False
