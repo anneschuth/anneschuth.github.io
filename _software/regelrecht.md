@@ -3,7 +3,7 @@ title: RegelRecht
 slug: regelrecht
 order: 3
 link: https://regelrecht.rijks.app
-repo: https://github.com/MinBZK/poc-machine-law
+repo: https://github.com/MinBZK/regelrecht
 summary: Dutch government exploration into machine-executable legislation; NRML rule format, execution engines, AI converter, simulation.
 publications:
   - hotting2026
@@ -24,5 +24,6 @@ The ecosystem includes NRML (Normalized Rule Model Language) as a JSON-based for
 execution engines in multiple programming languages, an AI-powered converter for existing analog law, a visual law
 editor, and simulation environments for testing legislative impact.
 
-Learn more at [regelrecht.rijks.app](https://regelrecht.rijks.app) or explore the source code
-[on GitHub](https://github.com/MinBZK/poc-machine-law).
+Learn more at [regelrecht.rijks.app](https://regelrecht.rijks.app). The engine and the encoded corpus live
+[on GitHub](https://github.com/MinBZK/regelrecht); the earlier Python proof of concept, which explored the same ideas
+under the name poc-machine-law, is [still available](https://github.com/MinBZK/poc-machine-law).
