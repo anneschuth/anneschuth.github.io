@@ -19,6 +19,24 @@ id in `.github/workflows/ci.yml`. No workflow token can satisfy that check, so
 a workflow that commits or pushes to `main` will always be rejected. Do not add
 one. Do not rename the `quality` job either; that blocks every merge.
 
+## Citation counts: a monthly Scholar sync that opens a PR
+
+`.github/workflows/scholar.yml` runs `fetch_scholar_data.py --citations-only`
+on the first of every month (and on `gh workflow run scholar.yml`), commits the
+result to the branch `scholar-sync`, opens or updates a pull request, and then
+dispatches `ci.yml` on that branch. The dispatch is there because a push made
+with `GITHUB_TOKEN` does not trigger `pull_request` workflows, and without a run
+of `quality` the PR could never be merged. The sync never pushes to `main`.
+
+In that mode the script does one request to Scholar and only refreshes
+`_data/scholar_stats.yml` plus the `citations` and `scholar_url` fields of
+existing publications. It does not create publication files or download PDFs;
+new publications are added by hand, in a PR. A run fails loudly when Scholar
+blocks the runner (no publications parsed), so if no sync PR has shown up for a
+while, look at the Actions tab rather than assuming the counts are current.
+`just scholar` runs the full script locally, including the PDF hunt and the
+creation of entries for publications missing locally.
+
 ## CV PDF: a build artifact, never a committed file
 
 `assets/cv-anne-schuth.pdf` and `assets/cv-thumbnail.png` are not in git and

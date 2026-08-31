@@ -11,7 +11,7 @@ cv = [
     "weasyprint==68.0",
     "pypdfium2==4.30.0",
 ]
-# Google Scholar sync: fetch_scholar_data.py
+# Google Scholar sync: fetch_scholar_data.py (scholar.yml and `just scholar`)
 scholar = [
     "requests",
     "beautifulsoup4",

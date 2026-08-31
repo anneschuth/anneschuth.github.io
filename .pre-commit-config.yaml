@@ -31,14 +31,6 @@ repos:
         pass_filenames: false
         stages: [pre-commit]
 
-      - id: update-citations
-        name: Update citation counts from Google Scholar
-        entry: uv run python fetch_scholar_data.py
-        language: system
-        pass_filenames: false
-        always_run: true
-        stages: [manual]
-
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.15.13
     hooks:

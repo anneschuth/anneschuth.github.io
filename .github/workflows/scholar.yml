@@ -1,0 +1,75 @@
+# Refreshes citation counts from Google Scholar once a month and opens a pull
+# request with the result. It never pushes to main (branch protection; see
+# CLAUDE.md, "Citation counts"). Run it by hand with:
+#
+#   gh workflow run scholar.yml
+name: Scholar sync
+
+on:
+  schedule:
+    - cron: "23 5 1 * *"  # first day of the month, 05:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write       # push the scholar-sync branch
+  pull-requests: write  # open or update the pull request
+  actions: write        # dispatch ci.yml on that branch, see the last step
+
+concurrency:
+  group: scholar-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version-file: .python-version
+
+      - name: Fetch citation counts from Google Scholar
+        # One request to Scholar. Exits non-zero when Scholar blocks the runner
+        # (no publications parsed), so a stale state is never silent.
+        run: |
+          uv sync --only-group scholar
+          uv run --no-sync python fetch_scholar_data.py --citations-only
+
+      - name: Open or update the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: scholar-sync
+        run: |
+          git add _data/scholar_stats.yml _publications
+          # The script always bumps last_updated in scholar_stats.yml. Only a
+          # change beyond that line is worth a pull request.
+          if [[ -z "$(git diff --cached -U0 | grep -E '^[+-][^+-]' | grep -v '^[+-]last_updated:')" ]]; then
+            echo "Citation counts unchanged; nothing to do."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git commit -m "Werk citatietellingen van Google Scholar bij"
+          git push --force origin "$BRANCH"
+
+          if [[ -z "$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')" ]]; then
+            gh pr create --head "$BRANCH" --base main \
+              --title "Werk citatietellingen van Google Scholar bij" \
+              --body "$(cat <<'BODY'
+          Maandelijkse sync van citatietellingen uit Google Scholar, aangemaakt door `.github/workflows/scholar.yml`.
+
+          Wijzigt alleen `_data/scholar_stats.yml` en de velden `citations` / `scholar_url` van bestaande publicaties. Nieuwe publicaties worden niet automatisch aangemaakt.
+
+          Het script koppelt op titel; controleer de diff op verkeerde matches en merge.
+          BODY
+          )"
+          fi
+
+          # A push made with GITHUB_TOKEN does not trigger pull_request
+          # workflows, so the required "quality" check would never run and the
+          # PR could not be merged. workflow_dispatch is exempt from that rule.
+          gh workflow run ci.yml --ref "$BRANCH"
