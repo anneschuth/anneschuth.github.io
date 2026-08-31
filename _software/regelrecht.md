@@ -5,6 +5,8 @@ order: 3
 link: https://regelrecht.rijks.app
 repo: https://github.com/MinBZK/poc-machine-law
 summary: Dutch government exploration into machine-executable legislation; NRML rule format, execution engines, AI converter, simulation.
+publications:
+  - hotting2026
 ---
 RegelRecht is an exploration by the Dutch Ministry of the Interior (Bureau Architectuur Digitale Overheid) into machine-executable
 legislation. The project investigates how we can achieve transparent, unambiguous, and consistent execution of laws -
