@@ -1,0 +1,47 @@
+# The one place that defines how the CV PDF is rendered on CI.
+#
+# Renders the already-built _site/cv/index.html to cv-anne-schuth.pdf plus a
+# PNG thumbnail by calling generate_cv_pdf.py. Used by:
+#   - deploy.yml: output-dir _site/assets, so both files ship with the site
+#   - ci.yml:     output-dir assets, as a smoke test uploaded as an artifact
+#
+# Expects `uv` to be set up and `jekyll build` to have run in this job.
+# See CLAUDE.md, "CV PDF: a build artifact, never a committed file".
+name: Render CV PDF
+description: Render the built /cv/ page to PDF and thumbnail with WeasyPrint
+
+inputs:
+  output-dir:
+    description: Directory, relative to the repo root, to write cv-anne-schuth.pdf and cv-thumbnail.png to
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Install WeasyPrint system libraries
+      shell: bash
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b \
+          libcairo2 libgdk-pixbuf-2.0-0 libffi-dev shared-mime-info
+
+    - name: Render PDF and thumbnail
+      shell: bash
+      env:
+        LANG: C.UTF-8
+        LC_ALL: C.UTF-8
+      run: |
+        uv sync --only-group cv
+        uv run --no-sync python generate_cv_pdf.py --no-build --output-dir "${{ inputs.output-dir }}"
+
+    - name: Verify both files exist and are non-empty
+      shell: bash
+      run: |
+        for f in cv-anne-schuth.pdf cv-thumbnail.png; do
+          if [[ ! -s "${{ inputs.output-dir }}/$f" ]]; then
+            echo "::error::${{ inputs.output-dir }}/$f is missing or empty"
+            exit 1
+          fi
+          ls -l "${{ inputs.output-dir }}/$f"
+        done

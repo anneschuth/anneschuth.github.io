@@ -11,6 +11,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # "quality" is the required status check in the branch protection of main.
+  # Keep the job id as is; renaming it blocks every merge.
   quality:
     runs-on: ubuntu-latest
     steps:
@@ -33,3 +35,22 @@ jobs:
 
       - name: Run pre-commit
         run: uv run pre-commit run --all-files --show-diff-on-failure
+
+      # The CV PDF is rendered at deploy time (deploy.yml) and never committed.
+      # Rendering it here as well means a PR that breaks the render fails this
+      # required check, instead of the deployment after merge. Reuses the
+      # _site/ that the jekyll-build pre-commit hook just produced.
+      - name: Render CV PDF
+        uses: ./.github/actions/render-cv-pdf
+        with:
+          output-dir: assets
+
+      - name: Upload CV PDF and thumbnail for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-anne-schuth
+          path: |
+            assets/cv-anne-schuth.pdf
+            assets/cv-thumbnail.png
+          if-no-files-found: error
+          retention-days: 14

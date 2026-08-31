@@ -6,7 +6,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [dependency-groups]
-# CV PDF generation: generate_cv_pdf.py + .github/workflows/cv.yml
+# CV PDF generation: generate_cv_pdf.py (deploy.yml, ci.yml and `just cv`)
 cv = [
     "weasyprint==68.0",
     "pypdfium2==4.30.0",

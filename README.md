@@ -2,7 +2,8 @@
 
 Deployed at <https://anneschuth.nl/>
 
-The site is a Jekyll project, served by GitHub Pages natively from `main`.
+The site is a Jekyll project. GitHub Actions builds it and deploys it to GitHub
+Pages on every push to `main` (`.github/workflows/deploy.yml`).
 Alongside it live a few Python tools: CV PDF generation, a Google Scholar
 citation sync, link and frontmatter checkers, and the Wardley map renderers.
 
@@ -53,9 +54,16 @@ every commit (the scrape hits the network and rate-limits):
 just scholar      # or: uv run pre-commit run --hook-stage manual update-citations
 ```
 
-The CV PDF at `assets/cv-anne-schuth.pdf` regenerates automatically via the
-`cv.yml` workflow when CV inputs change. To rebuild it by hand:
+## CV PDF
+
+The CV at `/cv/` is also served as `assets/cv-anne-schuth.pdf`, with a PNG
+thumbnail on the about page. Neither file is in git. `deploy.yml` renders both
+with WeasyPrint into the built site on every deployment, and `ci.yml` renders
+them on every pull request as a smoke test (downloadable there as the
+`cv-anne-schuth` artifact). To preview locally:
 
 ```sh
 just cv           # or: uv run python generate_cv_pdf.py
 ```
+
+This writes into `assets/`, where both files are gitignored.

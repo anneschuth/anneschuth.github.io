@@ -17,7 +17,8 @@ build:
 check:
     uv run pre-commit run --all-files
 
-# Regenerate the CV PDF and thumbnail
+# Render the CV PDF and thumbnail into assets/ for a local preview. Both files
+# are gitignored; the ones on the live site are built by .github/workflows/deploy.yml.
 cv:
     #!/usr/bin/env bash
     set -euo pipefail

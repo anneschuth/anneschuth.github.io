@@ -1,0 +1,73 @@
+# Builds the site and deploys it to GitHub Pages.
+#
+# GitHub Pages is configured to deploy from GitHub Actions, not from the main
+# branch, so this workflow is the only path to production. The CV PDF and its
+# thumbnail are rendered here, into the built site, and are never committed.
+# See CLAUDE.md, "Deployment" and "CV PDF".
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time. Never cancel a deployment that is in progress.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history: generate_cv_pdf.py derives SOURCE_DATE_EPOCH from
+          # the last commit touching CV inputs, which keeps the PDF reproducible.
+          fetch-depth: 0
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version-file: .ruby-version
+          bundler-cache: true
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version-file: .python-version
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
+        env:
+          JEKYLL_ENV: production
+
+      - name: Render CV PDF into the built site
+        uses: ./.github/actions/render-cv-pdf
+        with:
+          output-dir: _site/assets
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
