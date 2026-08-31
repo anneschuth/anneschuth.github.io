@@ -676,7 +676,7 @@ def parse_args():
         help=(
             "only refresh _data/scholar_stats.yml and the citations/scholar_url fields of "
             "existing publications; do not download PDFs or create new publication files. "
-            "One request to Scholar. This is what .github/workflows/scholar.yml runs."
+            "One request to Scholar."
         ),
     )
     return parser.parse_args()

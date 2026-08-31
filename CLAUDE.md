@@ -12,30 +12,32 @@ without being asked each time.
 GitHub Pages is configured to deploy from GitHub Actions, not from the `main`
 branch. `.github/workflows/deploy.yml` runs on every push to `main`: it builds
 the site with `JEKYLL_ENV=production`, renders the CV PDF into the build
-output, and deploys `_site/`. Nothing else deploys.
+output, and deploys `_site/`. Nothing else deploys. The build needs no GitHub
+API access: `_config.yml` pins `repository` and `baseurl: ""`, because
+jekyll-github-metadata (part of the `github-pages` gem) otherwise rewrites
+`baseurl` in production and guesses wrong without a token. `deploy.yml` checks
+the canonical URL of the built homepage after every build; keep that check.
 
 `main` is protected with the required status check `quality`, which is the job
 id in `.github/workflows/ci.yml`. No workflow token can satisfy that check, so
 a workflow that commits or pushes to `main` will always be rejected. Do not add
 one. Do not rename the `quality` job either; that blocks every merge.
 
-## Citation counts: a monthly Scholar sync that opens a PR
+## Citation counts: a manual Scholar sync, on purpose
 
-`.github/workflows/scholar.yml` runs `fetch_scholar_data.py --citations-only`
-on the first of every month (and on `gh workflow run scholar.yml`), commits the
-result to the branch `scholar-sync`, opens or updates a pull request, and then
-dispatches `ci.yml` on that branch. The dispatch is there because a push made
-with `GITHUB_TOKEN` does not trigger `pull_request` workflows, and without a run
-of `quality` the PR could never be merged. The sync never pushes to `main`.
+Citation counts on `/publications/` and the CV come from Google Scholar via
+`fetch_scholar_data.py`. Run `just scholar` locally, look at the diff, open a
+PR. `just scholar --citations-only` limits it to one request and to the
+`citations`/`scholar_url` fields plus `_data/scholar_stats.yml`; without the
+flag the script also hunts for PDFs and creates entries for publications that
+are missing locally, which needs a look before it lands.
 
-In that mode the script does one request to Scholar and only refreshes
-`_data/scholar_stats.yml` plus the `citations` and `scholar_url` fields of
-existing publications. It does not create publication files or download PDFs;
-new publications are added by hand, in a PR. A run fails loudly when Scholar
-blocks the runner (no publications parsed), so if no sync PR has shown up for a
-while, look at the Actions tab rather than assuming the counts are current.
-`just scholar` runs the full script locally, including the PDF hunt and the
-creation of entries for publications missing locally.
+There is no scheduled workflow for this, and one on GitHub-hosted runners
+cannot work: Scholar answers those IP ranges with HTTP 403 (verified on
+2026-08-31). Do not add a scheduled Scholar sync unless the data source changes
+to an API that allows it, such as OpenAlex or Semantic Scholar; in that case
+also reword the "According to Google Scholar" sentences on `/publications/`
+and in `cv.markdown`.
 
 ## CV PDF: a build artifact, never a committed file
 

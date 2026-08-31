@@ -3,8 +3,13 @@ email: anne.schuth@gmail.com
 description: >- #
   Anne Schuth has a PhD in Search and works on AI and Engineering for the Dutch Government
 domain: anneschuth.github.io
-baseurl: /
 url: https://anneschuth.nl
+# In JEKYLL_ENV=production (the deploy), jekyll-github-metadata (pulled in by
+# the github-pages gem) overrides baseurl when it is unset or "/", and without
+# GitHub API access it guesses wrong (/pages/anneschuth/). An explicit "" plus
+# the repository name keeps the build deterministic and offline.
+baseurl: ""
+repository: anneschuth/anneschuth.github.io
 github_username: anneschuth
 linkedin_username: anneschuth
 bluesky_username: anneschuth.nl

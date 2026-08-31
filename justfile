@@ -30,11 +30,11 @@ cv:
     fi
     uv run python generate_cv_pdf.py
 
-# Full Google Scholar sync, for local use: citation counts plus PDF hunting and
-# new entries for publications missing locally. The monthly CI sync
-# (.github/workflows/scholar.yml) only refreshes citation counts.
-scholar:
-    uv run python fetch_scholar_data.py
+# Sync citation counts from Google Scholar. Local only: Google answers GitHub
+# runners with HTTP 403. Review the diff, then open a PR. Pass --citations-only
+# to skip the PDF hunt and the creation of missing entries.
+scholar *ARGS:
+    uv run python fetch_scholar_data.py {{ARGS}}
 
 # Regenerate the Wardley map image
 wardley:

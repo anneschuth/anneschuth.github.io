@@ -47,20 +47,17 @@ uv run pre-commit install
 
 ## Citation sync
 
-Citation counts come from Google Scholar. `.github/workflows/scholar.yml`
-refreshes them on the first day of every month and opens a pull request with
-the diff; it never pushes to `main`. It runs `fetch_scholar_data.py
---citations-only`, which does a single request to Scholar and touches only
-`_data/scholar_stats.yml` and the `citations` / `scholar_url` fields of
-existing publications. Trigger it by hand with `gh workflow run scholar.yml`.
-
-The full script also hunts for PDFs and creates entries for Scholar
-publications that are missing locally. That mode is for local use, since its
-output needs a look before it lands:
+Citation counts come from Google Scholar and are refreshed by hand. Google
+answers GitHub-hosted runners with HTTP 403, so there is deliberately no
+scheduled workflow for this. Run the sync locally, check the diff, open a PR:
 
 ```sh
 just scholar      # or: uv run python fetch_scholar_data.py
 ```
+
+Add `--citations-only` to limit it to a single request and to citation counts;
+without it the script also hunts for PDFs and creates entries for publications
+that are missing locally.
 
 ## CV PDF
 
