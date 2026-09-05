@@ -62,7 +62,7 @@ Grew and supported the [AI Validation Team](https://minbzk.github.io/ai-validati
 at the Digital Society Department, NL Ministry of the Interior and Kingdom
 Relations (BZK). A team of about seven engineers, plus product and UX, focused on
 building software for AI validation, including the
-[Algorithm Management Toolkit](/software/#algorithm-management-toolkit-amt).
+[Algorithm Management Toolkit](/projects/#algorithm-management-toolkit-amt).
 
 ### Industry
 
@@ -127,7 +127,7 @@ could explore journalism.
 *Informatics Institute, University of Amsterdam, The Netherlands*<br>
 Research Topic: Online Learning to Rank for Information Retrieval. Studied how
 search engines can learn from their users to improve their results. Built the
-[Lerot](/software/#lerot-an-online-learning-to-rank-framework) framework.
+[Lerot](/projects/#lerot-an-online-learning-to-rank-framework) framework.
 Supervised by prof. dr. Maarten de Rijke and dr. Shimon Whiteson.
 
 **Software Engineer** (2010--2011)<br>
@@ -385,11 +385,11 @@ see [publications](/publications/) for the full list.
 
 ## Open Source
 
-{% assign sw = site.software | sort: "order" %}
-{% for project in sw %}{% if project.link %}{% assign href = project.link %}{% elsif project.repo %}{% assign href = project.repo %}{% else %}{% capture href %}/software/#{{ project.slug }}{% endcapture %}{% endif %}- [{{ project.title }}]({{ href }}) — {{ project.summary }}
+{% assign sw = site.projects | sort: "order" %}
+{% for project in sw %}{% if project.link %}{% assign href = project.link %}{% elsif project.repo %}{% assign href = project.repo %}{% else %}{% capture href %}/projects/#{{ project.slug }}{% endcapture %}{% endif %}- [{{ project.title }}]({{ href }}) — {{ project.summary }}
 {% endfor %}
 
-See [software](/software/) for the full descriptions and related work.
+See [projects](/projects/) for the full descriptions and related work.
 
 ## Languages
 

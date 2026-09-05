@@ -6,8 +6,8 @@
   url: /cv/
 - title: Writing
   url: /
-- title: Software
-  url: /software/
+- title: Projects
+  url: /projects/
 - title: Research
   url: /publications/
   children:

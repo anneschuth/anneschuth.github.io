@@ -31,7 +31,7 @@ header_pages:
   - publications.markdown
   - talks.markdown
   - activities.markdown
-  - software.markdown
+  - projects.markdown
   - teaching.markdown
   - students.markdown
   - thesis.markdown
@@ -60,7 +60,7 @@ collections:
   students:
     output: true
     permalink: /:collection/:name
-  software:
+  projects:
     output: false
   reisblog_fietsen:
     output: true

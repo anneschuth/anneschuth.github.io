@@ -1,11 +1,13 @@
 ---
-title: Software
+title: Projects
 author: Anne
 layout: page
-permalink: /software/
+permalink: /projects/
+redirect_from:
+  - /software/
 ---
 
-{% assign projects = site.software | sort: "order" %}
+{% assign projects = site.projects | sort: "order" %}
 {% for project in projects %}
 
 ## {{ project.title }} {#{{ project.slug }}}
