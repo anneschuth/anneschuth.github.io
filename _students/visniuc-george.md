@@ -1,6 +1,7 @@
 ---
 name: George-Viorel Visniuc
-degree: MSc AI at the University of Amsterdam
+role: MSc AI student
+institution: University of Amsterdam
 years: 2013-2014
 topic: Understanding User Behavior through Search Log Analysis
 layout: student

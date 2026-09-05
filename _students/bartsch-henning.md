@@ -1,6 +1,7 @@
 ---
 name: Henning Bartsch
-degree: MSc AI at the University of Amsterdam
+role: MSc AI student
+institution: University of Amsterdam
 years: 2019-2020
 host_organisation: DPG Media
 topic: Neural Recommendation

@@ -1,6 +1,7 @@
 ---
 name: Bart de Goede
-degree: MSc IK at the University of Amsterdam
+role: MSc IK student
+institution: University of Amsterdam
 years: 2011-2012
 topic: Sustainable Questions
 layout: student

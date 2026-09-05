@@ -1,6 +1,7 @@
 ---
 name: Claudia Minardi
-degree: MSc AI at the Vrije Universiteit Amsterdam
+role: MSc AI student
+institution: Vrije Universiteit Amsterdam
 years: 2015-2016
 topic: Master thesis
 layout: student

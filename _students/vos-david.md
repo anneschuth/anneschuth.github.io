@@ -1,6 +1,7 @@
 ---
 name: David Vos
-degree: BSc AI at the University of Amsterdam
+role: BSc AI student
+institution: University of Amsterdam
 years: "2019"
 host_organisation: DPG Media
 topic: Personalized Weekly Newsletters

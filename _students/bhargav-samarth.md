@@ -1,6 +1,7 @@
 ---
 name: Samarth Bhargav
-degree: PhD Student at the University of Amsterdam
+role: PhD student
+institution: University of Amsterdam
 years: 2022-2023
 host_organisation: Spotify
 topic: Tip-of-the-Tongue Retrieval for Music

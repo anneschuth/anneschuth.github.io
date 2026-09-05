@@ -1,6 +1,7 @@
 ---
 name: Maartje ter Hoeve
-degree: MSc AI at the University of Amsterdam
+role: MSc AI student
+institution: University of Amsterdam
 years: 2017-2018
 host_organisation: Blendle
 topic: Explaining Rankings
