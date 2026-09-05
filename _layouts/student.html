@@ -6,7 +6,7 @@ layout: default
     <h1 class="post-title">{{ page.name }}</h1>
 
     <p>
-        <strong>{{ page.degree }}</strong>{% if page.institution %}, {{ page.institution }}{% endif %}<br>
+        <strong>{{ page.role }}</strong>{% if page.institution %}, {{ page.institution }}{% endif %}<br>
         {% if page.years %}<em>{{ page.years }}</em><br>{% endif %}
         {% if page.host_organisation %}<strong>Host organisation:</strong> {{ page.host_organisation }}<br>{% endif %}
         {% if page.topic %}<strong>Topic:</strong> {% if page.topic_url %}<a href="{{ page.topic_url }}">{{ page.topic }}</a>{% else %}{{ page.topic }}{% endif %}<br>{% endif %}

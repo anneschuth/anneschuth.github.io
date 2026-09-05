@@ -1,6 +1,7 @@
 ---
 name: Floortje Bos
-degree: MSc AI at the Vrije Universiteit Amsterdam
+role: MSc AI student
+institution: Vrije Universiteit Amsterdam
 years: "2026"
 host_organisation: Ministry of the Interior and Kingdom Relations
 topic: From Rule Execution to Citizen Explanation - Evaluating LLM-Generated Explanations in Rule-Based Government Systems

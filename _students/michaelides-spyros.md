@@ -1,6 +1,7 @@
 ---
 name: Spyros Michaelides
-degree: MSc AI at the University of Amsterdam
+role: MSc AI student
+institution: University of Amsterdam
 years: 2014-2015
 topic: Comparing Living Labs with Lerot
 layout: student

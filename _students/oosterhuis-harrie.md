@@ -1,6 +1,6 @@
 ---
 name: Harrie Oosterhuis
-degree: MSc AI at the University of Amsterdam
+role: MSc AI student
 institution: University of Amsterdam
 years: 2014-2016
 topic: Online learning to rank (Honours program)

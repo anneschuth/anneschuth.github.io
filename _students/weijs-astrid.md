@@ -1,6 +1,7 @@
 ---
 name: Astrid Weijs
-degree: MSc AI at the Vrije Universiteit Amsterdam
+role: MSc AI student
+institution: Vrije Universiteit Amsterdam
 years: "2021"
 host_organisation: DPG Media
 topic: Breaking the Filter Bubble

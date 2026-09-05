@@ -1,6 +1,6 @@
 ---
 name: Daan Wijnhorst
-degree: Rijks I-Trainee
+role: Rijks I-Trainee
 years: "2026"
 host_organisation: Rijksoverheid
 topic: RegelRecht

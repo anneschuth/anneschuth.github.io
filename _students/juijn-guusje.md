@@ -1,6 +1,6 @@
 ---
 name: Guusje Juijn
-degree: Rijks I-Trainee
+role: Rijks I-Trainee
 years: "2024"
 host_organisation: Ministry of the Interior and Kingdom Relations
 co_supervisors: [Christopher Spelt]

@@ -1704,6 +1704,43 @@ mark {
 }
 
 
+// Student supervision on /cv/. The year sits in its own gutter, so the list
+// scans by date instead of running together; assets/css/cv-print.scss carries
+// the same grid in pt for the PDF.
+.cv-students {
+  display: grid;
+  grid-template-columns: 6.5em 1fr;
+  column-gap: 16px;
+  row-gap: 12px;
+  margin: 14px 0 24px;
+
+  dt {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+// Too narrow for a gutter: the year becomes a heading above its entry.
+@media (max-width: 600px) {
+  .cv-students {
+    display: block;
+
+    dt {
+      margin-top: 16px;
+    }
+
+    dd {
+      margin-top: 2px;
+    }
+  }
+}
+
 .cv-preview {
   display: inline-block;
   width: 200px;

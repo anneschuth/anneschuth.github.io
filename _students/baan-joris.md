@@ -1,6 +1,7 @@
 ---
 name: Joris Baan
-degree: MSc AI at the University of Amsterdam
+role: MSc AI student
+institution: University of Amsterdam
 years: 2018-2019
 host_organisation: DPG Media
 topic: Explaining Summarization

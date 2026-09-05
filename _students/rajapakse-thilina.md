@@ -1,6 +1,7 @@
 ---
 name: Thilina Rajapakse
-degree: PhD Student at the University of Amsterdam
+role: PhD student
+institution: University of Amsterdam
 years: "2023"
 host_organisation: Spotify
 topic: LLMs for Search

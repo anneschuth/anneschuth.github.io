@@ -1,6 +1,7 @@
 ---
 name: Tom Sweers
-degree: MSc CS at the Radboud University Nijmegen
+role: MSc CS student
+institution: Radboud University Nijmegen
 years: 2019-2020
 host_organisation: DPG Media
 topic: Timing Push
