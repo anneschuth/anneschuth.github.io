@@ -8,9 +8,9 @@ layout: default
     <p>
         <strong>{{ page.degree }}</strong>{% if page.institution %}, {{ page.institution }}{% endif %}<br>
         {% if page.years %}<em>{{ page.years }}</em><br>{% endif %}
-        {% if page.host_company %}<strong>Host Company:</strong> {{ page.host_company }}<br>{% endif %}
-        {% if page.topic %}<strong>Topic:</strong> {{ page.topic }}<br>{% endif %}
-        {% if page.co_supervisors %}<strong>{% if page.co_supervisors.size == 1 %}Co-supervisor{% else %}Co-supervisors{% endif %}:</strong> {{ page.co_supervisors | join: ', ' }}<br>{% endif %}
+        {% if page.host_organisation %}<strong>Host organisation:</strong> {{ page.host_organisation }}<br>{% endif %}
+        {% if page.topic %}<strong>Topic:</strong> {% if page.topic_url %}<a href="{{ page.topic_url }}">{{ page.topic }}</a>{% else %}{{ page.topic }}{% endif %}<br>{% endif %}
+        {% if page.co_supervisors %}<strong>{% if page.co_supervisors.size == 1 %}Co-supervisor{% else %}Co-supervisors{% endif %}:</strong> {% for person in page.co_supervisors %}{% assign person_url = site.data.people[person] %}{% if person_url %}<a href="{{ person_url }}">{{ person }}</a>{% else %}{{ person }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br>{% endif %}
     </p>
 
     {% if page.linkedin_url or page.github_url or page.website_url %}

@@ -2,7 +2,7 @@
 name: Chia-Lun Yeh
 degree: MSc AI at the Delft University of Technology
 years: 2018-2019
-host_company: DPG Media
+host_organisation: DPG Media
 topic: Bias Detection
 co_supervisors: [Babak Loni, Nava Tintarev]
 layout: student

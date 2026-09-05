@@ -2,7 +2,7 @@
 name: Joris Baan
 degree: MSc AI at the University of Amsterdam
 years: 2018-2019
-host_company: DPG Media
+host_organisation: DPG Media
 topic: Explaining Summarization
 co_supervisors: [Marlies van der Wees, Maartje ter Hoeve, Maarten de Rijke]
 layout: student

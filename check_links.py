@@ -131,7 +131,8 @@ def main():
     page_files = [
         "software.markdown", "about.markdown", "activities.markdown",
         "press.markdown", "publications.markdown", "talks.markdown",
-        "teaching.markdown", "thesis.markdown", "cv.markdown",
+        "teaching.markdown", "students.markdown", "thesis.markdown",
+        "cv.markdown",
         "reisblog/index.html", "reisblog/fietsen.html", "reisblog/kaart.html", "reisblog/india.html", "reisblog/india-kaart.html",
     ]
 

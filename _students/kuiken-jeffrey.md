@@ -2,7 +2,7 @@
 name: Jeffrey Kuiken
 degree: BSc IK at the University of Amsterdam
 years: 2015-2016
-host_company: Blendle
+host_organisation: Blendle
 topic: Effective Headlines of Newspaper Articles in a Digital Environment
 layout: student
 website_url: https://jeffreykuiken.nl/
