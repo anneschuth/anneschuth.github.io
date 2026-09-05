@@ -1,7 +1,7 @@
 ---
 title: RegelRecht
 slug: regelrecht
-order: 3
+order: 1
 link: https://regelrecht.rijks.app
 repo: https://github.com/MinBZK/regelrecht
 summary: Dutch government exploration into machine-executable legislation; NRML rule format, execution engines, AI converter, simulation.

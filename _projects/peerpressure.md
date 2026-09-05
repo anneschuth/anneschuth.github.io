@@ -1,7 +1,7 @@
 ---
 title: peerpressure
 slug: peerpressure
-order: 2
+order: 3
 link: https://peerpressure.social
 summary: Social digital-detox app using peer accountability to keep a focus group on task; real-time app blocking.
 ---

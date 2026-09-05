@@ -134,7 +134,7 @@ def render_pdf(output_pdf: Path) -> None:
     print(f"==> rendering {CV_HTML} -> {output_pdf}", flush=True)
     output_pdf.parent.mkdir(parents=True, exist_ok=True)
 
-    # Internal links in the CV are root-relative (href="/software/"). On the
+    # Internal links in the CV are root-relative (href="/projects/"). On the
     # live site that is correct, but in a standalone PDF WeasyPrint resolves
     # them against base_url, i.e. to a file:// path on the build machine, so
     # they are dead for anyone who opens the downloaded PDF. Rewrite them to

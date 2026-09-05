@@ -1,7 +1,7 @@
 ---
 title: Claude-threads
 slug: claude-threads
-order: 1
+order: 2
 repo: https://github.com/anneschuth/claude-threads
 summary: Brings Claude Code into team chat (Mattermost, Slack); live-streamed AI pair programming with per-thread sessions.
 ---
