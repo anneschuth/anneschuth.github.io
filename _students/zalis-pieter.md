@@ -2,7 +2,7 @@
 name: Pieter Zalis
 degree: MSc Data Science at the University of Amsterdam
 years: "2019"
-host_company: DPG Media
+host_organisation: DPG Media
 topic: News Personalisation
 co_supervisors: [Lucas de Haas, Christof Monz]
 layout: student

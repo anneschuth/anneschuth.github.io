@@ -2,7 +2,7 @@
 name: David Vos
 degree: BSc AI at the University of Amsterdam
 years: "2019"
-host_company: DPG Media
+host_organisation: DPG Media
 topic: Personalized Weekly Newsletters
 co_supervisors: [Lucas de Haas, Harrie Oosterhuis]
 layout: student

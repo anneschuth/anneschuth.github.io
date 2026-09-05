@@ -215,9 +215,7 @@ cited over 90 times.
 *VWO, St Michael College, Zaandam (2000--2003)*<br>
 *Vrije School, Adriaan Roland Holstschool, Bergen (1997--2000)*
 
-## Teaching
-
-### Student Supervision
+## Student Supervision
 
 I (co-)supervised the following students and trainees.
 
@@ -227,11 +225,11 @@ I (co-)supervised the following students and trainees.
 {% assign student_key = student.path | split: "/" | last | replace: ".md", "" %}
 {% assign student_pubs = site.publications | where: "student", student_key %}
 <dt>{{ student.years }}</dt>
-<dd><a href="{{ student.url }}">{{ student.name }}</a>{% if student.degree %}, {{ student.degree }}{% if student.institution %} at {{ student.institution }}{% endif %}{% endif %}{% if student.host_company %} (internship at {{ student.host_company }}){% endif %}{% if student.topic %}. {{ student.topic }}{% endif %}{% if student.co_supervisors %}. Co-supervised with {{ student.co_supervisors | join: ', ' }}{% endif %}{% if student_pubs.size > 0 %}. Published at {% for pub in student_pubs %}{% if pub.booktitle %}{{ pub.booktitle | remove: "Proceedings of " | remove: "Proceedings of the " }}{% elsif pub.journal %}{{ pub.journal }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}.</dd>
+<dd><a href="{{ student.url }}">{{ student.name }}</a>{% if student.degree %}, {{ student.degree }}{% if student.institution %} at {{ student.institution }}{% endif %}{% endif %}{% if student.host_organisation %} (hosted at {{ student.host_organisation }}){% endif %}{% if student.topic %}. {% if student.topic_url %}<a href="{{ student.topic_url }}">{{ student.topic }}</a>{% else %}{{ student.topic }}{% endif %}{% endif %}{% if student.co_supervisors %}. Co-supervised with {% for person in student.co_supervisors %}{% assign person_url = site.data.people[person] %}{% if person_url %}<a href="{{ person_url }}">{{ person }}</a>{% else %}{{ person }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}{% if student_pubs.size > 0 %}. Published at {% for pub in student_pubs %}{% if pub.booktitle %}{{ pub.booktitle | remove: "Proceedings of " | remove: "Proceedings of the " }}{% elsif pub.journal %}{{ pub.journal }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}.</dd>
 {% endfor %}
 </dl>
 
-### Courses and Tutorials
+## Teaching
 
 #### LiLa 2016: ECIR 2016 Tutorial
 

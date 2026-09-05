@@ -19,6 +19,8 @@
       url: /thesis/
     - title: Teaching
       url: /teaching/
+    - title: Students
+      url: /students/
 - title: Reizen
   url: /reisblog/
   children:

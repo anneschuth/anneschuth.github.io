@@ -1,33 +1,12 @@
 ---
-id: 7
 title: Teaching
 author: Anne
 layout: page
 permalink: /teaching/
 ---
 
-## Students and Trainees
-
-I (co-)supervised the following students and trainees. Many of them were interns, with some we published a paper. If you are
-interested in internships, feel free to reach out!
-
-{% assign sorted_students = site.students | sort: "years" | reverse %}
-{% for student in sorted_students %}
-
-### [{{ student.name }}]({{ student.url }}) ({{ student.years }})
-
-{% if student.degree %}**Degree**: {{ student.degree }}{% if student.institution %}, {{ student.institution }}{% endif %}<br>
-{% endif %}{% if student.host_company %}**Host company**: {{ student.host_company }}<br>
-{% endif %}{% if student.topic %}**Topic**: {{ student.topic }}<br>
-{% endif %}{% if student.co_supervisors %}**Co-supervisor{% if student.co_supervisors.size > 1 %}s{% endif %}**: {{ student.co_supervisors | join: ', ' }}<br>
-{% endif %}
-{% assign student_key = student.path | split: "/" | last | replace: ".md", "" %}
-{% assign student_pubs = site.publications | where: "student", student_key %}
-{% if student_pubs.size > 0 %}**Publications**:
-
-{% for pub in student_pubs %}- {{ pub.author }}. [{{ pub.title }}]({{ pub.url }}). {% if pub.booktitle %}In {{ pub.booktitle }}, {% endif %}{% if pub.journal %}In {{ pub.journal }}, {% endif %}{{ pub.year }}.
-{% endfor %}{% endif %}
-{% endfor %}
+Courses, lectures, and tutorials I taught or contributed to. For the students
+and trainees I (co-)supervised, see [Students](/students/).
 
 ## Courses and Tutorials
 

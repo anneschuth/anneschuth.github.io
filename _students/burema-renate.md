@@ -2,7 +2,7 @@
 name: Renate Burema
 degree: Intern
 years: 2024-2025
-host_company: Ministry of the Interior and Kingdom Relations
+host_organisation: Ministry of the Interior and Kingdom Relations
 topic: LLMs Benchmarks for The Netherlands
 co_supervisors: [Christopher Spelt]
 layout: student
