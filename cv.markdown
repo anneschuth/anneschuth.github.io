@@ -402,10 +402,16 @@ See [projects](/projects/) for the full descriptions and related work.
 
 ## Interests
 
-**Sports.** Rowing (athlete in a freshmen eight that practiced daily; coach of an
-eight that practiced five times a week), speed skating, running, cycling, hiking.
+**Sports.** Cycling and running, and for the past few years a lot of strength
+training: deadlifts and squats, mostly. As a student I rowed in a freshmen eight
+that trained daily, and coached an eight after that.
 
-**Travel.** In 2003 and 2004 I traveled around India, Nepal, and Tibet for 11
-months. In 2007 I cycled 5000 km from Amsterdam to Turkey in about two months. I
-still like to travel to remote places and try to go on a long cycling trip
-every year.
+**Travel.** I still take a long trip by bike most years. The two early big ones,
+eleven months through India, Nepal and Tibet in 2003, and leaving Amsterdam by
+bicycle in 2007 in the direction of Beijing, are preserved as
+[a travel archive](/reisblog/), written along the way, in Dutch.
+
+**Tinkering.** Fixing and improving things in and around the house, and
+software with no professional purpose at all: small tools and this website,
+whatever I happen to be curious about that week. Some of it ends up on my
+[projects](/projects/) page.
