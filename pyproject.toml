@@ -8,7 +8,7 @@ dependencies = []
 [dependency-groups]
 # CV PDF generation: generate_cv_pdf.py (deploy.yml, ci.yml and `just cv`)
 cv = [
-    "weasyprint==68.0",
+    "weasyprint==70.0",
     "pypdfium2==4.30.0",
 ]
 # Google Scholar sync: fetch_scholar_data.py (`just scholar`)
