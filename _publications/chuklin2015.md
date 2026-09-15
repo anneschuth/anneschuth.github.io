@@ -9,7 +9,7 @@ layout: publication
 selected: true
 pdf: /assets/chuklin-comparative-2015.pdf
 title: "A comparative analysis of interleaving methods for aggregated search"
-citations: 39
+citations: 40
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:gsN89kCJA0AC"
 type: article
 year: "2015"
