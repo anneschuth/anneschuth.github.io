@@ -14,6 +14,7 @@ year: "2026"
 shield: report-Zenodo-yellow
 repo: https://github.com/MinBZK/regelrecht
 citations: 0
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:2VqYfGB8ITEC"
 ---
 
 Government law execution is formalized in software, but that software is not published. This deepens the executive's
