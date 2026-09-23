@@ -20,7 +20,7 @@ permalink: /cv/
 </div>
 
 I work on AI and Engineering for the Dutch Government, currently as Staff Engineer
-at the Nederlandse Digitale Dienst, where I primarily work on
+at the [Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl), where I primarily work on
 [RegelRecht](https://regelrecht.rijks.app), an exploration into machine-executable
 legislation. I also run [Axolotl Systems](https://axolotl.systems), where I provide
 ML engineering and platform consulting services one day per week alongside my
@@ -40,7 +40,7 @@ my h-index is {{ site.data.scholar_stats.h_index }}.
 
 *The Hague, The Netherlands*<br>
 **Staff Engineer** (Jul 2026 -- present)<br>
-Staff Engineer at the Nederlandse Digitale Dienst, primarily working
+Staff Engineer at the [Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl), primarily working
 on [RegelRecht](https://regelrecht.rijks.app), an exploration into machine-executable
 legislation that aims to achieve transparent, unambiguous, and consistent execution
 of laws.

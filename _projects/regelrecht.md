@@ -8,7 +8,7 @@ summary: Dutch government exploration into machine-executable legislation; NRML 
 publications:
   - hotting2026
 ---
-RegelRecht is an exploration by the Dutch Ministry of the Interior (Bureau Architectuur Digitale Overheid) into machine-executable
+RegelRecht is an exploration by the [Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl) into machine-executable
 legislation. The project investigates how we can achieve transparent, unambiguous, and consistent execution of laws -
 enabling everyone to understand how decisions are made.
 
