@@ -1,5 +1,5 @@
 ---
-author: "Flora Magdalena Johanna Bos and Anne Schuth and Jieying Chen"
+author: "Floortje Bos and Anne Schuth and Jieying Chen"
 booktitle: "Proceedings of the 38th Benelux Conference on Artificial Intelligence and the 35th Belgian Dutch Conference on Machine Learning (BNAIC/BeNeLearn 2026)"
 date: "2026-01-01"
 key: bos2026from

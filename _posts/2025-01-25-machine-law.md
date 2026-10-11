@@ -21,7 +21,7 @@ Currently, each organization typically implements these rules in their own way, 
 experiments involve modeling how these different pieces could work together in a machine-readable format.
 
 If you're interested, my experiments live
-here: [https://github.com/MinBZK/poc-machine-law](https://github.com/MinBZK/poc-machine-law).
+here: [https://github.com/NederlandseDigitaleDienst/regelrecht](https://github.com/NederlandseDigitaleDienst/regelrecht).
 
 ## Why This Matters
 

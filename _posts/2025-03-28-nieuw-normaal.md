@@ -56,7 +56,7 @@ Het manifesteert zich ook tijdens onze demos. Na de initiële verwondering komt 
 dit echt maken?" Het is een vraag die me blij maakt - het laat zien dat mensen de waarde zien en verder willen kijken
 dan het "experiment".
 
-Tegelijkertijd zit hier een uitdaging: onze [POC](https://github.com/MinBZK/poc-machine-law) is zo ver ontwikkeld dat
+Tegelijkertijd zit hier een uitdaging: onze [POC](https://github.com/NederlandseDigitaleDienst/regelrecht) is zo ver ontwikkeld dat
 sommigen het al als een MVP zien. Dit creëert verwachtingen die we nog niet kunnen waarmaken. We hebben nog niet de
 gesprekken met organisaties die er echt mee aan de slag kunnen gaan, al werken we daar wel naartoe. Het is een proces
 van lange adem.

@@ -11,6 +11,6 @@ location: Toulouse, France
 event_url: https://www.irit.fr/jurix2026/workshops-and-tutorials/
 website_url: https://regelrecht.rijks.app/research/jurix-2026-tutorial
 demo_url: https://demo.regelrecht.rijks.app
-repo_url: https://github.com/nldd/regelrecht
+repo_url: https://github.com/NederlandseDigitaleDienst/regelrecht
 publication_url: /publications/hotting2026
 ---

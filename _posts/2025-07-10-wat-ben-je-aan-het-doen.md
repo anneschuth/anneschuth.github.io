@@ -12,7 +12,7 @@ Deze post is, ter illustratie, een beschrijving van een taak die ik samen met ee
 Dat noemen we nu AI-assisted coding, of vibe-coding. Voor wie dat zelf al doet of eens geprobeerd heeft, is onderstaande
 triviaal, maar voor wie dit (nog) vooral een abstract concept is, geeft het misschien een beeld.
 
-Eerst de taak. In ons [poc-machine-law project](https://github.com/MinBZK/poc-machine-law) hadden we terminologie in
+Eerst de taak. In ons [RegelRecht-project](https://github.com/NederlandseDigitaleDienst/regelrecht) hadden we terminologie in
 wetgeving
 in het Engels en Nederlands door elkaar heen gedefinieerd. Het begon ooit Engels en is langzaam verschoven. Maar
 inmiddels was het vooral verwarrend en natuurlijk is het gewoon logischer dat Nederlandse wetten ook daadwerkelijk in
@@ -369,7 +369,7 @@ en push
 ```
 
 **Push to GitHub:** ✓
-Naar [PR #150](https://github.com/MinBZK/poc-machine-law/pull/150)
+Naar PR #150
 
 ---
 
@@ -378,7 +378,7 @@ Naar [PR #150](https://github.com/MinBZK/poc-machine-law/pull/150)
 - **Commits:** 3 commits op de `dutch-translation-clean` branch
 - **Bestanden:** 100+ bestanden door de hele stack
 - **Regels:** 1146 regels toegevoegd en 1148 regels verwijderd
-- **Resultaat:** [PR #150](https://github.com/MinBZK/poc-machine-law/pull/150) (gemerged)
+- **Resultaat:** PR #150 (gemerged)
 
 En dat ziet er dan zo uit in de interface:
 ![img.png](/assets/dutch-screen.png)
