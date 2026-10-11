@@ -13,7 +13,7 @@ pages: "5:1--5:7"
 pdf: /assets/hofmann-learning-2014.pdf
 publisher: "ACM"
 title: "Learning to Rank for Information Retrieval from User Interactions"
-citations: 9
+citations: 10
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:g3aElNc5_aQC"
 type: article
 year: "2014"
