@@ -47,6 +47,14 @@ This is an exhaustive (I think) list of talks I gave and posters I presented sin
   {%- if links != '' -%}{%- assign links = links | append: '&nbsp;' -%}{%- endif -%}
   {%- assign links = links | append: '[<i class="fa fa-graduation-cap"></i>](' | append: talk.thesis_url | append: ')' -%}
 {%- endif -%}
+{%- if talk.repo_url -%}
+  {%- if links != '' -%}{%- assign links = links | append: '&nbsp;' -%}{%- endif -%}
+  {%- assign links = links | append: '[<i class="fa fa-github"></i>](' | append: talk.repo_url | append: ')' -%}
+{%- endif -%}
+{%- if talk.demo_url -%}
+  {%- if links != '' -%}{%- assign links = links | append: '&nbsp;' -%}{%- endif -%}
+  {%- assign links = links | append: '[<i class="fa fa-desktop"></i>](' | append: talk.demo_url | append: ')' -%}
+{%- endif -%}
 
 {% if talk.shield %}![{{talk.shield}}](https://img.shields.io/badge/{{talk.shield}}) {% endif %}[{{ talk.title }}]({{ talk.url }}).{% if talk.venue %} _{{ talk.venue }}_{% endif %}{% if talk.location %}. {{ talk.location }}{% endif %}. _{{ talk.date | date: "%b %-d" }}_.{% if links != '' %} {{ links }}{% endif %}
 
