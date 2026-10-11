@@ -12,7 +12,7 @@ title: "Rules as Executed: Publishing Machine-Executable Law to Rebalance the Po
 type: misc
 year: "2026"
 shield: report-Zenodo-yellow
-repo: https://github.com/MinBZK/regelrecht
+repo: https://github.com/nldd/regelrecht
 citations: 0
 scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:2VqYfGB8ITEC"
 ---
@@ -35,4 +35,4 @@ all. The paper develops the constitutional argument, the required properties of 
 constitutional actor, and the research agenda this approach requires.
 
 Position paper, version of 31 August 2026. Not peer reviewed. The reference implementation is publicly available at
-<https://github.com/MinBZK/regelrecht>.
+<https://github.com/nldd/regelrecht>.
