@@ -26,7 +26,8 @@ layout: default
 
   <div class="post-list">
     {% for post in paginator.posts %}
-    {% unless post.lang == "en" %}
+    {% comment %}An English post is hidden only when it is the translation of a Dutch one.{% endcomment %}
+    {% unless post.lang == "en" and post.translation %}
     <article class="post-card">
       <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h3 class="post-card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
