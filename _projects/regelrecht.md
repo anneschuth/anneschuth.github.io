@@ -7,6 +7,8 @@ repo: https://github.com/NederlandseDigitaleDienst/regelrecht
 summary: Dutch government exploration into machine-executable legislation; rulework format with the legal text alongside, BDD scenarios, Rust/WebAssembly reference engine.
 publications:
   - hotting2026
+  - schuth2026testing
+  - bos2026jurix
 ---
 RegelRecht is an exploration by the [Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl) into
 machine-executable legislation, and one of the three projects in the service's starting selection. The question is
