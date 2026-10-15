@@ -121,6 +121,11 @@ def normalize_title(title):
     normalized = ' '.join(normalized.split())
     return normalized
 
+def scholar_id(text):
+    """Return the citation_for_view id in a Scholar URL or frontmatter, or None."""
+    match = re.search(r'citation_for_view=([^&"\s]+)', text or "")
+    return match.group(1) if match else None
+
 def find_best_match(pub_title, scholar_publications):
     """Find the best matching publication from Scholar data."""
     pub_normalized = normalize_title(pub_title)
@@ -723,6 +728,17 @@ def main():
     pdf_downloaded_count = 0
     local_titles = []
 
+    # A file whose scholar_url names an entry on the profile is matched by that id,
+    # and that entry is off limits for title matching. Otherwise a similar title
+    # (a thesis abstract and the full paper, say) steals another file's entry.
+    scholar_by_id = {scholar_id(p['scholar_url']): p for p in scholar_pubs}
+    claimed_ids = set()
+    for pub_file in publication_files:
+        pinned = scholar_id(pub_file.read_text(encoding='utf-8'))
+        if pinned in scholar_by_id:
+            claimed_ids.add(pinned)
+    unclaimed_pubs = [p for p in scholar_pubs if scholar_id(p['scholar_url']) not in claimed_ids]
+
     # First pass: update existing publications
     for i, pub_file in enumerate(publication_files):
         print(f"\n[{i+1}/{len(publication_files)}] {pub_file.name}")
@@ -746,7 +762,11 @@ def main():
             continue
 
         # Find matching Scholar publication
-        match, score = find_best_match(local_title, scholar_pubs)
+        match = scholar_by_id.get(scholar_id(content))
+        if match:
+            score = 1.0
+        else:
+            match, score = find_best_match(local_title, unclaimed_pubs)
 
         if match:
             print(f"  ✅ Matched (score: {score:.2f}): {match['title'][:50]}...")
@@ -842,7 +862,7 @@ def main():
 
     for scholar_pub in scholar_pubs:
         # Check if this Scholar publication exists locally
-        found = False
+        found = scholar_id(scholar_pub['scholar_url']) in claimed_ids
 
         # Strategy 1: Check against local titles using bidirectional matching
         for local_title in local_titles:
