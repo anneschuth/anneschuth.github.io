@@ -42,7 +42,7 @@ layout: default
         <h2>Supervised Student</h2>
         <p>
             <a href="{{ student.url }}"><i class="fa fa-user"></i> {{ student.name }}</a><br>
-            <em>{{ student.degree }}</em>{% if student.years %}, {{ student.years }}{% endif %}
+            <em>{{ student.role }}</em>{% if student.institution %}, {{ student.institution }}{% endif %}{% if student.years %}, {{ student.years }}{% endif %}
         </p>
         {% endif %}
     {% endif %}
