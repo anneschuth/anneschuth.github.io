@@ -12,6 +12,7 @@ type: inproceedings
 year: "2026"
 shield: conference-JURIX-blue
 student: bos-floortje
+pdf: /assets/bos-schuth-chen-jurix2026.pdf
 repo: https://github.com/Bosfloortje/machine-law-thesis-flora
 ---
 
@@ -30,5 +31,5 @@ considered legally correct by experts. The findings suggest that structured
 representations of deterministic legal reasoning can support legally faithful and citizen-focused explanations of
 automated government decisions. The source code is published.
 
-Accepted for publication in the proceedings of JURIX 2026. This is the full paper based on Floortje's MSc thesis; the
-[thesis abstract](/publications/bos2026from) appeared at BNAIC/BeNeLearn 2026.
+Accepted for publication in the proceedings of JURIX 2026. The PDF is the camera-ready version. This is the full paper
+based on Floortje's MSc thesis; the [thesis abstract](/publications/bos2026from) appeared at BNAIC/BeNeLearn 2026.
