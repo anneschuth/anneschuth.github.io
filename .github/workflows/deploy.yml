@@ -35,7 +35,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version-file: .ruby-version
+          ruby-version: '3.3'  # latest 3.3.x; newer runner images only ship the latest patch release
           bundler-cache: true
 
       - name: Set up uv
