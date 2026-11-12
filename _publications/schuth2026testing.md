@@ -13,6 +13,8 @@ type: inproceedings
 year: "2026"
 shield: conference-JURIX-blue
 repo: https://github.com/NederlandseDigitaleDienst/regelrecht
+citations: 0
+scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y3ahb_wAAAAJ&pagesize=100&citation_for_view=Y3ahb_wAAAAJ:mlAyqtXpCwEC"
 ---
 
 Where government executes the law from formalized rules, the formalization has to be tested against what the statute
