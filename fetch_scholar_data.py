@@ -12,14 +12,14 @@ from pathlib import Path
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
-# Try to import PyPDF2 for PDF text extraction
+# Try to import pypdf for PDF text extraction
 try:
-    import PyPDF2
-    HAS_PYPDF2 = True
+    import pypdf
+    HAS_PYPDF = True
 except ImportError:
-    print("⚠️  PyPDF2 not available - PDF abstract extraction disabled")
-    print("   Install with: pip install PyPDF2")
-    HAS_PYPDF2 = False
+    print("⚠️  pypdf not available - PDF abstract extraction disabled")
+    print("   Install with: uv sync --group scholar")
+    HAS_PYPDF = False
 
 def fetch_scholar_profile(user_id="Y3ahb_wAAAAJ"):
     """Fetch all publications and profile stats from Google Scholar profile."""
@@ -334,12 +334,12 @@ def download_pdf(pdf_url, filename):
 
 def extract_abstract_from_pdf(pdf_path):
     """Extract abstract from PDF file."""
-    if not HAS_PYPDF2:
+    if not HAS_PYPDF:
         return None
 
     try:
         with open(pdf_path, 'rb') as file:
-            pdf_reader = PyPDF2.PdfReader(file)
+            pdf_reader = pypdf.PdfReader(file)
 
             # Try to extract text from first few pages (abstracts are usually early)
             text = ""
